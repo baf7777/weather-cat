@@ -56,6 +56,9 @@ async function init() {
     } else {
         console.error("PlaneSystem not found!");
     }
+    if (typeof loadWeatherCSV === 'function') {
+        await loadWeatherCSV();
+    }
     await fetchWeather();
     els.box.addEventListener('click', toggleBox);
     trackMouse(); // Запуск слежения глаз

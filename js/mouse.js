@@ -1,5 +1,16 @@
 // --- ФИЗИКА МЫШИ ---
 let mousePhysics = null;
+let weatherRules = null;
+
+const CANCEL_MAPPINGS = {
+    "1-4": { text: "1-4 КЛАССЫ<br>СПЯТ", color: "#a8dadc", textColor: "#1d3557" },
+    "1-5": { text: "1-5 КЛАССЫ<br>ДОМА", color: "#7ca5b8", textColor: "#fff" }, 
+    "1-6": { text: "1-6 КЛАССЫ<br>ДОМА", color: "#457b9d", textColor: "#fff" },
+    "1-7": { text: "1-7 КЛАССЫ<br>ДОМА", color: "#3a698e", textColor: "#fff" },
+    "1-8": { text: "1-8 КЛАССЫ<br>ДОМА", color: "#2f577e", textColor: "#fff" },
+    "1-9": { text: "1-9 КЛАССЫ<br>ДОМА", color: "#1d3557", textColor: "#fff" },
+    "1-11": { text: "ПОЛНАЯ<br>ОТМЕНА", color: "#003049", textColor: "#fff" }
+};
 
 // Получаем текущий масштаб сцены динамически
 function getStageScale() {
@@ -291,81 +302,113 @@ function requestMouseReturnHome(onComplete) {
     mousePhysics.onHomeReached = onComplete;
 }
 
-// --- ЛОГИКА МЫШИ (РЕАЛИСТИЧНАЯ ФИЗИКА) ---
+// --- CSV & LOGIC ---
+
+async function loadWeatherCSV() {
+    try {
+        const response = await fetch('погода.csv');
+        if (!response.ok) throw new Error("HTTP " + response.status);
+        const text = await response.text();
+        weatherRules = parseCSV(text);
+        console.log("Weather rules loaded:", weatherRules);
+    } catch (e) {
+        console.error("Failed to load weather CSV", e);
+    }
+}
+
+function parseCSV(text) {
+    const lines = text.split('\n').map(l => l.trim()).filter(l => l);
+    // Simple regex-like parser for CSV with quotes
+    const parseLine = (line) => {
+        const res = [];
+        let current = '';
+        let inQuote = false;
+        for (let i = 0; i < line.length; i++) {
+            const c = line[i];
+            if (c === '"') {
+                inQuote = !inQuote;
+            } else if (c === ',' && !inQuote) {
+                res.push(current);
+                current = '';
+            } else {
+                current += c;
+            }
+        }
+        res.push(current);
+        return res;
+    };
+
+    // lines[0] is header
+    const data = {};
+
+    for (let i = 1; i < lines.length; i++) {
+        const row = parseLine(lines[i]).map(val => val.replace(/^"|"$/g, ''));
+        const temp = parseInt(row[0], 10); // Temperature is first column
+        if (isNaN(temp)) continue;
+
+        data[temp] = {};
+        for (let j = 1; j < row.length; j++) {
+            // j=1 is "Ветер 0" (0 m/s)
+            const windSpeed = j - 1; 
+            data[temp][windSpeed] = row[j];
+        }
+    }
+    return data;
+}
+
+function getCSVRule(temp, wind) {
+    if (!weatherRules) return null;
+    
+    // Clamp wind to max 20
+    const w = Math.max(0, Math.min(20, Math.round(wind)));
+    const t = Math.round(temp);
+    
+    // Temperature range logic
+    if (t > -14) return ""; // Warmer than table -> No cancel
+    if (t < -42) return "1-11"; // Colder than table -> Max cancel
+    
+    const row = weatherRules[t];
+    if (row) {
+        return row[w] || "";
+    }
+    return "";
+}
+
+// --- ЛОГИКА МЫШИ (CSV-DRIVEN) ---
 function updateMouseBehavior() {
     const { temp, wind } = weatherState; // wind уже в м/с
     const m = els.mouse;
     const t = els.mouseMsg;
     
-    m.className = 'mouse-wrapper active'; // Активация мыши
-    m.style.display = 'block'; // Убеждаемся, что мышь видна
-    m.style.opacity = '1'; // Полная непрозрачность
+    m.className = 'mouse-wrapper active'; 
+    m.style.display = 'block'; 
+    m.style.opacity = '1'; 
     
-    // Запускаем физическую симуляцию
     startMousePhysics(wind, temp);
 
-    // 1. Сильный ветер - сдувает
     if (wind > 15) {
         t.innerHTML = "СДУВАЕТ!<br>ДЕРЖИСЬ!";
         t.style.background = "#e63946";
+        t.style.color = "white";
         setTimeout(() => { m.classList.add('blown'); }, 500);
         return;
     }
 
-    // 2. Расчет актировки (Примерная таблица ЯНАО)
-    // Логика упрощена для примера, но основана на реальных зависимостях
+    const ruleValue = getCSVRule(temp, wind);
+    
     let cancelText = "";
     let color = "#2a9d8f";
+    let textColor = "#fff";
     let isFrozen = false;
 
-    // Функция проверки отмены по температуре и ветру
-    const getCancelGrade = (t, w) => {
-        if (t >= -24) return 0;
-        // Примерная матрица
-        if (t <= -40) return 11;
-        if (t <= -38 && w >= 0) return 9;
-        if (t <= -36 && w >= 0) return 8;
-        if (t <= -34 && w >= 0) return 6;
-        if (t <= -32 && w >= 0) return 4;
-        if (t <= -30 && w >= 0) return 2;
-        
-        // С учетом ветра температура "эффективно" ниже, упростим:
-        // Каждые 1 м/с ~ -2 градуса ощущения, но для актировок есть таблицы.
-        // Сделаем грубую проверку для "Пограничных" состояний
-        if (w >= 5) {
-             if (t <= -25) return 4;
-             if (t <= -28) return 6;
-             if (t <= -30) return 9;
-        }
-        if (w >= 2 && t <= -29) return 4;
-
-        return 0;
-    };
-
-    const grade = getCancelGrade(temp, wind);
-
-    if (grade >= 11) {
-        cancelText = "ПОЛНАЯ<br>ОТМЕНА";
-        color = "#003049"; // Темно-синий
+    if (ruleValue && CANCEL_MAPPINGS[ruleValue]) {
+        const mapping = CANCEL_MAPPINGS[ruleValue];
+        cancelText = mapping.text;
+        color = mapping.color;
+        textColor = mapping.textColor || "#fff";
         isFrozen = true;
-    } else if (grade >= 9) {
-        cancelText = "1-9 КЛАССЫ<br>ДОМА";
-        color = "#1d3557";
-        isFrozen = true;
-    } else if (grade >= 6) {
-        cancelText = "1-6 КЛАССЫ<br>ДОМА";
-        color = "#457b9d";
-        isFrozen = true;
-    } else if (grade >= 4) {
-        cancelText = "1-4 КЛАССЫ<br>СПЯТ";
-        color = "#a8dadc";
-        t.style.color = "#1d3557"; // Темный текст на светлом
-    } else if (grade >= 1) {
-         cancelText = "МАЛЫШИ<br>ДОМА";
-         color = "#a8dadc";
-         t.style.color = "#333";
     } else {
-        // Если тепло
+        // Если тепло или нет данных в таблице
         if (temp > 10) {
             cancelText = "ГУЛЯЕМ!";
             color = "#fb5607";
@@ -374,14 +417,13 @@ function updateMouseBehavior() {
             cancelText = phrases[Math.floor(Math.random() * phrases.length)];
             color = "#2a9d8f";
         }
+        textColor = "#fff";
     }
 
     t.innerHTML = cancelText;
     t.style.background = color;
-    if (grade >= 4 && t.style.color !== "rgb(29, 53, 87)" && t.style.color !== "rgb(51, 51, 51)") {
-        t.style.color = "white";
-    }
+    t.style.color = textColor;
 
     if (isFrozen) m.classList.add('frozen');
+    else m.classList.remove('frozen');
 }
-
