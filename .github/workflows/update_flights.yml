@@ -2,8 +2,8 @@ name: Update Flights Data
 
 on:
   schedule:
-    # Запуск каждый час
-    - cron: '0 * * * *'
+    # Запуск каждые 20 минут (*/20)
+    - cron: '*/20 * * * *'
   workflow_dispatch: # Возможность запустить кнопку вручную
 
 permissions:
