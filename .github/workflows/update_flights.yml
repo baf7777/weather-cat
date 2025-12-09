@@ -35,4 +35,4 @@ jobs:
           git config --global user.email 'action@github.com'
           git add flights.json debug_page.html
           git commit -m "Update flight schedule [skip ci]" || exit 0
-          git push
+          git push --force
