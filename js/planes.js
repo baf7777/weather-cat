@@ -79,33 +79,72 @@ window.PlaneSystem = {
         const btn = document.createElement('div');
         btn.className = 'schedule-btn';
         btn.title = "Расписание рейсов";
+        // Перемещаем кнопку влево, чтобы не перекрывалась Telegram
+        btn.style.left = '20px';
+        btn.style.top = '20px';
+        btn.style.right = 'auto'; 
+        
         btn.innerHTML = `<svg viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>`;
         document.body.appendChild(btn);
+
+        // Фильтр для Ямальского района
+        const YAMAL_DISTRICT_LOCATIONS = [
+            "Яр-Сале", "Сеяха", "Панаевск", "Салемал", 
+            "Мыс-Каменный", "Мыс Каменный", "Новый Порт", "Сюнай-Сале"
+        ];
+
+        // Функция проверки, относится ли рейс к Ямальскому району
+        const isYamalDistrict = (f) => {
+            const locs = YAMAL_DISTRICT_LOCATIONS.map(l => l.toLowerCase());
+            return locs.some(l => f.from.toLowerCase().includes(l) || f.to.toLowerCase().includes(l));
+        };
 
         // Табло
         const board = document.createElement('div');
         board.className = 'schedule-board';
+        
+        // Рендерим список с фильтрацией
+        const renderList = () => {
+            // Фильтруем и сортируем (можно по времени)
+            const filtered = YAMAL_FLIGHTS.filter(isYamalDistrict);
+            
+            if (filtered.length === 0) {
+                return `<li class="flight-item"><div class="f-info" style="width:100%; text-align:center;">Рейсов по району нет</div></li>`;
+            }
+
+            return filtered.map(f => {
+                // Логика цветов статуса
+                let statusClass = "st-ok";
+                const s = f.status.toLowerCase();
+                if (s.includes("отменен") || s.includes("задерживается") || s.includes("отменён")) {
+                    statusClass = "st-cancel";
+                }
+                
+                // Время: используем scheduledTime (по расписанию)
+                const timeDisplay = f.scheduledTime || "--:--";
+
+                return `
+                <li class="flight-item">
+                    <div class="f-info">
+                        <span class="f-num">${f.number}</span>
+                        <span class="f-route">${f.from} &rarr; ${f.to}</span>
+                    </div>
+                    <div class="f-info" style="align-items: flex-end;">
+                        <span class="f-time">${timeDisplay}</span>
+                        <span class="f-status ${statusClass}">${f.status}</span>
+                    </div>
+                </li>
+                `;
+            }).join('');
+        };
+
         board.innerHTML = `
             <div class="board-header">
                 <div class="board-title">Рейсы Ямала</div>
                 <div class="board-close">&times;</div>
             </div>
             <ul class="flight-list">
-                ${YAMAL_FLIGHTS.map(f => {
-                    const statusClass = f.status === "Отменен" ? "st-cancel" : "st-ok";
-                    return `
-                    <li class="flight-item">
-                        <div class="f-info">
-                            <span class="f-num">${f.number}</span>
-                            <span class="f-route">${f.from} &rarr; ${f.to}</span>
-                        </div>
-                        <div class="f-info" style="align-items: flex-end;">
-                            <span class="f-time">${f.time}</span>
-                            <span class="f-status ${statusClass}">${f.status}</span>
-                        </div>
-                    </li>
-                    `;
-                }).join('')}
+                ${renderList()}
             </ul>
         `;
         document.body.appendChild(board);
