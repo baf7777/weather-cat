@@ -1,0 +1,12 @@
+{
+  "name": "kot-weather-planes",
+  "version": "1.0.0",
+  "description": "Weather and Planes monitor for Salekhard",
+  "main": "js/main.js",
+  "scripts": {
+    "scrape": "node scripts/scrape.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}

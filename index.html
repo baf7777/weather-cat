@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Yar-Sale Weather Station V3.0 Ultimate</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="stars" id="stars-container"></div>
+    <canvas id="planes-layer"></canvas>
+    <div class="celestial-body sun"></div>
+    <div class="celestial-body moon"></div>
+    <div class="clouds">
+        <div class="cloud c1"></div>
+        <div class="cloud c2"></div>
+    </div>
+
+    <div class="precip-container">
+        <div id="snow-container"></div>
+        <div class="rain" id="rain-layer"></div>
+    </div>
+
+    <div class="stage-wrapper">
+        <div class="stage">
+            <div class="floor-shadow"></div>
+
+            <div class="box-wrapper" id="the-box">
+                <div class="lid left"></div>
+                <div class="lid right"></div>
+                <div class="box-front">
+                    <div class="frost-overlay"></div>
+                    <div class="box-label">Яр-Сале</div>
+                    <div class="box-sub">МЕТЕО-ПОСТ</div>
+                </div>
+            </div>
+
+            <div class="cat-container" id="cat">
+                <div class="cat-head">
+                    <div class="ear l"></div><div class="ear r"></div>
+                    <div class="eye l"><div class="pupil"></div></div>
+                    <div class="eye r"><div class="pupil"></div></div>
+                    <div class="face-mask">
+                        <div class="nose"></div>
+                        <div class="mouth-line"></div>
+                        <div class="mouth-curve mc-l"></div>
+                        <div class="mouth-curve mc-r"></div>
+                        <div class="breath-steam" id="cat-breath"></div>
+                    </div>
+                </div>
+                
+                <div class="paws">
+                    <div class="paw"></div><div class="paw"></div>
+                </div>
+
+                <div class="sign-board" id="cat-sign">
+                    <div class="sign-city">Температура</div>
+                    <div class="sign-temp" id="temp-display">--</div>
+                    <div class="sign-feel" id="feel-display">Ощущается: --</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mouse-wrapper" id="mouse">
+        <div class="zzz">Zzz...</div>
+        <div class="mouse-sign" id="mouse-msg">...</div>
+        <div class="wind-stick"><div class="propeller" id="propeller"></div></div>
+        <div class="mouse-ear l"></div><div class="mouse-ear r"></div>
+        <div class="mouse-body"></div>
+        <div class="mouse-eye"></div>
+        <div class="mouse-nose"></div>
+    </div>
+
+    <div class="loader" id="loader">Связь со спутником...<br><span style="font-size:10px; opacity:0.7">Yamal Region</span></div>
+    <div class="refresh-btn" onclick="fetchWeather()">↻ Обновить</div>
+
+    <!-- Подключение модулей JavaScript -->
+    <script src="js/config.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/mouse.js"></script>
+    <script src="js/planes.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+

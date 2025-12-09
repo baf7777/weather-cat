@@ -1,0 +1,38 @@
+name: Update Flights Data
+
+on:
+  schedule:
+    # Запуск каждый час
+    - cron: '0 * * * *'
+  workflow_dispatch: # Возможность запустить кнопку вручную
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: node scripts/scrape.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add flights.json
+          git commit -m "Update flight schedule [skip ci]" || exit 0
+          git push
