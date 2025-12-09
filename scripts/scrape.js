@@ -3,57 +3,84 @@ const fs = require('fs');
 const path = require('path');
 
 async function getFlights(page, type) {
-    // Click the tab (departure or arrival)
-    const tabSelector = type === 'departure' ? '.tts-departure' : '.tts-arrival';
-    await page.click(tabSelector);
-    await page.waitForLoadState('networkidle'); // Wait for content to load after click
-    await page.waitForTimeout(2000); // Additional wait to ensure content is fully rendered
-
-    const flightItems = await page.$$('article.flight-item');
-    const flights = [];
-
-    for (const item of flightItems) {
-        // Extract data using more specific selectors
-        const flightNumberRaw = await item.$eval('.tth-flight', el => el.textContent.trim());
-        const destinationRaw = await item.$eval('.tth-destination', el => el.textContent.trim());
-        const scheduledTime = await item.$eval('.tth-time', el => el.textContent.trim());
-        const estimatedTime = await item.$eval('.tth-time-count', el => el.textContent.trim());
-        const status = await item.$eval('.tth-status', el => el.textContent.trim());
+    try {
+        console.log(`Switching to ${type} tab...`);
+        // Click the tab (departure or arrival)
+        const tabSelector = type === 'departure' ? '.tts-departure' : '.tts-arrival';
         
-        // The fi-title gives a clearer "From -> To" format
-        const fiTitle = await item.$eval('.fi-title', el => el.textContent.trim());
-
-        let flightNumber = flightNumberRaw.replace(/\s+/g, ' '); // Normalize spaces
-        let from = '';
-        let to = '';
-
-        // Determine from/to based on fiTitle
-        const routeMatch = fiTitle.match(/(.+) → (.+)/);
-        if (routeMatch) {
-            from = routeMatch[1].trim();
-            to = routeMatch[2].trim();
+        // Check if tab is already active
+        const isAlreadyActive = await page.$eval(tabSelector, el => el.classList.contains('active')).catch(() => false);
+        
+        if (!isAlreadyActive) {
+            await page.click(tabSelector);
+            // Instead of networkidle, wait for a short period or for the list to update.
+            // Since we can't easily know if the list updated without comparing, a simple sleep is safer for this specific site structure.
+            await page.waitForTimeout(3000); 
         } else {
-            // Fallback if route format is unexpected
-            if (type === 'departure') {
-                from = 'Салехард';
-                to = destinationRaw;
-            } else { // arrival
-                from = destinationRaw;
-                to = 'Салехард';
-            }
+            console.log('Tab already active.');
         }
 
-        flights.push({
-            number: flightNumber,
-            from: from,
-            to: to,
-            scheduledTime: scheduledTime,
-            estimatedTime: estimatedTime,
-            status: status,
-            type: type // For debugging/verification
-        });
+        // Wait for flight items to be present
+        await page.waitForSelector('article.flight-item', { timeout: 10000 }).catch(() => console.log('No flight items found immediately.'));
+
+        const flightItems = await page.$$('article.flight-item');
+        const flights = [];
+
+        console.log(`Parsing ${flightItems.length} items for ${type}...`);
+
+        for (const item of flightItems) {
+            // Helper to safe extract text
+            const getText = async (selector) => {
+                try {
+                    return await item.$eval(selector, el => el.textContent.trim());
+                } catch (e) {
+                    return '';
+                }
+            };
+
+            const flightNumberRaw = await getText('.tth-flight');
+            const destinationRaw = await getText('.tth-destination');
+            const scheduledTime = await getText('.tth-time');
+            const estimatedTime = await getText('.tth-time-count');
+            const status = await getText('.tth-status');
+            const fiTitle = await getText('.fi-title');
+
+            // Skip empty items if any
+            if (!flightNumberRaw) continue;
+
+            let flightNumber = flightNumberRaw.replace(/\s+/g, ' '); 
+            let from = '';
+            let to = '';
+
+            const routeMatch = fiTitle.match(/(.+) → (.+)/);
+            if (routeMatch) {
+                from = routeMatch[1].trim();
+                to = routeMatch[2].trim();
+            } else {
+                if (type === 'departure') {
+                    from = 'Салехард';
+                    to = destinationRaw;
+                } else { 
+                    from = destinationRaw;
+                    to = 'Салехард';
+                }
+            }
+
+            flights.push({
+                number: flightNumber,
+                from: from,
+                to: to,
+                scheduledTime: scheduledTime,
+                estimatedTime: estimatedTime,
+                status: status,
+                type: type 
+            });
+        }
+        return flights;
+    } catch (e) {
+        console.error(`Error getting flights for ${type}:`, e);
+        return [];
     }
-    return flights;
 }
 
 (async () => {
