@@ -75,10 +75,15 @@ const path = require('path');
 
         console.log(`Found ${rawFlights.length} potential flight strings.`);
 
-        // Если ничего не нашли (из-за защиты или верстки), 
+        // Если ничего не нашли (из-за защиты или верстки),
         // оставим пустой массив, но не ломаем файл.
         // В реальном проекте тут нужно будет отладить селекторы.
-        
+
+        // --- ДЕБАГ: Сохраняем HTML для анализа ---
+        fs.writeFileSync(path.join(__dirname, '../debug_page.html'), content);
+        console.log('debug_page.html saved for inspection.');
+        // --- КОНЕЦ ДЕБАГА ---
+
         // Формируем JSON
         const finalData = rawFlights.map(f => {
             // Пытаемся угадать города (хардкод для Салехарда)
