@@ -50,27 +50,59 @@ window.ZimnikSystem = {
                 return `<li class="flight-item"><div class="f-info" style="width:100%; text-align:center;">Нет данных</div></li>`;
             }
 
-            return this.data.map(item => {
+            // Define the custom order based on the user's request.
+            // These should match the canonical names produced by scripts/scrape_zimnik.js
+            const customOrder = [
+                "Яр-Сале - Панаевск",
+                "Панаевск - Салемал",
+                "Салемал - Аксарка",
+                "Ледовая переправа",
+                "Коротчаево - Красноселькуп",
+                "Лабытнанги - Мужи - Теги" // Any remaining at the end
+            ];
+
+            const sortedData = [...this.data].sort((a, b) => {
+                // Use the canonical road names directly from the data for sorting
+                let indexA = customOrder.indexOf(a.road);
+                let indexB = customOrder.indexOf(b.road);
+
+                // If a road is not in customOrder, put it at the end
+                // Assign a high number (e.g., customOrder.length) to items not in the list
+                indexA = indexA === -1 ? customOrder.length : indexA;
+                indexB = indexB === -1 ? customOrder.length : indexB;
+
+                return indexA - indexB;
+            });
+
+            return sortedData.map(item => {
                 const statusLower = item.status.toLowerCase();
                 let statusClass = "st-ok"; // Default green
+                let displayStatus = item.status;
                 
-                // Logic for status color
+                // Logic for status color & text shortening
                 if (statusLower.includes("закрыт") || statusLower.includes("запрещ") || statusLower.includes("нет")) {
                     statusClass = "st-cancel";
+                    displayStatus = "Закрыт";
+                } else if (statusLower.includes("открыт") || statusLower.includes("движение")) {
+                    if (statusLower.includes("всех видов")) displayStatus = "Открыт (все)";
+                    else if (statusLower.includes("полнопривод")) displayStatus = "Только 4х4";
+                    else displayStatus = "Открыт";
                 }
 
-                // Clean up road name (sometimes too long)
-                let roadName = item.road.replace("Автомобильная дорога", "").replace("Зимник", "").trim();
-                // If it starts with "-", remove it
-                if (roadName.startsWith("-")) roadName = roadName.substring(1).trim();
+                // Road name is already cleaned by the scraper; apply display abbreviations
+                let roadName = item.road;
+                roadName = roadName
+                    .replace("Лабытнанги", "Лбт")
+                    .replace("Салехард", "Схд")
+                    .replace("Красноселькуп", "К.Селькуп");
 
                 return `
-                <li class="flight-item">
-                    <div class="f-info" style="max-width: 65%;">
-                        <span class="f-route">${roadName}</span>
+                <li class="flight-item" style="padding: 8px 0;">
+                    <div class="f-info" style="max-width: 60%;">
+                        <span class="f-route" style="font-size: 13px; line-height: 1.2;">${roadName}</span>
                     </div>
-                    <div class="f-info" style="align-items: flex-end; max-width: 35%; text-align: right;">
-                        <span class="f-status ${statusClass}">${item.status}</span>
+                    <div class="f-info" style="align-items: flex-end; max-width: 40%; text-align: right;">
+                        <span class="f-status ${statusClass}" style="font-size: 10px; white-space: nowrap;">${displayStatus}</span>
                     </div>
                 </li>
                 `;

@@ -3,37 +3,43 @@ const fs = require('fs');
 const path = require('path');
 
 function cleanRoadName(rawName) {
-    // 1. Если есть конкретный участок в скобках "..." (участок ...)", берем его
-    const segmentMatch = rawName.match(/\(участок\s+([^)]+)\)/i);
-    if (segmentMatch) {
-        return segmentMatch[1].trim();
+    // 1. Handle Ледовая переправа directly and give it a canonical name
+    if (rawName.toLowerCase().includes('ледовая переправа через реку обь автомобильной дороги салехард-лабытнанги')) {
+        return "Ледовая переправа";
     }
 
-    // 2. Убираем лишний мусор
+    // 2. Prioritize segments like (участок ...)
+    const segmentMatch = rawName.match(/\(участок\s+([^)]+)\)/i);
+    if (segmentMatch) {
+        let segmentName = segmentMatch[1].trim();
+        // Reorder specific segments for consistent display/sorting
+        if (segmentName === "Панаевск - Яр-Сале") return "Яр-Сале - Панаевск";
+        if (segmentName === "Аксарка - Салемал") return "Салемал - Аксарка";
+        return segmentName;
+    }
+
+    // 3. Remove general clutter for other roads
     let name = rawName
         .replace(/^Автомобильная дорога/i, '')
         .replace(/^Зимник/i, '')
         .replace(/\(в границах.*?\)/gi, '')
         .replace(/в том числе зимник/gi, '')
-        .replace(/с мостовым переходом.*$/i, '') // Убираем детали про мосты
+        .replace(/с мостовым переходом.*$/i, '')
         .trim();
 
-    // Specific cleaning for "Ледовая переправа" if it's not a segment
-    if (name.toLowerCase().includes('ледовая переправа')) {
-        name = name.replace(/Ледовая переправа через реку Обь автомобильной дороги/i, 'Переправа через Обь: ');
-        name = name.replace(/Салехард-Лабытнанги/i, 'Салехард-Лабытнанги').trim(); // Keep this part
-    }
-
-    // 3. Убираем лишние символы в начале/конце
+    // 4. Remove leading/trailing dashes/spaces
     name = name.replace(/^[-–—\s]+|[-–—\s]+$/g, '');
 
-    // 4. Дополнительное сокращение для очень длинных названий, если после очистки все еще длинные
-    // Например, если осталось "Лабытнанги - Мужи - Азовы - Теги", то сократить до "Лабытнанги - Мужи - Теги"
+    // 5. Shorten long road names if they still have multiple parts (e.g., A - B - C - D -> A - B - D)
     const parts = name.split(' - ').map(p => p.trim());
-    if (parts.length > 3) { // If there are more than 3 parts (start - middle1 - middle2 - end)
+    if (parts.length > 3) {
         name = `${parts[0]} - ${parts[1]} - ${parts[parts.length - 1]}`;
     }
     
+    // 6. Apply specific reordering if it's one of the known main road segments
+    if (name === "Панаевск - Яр-Сале") return "Яр-Сале - Панаевск";
+    if (name === "Аксарка - Салемал") return "Салемал - Аксарка";
+
     return name;
 }
 
