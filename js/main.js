@@ -62,6 +62,7 @@ async function init() {
     await fetchWeather();
     els.box.addEventListener('click', toggleBox);
     trackMouse(); // Запуск слежения глаз
+    startCatBreathLoop(); // Запуск дыхания кота
     if (typeof setMouseToSpawnState === 'function') {
         setMouseToSpawnState();
     }
