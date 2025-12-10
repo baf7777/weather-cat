@@ -80,11 +80,11 @@ window.PlaneSystem = {
         btn.className = 'schedule-btn';
         btn.title = "Расписание рейсов";
         // Перемещаем кнопку влево, чтобы не перекрывалась Telegram
-        btn.style.left = '20px';
+        btn.style.left = '160px';
         btn.style.top = '20px';
         btn.style.right = 'auto'; 
         
-        btn.innerHTML = `<svg viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>`;
+        btn.innerHTML = `<img src="icons8-вертолет-50.png" alt="Helicopter Icon" style="width: 24px; height: 24px;">`;
         document.body.appendChild(btn);
 
         // Фильтр для Ямальского района

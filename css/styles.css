@@ -290,7 +290,7 @@ body.night .clouds { opacity: 0.3; }
     transition: background 0.2s, transform 0.2s;
 }
 .schedule-btn:hover { background: rgba(255,255,255,0.4); transform: scale(1.05); }
-.schedule-btn svg { width: 24px; height: 24px; fill: #fff; }
+
 
 .schedule-board {
     position: absolute; top: 50%; left: 50%;
