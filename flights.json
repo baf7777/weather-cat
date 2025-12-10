@@ -104,7 +104,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "16:00",
     "estimatedTime": "16:00",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -113,7 +113,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:00",
     "estimatedTime": "16:00",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -131,7 +131,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "15:00",
-    "status": "Ожидается",
+    "estimatedTime": "14:58",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -256,8 +256,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "15:00",
-    "status": "Ожидается",
+    "estimatedTime": "14:58",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "15:00",
-    "status": "Ожидается",
+    "estimatedTime": "14:58",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -292,7 +292,7 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "15:57",
+    "estimatedTime": "16:14",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -310,7 +310,7 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "16:55",
+    "estimatedTime": "16:56",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -319,7 +319,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "17:07",
+    "estimatedTime": "17:28",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -428,7 +428,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "16:00",
     "estimatedTime": "16:00",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -437,7 +437,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:00",
     "estimatedTime": "16:00",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -455,7 +455,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -571,8 +571,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "15:00",
-    "status": "Ожидается",
+    "estimatedTime": "14:58",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -580,8 +580,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "15:00",
-    "status": "Ожидается",
+    "estimatedTime": "14:58",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -589,8 +589,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "15:00",
-    "status": "Ожидается",
+    "estimatedTime": "14:58",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -616,7 +616,7 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "15:57",
+    "estimatedTime": "16:14",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -634,7 +634,7 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "16:55",
+    "estimatedTime": "16:56",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -643,7 +643,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "17:07",
+    "estimatedTime": "17:28",
     "status": "Ожидается",
     "type": "arrival"
   }
