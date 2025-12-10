@@ -2,77 +2,106 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 
+function cleanRoadName(rawName) {
+    // 1. Если есть конкретный участок в скобках "..." (участок ...)", берем его
+    const segmentMatch = rawName.match(/\(участок\s+([^)]+)\)/i);
+    if (segmentMatch) {
+        return segmentMatch[1].trim();
+    }
+
+    // 2. Убираем лишний мусор
+    let name = rawName
+        .replace(/^Автомобильная дорога/i, '')
+        .replace(/^Зимник/i, '')
+        .replace(/\(в границах.*?\)/gi, '')
+        .replace(/в том числе зимник/gi, '')
+        .replace(/с мостовым переходом.*$/i, '') // Убираем детали про мосты
+        .trim();
+
+    // 3. Убираем лишние символы в начале/конце
+    name = name.replace(/^[-–—\s]+|[-–—\s]+$/g, '');
+
+    // 4. Сокращаем длинные списки городов
+    // Лабытнанги - Мужи - Азовы - Теги -> Лабытнанги - Теги
+    // Но лучше оставить "Лабытнанги - Мужи - Теги", чтобы понятнее.
+    // Пока просто вернем очищенное имя, если оно не слишком длинное.
+    
+    return name;
+}
+
 (async () => {
     console.log('Starting Zimnik scraper...');
     const browser = await chromium.launch({ headless: true });
     const page = await browser.newPage();
 
     try {
-        // Set a realistic viewport
         await page.setViewportSize({ width: 1280, height: 720 });
-
         console.log('Navigating to map.yanao.ru...');
         await page.goto('https://map.yanao.ru/eks/zimnik', { waitUntil: 'networkidle', timeout: 60000 });
         
-        console.log('Waiting for content...');
-        // Wait for the side panel or specific text to ensure data is loaded
+        // Wait for content
         try {
             await page.waitForSelector('text=Автомобильная дорога', { timeout: 15000 });
         } catch (e) {
-            console.log('Selector timeout, proceeding with whatever is loaded...');
+            console.log('Selector timeout, proceeding...');
         }
-        
-        // Wait a bit more for dynamic rendering
         await page.waitForTimeout(5000);
 
-        // Get the full text content of the body. 
-        // We use innerText as it approximates the visual layout (newlines for blocks).
         const bodyText = await page.evaluate(() => document.body.innerText);
-
-        // Parse the text
         const lines = bodyText.split('\n').map(l => l.trim()).filter(l => l);
-        const roads = [];
-
-        // Heuristic:
-        // We look for lines that look like road names.
-        // The Status is usually the line immediately following the road name.
         
+        const roadsMap = new Map(); // Use Map for deduplication by Name
+
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i];
             
-            // Check if line is a road name
-            // Keywords based on the dump: "Автомобильная дорога", "Зимник"
-            if (line.startsWith('Автомобильная дорога') || line.startsWith('Зимник') || line.includes('Лабытнанги - Мужи') || line.includes('Аксарка - Салемал')) {
+            // Skip headers/garbage
+            if (line.includes('регионального значения') || line.includes('муниципального значения') || line.length < 10) continue;
+
+            if (line.startsWith('Автомобильная дорога') || line.startsWith('Зимник') || line.includes(' - ')) {
                 
-                // Avoid capturing the header or random text
-                if (line.length < 10) continue;
+                // Try to find status in the next few lines (sometimes there's an empty line)
+                let status = "Неизвестно";
+                let foundStatus = false;
+                
+                for (let j = 1; j <= 2; j++) {
+                    if (i + j < lines.length) {
+                        const nextLine = lines[i+j].toLowerCase();
+                        if (nextLine.includes('закрыт') || nextLine.includes('открыт') || nextLine.includes('движение') || nextLine.includes('тоннаж')) {
+                            status = lines[i+j];
+                            foundStatus = true;
+                            break;
+                        }
+                    }
+                }
 
-                // The status should be the next line
-                if (i + 1 < lines.length) {
-                    const status = lines[i+1];
+                if (foundStatus) {
+                    const cleanName = cleanRoadName(line);
                     
-                    // Validate status looks like a status
-                    // Valid statuses: "закрыт", "открыт", "разрешено...", "движение..."
-                    // If the next line is another road or a date, then we missed the status or it's formatted differently.
-                    // But based on the dump, it was "Road\nStatus".
-                    
-                    // Check if status is just a date (sometimes happens in sidebars)
-                    if (status.match(/^\d{2}\.\d{2}\.\d{4}/)) continue;
-
-                    roads.push({
-                        road: line,
-                        status: status
-                    });
+                    // Specific fix for "Korotchaevo" which often has long text
+                    if (cleanName.includes("Коротчаево")) {
+                         roadsMap.set("Коротчаево - Красноселькуп", status);
+                    } else if (cleanName.length > 3) {
+                         // Only add if we haven't seen this EXACT name+status combination OR overwrite?
+                         // Usually we want unique names.
+                         // If duplicates have same name but different status, that's tricky.
+                         // But usually duplicates are just artifacts.
+                         if (!roadsMap.has(cleanName)) {
+                             roadsMap.set(cleanName, status);
+                         }
+                    }
                 }
             }
         }
 
-        console.log(`Found ${roads.length} winter roads.`);
+        const roads = [];
+        roadsMap.forEach((status, road) => {
+            roads.push({ road, status });
+        });
+
+        console.log(`Found ${roads.length} unique winter roads.`);
         
         if (roads.length === 0) {
-            console.warn("No roads found! Dumping text for debug:");
-            console.log(bodyText.substring(0, 500) + "...");
-            // Add a fallback so the UI doesn't break
             roads.push({ road: "Данные не получены", status: "Проверьте источник" });
         }
 
@@ -81,8 +110,7 @@ const path = require('path');
 
     } catch (e) {
         console.error('Error scraping zimnik:', e);
-        // Fallback file
-        fs.writeFileSync(path.join(__dirname, '../zimnik.json'), JSON.stringify([{ road: "Ошибка обновления", status: "Сбой скрапера" }], null, 2));
+        fs.writeFileSync(path.join(__dirname, '../zimnik.json'), JSON.stringify([{ road: "Ошибка", status: "Сбой" }], null, 2));
         process.exit(1);
     } finally {
         await browser.close();
