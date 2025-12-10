@@ -112,16 +112,28 @@ window.PlaneSystem = {
                 return `<li class="flight-item"><div class="f-info" style="width:100%; text-align:center;">Рейсов по району нет</div></li>`;
             }
 
+            // Карта для сокращения статусов
+            const shortStatusMap = {
+                "Вылетел": "Вылетел",
+                "Задерживается": "Задерж.",
+                "По расписанию": "По расп.",
+                "Рейс прибыл": "Прибыл",
+                "Отменен": "Отменён", // Добавим мягкий знак для эстетики
+                "Отменён": "Отменён"
+            };
+
             return filtered.map(f => {
                 // Логика цветов статуса
                 let statusClass = "st-ok";
                 const s = f.status.toLowerCase();
-                if (s.includes("отменен") || s.includes("задерживается") || s.includes("отменён")) {
+                if (s.includes("отменен") || s.includes("задерживается")) {
                     statusClass = "st-cancel";
                 }
                 
                 // Время: используем scheduledTime (по расписанию)
                 const timeDisplay = f.scheduledTime || "--:--";
+                // Сокращенный статус для отображения
+                const displayStatus = shortStatusMap[f.status] || f.status;
 
                 return `
                 <li class="flight-item">
@@ -131,7 +143,7 @@ window.PlaneSystem = {
                     </div>
                     <div class="f-info" style="align-items: flex-end;">
                         <span class="f-time">${timeDisplay}</span>
-                        <span class="f-status ${statusClass}">${f.status}</span>
+                        <span class="f-status ${statusClass}">${displayStatus}</span>
                     </div>
                 </li>
                 `;
