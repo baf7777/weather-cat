@@ -95,7 +95,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "11:50",
-    "estimatedTime": "11:50",
-    "status": "По расписанию",
+    "estimatedTime": "12:32",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -319,8 +319,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "17:20",
-    "status": "По расписанию",
+    "estimatedTime": "17:07",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -419,7 +419,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -526,8 +526,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "11:50",
-    "estimatedTime": "11:50",
-    "status": "По расписанию",
+    "estimatedTime": "12:32",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -643,8 +643,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "17:20",
-    "status": "По расписанию",
+    "estimatedTime": "17:07",
+    "status": "Ожидается",
     "type": "arrival"
   }
 ]
