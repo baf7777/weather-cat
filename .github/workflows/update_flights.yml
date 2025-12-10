@@ -2,8 +2,8 @@ name: Update Flights Data
 
 on:
   schedule:
-    # Запуск каждые 20 минут (*/20)
-    - cron: '*/20 * * * *'
+    # Запуск каждые 2 часа
+    - cron: '0 */2 * * *'
   workflow_dispatch: # Возможность запустить кнопку вручную
 
 permissions:
@@ -27,12 +27,14 @@ jobs:
           npx playwright install --with-deps chromium
 
       - name: Run scraper
-        run: node scripts/scrape.js
+        run: |
+          node scripts/scrape.js
+          node scripts/scrape_zimnik.js
 
       - name: Commit and push if changed
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add flights.json
-          git commit -m "Update flight schedule [skip ci]" || exit 0
+          git add flights.json zimnik.json
+          git commit -m "Update data [skip ci]" || exit 0
           git push

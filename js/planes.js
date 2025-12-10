@@ -79,12 +79,14 @@ window.PlaneSystem = {
         const btn = document.createElement('div');
         btn.className = 'schedule-btn';
         btn.title = "Расписание рейсов";
-        // Перемещаем кнопку влево, чтобы не перекрывалась Telegram
-        btn.style.left = '160px';
+        // Позиционирование: кнопка Обновить (~130px) -> Отступ -> Вертолет -> Отступ -> Зимник
+        // Refresh (left: 20px) + width (~120px) + gap (20px) -> 160px
+        btn.style.left = '160px'; 
         btn.style.top = '20px';
         btn.style.right = 'auto'; 
         
-        btn.innerHTML = `<img src="icons8-вертолет-50.png" alt="Helicopter Icon" style="width: 24px; height: 24px;">`;
+        btn.innerHTML = `<img src="assets/icons8-вертолет-50.png" alt="Helicopter" style="width: 32px; height: 32px; object-fit: contain;">`;
+        document.body.appendChild(btn);
         document.body.appendChild(btn);
 
         // Фильтр для Ямальского района
