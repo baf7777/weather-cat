@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:40",
-    "estimatedTime": "10:10",
-    "status": "Задерживается",
+    "estimatedTime": "10:24",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -86,7 +86,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -373,8 +373,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:40",
-    "estimatedTime": "10:10",
-    "status": "Задерживается",
+    "estimatedTime": "10:24",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -410,7 +410,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
