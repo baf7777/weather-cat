@@ -15,6 +15,7 @@ function cleanRoadName(rawName) {
         // Reorder specific segments for consistent display/sorting
         if (segmentName === "Панаевск - Яр-Сале") return "Яр-Сале - Панаевск";
         if (segmentName === "Аксарка - Салемал") return "Салемал - Аксарка";
+        if (segmentName === "Салемал - Панаевск") return "Панаевск - Салемал";
         return segmentName;
     }
 
@@ -29,6 +30,9 @@ function cleanRoadName(rawName) {
 
     // 4. Remove leading/trailing dashes/spaces
     name = name.replace(/^[-–—\s]+|[-–—\s]+$/g, '');
+    
+    // Normalize dashes inside the name to simple hyphen
+    name = name.replace(/[-–—]/g, '-');
 
     // 5. Shorten long road names if they still have multiple parts (e.g., A - B - C - D -> A - B - D)
     const parts = name.split(' - ').map(p => p.trim());
@@ -37,8 +41,11 @@ function cleanRoadName(rawName) {
     }
     
     // 6. Apply specific reordering if it's one of the known main road segments
-    if (name === "Панаевск - Яр-Сале") return "Яр-Сале - Панаевск";
-    if (name === "Аксарка - Салемал") return "Салемал - Аксарка";
+    name = name.trim();
+    
+    if (/Панаевск/i.test(name) && /Яр-Сале/i.test(name)) return "Яр-Сале - Панаевск";
+    if (/Аксарка/i.test(name) && /Салемал/i.test(name)) return "Салемал - Аксарка";
+    if (/Салемал/i.test(name) && /Панаевск/i.test(name)) return "Панаевск - Салемал";
 
     return name;
 }
