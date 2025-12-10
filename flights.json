@@ -5,7 +5,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
     "estimatedTime": "09:10",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -41,7 +41,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "Регистрация",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:15",
-    "status": "По расписанию",
+    "estimatedTime": "15:10",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -283,8 +283,8 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:15",
-    "status": "По расписанию",
+    "estimatedTime": "15:10",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -329,7 +329,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
     "estimatedTime": "09:10",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -365,7 +365,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "Регистрация",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -598,8 +598,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:15",
-    "status": "По расписанию",
+    "estimatedTime": "15:10",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -607,8 +607,8 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:15",
-    "status": "По расписанию",
+    "estimatedTime": "15:10",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
