@@ -18,13 +18,21 @@ function cleanRoadName(rawName) {
         .replace(/с мостовым переходом.*$/i, '') // Убираем детали про мосты
         .trim();
 
+    // Specific cleaning for "Ледовая переправа" if it's not a segment
+    if (name.toLowerCase().includes('ледовая переправа')) {
+        name = name.replace(/Ледовая переправа через реку Обь автомобильной дороги/i, 'Переправа через Обь: ');
+        name = name.replace(/Салехард-Лабытнанги/i, 'Салехард-Лабытнанги').trim(); // Keep this part
+    }
+
     // 3. Убираем лишние символы в начале/конце
     name = name.replace(/^[-–—\s]+|[-–—\s]+$/g, '');
 
-    // 4. Сокращаем длинные списки городов
-    // Лабытнанги - Мужи - Азовы - Теги -> Лабытнанги - Теги
-    // Но лучше оставить "Лабытнанги - Мужи - Теги", чтобы понятнее.
-    // Пока просто вернем очищенное имя, если оно не слишком длинное.
+    // 4. Дополнительное сокращение для очень длинных названий, если после очистки все еще длинные
+    // Например, если осталось "Лабытнанги - Мужи - Азовы - Теги", то сократить до "Лабытнанги - Мужи - Теги"
+    const parts = name.split(' - ').map(p => p.trim());
+    if (parts.length > 3) { // If there are more than 3 parts (start - middle1 - middle2 - end)
+        name = `${parts[0]} - ${parts[1]} - ${parts[parts.length - 1]}`;
+    }
     
     return name;
 }
@@ -39,7 +47,6 @@ function cleanRoadName(rawName) {
         console.log('Navigating to map.yanao.ru...');
         await page.goto('https://map.yanao.ru/eks/zimnik', { waitUntil: 'networkidle', timeout: 60000 });
         
-        // Wait for content
         try {
             await page.waitForSelector('text=Автомобильная дорога', { timeout: 15000 });
         } catch (e) {
@@ -55,19 +62,20 @@ function cleanRoadName(rawName) {
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i];
             
-            // Skip headers/garbage
+            // Skip headers/garbage and lines that are too short to be a road or status
             if (line.includes('регионального значения') || line.includes('муниципального значения') || line.length < 10) continue;
 
-            if (line.startsWith('Автомобильная дорога') || line.startsWith('Зимник') || line.includes(' - ')) {
+            // Broader matching for road/crossing lines
+            if (line.startsWith('Автомобильная дорога') || line.startsWith('Зимник') || line.includes(' - ') || line.includes('Ледовая переправа')) {
                 
-                // Try to find status in the next few lines (sometimes there's an empty line)
                 let status = "Неизвестно";
                 let foundStatus = false;
                 
-                for (let j = 1; j <= 2; j++) {
+                // Look up to 3 lines ahead for the status, as "Ледовая переправа" status is long
+                for (let j = 1; j <= 3; j++) { 
                     if (i + j < lines.length) {
                         const nextLine = lines[i+j].toLowerCase();
-                        if (nextLine.includes('закрыт') || nextLine.includes('открыт') || nextLine.includes('движение') || nextLine.includes('тоннаж')) {
+                        if (nextLine.includes('закрыт') || nextLine.includes('открыт') || nextLine.includes('движение') || nextLine.includes('тоннаж') || nextLine.includes('для всех видов транспорта')) {
                             status = lines[i+j];
                             foundStatus = true;
                             break;
@@ -78,17 +86,10 @@ function cleanRoadName(rawName) {
                 if (foundStatus) {
                     const cleanName = cleanRoadName(line);
                     
-                    // Specific fix for "Korotchaevo" which often has long text
                     if (cleanName.includes("Коротчаево")) {
                          roadsMap.set("Коротчаево - Красноселькуп", status);
-                    } else if (cleanName.length > 3) {
-                         // Only add if we haven't seen this EXACT name+status combination OR overwrite?
-                         // Usually we want unique names.
-                         // If duplicates have same name but different status, that's tricky.
-                         // But usually duplicates are just artifacts.
-                         if (!roadsMap.has(cleanName)) {
-                             roadsMap.set(cleanName, status);
-                         }
+                    } else if (cleanName.length > 3) { // Ensure cleaned name is not empty or too short
+                         roadsMap.set(cleanName, status); // Set will handle overwriting duplicates with same cleanName
                     }
                 }
             }
@@ -99,7 +100,7 @@ function cleanRoadName(rawName) {
             roads.push({ road, status });
         });
 
-        console.log(`Found ${roads.length} unique winter roads.`);
+        console.log(`Found ${roads.length} unique winter roads (including ice crossings).`);
         
         if (roads.length === 0) {
             roads.push({ road: "Данные не получены", status: "Проверьте источник" });
