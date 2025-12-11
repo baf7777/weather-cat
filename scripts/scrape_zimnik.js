@@ -52,7 +52,12 @@ function cleanRoadName(rawName) {
 
 (async () => {
     console.log('Starting Zimnik scraper...');
-    const browser = await chromium.launch({ headless: true });
+    const browser = await chromium.launch({ 
+        headless: true, 
+        proxy: {
+            server: 'http://62.113.119.14:8080'
+        }
+    });
     const page = await browser.newPage();
 
     try {
