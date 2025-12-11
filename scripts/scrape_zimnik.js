@@ -58,7 +58,7 @@ function cleanRoadName(rawName) {
     try {
         await page.setViewportSize({ width: 1280, height: 720 });
         console.log('Navigating to map.yanao.ru...');
-        await page.goto('https://map.yanao.ru/eks/zimnik', { waitUntil: 'networkidle', timeout: 60000 });
+        await page.goto('https://map.yanao.ru/eks/zimnik', { waitUntil: 'domcontentloaded', timeout: 120000 });
         
         try {
             await page.waitForSelector('text=Автомобильная дорога', { timeout: 15000 });
