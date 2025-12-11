@@ -55,7 +55,9 @@ function cleanRoadName(rawName) {
     const browser = await chromium.launch({ 
         headless: true, 
         proxy: {
-            server: 'http://87.239.31.42:80'
+            server: 'http://93.188.207.212:8000',
+            username: '9ZpsX5',
+            password: 'j2H3sx'
         }
     });
     const page = await browser.newPage();
