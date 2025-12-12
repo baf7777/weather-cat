@@ -95,7 +95,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
     "estimatedTime": "16:50",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:23",
-    "status": "Задерживается",
+    "estimatedTime": "16:28",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "17:20",
-    "status": "По расписанию",
+    "estimatedTime": "17:15",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -365,7 +365,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
     "estimatedTime": "16:50",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -508,8 +508,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:23",
-    "status": "Задерживается",
+    "estimatedTime": "16:28",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -535,8 +535,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "17:20",
-    "status": "По расписанию",
+    "estimatedTime": "17:15",
+    "status": "Ожидается",
     "type": "arrival"
   }
 ]
