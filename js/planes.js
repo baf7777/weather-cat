@@ -171,7 +171,8 @@ window.PlaneSystem = {
 
     resize() {
         if (this.canvas) {
-            const dpr = window.devicePixelRatio || 1;
+            // Оптимизация: ограничиваем DPR до 1.5 для мобилок, чтобы не было лагов
+            const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
             this.canvas.width = window.innerWidth * dpr;
             this.canvas.height = window.innerHeight * dpr;
             this.canvas.style.width = window.innerWidth + 'px';

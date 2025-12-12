@@ -41,7 +41,12 @@ class HeliSystem {
         const container = document.createElement('div');
         container.className = 'heli-wrapper';
         
+        this.isMobile = window.innerWidth < 768;
+
         // Реалистичная тундра (SVG)
+        // На мобильных убираем фильтр блюра для производительности
+        const snowFilterAttr = this.isMobile ? '' : 'filter="url(#snow-blur)"';
+        
         const tundra = document.createElement('div');
         tundra.className = 'heli-tundra';
         tundra.innerHTML = `
@@ -66,7 +71,7 @@ class HeliSystem {
                 </g>
 
                 <!-- Передний план (основной сугроб, мягкий) -->
-                <path d="M-50,120 L-50,90 C20,85 100,95 180,80 C260,65 340,75 420,85 C500,95 580,80 650,90 L650,120 Z" fill="url(#snow-fill)" filter="url(#snow-blur)" opacity="0.9" />
+                <path d="M-50,120 L-50,90 C20,85 100,95 180,80 C260,65 340,75 420,85 C500,95 580,80 650,90 L650,120 Z" fill="url(#snow-fill)" ${snowFilterAttr} opacity="0.9" />
                 
                 <!-- Сухие кустики (передний план) -->
                 <g stroke="#5d4037" stroke-width="2" fill="none">
