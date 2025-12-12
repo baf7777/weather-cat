@@ -56,6 +56,12 @@ async function init() {
     } else {
         console.error("PlaneSystem not found!");
     }
+    
+    // Инициализация вертолета
+    if (window.HeliSystem) {
+        window.HeliSystem.init();
+    }
+
     if (typeof loadWeatherCSV === 'function') {
         await loadWeatherCSV();
     }

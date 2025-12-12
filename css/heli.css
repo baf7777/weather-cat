@@ -1,0 +1,157 @@
+/* --- ВЕРТОЛЕТ (Mi-8) --- */
+.heli-wrapper {
+    position: absolute;
+    bottom: 25%; 
+    right: 10%;
+    width: 200px; 
+    height: auto;
+    z-index: 4;
+    pointer-events: auto;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+/* SVG самого вертолета */
+#heli-svg {
+    position: relative;
+    z-index: 5;
+    overflow: visible;
+    display: block; /* Убираем отступы снизу */
+}
+
+/* --- ТУНДРА (СУГРОБЫ) --- */
+.heli-tundra {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200%;
+    height: 100px;
+    z-index: 6; /* ПОВЕРХ вертолета (чтобы закрыть колеса) */
+    pointer-events: none;
+    filter: drop-shadow(0 0 5px rgba(255,255,255,0.5));
+    mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+}
+
+/* --- СНЕЖНАЯ ПЫЛЬ (DOWNWASH) --- */
+.heli-snow-dust {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 100px;
+    z-index: 7; /* Поверх тундры */
+    pointer-events: none;
+    opacity: 0; 
+    transition: opacity 0.3s;
+}
+
+.dust-cloud {
+    position: absolute;
+    bottom: 10px;
+    width: 60px;
+    height: 30px;
+    background: radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.4) 50%, transparent 80%);
+    border-radius: 50%;
+    filter: blur(8px);
+}
+
+.dust-l {
+    left: 45%;
+    transform-origin: center right;
+    animation: dustBlowLeft 0.4s infinite linear;
+}
+
+.dust-r {
+    right: 45%;
+    transform-origin: center left;
+    animation: dustBlowRight 0.4s infinite linear;
+}
+
+@keyframes dustBlowLeft {
+    0% { transform: translateX(0) scale(0.5); opacity: 0; }
+    20% { opacity: 0.8; }
+    100% { transform: translateX(-80px) scale(2); opacity: 0; }
+}
+
+@keyframes dustBlowRight {
+    0% { transform: translateX(0) scale(0.5); opacity: 0; }
+    20% { opacity: 0.8; }
+    100% { transform: translateX(80px) scale(2); opacity: 0; }
+}
+
+/* --- АДАПТАЦИЯ (MEDIA QUERIES) --- */
+
+/* Планшеты (до 800px) */
+@media (max-width: 800px) {
+    .heli-wrapper {
+        width: 140px;
+        bottom: 30%;
+        right: 5%;
+    }
+    .heli-wrapper .heli-tundra {
+        height: 80px !important; /* Увеличил */
+        bottom: -5px !important; /* Поднял выше, чтобы наезжало на колеса */
+    }
+}
+
+/* Телефоны (до 480px) */
+@media (max-width: 480px) {
+    .heli-wrapper {
+        width: 120px;
+        bottom: 40%;
+        right: 2%;
+    }
+    .heli-wrapper .heli-tundra {
+        height: 45px !important; /* Увеличил */
+        bottom: -5px !important; /* Поднял выше */
+    }
+}
+
+/* --- ОСТАЛЬНОЕ --- */
+body.night .heli-body-parts {
+    filter: brightness(0.85) contrast(1.1);
+    transition: filter 2s;
+}
+
+body.night .heli-tundra {
+    filter: brightness(0.6) contrast(1.2);
+}
+
+body.night .heli-snow-dust {
+    opacity: 0.5 !important;
+}
+
+.heli-light-red {
+    fill: #ff3333;
+    filter: drop-shadow(0 0 5px rgba(255, 0, 0, 0.8));
+    animation: blinkBeacon 1.2s infinite ease-in-out;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+.heli-light-white {
+    fill: #ffffff;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 1));
+    animation: blinkStrobe 0.15s infinite alternate; 
+    animation-delay: 0.5s;
+}
+
+.heli-light-green {
+    fill: #00ff00;
+    filter: drop-shadow(0 0 4px rgba(0, 255, 0, 0.6));
+    opacity: 0.8;
+}
+
+@keyframes blinkBeacon {
+    0%, 40% { opacity: 0.2; }
+    50% { opacity: 1; transform: scale(1.5); }
+    60%, 100% { opacity: 0.2; transform: scale(1); }
+}
+
+@keyframes blinkStrobe {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
