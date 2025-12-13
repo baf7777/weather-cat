@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
-    "estimatedTime": "09:30",
-    "status": "Задерживается",
+    "estimatedTime": "09:40",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -41,7 +41,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -49,7 +49,7 @@
     "from": "Салехард",
     "to": "Омск",
     "scheduledTime": "10:50",
-    "estimatedTime": "10:50",
+    "estimatedTime": "11:20",
     "status": "Регистрация",
     "type": "departure"
   },
@@ -149,15 +149,6 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:40",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "ЛЛМ 9716",
-    "from": "Москва / Шереметьево",
-    "to": "Салехард",
-    "scheduledTime": "17:50",
-    "estimatedTime": "17:50",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -166,8 +157,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
-    "estimatedTime": "09:30",
-    "status": "Задерживается",
+    "estimatedTime": "09:40",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -203,7 +194,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -211,7 +202,7 @@
     "from": "Салехард",
     "to": "Омск",
     "scheduledTime": "10:50",
-    "estimatedTime": "10:50",
+    "estimatedTime": "11:20",
     "status": "Регистрация",
     "type": "arrival"
   },
@@ -311,15 +302,6 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:40",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛЛМ 9716",
-    "from": "Москва / Шереметьево",
-    "to": "Салехард",
-    "scheduledTime": "17:50",
-    "estimatedTime": "17:50",
     "status": "По расписанию",
     "type": "arrival"
   }
