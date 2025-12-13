@@ -68,7 +68,7 @@
     "to": "Казань",
     "scheduledTime": "16:40",
     "estimatedTime": "16:40",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -230,7 +230,7 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:40",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
