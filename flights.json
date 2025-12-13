@@ -63,6 +63,15 @@
     "type": "departure"
   },
   {
+    "number": "ЛА 843",
+    "from": "Салехард",
+    "to": "Казань",
+    "scheduledTime": "16:40",
+    "estimatedTime": "16:40",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
     "number": "ЛА 31",
     "from": "Салехард",
     "to": "Москва / Домодедово",
@@ -139,7 +148,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:30",
+    "estimatedTime": "15:32",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -216,6 +225,15 @@
     "type": "arrival"
   },
   {
+    "number": "ЛА 843",
+    "from": "Казань",
+    "to": "Салехард",
+    "scheduledTime": "16:40",
+    "estimatedTime": "16:40",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
     "number": "ЛА 31",
     "from": "Салехард",
     "to": "Москва / Домодедово",
@@ -292,7 +310,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:30",
+    "estimatedTime": "15:32",
     "status": "Ожидается",
     "type": "arrival"
   },
