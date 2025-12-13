@@ -68,7 +68,7 @@
     "to": "Казань",
     "scheduledTime": "16:40",
     "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -77,7 +77,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "19:20",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -230,7 +230,7 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -239,7 +239,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "19:20",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
