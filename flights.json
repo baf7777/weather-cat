@@ -13,7 +13,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:30",
-    "estimatedTime": "10:00",
+    "estimatedTime": "11:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -22,7 +22,7 @@
     "from": "Салехард",
     "to": "Салемал",
     "scheduledTime": "09:30",
-    "estimatedTime": "10:00",
+    "estimatedTime": "11:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -31,7 +31,7 @@
     "from": "Салехард",
     "to": "Панаевск",
     "scheduledTime": "09:30",
-    "estimatedTime": "10:00",
+    "estimatedTime": "11:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -41,7 +41,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -50,7 +50,7 @@
     "to": "Омск",
     "scheduledTime": "10:50",
     "estimatedTime": "11:20",
-    "status": "Регистрация",
+    "status": "Регистр. завершена",
     "type": "departure"
   },
   {
@@ -166,7 +166,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:30",
-    "estimatedTime": "10:00",
+    "estimatedTime": "11:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -175,7 +175,7 @@
     "from": "Салехард",
     "to": "Салемал",
     "scheduledTime": "09:30",
-    "estimatedTime": "10:00",
+    "estimatedTime": "11:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -184,7 +184,7 @@
     "from": "Салехард",
     "to": "Панаевск",
     "scheduledTime": "09:30",
-    "estimatedTime": "10:00",
+    "estimatedTime": "11:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -194,7 +194,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -203,7 +203,7 @@
     "to": "Омск",
     "scheduledTime": "10:50",
     "estimatedTime": "11:20",
-    "status": "Регистрация",
+    "status": "Регистр. завершена",
     "type": "arrival"
   },
   {
