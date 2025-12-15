@@ -734,12 +734,16 @@ body.night .clouds { opacity: 0.3; }
 @media (max-width: 768px) { /* Tablets and smaller */
     .b-page_newyear {
         transform: scale(0.9);
+        width: 111.11%; /* 100 / 0.9 */
+        transform-origin: top left;
     }
 }
 
 @media (max-width: 480px) { /* Mobile phones */
     .b-page_newyear {
         transform: scale(0.7);
+        width: 142.85%; /* 100 / 0.7 */
+        transform-origin: top left;
     }
 }
 
