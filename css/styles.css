@@ -717,165 +717,124 @@ body.night .clouds { opacity: 0.3; }
 
 /* --- НОВЫЙ ГОД (CHRISTMAS ADD-ONS) --- */
 
-/* 1. Гирлянда (Lightrope) */
-.lightrope {
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  position: absolute;
-  z-index: 100;
-  top: -20px; /* Чуть выше */
-  padding: 0;
-  pointer-events: none;
-  width: 100%;
+/* --- НОВЫЙ ГОД (CHRISTMAS ADD-ONS) --- */
+
+/* 1. Гирлянда (Новая из 1.html) */
+.b-page_newyear {
+    position: absolute; 
+    top: 0; left: 0;
+    width: 100%;
+    pointer-events: none; 
+    z-index: 100;
+    transform: scale(1.25); /* Увеличиваем масштаб на 25% */
+    transform-origin: top center; /* Масштабируем от верха центра */
 }
 
-.lightrope li {
-  position: relative;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: block;
-  width: 12px;
-  height: 28px;
-  border-radius: 50%;
-  margin: 20px;
-  display: inline-block;
-  background: #FFFFFF; /* Белый */
-  box-shadow: 0px 4.66667px 24px 3px #FFFFFF;
-  -webkit-animation-name: flash-1;
-  animation-name: flash-1;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+.b-head-decor {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 115px;
+    width: 100%;
+    overflow: hidden;
+    background: url(https://www.dropbox.com/s/v9lpxcfepsvin60/b-head-decor_newyear.png?dl=1) repeat-x 0 0;
+    z-index: 10;
 }
 
-.lightrope li:nth-child(2n+1) {
-  background: #0033A0; /* Синий */
-  box-shadow: 0px 4.66667px 24px 3px rgba(0, 51, 160, 0.5);
-  -webkit-animation-name: flash-2;
-  animation-name: flash-2;
-  -webkit-animation-duration: 0.4s;
-  animation-duration: 0.4s;
+.b-head-decor__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 115px;
+    display: block;
+    width: 373px;
 }
 
-.lightrope li:nth-child(4n+2) {
-  background: #D52B1E; /* Красный */
-  box-shadow: 0px 4.66667px 24px 3px #D52B1E;
-  -webkit-animation-name: flash-3;
-  animation-name: flash-3;
-  -webkit-animation-duration: 1.1s;
-  animation-duration: 1.1s;
+/* Тень под гирляндой */
+.b-head-decor::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -115px;
+    left: 0;
+    z-index: 3;
+    height: 115px;
+    width: 100%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.75);
 }
 
-.lightrope li:nth-child(odd) {
-  -webkit-animation-duration: 1.8s;
-  animation-duration: 1.8s;
+.b-head-decor__inner_n2 { left: 373px; }
+.b-head-decor__inner_n3 { left: 746px; }
+.b-head-decor__inner_n4 { left: 1119px; }
+.b-head-decor__inner_n5 { left: 1492px; }
+.b-head-decor__inner_n6 { left: 1865px; }
+.b-head-decor__inner_n7 { left: 2238px; }
+
+.b-ball { 
+    position: absolute; 
+    pointer-events: auto; /* Шарики должны реагировать на мышь */
+    cursor: pointer;
+}
+.b-ball_n1 { top: 0; left: 3px; width: 59px; height: 83px; }
+.b-ball_n2 { top: -19px; left: 51px; width: 55px; height: 70px; }
+.b-ball_n3 { top: 9px; left: 88px; width: 49px; height: 67px; }
+.b-ball_n4 { top: 0; left: 133px; width: 57px; height: 102px; }
+.b-ball_n5 { top: 0; left: 166px; width: 49px; height: 57px; }
+.b-ball_n6 { top: 6px; left: 200px; width: 54px; height: 70px; }
+.b-ball_n7 { top: 0; left: 240px; width: 56px; height: 67px; }
+.b-ball_n8 { top: 0; left: 283px; width: 54px; height: 53px; }
+.b-ball_n9 { top: 10px; left: 321px; width: 49px; height: 66px; }
+
+.b-ball_n1 .b-ball__i { background: url(https://www.dropbox.com/s/6uejpodl90ozcaj/b-ball_n1.png?dl=1) no-repeat; }
+.b-ball_n2 .b-ball__i { background: url(https://www.dropbox.com/s/ygy31out3i61ry8/b-ball_n2.png?dl=1) no-repeat; }
+.b-ball_n3 .b-ball__i { background: url(https://www.dropbox.com/s/uaffezwbvb4yuhd/b-ball_n3.png?dl=1) no-repeat; }
+.b-ball_n4 .b-ball__i { background: url(https://www.dropbox.com/s/j8q7itkqekxwt65/b-ball_n4.png?dl=1) no-repeat; }
+.b-ball_n5 .b-ball__i { background: url(https://www.dropbox.com/s/8d7jo6a8b7ngfcq/b-ball_n5.png?dl=1) no-repeat; }
+.b-ball_n6 .b-ball__i { background: url(https://www.dropbox.com/s/x9uqu3fe5cma2ra/b-ball_n6.png?dl=1) no-repeat; }
+.b-ball_n7 .b-ball__i { background: url(https://www.dropbox.com/s/vn9n8rsl3rfm5kx/b-ball_n7.png?dl=1) no-repeat; }
+.b-ball_n8 .b-ball__i { background: url(https://www.dropbox.com/s/kbba0lcmcbxjb6p/b-ball_n8.png?dl=1) no-repeat; }
+.b-ball_n9 .b-ball__i { background: url(https://www.dropbox.com/s/buok8jqo2plg1kh/b-ball_n9.png?dl=1) no-repeat; }
+
+.b-ball_i1 .b-ball__i { background: url(https://www.dropbox.com/s/ao4okf3y6xl6zfu/b-ball_i1.png?dl=1) no-repeat; }
+.b-ball_i2 .b-ball__i { background: url(https://www.dropbox.com/s/o0c0co1gxur78pu/b-ball_i2.png?dl=1) no-repeat; }
+.b-ball_i3 .b-ball__i { background: url(https://www.dropbox.com/s/hs4frdr0g1sk8qy/b-ball_i3.png?dl=1) no-repeat; }
+.b-ball_i4 .b-ball__i { background: url(https://www.dropbox.com/s/by8955xypx3rwkx/b-ball_i4.png?dl=1) no-repeat; }
+.b-ball_i5 .b-ball__i { background: url(https://www.dropbox.com/s/lwub7a629rbdsgf/b-ball_i5.png?dl=1) no-repeat; }
+.b-ball_i6 .b-ball__i { background: url(https://www.dropbox.com/s/3d0vxlzgutik2xn/b-ball_i6.png?dl=1) no-repeat; }
+
+.b-ball_i1 { top: 0; left: 0; width: 25px; height: 71px; }
+.b-ball_i2 { top: 0; left: 25px; width: 61px; height: 27px; }
+.b-ball_i3 { top: 0; left: 176px; width: 29px; height: 31px; }
+.b-ball_i4 { top: 0; left: 205px; width: 50px; height: 51px; }
+.b-ball_i5 { top: 0; left: 289px; width: 78px; height: 28px; }
+.b-ball_i6 { top: 0; left: 367px; width: 6px; height: 69px; }
+
+.b-ball__i {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: 50% 0;
+    transition: all .3s ease-in-out;
+    pointer-events: none;
 }
 
-.lightrope li:nth-child(3n+1) {
-  -webkit-animation-duration: 1.4s;
-  animation-duration: 1.4s;
+.b-ball_bounce .b-ball__right {
+    position: absolute;
+    top: 0; right: 0; left: 50%; bottom: 0;
+    z-index: 9;
 }
 
-.lightrope li:before {
-  content: "";
-  position: absolute;
-  background: #222;
-  width: 10px;
-  height: 9.33333px;
-  border-radius: 3px;
-  top: -4.66667px;
-  left: 1px;
-}
-
-.lightrope li:after {
-  content: "";
-  top: -14px;
-  left: 9px;
-  position: absolute;
-  width: 52px;
-  height: 18.66667px;
-  border-bottom: solid #222 2px;
-  border-radius: 50%;
-}
-
-.lightrope li:last-child:after {
-  content: none;
-}
-
-.lightrope li:first-child {
-  margin-left: -40px;
-}
-
-@-webkit-keyframes flash-1 {
-  0%, 100% {
-    background: #FFFFFF;
-    box-shadow: 0px 4.66667px 24px 3px #FFFFFF;
-  }
-  50% {
-    background: rgba(255, 255, 255, 0.4);
-    box-shadow: 0px 4.66667px 24px 3px rgba(255, 255, 255, 0.2);
-  }
-}
-
-@keyframes flash-1 {
-  0%, 100% {
-    background: #FFFFFF;
-    box-shadow: 0px 4.66667px 24px 3px #FFFFFF;
-  }
-  50% {
-    background: rgba(255, 255, 255, 0.4);
-    box-shadow: 0px 4.66667px 24px 3px rgba(255, 255, 255, 0.2);
-  }
-}
-
-@-webkit-keyframes flash-2 {
-  0%, 100% {
-    background: #0033A0;
-    box-shadow: 0px 4.66667px 24px 3px #0033A0;
-  }
-  50% {
-    background: rgba(0, 51, 160, 0.4);
-    box-shadow: 0px 4.66667px 24px 3px rgba(0, 51, 160, 0.2);
-  }
-}
-
-@keyframes flash-2 {
-  0%, 100% {
-    background: #0033A0;
-    box-shadow: 0px 4.66667px 24px 3px #0033A0;
-  }
-  50% {
-    background: rgba(0, 51, 160, 0.4);
-    box-shadow: 0px 4.66667px 24px 3px rgba(0, 51, 160, 0.2);
-  }
-}
-
-@-webkit-keyframes flash-3 {
-  0%, 100% {
-    background: #D52B1E;
-    box-shadow: 0px 4.66667px 24px 3px #D52B1E;
-  }
-  50% {
-    background: rgba(213, 43, 30, 0.4);
-    box-shadow: 0px 4.66667px 24px 3px rgba(213, 43, 30, 0.2);
-  }
-}
-
-@keyframes flash-3 {
-  0%, 100% {
-    background: #D52B1E;
-    box-shadow: 0px 4.66667px 24px 3px #D52B1E;
-  }
-  50% {
-    background: rgba(213, 43, 30, 0.4);
-    box-shadow: 0px 4.66667px 24px 3px rgba(213, 43, 30, 0.2);
-  }
-}
+.b-ball_bounce:hover .b-ball__right { display: none; }
+.b-ball_bounce .b-ball__right:hover { left: 0; display: block !important; }
+.b-ball_bounce.bounce>.b-ball__i { transform: rotate(-9deg); }
+.b-ball_bounce .b-ball__right.bounce+.b-ball__i { transform: rotate(9deg); }
+.b-ball_bounce.bounce1>.b-ball__i { transform: rotate(6deg); }
+.b-ball_bounce .b-ball__right.bounce1+.b-ball__i { transform: rotate(-6deg); }
+.b-ball_bounce.bounce2>.b-ball__i { transform: rotate(-3deg); }
+.b-ball_bounce .b-ball__right.bounce2+.b-ball__i { transform: rotate(3deg); }
+.b-ball_bounce.bounce3>.b-ball__i { transform: rotate(1.5deg); }
+.b-ball_bounce .b-ball__right.bounce3+.b-ball__i { transform: rotate(-1.5deg); }
 
 
 /* 2. Шапка Санты для Кота (Картинка) */
