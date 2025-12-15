@@ -730,6 +730,20 @@ body.night .clouds { opacity: 0.3; }
     transform-origin: top center; /* Масштабируем от верха центра */
 }
 
+/* Media queries for garland scale */
+@media (max-width: 768px) { /* Tablets and smaller */
+    .b-page_newyear {
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 480px) { /* Mobile phones */
+    .b-page_newyear {
+        transform: scale(0.7);
+    }
+}
+
+
 .b-head-decor {
     position: relative;
     top: 0;
