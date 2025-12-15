@@ -165,13 +165,15 @@ body.night .clouds { opacity: 0.3; }
     box-shadow: inset 0 0 30px rgba(0,0,0,0.1);
     display: flex; flex-direction: column; align-items: center; justify-content: center;
     z-index: 30;
-    overflow: hidden;
-    box-sizing: border-box; /* Важно: чтобы border не увеличивал ширину */
+    overflow: visible; /* ИСПРАВЛЕНО: чтобы бант не обрезался */
+    box-sizing: border-box;
 }
 /* Текстура картона */
 .box-front::before {
     content: ''; position: absolute; width: 100%; height: 100%;
     background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.05' fill-rule='evenodd'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/svg%3E");
+    border-radius: 0 0 4px 4px; /* Чтобы текстура не вылезала */
+    overflow: hidden;
 }
 
 /* Эффект инея */
@@ -179,6 +181,8 @@ body.night .clouds { opacity: 0.3; }
     position: absolute; top: 0; left: 0; width: 100%; height: 100%;
     background: radial-gradient(circle at 50% 100%, transparent 40%, rgba(255,255,255,0.4) 90%);
     opacity: 0; pointer-events: none; transition: opacity 1s;
+    border-radius: 0 0 4px 4px; /* Чтобы иней не вылезал */
+    overflow: hidden;
 }
 .box-wrapper.frozen-box .frost-overlay { opacity: 1; }
 
@@ -190,9 +194,17 @@ body.night .clouds { opacity: 0.3; }
     font-size: 16px; letter-spacing: 1px;
     transform: rotate(-2deg);
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-    z-index: 2;
+    z-index: 40 !important; /* Поверх ленты */
 }
-.box-sub { position: relative; font-size: 11px; color: #a87b55; margin-top: 6px; font-weight: 700; z-index: 2; text-shadow: 0 1px 0 rgba(255,255,255,0.5); }
+.box-sub { 
+    position: relative; 
+    font-size: 12px; /* Чуть крупнее */
+    color: #fff; /* Белый текст */
+    margin-top: 6px; 
+    font-weight: 800; 
+    z-index: 40 !important; 
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5); /* Темная тень для читаемости */
+}
 
 .lid {
     position: absolute; top: -80px; width: 110px; height: 80px;
@@ -704,4 +716,201 @@ body.night .clouds { opacity: 0.3; }
     display: flex; align-items: center; justify-content: center;
 }
 .refresh-btn:hover { background: rgba(255,255,255,0.4); }
+
+/* --- НОВЫЙ ГОД (CHRISTMAS ADD-ONS) --- */
+
+/* 1. Гирлянда (Lightrope) */
+.lightrope {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  z-index: 100;
+  top: -20px; /* Чуть выше */
+  padding: 0;
+  pointer-events: none;
+  width: 100%;
+}
+
+.lightrope li {
+  position: relative;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 12px;
+  height: 28px;
+  border-radius: 50%;
+  margin: 20px;
+  display: inline-block;
+  background: #FFFFFF; /* Белый */
+  box-shadow: 0px 4.66667px 24px 3px #FFFFFF;
+  -webkit-animation-name: flash-1;
+  animation-name: flash-1;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.lightrope li:nth-child(2n+1) {
+  background: #0033A0; /* Синий */
+  box-shadow: 0px 4.66667px 24px 3px rgba(0, 51, 160, 0.5);
+  -webkit-animation-name: flash-2;
+  animation-name: flash-2;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+}
+
+.lightrope li:nth-child(4n+2) {
+  background: #D52B1E; /* Красный */
+  box-shadow: 0px 4.66667px 24px 3px #D52B1E;
+  -webkit-animation-name: flash-3;
+  animation-name: flash-3;
+  -webkit-animation-duration: 1.1s;
+  animation-duration: 1.1s;
+}
+
+.lightrope li:nth-child(odd) {
+  -webkit-animation-duration: 1.8s;
+  animation-duration: 1.8s;
+}
+
+.lightrope li:nth-child(3n+1) {
+  -webkit-animation-duration: 1.4s;
+  animation-duration: 1.4s;
+}
+
+.lightrope li:before {
+  content: "";
+  position: absolute;
+  background: #222;
+  width: 10px;
+  height: 9.33333px;
+  border-radius: 3px;
+  top: -4.66667px;
+  left: 1px;
+}
+
+.lightrope li:after {
+  content: "";
+  top: -14px;
+  left: 9px;
+  position: absolute;
+  width: 52px;
+  height: 18.66667px;
+  border-bottom: solid #222 2px;
+  border-radius: 50%;
+}
+
+.lightrope li:last-child:after {
+  content: none;
+}
+
+.lightrope li:first-child {
+  margin-left: -40px;
+}
+
+@-webkit-keyframes flash-1 {
+  0%, 100% {
+    background: #FFFFFF;
+    box-shadow: 0px 4.66667px 24px 3px #FFFFFF;
+  }
+  50% {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 4.66667px 24px 3px rgba(255, 255, 255, 0.2);
+  }
+}
+
+@keyframes flash-1 {
+  0%, 100% {
+    background: #FFFFFF;
+    box-shadow: 0px 4.66667px 24px 3px #FFFFFF;
+  }
+  50% {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 4.66667px 24px 3px rgba(255, 255, 255, 0.2);
+  }
+}
+
+@-webkit-keyframes flash-2 {
+  0%, 100% {
+    background: #0033A0;
+    box-shadow: 0px 4.66667px 24px 3px #0033A0;
+  }
+  50% {
+    background: rgba(0, 51, 160, 0.4);
+    box-shadow: 0px 4.66667px 24px 3px rgba(0, 51, 160, 0.2);
+  }
+}
+
+@keyframes flash-2 {
+  0%, 100% {
+    background: #0033A0;
+    box-shadow: 0px 4.66667px 24px 3px #0033A0;
+  }
+  50% {
+    background: rgba(0, 51, 160, 0.4);
+    box-shadow: 0px 4.66667px 24px 3px rgba(0, 51, 160, 0.2);
+  }
+}
+
+@-webkit-keyframes flash-3 {
+  0%, 100% {
+    background: #D52B1E;
+    box-shadow: 0px 4.66667px 24px 3px #D52B1E;
+  }
+  50% {
+    background: rgba(213, 43, 30, 0.4);
+    box-shadow: 0px 4.66667px 24px 3px rgba(213, 43, 30, 0.2);
+  }
+}
+
+@keyframes flash-3 {
+  0%, 100% {
+    background: #D52B1E;
+    box-shadow: 0px 4.66667px 24px 3px #D52B1E;
+  }
+  50% {
+    background: rgba(213, 43, 30, 0.4);
+    box-shadow: 0px 4.66667px 24px 3px rgba(213, 43, 30, 0.2);
+  }
+}
+
+
+/* 2. Шапка Санты для Кота (Картинка) */
+.santa-hat-img {
+    position: absolute;
+    top: -120px; /* Позиционирование */
+    left: 20%;
+    transform: translateX(-40%) rotate(-10deg); /* Центрирование и наклон */
+    width: 200px; /* Ширина шапки */
+    height: auto; /* Сохраняем пропорции */
+    z-index: 35; /* Поверх ушей и головы */
+    pointer-events: none;
+}
+
+/* 3. Лента на коробку (Картинка) */
+.ribbon-img {
+    position: absolute;
+    top: 0px; /* Бант чуть выше края */
+    left: -15%;
+    transform: translateX(50%);
+    width: 60px; /* Фиксированная ширина, чтобы не была огромной */
+    height: auto;
+    max-height: 100%; /* Чтобы не уходила слишком далеко вниз */
+    z-index: 35;
+    pointer-events: none;
+    filter: drop-shadow(0 2px 5px rgba(0,0,0,0.3)); /* Тень для объема */
+}
+
+/* Правка лейбла чтобы он был НАД лентой */
+.box-label {
+    z-index: 40 !important; /* Важно: поверх ленты */
+}
+.box-sub {
+    z-index: 40 !important;
+}
 
