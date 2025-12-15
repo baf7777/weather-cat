@@ -559,8 +559,6 @@ body.night .clouds { opacity: 0.3; }
 .sign-city { font-size: 10px; text-transform: uppercase; opacity: 0.9; letter-spacing: 1px; }
 .sign-feel { font-size: 10px; opacity: 0.8; font-style: italic; }
 
-@keyframes signSway { 0%, 100% { transform: translateX(-50%) rotate(2deg); } 50% { transform: translateX(-50%) rotate(-2deg); } }
-
 /* --- МЫШЬ (Meteorologist) --- */
 .mouse-wrapper {
     position: fixed;
@@ -912,5 +910,38 @@ body.night .clouds { opacity: 0.3; }
 }
 .box-sub {
     z-index: 40 !important;
+}
+
+/* 4. Дополнительные подарки */
+.gift-box {
+    position: absolute;
+    bottom: -29px; 
+    width: 300px; 
+    height: auto;
+    z-index: 15; 
+    pointer-events: auto;
+    cursor: pointer;
+    filter: drop-shadow(0 5px 10px rgba(0,0,0,0.3));
+    transition: transform 0.1s;
+}
+
+.left-gift {
+    left: -100px; 
+    right: auto;
+    transform: none; /* Без поворота */
+}
+
+.left-gift:active {
+     transform: scale(0.95); /* Только масштаб при нажатии */
+}
+
+.right-gift {
+    right: -80px; 
+    left: auto;
+    transform: none; /* Без поворота */
+}
+
+.right-gift:active {
+     transform: scale(0.95); /* Только масштаб при нажатии */
 }
 
