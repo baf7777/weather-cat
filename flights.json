@@ -139,8 +139,8 @@
     "from": "Салехард",
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "Посадка завершена",
+    "estimatedTime": "15:02",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:20",
-    "status": "По расписанию",
+    "estimatedTime": "16:22",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -319,8 +319,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "15:58",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -472,8 +472,8 @@
     "from": "Салехард",
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "Посадка завершена",
+    "estimatedTime": "15:02",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -598,8 +598,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:20",
-    "status": "По расписанию",
+    "estimatedTime": "16:22",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -652,8 +652,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "15:58",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
