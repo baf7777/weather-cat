@@ -738,7 +738,7 @@ body.night .clouds { opacity: 0.3; }
     height: 115px;
     width: 100%;
     overflow: hidden;
-    background: url(https://www.dropbox.com/s/v9lpxcfepsvin60/b-head-decor_newyear.png?dl=1) repeat-x 0 0;
+    background: url(../assets/garland/b-head-decor_newyear.png) repeat-x 0 0;
     z-index: 10;
 }
 
@@ -786,22 +786,22 @@ body.night .clouds { opacity: 0.3; }
 .b-ball_n8 { top: 0; left: 283px; width: 54px; height: 53px; }
 .b-ball_n9 { top: 10px; left: 321px; width: 49px; height: 66px; }
 
-.b-ball_n1 .b-ball__i { background: url(https://www.dropbox.com/s/6uejpodl90ozcaj/b-ball_n1.png?dl=1) no-repeat; }
-.b-ball_n2 .b-ball__i { background: url(https://www.dropbox.com/s/ygy31out3i61ry8/b-ball_n2.png?dl=1) no-repeat; }
-.b-ball_n3 .b-ball__i { background: url(https://www.dropbox.com/s/uaffezwbvb4yuhd/b-ball_n3.png?dl=1) no-repeat; }
-.b-ball_n4 .b-ball__i { background: url(https://www.dropbox.com/s/j8q7itkqekxwt65/b-ball_n4.png?dl=1) no-repeat; }
-.b-ball_n5 .b-ball__i { background: url(https://www.dropbox.com/s/8d7jo6a8b7ngfcq/b-ball_n5.png?dl=1) no-repeat; }
-.b-ball_n6 .b-ball__i { background: url(https://www.dropbox.com/s/x9uqu3fe5cma2ra/b-ball_n6.png?dl=1) no-repeat; }
-.b-ball_n7 .b-ball__i { background: url(https://www.dropbox.com/s/vn9n8rsl3rfm5kx/b-ball_n7.png?dl=1) no-repeat; }
-.b-ball_n8 .b-ball__i { background: url(https://www.dropbox.com/s/kbba0lcmcbxjb6p/b-ball_n8.png?dl=1) no-repeat; }
-.b-ball_n9 .b-ball__i { background: url(https://www.dropbox.com/s/buok8jqo2plg1kh/b-ball_n9.png?dl=1) no-repeat; }
+.b-ball_n1 .b-ball__i { background: url(../assets/garland/b-ball_n1.png) no-repeat; }
+.b-ball_n2 .b-ball__i { background: url(../assets/garland/b-ball_n2.png) no-repeat; }
+.b-ball_n3 .b-ball__i { background: url(../assets/garland/b-ball_n3.png) no-repeat; }
+.b-ball_n4 .b-ball__i { background: url(../assets/garland/b-ball_n4.png) no-repeat; }
+.b-ball_n5 .b-ball__i { background: url(../assets/garland/b-ball_n5.png) no-repeat; }
+.b-ball_n6 .b-ball__i { background: url(../assets/garland/b-ball_n6.png) no-repeat; }
+.b-ball_n7 .b-ball__i { background: url(../assets/garland/b-ball_n7.png) no-repeat; }
+.b-ball_n8 .b-ball__i { background: url(../assets/garland/b-ball_n8.png) no-repeat; }
+.b-ball_n9 .b-ball__i { background: url(../assets/garland/b-ball_n9.png) no-repeat; }
 
-.b-ball_i1 .b-ball__i { background: url(https://www.dropbox.com/s/ao4okf3y6xl6zfu/b-ball_i1.png?dl=1) no-repeat; }
-.b-ball_i2 .b-ball__i { background: url(https://www.dropbox.com/s/o0c0co1gxur78pu/b-ball_i2.png?dl=1) no-repeat; }
-.b-ball_i3 .b-ball__i { background: url(https://www.dropbox.com/s/hs4frdr0g1sk8qy/b-ball_i3.png?dl=1) no-repeat; }
-.b-ball_i4 .b-ball__i { background: url(https://www.dropbox.com/s/by8955xypx3rwkx/b-ball_i4.png?dl=1) no-repeat; }
-.b-ball_i5 .b-ball__i { background: url(https://www.dropbox.com/s/lwub7a629rbdsgf/b-ball_i5.png?dl=1) no-repeat; }
-.b-ball_i6 .b-ball__i { background: url(https://www.dropbox.com/s/3d0vxlzgutik2xn/b-ball_i6.png?dl=1) no-repeat; }
+.b-ball_i1 .b-ball__i { background: url(../assets/garland/b-ball_i1.png) no-repeat; }
+.b-ball_i2 .b-ball__i { background: url(../assets/garland/b-ball_i2.png) no-repeat; }
+.b-ball_i3 .b-ball__i { background: url(../assets/garland/b-ball_i3.png) no-repeat; }
+.b-ball_i4 .b-ball__i { background: url(../assets/garland/b-ball_i4.png) no-repeat; }
+.b-ball_i5 .b-ball__i { background: url(../assets/garland/b-ball_i5.png) no-repeat; }
+.b-ball_i6 .b-ball__i { background: url(../assets/garland/b-ball_i6.png) no-repeat; }
 
 .b-ball_i1 { top: 0; left: 0; width: 25px; height: 71px; }
 .b-ball_i2 { top: 0; left: 25px; width: 61px; height: 27px; }
