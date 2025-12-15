@@ -122,7 +122,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "12:20",
     "estimatedTime": "12:20",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -455,7 +455,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "12:20",
     "estimatedTime": "12:20",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
