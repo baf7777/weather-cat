@@ -177,7 +177,10 @@ window.PlaneSystem = {
             this.canvas.height = window.innerHeight * dpr;
             this.canvas.style.width = window.innerWidth + 'px';
             this.canvas.style.height = window.innerHeight + 'px';
-            if (this.ctx) this.ctx.scale(dpr, dpr);
+            
+            // Используем setTransform вместо scale, чтобы сбросить предыдущую матрицу
+            // Иначе при каждом ресайзе масштаб будет умножаться (1.5 * 1.5 * ...)
+            if (this.ctx) this.ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
         }
     },
 
@@ -361,14 +364,31 @@ window.PlaneSystem = {
                 }
 
                 if (time - p.lastTrailTime > 30) {
-                    const cx = p.x + 12;
+                    const cx = p.x + 12; // Центр самолета (24x24)
                     const cy = p.y + 12;
-                    const tailOffset = 10;
-                    const tailX = cx - Math.cos(p.angleRad) * tailOffset;
-                    const tailY = cy - Math.sin(p.angleRad) * tailOffset;
+                    
+                    // Смещение хвоста назад по курсу движения
+                    // Уменьшаем до 5, чтобы след начинался прямо от корпуса
+                    const tailOffset = 0; 
+                    let tailX = cx - Math.cos(p.angleRad) * tailOffset;
+                    let tailY = cy - Math.sin(p.angleRad) * tailOffset;
 
-                    p.trail.push({ x: tailX - p.offX, y: tailY - p.offY, r: 0.3, alpha: 0.3 });
-                    p.trail.push({ x: tailX + p.offX, y: tailY + p.offY, r: 0.3, alpha: 0.3 });
+                    // Корректировка: сдвигаем весь пучок следов перпендикулярно курсу.
+                    // Логика "Always Down": если летим вправо, сдвиг +, если влево, сдвиг -.
+                    // Это визуально опускает след вниз к хвосту в обоих случаях.
+                    const correctionShift = (p.dx > 0) ? 3.1 : -5.5; 
+                    const perpAngleForCorrection = p.angleRad + Math.PI / 2; 
+                    tailX += Math.cos(perpAngleForCorrection) * correctionShift;
+                    tailY += Math.sin(perpAngleForCorrection) * correctionShift;
+
+                    // Смещение двигателей. Обнуляем, чтобы был один центральный след
+                    const perpAngleForSpread = p.angleRad + Math.PI / 2;
+                    const wingSpread = 0; 
+                    const wx = Math.cos(perpAngleForSpread) * wingSpread;
+                    const wy = Math.sin(perpAngleForSpread) * wingSpread;
+
+                    p.trail.push({ x: tailX - wx, y: tailY - wy, r: 0.5, alpha: 0.3 });
+                    p.trail.push({ x: tailX + wx, y: tailY + wy, r: 0.5, alpha: 0.3 });
                     
                     p.lastTrailTime = time;
                 }
