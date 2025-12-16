@@ -85,7 +85,7 @@ window.PlaneSystem = {
         btn.style.top = '20px';
         btn.style.right = 'auto'; 
         
-        btn.innerHTML = `<img src="assets/icons8-вертолет-50.png" alt="Helicopter" style="width: 32px; height: 32px; object-fit: contain;">`;
+        btn.innerHTML = `<img src="assets/icons8-вертолет-50.webp" alt="Helicopter" style="width: 32px; height: 32px; object-fit: contain;">`;
         document.body.appendChild(btn);
         document.body.appendChild(btn);
 

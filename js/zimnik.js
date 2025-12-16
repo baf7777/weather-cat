@@ -36,7 +36,7 @@ window.ZimnikSystem = {
         btn.style.right = 'auto';
 
         // Icon: Road Image
-        btn.innerHTML = `<img src="assets/road.png" alt="Zimnik" style="width: 42px; height: 42px; object-fit: contain; filter: brightness(0.15) contrast(1.5);">`;
+        btn.innerHTML = `<img src="assets/road.webp" alt="Zimnik" style="width: 42px; height: 42px; object-fit: contain; filter: brightness(0.15) contrast(1.5);">`;
         
         document.body.appendChild(btn);
 

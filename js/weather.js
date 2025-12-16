@@ -105,10 +105,20 @@ function createSnow(windSpeed) {
     for (let i = 0; i < count; i++) {
         const f = document.createElement('div');
         f.className = 'snowflake';
-        f.style.left = Math.random() * 100 + '%';
+        
+        // Расширяем область появления, чтобы при ветре не было пустых зон
+        // Смещаем влево, так как ветер дует вправо (положительный X)
+        f.style.left = (Math.random() * 150 - 50) + '%';
+        
         f.style.width = Math.random() * 5 + 2 + 'px';
         f.style.height = f.style.width;
         f.style.opacity = Math.random();
+        
+        // Ветер: 1 м/с ~= 3vw смещения. 
+        // Добавляем немного рандома для каждой снежинки
+        const windOffset = (windSpeed * 3) + (Math.random() * 5); 
+        f.style.setProperty('--wind-x', windOffset + 'vw');
+
         // Скорость падения зависит от размера, наклон от ветра
         const duration = Math.random() * 3 + 2;
         f.style.animationDuration = duration + 's';

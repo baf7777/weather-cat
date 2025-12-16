@@ -121,7 +121,7 @@ class HeliSystem {
                 <g id="heli-group">
                     <!-- Группируем части корпуса для затемнения (без огней) -->
                     <g class="heli-body-parts">
-                        <image href="assets/heli.png" x="0" y="0" width="3240" height="1080" />
+                        <image href="assets/heli.webp" x="0" y="0" width="3240" height="1080" />
                         
                         <!-- Основной винт -->
                         <g id="heli-main-rotor">
