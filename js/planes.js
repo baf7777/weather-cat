@@ -364,31 +364,42 @@ window.PlaneSystem = {
                 }
 
                 if (time - p.lastTrailTime > 30) {
-                    const cx = p.x + 12; // Центр самолета (24x24)
-                    const cy = p.y + 12;
+                    // Dynamically calculate plane size and center
+                    // CSS defines size as 2.4rem. We need to know what that is in pixels.
+                    // Instead of querying DOM offsetWidth (slow), we use the root font-size.
+                    const remInPx = parseFloat(getComputedStyle(document.documentElement).fontSize);
+                    const planeSize = 2.4 * remInPx; 
+                    const radius = planeSize / 2;
+
+                    const cx = p.x + radius; 
+                    const cy = p.y + radius;
                     
-                    // Смещение хвоста назад по курсу движения
-                    // Уменьшаем до 5, чтобы след начинался прямо от корпуса
-                    const tailOffset = 0; 
+                    // Смещение хвоста назад. 
+                    // Увеличиваем до 1.3 радиуса, чтобы точка спавна гарантированно была ЗА крыльями,
+                    // ближе к реальному хвосту (или чуть позади него).
+                    const tailOffset = radius * 1.3; 
                     let tailX = cx - Math.cos(p.angleRad) * tailOffset;
                     let tailY = cy - Math.sin(p.angleRad) * tailOffset;
 
-                    // Корректировка: сдвигаем весь пучок следов перпендикулярно курсу.
-                    // Логика "Always Down": если летим вправо, сдвиг +, если влево, сдвиг -.
-                    // Это визуально опускает след вниз к хвосту в обоих случаях.
-                    const correctionShift = (p.dx > 0) ? 3.1 : -5.5; 
+                    // Корректировка перпендикулярно.
+                    // Уменьшаем коэффициенты, так как 0.1 (10%) оказалось многовато.
+                    // Пробуем 5% от радиуса.
+                    const shiftFactor = (p.dx > 0) ? 0.05 : -0.05;
+                    const correctionShift = radius * shiftFactor;
+                    
                     const perpAngleForCorrection = p.angleRad + Math.PI / 2; 
                     tailX += Math.cos(perpAngleForCorrection) * correctionShift;
                     tailY += Math.sin(perpAngleForCorrection) * correctionShift;
 
-                    // Смещение двигателей. Обнуляем, чтобы был один центральный след
+                    // Смещение двигателей (ширина следа). 
+                    // Делаем узким (5% от радиуса)
+                    const wingSpread = radius * 0.15; 
                     const perpAngleForSpread = p.angleRad + Math.PI / 2;
-                    const wingSpread = 0; 
                     const wx = Math.cos(perpAngleForSpread) * wingSpread;
                     const wy = Math.sin(perpAngleForSpread) * wingSpread;
 
-                    p.trail.push({ x: tailX - wx, y: tailY - wy, r: 0.5, alpha: 0.3 });
-                    p.trail.push({ x: tailX + wx, y: tailY + wy, r: 0.5, alpha: 0.3 });
+                    p.trail.push({ x: tailX - wx, y: tailY - wy, r: radius * 0.04, alpha: 0.3 }); // Радиус частицы тоже динамический
+                    p.trail.push({ x: tailX + wx, y: tailY + wy, r: radius * 0.04, alpha: 0.3 });
                     
                     p.lastTrailTime = time;
                 }
