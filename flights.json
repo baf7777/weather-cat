@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:07",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -112,8 +112,8 @@
     "from": "Салехард",
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:07",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -121,8 +121,8 @@
     "from": "Салехард",
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
-    "estimatedTime": "16:50",
-    "status": "Регистрация",
+    "estimatedTime": "17:20",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -265,7 +265,7 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:31",
+    "estimatedTime": "16:30",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -292,7 +292,7 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "16:43",
+    "estimatedTime": "16:54",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -400,8 +400,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:07",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -409,8 +409,8 @@
     "from": "Салехард",
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:07",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -418,8 +418,8 @@
     "from": "Салехард",
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
-    "estimatedTime": "16:50",
-    "status": "Регистрация",
+    "estimatedTime": "17:20",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -562,7 +562,7 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:31",
+    "estimatedTime": "16:30",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -589,7 +589,7 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "16:43",
+    "estimatedTime": "16:54",
     "status": "Ожидается",
     "type": "arrival"
   }
