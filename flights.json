@@ -86,7 +86,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:18",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -383,7 +383,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -562,8 +562,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:18",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
