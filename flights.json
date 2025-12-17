@@ -86,11 +86,11 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
-    "number": "ЛЛМ 23",
+    "number": "ЛА 23",
     "from": "Салехард",
     "to": "Новый Уренгой",
     "scheduledTime": "14:10",
@@ -175,8 +175,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:54",
-    "status": "Ожидается",
+    "estimatedTime": "12:52",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "12:55",
-    "estimatedTime": "12:52",
-    "status": "Ожидается",
+    "estimatedTime": "12:58",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -193,8 +193,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -211,8 +211,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -288,7 +288,7 @@
     "type": "departure"
   },
   {
-    "number": "ЛЛМ 24",
+    "number": "ЛА 24",
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "17:00",
@@ -383,11 +383,11 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
-    "number": "ЛЛМ 23",
+    "number": "ЛА 23",
     "from": "Салехард",
     "to": "Новый Уренгой",
     "scheduledTime": "14:10",
@@ -472,8 +472,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:54",
-    "status": "Ожидается",
+    "estimatedTime": "12:52",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -481,8 +481,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "12:55",
-    "estimatedTime": "12:52",
-    "status": "Ожидается",
+    "estimatedTime": "12:58",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -490,8 +490,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -499,8 +499,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -508,8 +508,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -585,7 +585,7 @@
     "type": "arrival"
   },
   {
-    "number": "ЛЛМ 24",
+    "number": "ЛА 24",
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "17:00",
