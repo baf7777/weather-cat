@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Новосибирск",
     "scheduledTime": "08:30",
-    "estimatedTime": "09:30",
-    "status": "Посадка завершена",
+    "estimatedTime": "09:00",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -14,7 +14,7 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -23,7 +23,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -32,7 +32,7 @@
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -68,7 +68,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -104,7 +104,7 @@
     "to": "Омск",
     "scheduledTime": "10:50",
     "estimatedTime": "10:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -130,8 +130,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:45",
-    "estimatedTime": "08:24",
-    "status": "Задерживается",
+    "estimatedTime": "08:28",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -139,8 +139,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "09:00",
-    "status": "Задерживается",
+    "estimatedTime": "09:02",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -148,8 +148,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:47",
-    "status": "Ожидается",
+    "estimatedTime": "10:15",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -256,8 +256,8 @@
     "from": "Салехард",
     "to": "Новосибирск",
     "scheduledTime": "08:30",
-    "estimatedTime": "09:30",
-    "status": "Посадка завершена",
+    "estimatedTime": "09:00",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -266,7 +266,7 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -275,7 +275,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -284,7 +284,7 @@
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -320,7 +320,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -356,7 +356,7 @@
     "to": "Омск",
     "scheduledTime": "10:50",
     "estimatedTime": "10:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -382,8 +382,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:45",
-    "estimatedTime": "08:24",
-    "status": "Задерживается",
+    "estimatedTime": "08:28",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -391,8 +391,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "09:00",
-    "status": "Задерживается",
+    "estimatedTime": "09:02",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -400,8 +400,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:47",
-    "status": "Ожидается",
+    "estimatedTime": "10:15",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
