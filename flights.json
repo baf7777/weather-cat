@@ -85,8 +85,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -94,8 +94,8 @@
     "from": "Салехард",
     "to": "Овгорт",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -104,7 +104,7 @@
     "to": "Омск",
     "scheduledTime": "10:50",
     "estimatedTime": "10:50",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -158,7 +158,7 @@
     "to": "Салехард",
     "scheduledTime": "11:00",
     "estimatedTime": "11:29",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:18",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -337,8 +337,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -346,8 +346,8 @@
     "from": "Салехард",
     "to": "Овгорт",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -356,7 +356,7 @@
     "to": "Омск",
     "scheduledTime": "10:50",
     "estimatedTime": "10:50",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -410,7 +410,7 @@
     "to": "Салехард",
     "scheduledTime": "11:00",
     "estimatedTime": "11:29",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -499,8 +499,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:18",
+    "status": "Ожидается",
     "type": "arrival"
   }
 ]
