@@ -23,22 +23,22 @@ window.ZimnikSystem = {
     },
 
     createUI() {
+        // Контейнер для кнопок слева
+        const container = document.querySelector('.controls-left');
+
         // 1. Create Button
         const btn = document.createElement('div');
         btn.className = 'schedule-btn'; // Reuse same style
         btn.title = "Зимники Ямала";
         
-        // Position it: The Helicopter is at left: 160px.
-        // Button width 44px + gap 16px = 60px step.
-        // 160 + 60 = 220px.
-        btn.style.left = '220px';
-        btn.style.top = '20px';
-        btn.style.right = 'auto';
-
         // Icon: Road Image
-        btn.innerHTML = `<img src="assets/road.webp" alt="Zimnik" style="width: 42px; height: 42px; object-fit: contain; filter: brightness(0.15) contrast(1.5);">`;
+        btn.innerHTML = `<img src="assets/road.webp" alt="Zimnik" style="width: 3.2rem; height: 3.2rem; object-fit: contain; filter: brightness(0.15) contrast(1.5);">`;
         
-        document.body.appendChild(btn);
+        if (container) {
+            container.appendChild(btn);
+        } else {
+            document.body.appendChild(btn);
+        }
 
         // 2. Create Board (Modal)
         const board = document.createElement('div');

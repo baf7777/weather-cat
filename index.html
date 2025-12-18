@@ -159,7 +159,7 @@
                 <div class="box-front">
                     <img src="assets/lenta.webp" class="ribbon-img" alt="Ribbon">
                     <div class="frost-overlay"></div>
-                    <div class="box-label" style="font-size: 13px;">С НОВЫМ ГОДОМ!</div>
+                    <div class="box-label">С НОВЫМ ГОДОМ!</div>
                     <div class="box-sub">2026</div>
                 </div>
             </div>
@@ -208,8 +208,11 @@
         <div class="mouse-nose"></div>
     </div>
 
+    <div class="controls-left">
+        <div class="refresh-btn" onclick="fetchWeather()">↻ Обновить</div>
+    </div>
+
     <div class="loader" id="loader">Связь со спутником...<br><span style="font-size:10px; opacity:0.7">Yamal Region</span></div>
-    <div class="refresh-btn" onclick="fetchWeather()">↻ Обновить</div>
 
     <!-- Подключение модулей JavaScript -->
     <script src="js/config.js"></script>

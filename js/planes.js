@@ -75,19 +75,21 @@ window.PlaneSystem = {
     },
 
     createScheduleUI() {
+        // Контейнер для кнопок слева
+        const container = document.querySelector('.controls-left');
+        
         // Кнопка
         const btn = document.createElement('div');
         btn.className = 'schedule-btn';
         btn.title = "Расписание рейсов";
-        // Позиционирование: кнопка Обновить (~130px) -> Отступ -> Вертолет -> Отступ -> Зимник
-        // Refresh (left: 20px) + width (~120px) + gap (20px) -> 160px
-        btn.style.left = '160px'; 
-        btn.style.top = '20px';
-        btn.style.right = 'auto'; 
         
-        btn.innerHTML = `<img src="assets/icons8-вертолет-50.webp" alt="Helicopter" style="width: 32px; height: 32px; object-fit: contain;">`;
-        document.body.appendChild(btn);
-        document.body.appendChild(btn);
+        btn.innerHTML = `<img src="assets/icons8-вертолет-50.webp" alt="Helicopter" style="width: 2.5rem; height: 2.5rem; object-fit: contain;">`;
+        
+        if (container) {
+            container.appendChild(btn);
+        } else {
+            document.body.appendChild(btn);
+        }
 
         // Фильтр для Ямальского района
         const YAMAL_DISTRICT_LOCATIONS = [

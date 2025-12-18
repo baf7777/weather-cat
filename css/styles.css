@@ -4,22 +4,25 @@
 html {
     /* 
        Base: 10px = 1rem.
-       We want the stage (approx 30rem wide) to fit the screen.
-       Mobile: 30rem should be ~90vw. => 1rem = 3vw.
-       Desktop: 30rem should be ~40vh. => 1rem = 1.33vh.
+       We use clamp to ensure font-size stays within reasonable limits.
+       Minimum 8px, preferred 1.5vmin, maximum 12px for desktop.
     */
-    font-size: 3vmin; 
+    font-size: 2.5vmin; 
 }
 
 @media (min-width: 768px) {
     html {
-        font-size: 1.5vmin;
+        font-size: clamp(10px, 1.2vmin, 14px);
+    }
+    .stage {
+        transform: scale(1.2); /* Увеличиваем кота и коробку на 20% на ПК */
+        transform-origin: bottom center;
     }
 }
 
 @media (min-aspect-ratio: 16/9) {
     html {
-        font-size: 2.2vh; 
+        font-size: clamp(10px, 1.4vh, 16px);
     }
 }
 
@@ -316,16 +319,18 @@ body.night .clouds { opacity: 0.3; }
 
 /* --- ТАБЛО РЕЙСОВ --- */
 .schedule-btn {
-    position: absolute; top: 2rem; right: 2rem;
     background: rgba(255,255,255,0.2); color: #fff;
     border: 1px solid rgba(255,255,255,0.4);
-    width: 4.4rem; height: 4.4rem;
-    border-radius: 50%;
+    width: 4rem; height: 4rem;
+    border-radius: 0.8rem;
     cursor: pointer; z-index: 200;
     display: flex; align-items: center; justify-content: center;
-    transition: background 0.2s, transform 0.2s;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(5px);
+    flex-shrink: 0;
 }
-.schedule-btn:hover { background: rgba(255,255,255,0.4);  }
+.schedule-btn:hover { background: rgba(255,255,255,0.4); transform: translateY(-2px); }
+.schedule-btn:active { transform: translateY(0) scale(0.95); }
 
 
 .schedule-board {
@@ -712,6 +717,31 @@ body.night .clouds { opacity: 0.3; }
 .mouse-wrapper.frozen .mouse-ear { background: #b0c4de; }
 
 /* --- UI ЭЛЕМЕНТЫ --- */
+.controls-left {
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    display: flex;
+    gap: 1.2rem; /* Одинаковое расстояние между кнопками */
+    align-items: center;
+    z-index: 200;
+}
+
+.refresh-btn {
+    background: rgba(255,255,255,0.2); color: #fff;
+    border: 1px solid rgba(255,255,255,0.4);
+    padding: 1rem 1.6rem; border-radius: 0.8rem;
+    cursor: pointer; font-size: 1.3rem;
+    transition: all 0.2s ease;
+    min-width: 4rem; min-height: 4rem;
+    display: flex; align-items: center; justify-content: center;
+    backdrop-filter: blur(5px);
+    white-space: nowrap;
+}
+
+.refresh-btn:hover { background: rgba(255,255,255,0.4); transform: translateY(-2px); }
+.refresh-btn:active { transform: translateY(0) scale(0.95); }
+
 .loader {
     position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%);
     color: #fff; font-weight: bold; background: rgba(0,0,0,0.6);
@@ -726,18 +756,6 @@ body.night .clouds { opacity: 0.3; }
     .loader { font-size: 1.4rem; padding: 1rem 2rem; }
 }
 .loader.show { opacity: 1; }
-
-.refresh-btn {
-    position: absolute; top: 2rem; left: 2rem;
-    background: rgba(255,255,255,0.2); color: #fff;
-    border: 1px solid rgba(255,255,255,0.4);
-    padding: 1.2rem 1.6rem; border-radius: 0.8rem; /* Larger padding for touch */
-    cursor: pointer; z-index: 200; font-size: 1.4rem; /* Larger font */
-    transition: background 0.2s;
-    min-width: 4.4rem; min-height: 4.4rem; /* Minimum touch target size */
-    display: flex; align-items: center; justify-content: center;
-}
-.refresh-btn:hover { background: rgba(255,255,255,0.4); }
 
 /* --- НОВЫЙ ГОД (CHRISTMAS ADD-ONS) --- */
 
@@ -916,33 +934,29 @@ body.night .clouds { opacity: 0.3; }
 /* 4. Дополнительные подарки */
 .gift-box {
     position: absolute;
-    bottom: -2.9rem; 
-    width: 30rem; 
+    bottom: 1.5rem; 
+    width: 20rem; /* Оптимальный размер для ПК и мобилок */
     height: auto;
     z-index: 15; 
     pointer-events: auto;
     cursor: pointer;
     filter: drop-shadow(0 0.5rem 1rem rgba(0,0,0,0.3));
-    transition: transform 0.1s;
+    transition: all 0.3s ease;
 }
 
 .left-gift {
-    left: -10rem; 
+    left: -12rem; 
     right: auto;
-    transform: none; /* Без поворота */
-}
-
-.left-gift:active {
-      /* Только масштаб при нажатии */
+    transform: rotate(-5deg);
 }
 
 .right-gift {
-    right: -8rem; 
+    right: -10rem; 
     left: auto;
-    transform: none; /* Без поворота */
+    transform: rotate(5deg);
 }
 
-.right-gift:active {
-      /* Только масштаб при нажатии */
+.gift-box:hover {
+    transform: translateY(-5px) scale(1.05);
 }
 
