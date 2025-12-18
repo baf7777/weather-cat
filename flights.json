@@ -112,8 +112,8 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:00",
-    "estimatedTime": "12:00",
-    "status": "Посадка завершена",
+    "estimatedTime": "12:26",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -364,8 +364,8 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:00",
-    "estimatedTime": "12:00",
-    "status": "Посадка завершена",
+    "estimatedTime": "12:26",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
