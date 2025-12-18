@@ -122,7 +122,7 @@
     "to": "Тюмень",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -184,26 +184,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 69Д",
-    "from": "Мыс Каменный",
-    "to": "Салехард",
-    "scheduledTime": "14:40",
-    "estimatedTime": "14:40",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 69Д",
-    "from": "Яр-Сале",
-    "to": "Салехард",
-    "scheduledTime": "14:40",
-    "estimatedTime": "14:40",
-    "status": "По расписанию",
+    "estimatedTime": "15:54",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -211,12 +193,39 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:42",
+    "estimatedTime": "15:33",
+    "status": "Рейс прибыл",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 69",
+    "from": "Мыс Каменный",
+    "to": "Салехард",
+    "scheduledTime": "16:20",
+    "estimatedTime": "16:54",
     "status": "Ожидается",
     "type": "departure"
   },
   {
     "number": "ЯЛ 69",
+    "from": "Сеяха",
+    "to": "Салехард",
+    "scheduledTime": "16:20",
+    "estimatedTime": "16:54",
+    "status": "Ожидается",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 69",
+    "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "16:20",
+    "estimatedTime": "16:54",
+    "status": "Ожидается",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 69Д",
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "16:20",
@@ -225,7 +234,7 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 69",
+    "number": "ЯЛ 69Д",
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "16:20",
@@ -234,7 +243,7 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 69",
+    "number": "ЯЛ 69Д",
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "16:20",
@@ -374,7 +383,7 @@
     "to": "Тюмень",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -436,26 +445,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 69Д",
-    "from": "Мыс Каменный",
-    "to": "Салехард",
-    "scheduledTime": "14:40",
-    "estimatedTime": "14:40",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 69Д",
-    "from": "Яр-Сале",
-    "to": "Салехард",
-    "scheduledTime": "14:40",
-    "estimatedTime": "14:40",
-    "status": "По расписанию",
+    "estimatedTime": "15:54",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -463,12 +454,39 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:42",
+    "estimatedTime": "15:33",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 69",
+    "from": "Мыс Каменный",
+    "to": "Салехард",
+    "scheduledTime": "16:20",
+    "estimatedTime": "16:54",
     "status": "Ожидается",
     "type": "arrival"
   },
   {
     "number": "ЯЛ 69",
+    "from": "Сеяха",
+    "to": "Салехард",
+    "scheduledTime": "16:20",
+    "estimatedTime": "16:54",
+    "status": "Ожидается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 69",
+    "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "16:20",
+    "estimatedTime": "16:54",
+    "status": "Ожидается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 69Д",
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "16:20",
@@ -477,7 +495,7 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 69",
+    "number": "ЯЛ 69Д",
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "16:20",
@@ -486,7 +504,7 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 69",
+    "number": "ЯЛ 69Д",
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "16:20",
