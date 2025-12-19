@@ -184,7 +184,7 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "13:05",
+    "estimatedTime": "13:02",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -193,7 +193,7 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "13:01",
+    "estimatedTime": "12:58",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -234,20 +234,11 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 37",
-    "from": "Мыс Каменный",
-    "to": "Салехард",
-    "scheduledTime": "13:50",
-    "estimatedTime": "13:50",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
     "number": "ЯЛ 11",
     "from": "Яр-Сале",
     "to": "Салехард",
-    "scheduledTime": "14:45",
-    "estimatedTime": "14:45",
+    "scheduledTime": "13:20",
+    "estimatedTime": "13:20",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -255,8 +246,8 @@
     "number": "ЯЛ 11",
     "from": "Салемал",
     "to": "Салехард",
-    "scheduledTime": "14:45",
-    "estimatedTime": "14:45",
+    "scheduledTime": "13:20",
+    "estimatedTime": "13:20",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -264,8 +255,8 @@
     "number": "ЯЛ 11",
     "from": "Панаевск",
     "to": "Салехард",
-    "scheduledTime": "14:45",
-    "estimatedTime": "14:45",
+    "scheduledTime": "13:20",
+    "estimatedTime": "13:20",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -273,8 +264,17 @@
     "number": "ЯЛ 11",
     "from": "Кутопьеган",
     "to": "Салехард",
-    "scheduledTime": "14:45",
-    "estimatedTime": "14:45",
+    "scheduledTime": "13:20",
+    "estimatedTime": "13:20",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 37",
+    "from": "Мыс Каменный",
+    "to": "Салехард",
+    "scheduledTime": "13:50",
+    "estimatedTime": "13:50",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -499,7 +499,7 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "13:05",
+    "estimatedTime": "13:02",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -508,7 +508,7 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "13:01",
+    "estimatedTime": "12:58",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -549,20 +549,11 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 37",
-    "from": "Мыс Каменный",
-    "to": "Салехард",
-    "scheduledTime": "13:50",
-    "estimatedTime": "13:50",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
     "number": "ЯЛ 11",
     "from": "Яр-Сале",
     "to": "Салехард",
-    "scheduledTime": "14:45",
-    "estimatedTime": "14:45",
+    "scheduledTime": "13:20",
+    "estimatedTime": "13:20",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -570,8 +561,8 @@
     "number": "ЯЛ 11",
     "from": "Салемал",
     "to": "Салехард",
-    "scheduledTime": "14:45",
-    "estimatedTime": "14:45",
+    "scheduledTime": "13:20",
+    "estimatedTime": "13:20",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -579,8 +570,8 @@
     "number": "ЯЛ 11",
     "from": "Панаевск",
     "to": "Салехард",
-    "scheduledTime": "14:45",
-    "estimatedTime": "14:45",
+    "scheduledTime": "13:20",
+    "estimatedTime": "13:20",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -588,8 +579,17 @@
     "number": "ЯЛ 11",
     "from": "Кутопьеган",
     "to": "Салехард",
-    "scheduledTime": "14:45",
-    "estimatedTime": "14:45",
+    "scheduledTime": "13:20",
+    "estimatedTime": "13:20",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 37",
+    "from": "Мыс Каменный",
+    "to": "Салехард",
+    "scheduledTime": "13:50",
+    "estimatedTime": "13:50",
     "status": "По расписанию",
     "type": "arrival"
   },
