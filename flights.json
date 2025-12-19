@@ -130,8 +130,8 @@
     "from": "Салехард",
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
-    "estimatedTime": "16:50",
-    "status": "Регистрация",
+    "estimatedTime": "17:40",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -445,8 +445,8 @@
     "from": "Салехард",
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
-    "estimatedTime": "16:50",
-    "status": "Регистрация",
+    "estimatedTime": "17:40",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
