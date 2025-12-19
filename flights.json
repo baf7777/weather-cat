@@ -162,7 +162,7 @@
     "type": "departure"
   },
   {
-    "number": "132",
+    "number": "ЛА 132",
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
@@ -333,7 +333,7 @@
     "type": "arrival"
   },
   {
-    "number": "132",
+    "number": "ЛА 132",
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
