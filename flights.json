@@ -274,8 +274,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "14:30",
-    "estimatedTime": "14:30",
-    "status": "По расписанию",
+    "estimatedTime": "14:33",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -589,8 +589,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "14:30",
-    "estimatedTime": "14:30",
-    "status": "По расписанию",
+    "estimatedTime": "14:33",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
