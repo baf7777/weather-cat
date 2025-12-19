@@ -130,7 +130,7 @@
     "from": "Салехард",
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
-    "estimatedTime": "18:50",
+    "estimatedTime": "19:20",
     "status": "Посадка завершена",
     "type": "departure"
   },
@@ -157,8 +157,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "Посадка завершена",
+    "estimatedTime": "19:05",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -445,7 +445,7 @@
     "from": "Салехард",
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
-    "estimatedTime": "18:50",
+    "estimatedTime": "19:20",
     "status": "Посадка завершена",
     "type": "arrival"
   },
@@ -472,8 +472,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "Посадка завершена",
+    "estimatedTime": "19:05",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
