@@ -121,8 +121,8 @@
     "from": "Салехард",
     "to": "Новый Уренгой",
     "scheduledTime": "13:30",
-    "estimatedTime": "13:30",
-    "status": "Посадка завершена",
+    "estimatedTime": "14:04",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -436,8 +436,8 @@
     "from": "Салехард",
     "to": "Новый Уренгой",
     "scheduledTime": "13:30",
-    "estimatedTime": "13:30",
-    "status": "Посадка завершена",
+    "estimatedTime": "14:04",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
