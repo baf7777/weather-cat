@@ -273,8 +273,8 @@
     "number": "ЯЛ 37",
     "from": "Мыс Каменный",
     "to": "Салехард",
-    "scheduledTime": "13:50",
-    "estimatedTime": "13:50",
+    "scheduledTime": "14:30",
+    "estimatedTime": "14:30",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -292,7 +292,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:25",
+    "estimatedTime": "16:31",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -588,8 +588,8 @@
     "number": "ЯЛ 37",
     "from": "Мыс Каменный",
     "to": "Салехард",
-    "scheduledTime": "13:50",
-    "estimatedTime": "13:50",
+    "scheduledTime": "14:30",
+    "estimatedTime": "14:30",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -607,7 +607,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:25",
+    "estimatedTime": "16:31",
     "status": "Ожидается",
     "type": "arrival"
   },
