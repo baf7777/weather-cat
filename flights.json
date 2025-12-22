@@ -131,7 +131,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
     "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "13:11",
-    "status": "Ожидается",
+    "estimatedTime": "13:14",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -193,7 +193,7 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:24",
+    "estimatedTime": "13:31",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -202,7 +202,7 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:24",
+    "estimatedTime": "13:31",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -211,7 +211,7 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "14:00",
-    "estimatedTime": "13:46",
+    "estimatedTime": "13:45",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -301,8 +301,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:50",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -446,7 +446,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
     "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -499,8 +499,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "13:11",
-    "status": "Ожидается",
+    "estimatedTime": "13:14",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -508,7 +508,7 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:24",
+    "estimatedTime": "13:31",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -517,7 +517,7 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:24",
+    "estimatedTime": "13:31",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -526,7 +526,7 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "14:00",
-    "estimatedTime": "13:46",
+    "estimatedTime": "13:45",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -616,8 +616,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:50",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
