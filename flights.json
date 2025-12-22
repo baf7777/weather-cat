@@ -67,7 +67,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
+    "estimatedTime": "09:20",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -76,7 +76,7 @@
     "from": "Салехард",
     "to": "Антипаюта",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
+    "estimatedTime": "09:20",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -140,7 +140,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -382,7 +382,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
+    "estimatedTime": "09:20",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -391,7 +391,7 @@
     "from": "Антипаюта",
     "to": "Салехард",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
+    "estimatedTime": "09:20",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -455,7 +455,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
