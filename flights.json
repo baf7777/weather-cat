@@ -274,8 +274,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:25",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -580,8 +580,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:25",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
