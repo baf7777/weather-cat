@@ -265,7 +265,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:30",
-    "estimatedTime": "15:17",
+    "estimatedTime": "15:20",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -571,7 +571,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:30",
-    "estimatedTime": "15:17",
+    "estimatedTime": "15:20",
     "status": "Ожидается",
     "type": "arrival"
   },
