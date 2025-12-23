@@ -149,7 +149,7 @@
     "to": "Тюмень",
     "scheduledTime": "17:40",
     "estimatedTime": "18:40",
-    "status": "Регистрация",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "17:52",
-    "status": "Задерживается",
+    "estimatedTime": "17:51",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -455,7 +455,7 @@
     "to": "Тюмень",
     "scheduledTime": "17:40",
     "estimatedTime": "18:40",
-    "status": "Регистрация",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -580,8 +580,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "17:52",
-    "status": "Задерживается",
+    "estimatedTime": "17:51",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
