@@ -22,8 +22,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:30",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -59,11 +59,20 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
-    "number": "ЯЛ 68D",
+    "number": "ЯЛ 68Д",
+    "from": "Салехард",
+    "to": "Сеяха",
+    "scheduledTime": "09:40",
+    "estimatedTime": "09:40",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 68Д",
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:40",
@@ -72,18 +81,9 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 68D",
+    "number": "ЯЛ 68Д",
     "from": "Салехард",
     "to": "Мыс Каменный",
-    "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 68D",
-    "from": "Салехард",
-    "to": "Сеяха",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
     "status": "По расписанию",
@@ -175,8 +175,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "08:31",
-    "status": "Ожидается",
+    "estimatedTime": "08:30",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -279,7 +279,7 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 69D",
+    "number": "ЯЛ 69Д",
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "17:05",
@@ -288,7 +288,7 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 69D",
+    "number": "ЯЛ 69Д",
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "17:05",
@@ -297,7 +297,7 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 69D",
+    "number": "ЯЛ 69Д",
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "17:05",
@@ -328,8 +328,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:30",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -365,11 +365,20 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 68D",
+    "number": "ЯЛ 68Д",
+    "from": "Салехард",
+    "to": "Сеяха",
+    "scheduledTime": "09:40",
+    "estimatedTime": "09:40",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 68Д",
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:40",
@@ -378,18 +387,9 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 68D",
+    "number": "ЯЛ 68Д",
     "from": "Салехард",
     "to": "Мыс Каменный",
-    "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 68D",
-    "from": "Салехард",
-    "to": "Сеяха",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
     "status": "По расписанию",
@@ -481,8 +481,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "08:31",
-    "status": "Ожидается",
+    "estimatedTime": "08:30",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -585,7 +585,7 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 69D",
+    "number": "ЯЛ 69Д",
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "17:05",
@@ -594,7 +594,7 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 69D",
+    "number": "ЯЛ 69Д",
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "17:05",
@@ -603,7 +603,7 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 69D",
+    "number": "ЯЛ 69Д",
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "17:05",
