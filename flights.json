@@ -4,7 +4,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:40",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -13,7 +13,7 @@
     "from": "Салехард",
     "to": "Антипаюта",
     "scheduledTime": "09:40",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -22,7 +22,7 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -31,7 +31,7 @@
     "from": "Салехард",
     "to": "Салемал",
     "scheduledTime": "09:30",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -40,7 +40,7 @@
     "from": "Салехард",
     "to": "Панаевск",
     "scheduledTime": "09:30",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -49,7 +49,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:30",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -67,7 +67,7 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:40",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -76,7 +76,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:40",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -85,7 +85,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:40",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -103,7 +103,7 @@
     "from": "Салехард",
     "to": "Казым Мыс",
     "scheduledTime": "10:10",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -112,7 +112,7 @@
     "from": "Салехард",
     "to": "Горки",
     "scheduledTime": "10:10",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -121,7 +121,7 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:10",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -130,7 +130,7 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -139,7 +139,7 @@
     "from": "Салехард",
     "to": "Лопхари",
     "scheduledTime": "10:30",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -310,7 +310,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:40",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -319,7 +319,7 @@
     "from": "Антипаюта",
     "to": "Салехард",
     "scheduledTime": "09:40",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -328,7 +328,7 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -337,7 +337,7 @@
     "from": "Салехард",
     "to": "Салемал",
     "scheduledTime": "09:30",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -346,7 +346,7 @@
     "from": "Салехард",
     "to": "Панаевск",
     "scheduledTime": "09:30",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -355,7 +355,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:30",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -373,7 +373,7 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:40",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -382,7 +382,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:40",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -391,7 +391,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:40",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -409,7 +409,7 @@
     "from": "Салехард",
     "to": "Казым Мыс",
     "scheduledTime": "10:10",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -418,7 +418,7 @@
     "from": "Салехард",
     "to": "Горки",
     "scheduledTime": "10:10",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -427,7 +427,7 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:10",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -436,7 +436,7 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -445,7 +445,7 @@
     "from": "Салехард",
     "to": "Лопхари",
     "scheduledTime": "10:30",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
