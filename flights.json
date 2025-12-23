@@ -4,7 +4,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
+    "estimatedTime": "08:50",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -13,7 +13,7 @@
     "from": "Салехард",
     "to": "Антипаюта",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
+    "estimatedTime": "08:50",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -274,7 +274,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "17:54",
+    "estimatedTime": "17:52",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -310,7 +310,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
+    "estimatedTime": "08:50",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -319,7 +319,7 @@
     "from": "Антипаюта",
     "to": "Салехард",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
+    "estimatedTime": "08:50",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -580,7 +580,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "17:54",
+    "estimatedTime": "17:52",
     "status": "Задерживается",
     "type": "arrival"
   },
