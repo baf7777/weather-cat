@@ -131,7 +131,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
     "estimatedTime": "11:00",
-    "status": "Регистрация",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -166,8 +166,8 @@
     "from": "Салехард",
     "to": "Ноябрьск",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "Регистрация",
+    "estimatedTime": "10:10",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -175,8 +175,8 @@
     "from": "Салехард",
     "to": "Горки",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "11:10",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Салехард",
     "to": "Питляр",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "11:10",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -193,8 +193,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "11:10",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -409,7 +409,7 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "09:58",
+    "estimatedTime": "10:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -418,8 +418,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "09:00",
-    "status": "Задерживается",
+    "estimatedTime": "08:58",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -680,7 +680,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
     "estimatedTime": "11:00",
-    "status": "Регистрация",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -715,8 +715,8 @@
     "from": "Салехард",
     "to": "Ноябрьск",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "Регистрация",
+    "estimatedTime": "10:10",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -724,8 +724,8 @@
     "from": "Салехард",
     "to": "Горки",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "11:10",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -733,8 +733,8 @@
     "from": "Салехард",
     "to": "Питляр",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "11:10",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -742,8 +742,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "11:10",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -958,7 +958,7 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "09:58",
+    "estimatedTime": "10:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -967,8 +967,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "09:00",
-    "status": "Задерживается",
+    "estimatedTime": "08:58",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
