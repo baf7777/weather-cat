@@ -328,8 +328,8 @@
     "from": "Лопхари",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "14:17",
-    "status": "Ожидается",
+    "estimatedTime": "14:16",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -337,8 +337,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "14:17",
-    "status": "Ожидается",
+    "estimatedTime": "14:16",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -346,7 +346,7 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:40",
-    "estimatedTime": "13:40",
+    "estimatedTime": "14:23",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -355,7 +355,7 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:40",
-    "estimatedTime": "13:40",
+    "estimatedTime": "14:23",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -364,7 +364,7 @@
     "from": "Казым Мыс",
     "to": "Салехард",
     "scheduledTime": "13:40",
-    "estimatedTime": "13:40",
+    "estimatedTime": "14:23",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -491,7 +491,7 @@
     "to": "Салехард",
     "scheduledTime": "15:15",
     "estimatedTime": "15:25",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -500,7 +500,7 @@
     "to": "Салехард",
     "scheduledTime": "15:15",
     "estimatedTime": "15:25",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -527,7 +527,7 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "18:15",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -877,8 +877,8 @@
     "from": "Лопхари",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "14:17",
-    "status": "Ожидается",
+    "estimatedTime": "14:16",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -886,8 +886,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "14:17",
-    "status": "Ожидается",
+    "estimatedTime": "14:16",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -895,7 +895,7 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:40",
-    "estimatedTime": "13:40",
+    "estimatedTime": "14:23",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -904,7 +904,7 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:40",
-    "estimatedTime": "13:40",
+    "estimatedTime": "14:23",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -913,7 +913,7 @@
     "from": "Казым Мыс",
     "to": "Салехард",
     "scheduledTime": "13:40",
-    "estimatedTime": "13:40",
+    "estimatedTime": "14:23",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -1040,7 +1040,7 @@
     "to": "Салехард",
     "scheduledTime": "15:15",
     "estimatedTime": "15:25",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -1049,7 +1049,7 @@
     "to": "Салехард",
     "scheduledTime": "15:15",
     "estimatedTime": "15:25",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -1076,7 +1076,7 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "18:15",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
