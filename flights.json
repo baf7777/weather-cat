@@ -54,7 +54,7 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 60",
+    "number": "ЯЛ",
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
@@ -261,7 +261,7 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 60",
+    "number": "ЯЛ",
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
