@@ -230,7 +230,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "16:00",
     "estimatedTime": "16:00",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -239,7 +239,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:00",
     "estimatedTime": "16:00",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -361,8 +361,8 @@
   },
   {
     "number": "ЯЛ 59",
-    "from": "Казым Мыс",
-    "to": "Салехард",
+    "from": "Салехард",
+    "to": "Казым Мыс",
     "scheduledTime": "13:40",
     "estimatedTime": "14:23",
     "status": "Рейс прибыл",
@@ -535,7 +535,7 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "16:46",
+    "estimatedTime": "16:51",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -544,7 +544,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "17:23",
+    "estimatedTime": "18:11",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -631,8 +631,8 @@
   },
   {
     "number": "ЯЛ 58",
-    "from": "Салехард",
-    "to": "Казым Мыс",
+    "from": "Казым Мыс",
+    "to": "Салехард",
     "scheduledTime": "10:10",
     "estimatedTime": "11:05",
     "status": "Вылетел",
@@ -779,7 +779,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "16:00",
     "estimatedTime": "16:00",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -788,7 +788,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:00",
     "estimatedTime": "16:00",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -1084,7 +1084,7 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "16:46",
+    "estimatedTime": "16:51",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -1093,7 +1093,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "17:23",
+    "estimatedTime": "18:11",
     "status": "Ожидается",
     "type": "arrival"
   }
