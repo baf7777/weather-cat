@@ -266,7 +266,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -275,7 +275,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "18:50",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -382,7 +382,7 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "17:05",
-    "estimatedTime": "17:05",
+    "estimatedTime": "18:40",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -391,7 +391,7 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "17:05",
-    "estimatedTime": "17:05",
+    "estimatedTime": "18:40",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -400,7 +400,7 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "17:05",
-    "estimatedTime": "17:05",
+    "estimatedTime": "18:40",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -436,8 +436,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "17:00",
-    "status": "Ожидается",
+    "estimatedTime": "18:18",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -445,8 +445,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "17:00",
-    "status": "Ожидается",
+    "estimatedTime": "18:18",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -454,8 +454,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "17:00",
-    "status": "Ожидается",
+    "estimatedTime": "18:18",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -544,8 +544,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "18:11",
-    "status": "Задерживается",
+    "estimatedTime": "18:14",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -815,7 +815,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -824,7 +824,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "18:50",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -931,7 +931,7 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "17:05",
-    "estimatedTime": "17:05",
+    "estimatedTime": "18:40",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -940,7 +940,7 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "17:05",
-    "estimatedTime": "17:05",
+    "estimatedTime": "18:40",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -949,7 +949,7 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "17:05",
-    "estimatedTime": "17:05",
+    "estimatedTime": "18:40",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -985,8 +985,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "17:00",
-    "status": "Ожидается",
+    "estimatedTime": "18:18",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -994,8 +994,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "17:00",
-    "status": "Ожидается",
+    "estimatedTime": "18:18",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -1003,8 +1003,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "17:00",
-    "status": "Ожидается",
+    "estimatedTime": "18:18",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -1093,8 +1093,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "18:11",
-    "status": "Задерживается",
+    "estimatedTime": "18:14",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
