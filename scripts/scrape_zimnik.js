@@ -52,18 +52,16 @@ function cleanRoadName(rawName) {
 
 (async () => {
     console.log('Starting Zimnik scraper...');
-    const browser = await chromium.launch({ 
-        headless: true, 
-        proxy: {
-            server: 'http://93.188.207.212:8000',
-            username: '9ZpsX5',
-            password: 'j2H3sx'
-        }
-    });
-    const page = await browser.newPage();
-
-    try {
-        await page.setViewportSize({ width: 1280, height: 720 });
+        const browser = await chromium.launch({
+            headless: true 
+        });
+        // Add User-Agent to avoid being blocked or throttled
+        const context = await browser.newContext({
+            userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        });
+        const page = await context.newPage();
+    
+        try {        await page.setViewportSize({ width: 1280, height: 720 });
         console.log('Navigating to map.yanao.ru...');
         await page.goto('https://map.yanao.ru/eks/zimnik', { waitUntil: 'domcontentloaded', timeout: 120000 });
         
