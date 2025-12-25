@@ -27,8 +27,6 @@ jobs:
           npx playwright install --with-deps chromium
 
       - name: Run zimnik scraper
-        env:
-          HTTPS_PROXY: http://user349701:0trwdj@62.233.44.186:8225
         run: node scripts/scrape_zimnik.js
 
       - name: Commit and push if changed
