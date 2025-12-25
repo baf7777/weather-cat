@@ -73,21 +73,87 @@ function cleanRoadName(rawName) {
     
                 
     
-                console.log('Page committed, waiting for content...');
+                        console.log('Page committed, waiting for content...');
     
-                try {
+                
     
-                    // Wait for the specific text that indicates data is present
+                        try {
     
-                    await page.waitForSelector('text=Автомобильная дорога', { timeout: 30000 });
+                
     
-                } catch (e) {
-            console.log('Selector timeout, proceeding...');
-        }
-        await page.waitForTimeout(5000);
-
-        const bodyText = await page.evaluate(() => document.body.innerText);
-        const lines = bodyText.split('\n').map(l => l.trim()).filter(l => l);
+                            // Increased timeout for slow dynamic content loading
+    
+                
+    
+                            await page.waitForSelector('.cogis-sidebar-content, .cogis-widget-container, text=Автомобильная дорога', { timeout: 60000 });
+    
+                
+    
+                            console.log('Content selector found.');
+    
+                
+    
+                        } catch (e) {
+    
+                
+    
+                            console.log('Main content selector timeout, trying to parse what we have...');
+    
+                
+    
+                        }
+    
+                
+    
+                        
+    
+                
+    
+                        // Wait an extra bit for JS to render the list
+    
+                
+    
+                        await page.waitForTimeout(10000);
+    
+                
+    
+                
+    
+                
+    
+                        const bodyText = await page.evaluate(() => {
+    
+                
+    
+                            return document.body ? document.body.innerText : "";
+    
+                
+    
+                        });
+    
+                
+    
+                        
+    
+                
+    
+                        if (!bodyText) {
+    
+                
+    
+                            console.log('Body text is empty. Page might not have rendered yet.');
+    
+                
+    
+                        }
+    
+                
+    
+                        
+    
+                
+    
+                        const lines = bodyText.split('\n').map(l => l.trim()).filter(l => l);
         
         const roadsMap = new Map(); // Use Map for deduplication by Name
 
