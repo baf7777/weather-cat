@@ -61,13 +61,27 @@ function cleanRoadName(rawName) {
         });
         const page = await context.newPage();
     
-        try {        await page.setViewportSize({ width: 1280, height: 720 });
-        console.log('Navigating to map.yanao.ru...');
-        await page.goto('https://map.yanao.ru/eks/zimnik', { waitUntil: 'domcontentloaded', timeout: 120000 });
-        
-        try {
-            await page.waitForSelector('text=Автомобильная дорога', { timeout: 15000 });
-        } catch (e) {
+            try {
+    
+                await page.setViewportSize({ width: 1280, height: 720 });
+    
+                console.log('Navigating to map.yanao.ru...');
+    
+                // Change waitUntil to 'commit' to avoid waiting for all assets (like heavy maps) to load
+    
+                await page.goto('https://map.yanao.ru/eks/zimnik', { waitUntil: 'commit', timeout: 60000 });
+    
+                
+    
+                console.log('Page committed, waiting for content...');
+    
+                try {
+    
+                    // Wait for the specific text that indicates data is present
+    
+                    await page.waitForSelector('text=Автомобильная дорога', { timeout: 30000 });
+    
+                } catch (e) {
             console.log('Selector timeout, proceeding...');
         }
         await page.waitForTimeout(5000);
