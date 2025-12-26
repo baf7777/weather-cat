@@ -149,7 +149,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
     "estimatedTime": "16:50",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -500,7 +500,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
     "estimatedTime": "16:50",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
