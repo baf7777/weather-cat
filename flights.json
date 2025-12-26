@@ -302,7 +302,7 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:50",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -653,7 +653,7 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:50",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
