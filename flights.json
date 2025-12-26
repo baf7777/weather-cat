@@ -202,8 +202,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "12:30",
-    "status": "По расписанию",
+    "estimatedTime": "13:05",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -211,7 +211,7 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:38",
+    "estimatedTime": "13:02",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -553,8 +553,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "12:30",
-    "status": "По расписанию",
+    "estimatedTime": "13:05",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -562,7 +562,7 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:38",
+    "estimatedTime": "13:02",
     "status": "Ожидается",
     "type": "arrival"
   },
