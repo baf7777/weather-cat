@@ -86,7 +86,7 @@
     "to": "Минеральные Воды",
     "scheduledTime": "14:50",
     "estimatedTime": "14:50",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -311,7 +311,7 @@
     "to": "Минеральные Воды",
     "scheduledTime": "14:50",
     "estimatedTime": "14:50",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
