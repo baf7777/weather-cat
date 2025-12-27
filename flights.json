@@ -40,8 +40,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "estimatedTime": "09:57",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "estimatedTime": "09:57",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -58,8 +58,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "estimatedTime": "09:57",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -68,7 +68,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -77,7 +77,7 @@
     "to": "Омск",
     "scheduledTime": "10:50",
     "estimatedTime": "10:50",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -130,8 +130,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "10:12",
-    "status": "Задерживается",
+    "estimatedTime": "10:06",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "estimatedTime": "09:57",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "estimatedTime": "09:57",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -283,8 +283,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "estimatedTime": "09:57",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -293,7 +293,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -302,7 +302,7 @@
     "to": "Омск",
     "scheduledTime": "10:50",
     "estimatedTime": "10:50",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -355,8 +355,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "10:12",
-    "status": "Задерживается",
+    "estimatedTime": "10:06",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
