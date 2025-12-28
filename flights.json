@@ -166,7 +166,7 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:35",
+    "estimatedTime": "12:50",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -445,7 +445,7 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:35",
+    "estimatedTime": "12:50",
     "status": "Ожидается",
     "type": "arrival"
   },
