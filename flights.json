@@ -140,7 +140,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "19:50",
-    "status": "Идет посадка",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -419,7 +419,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "19:50",
-    "status": "Идет посадка",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
