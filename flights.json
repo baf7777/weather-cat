@@ -104,7 +104,7 @@
     "to": "Тюмень",
     "scheduledTime": "15:00",
     "estimatedTime": "15:00",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -229,7 +229,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:36",
+    "estimatedTime": "16:05",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -356,7 +356,7 @@
     "to": "Тюмень",
     "scheduledTime": "15:00",
     "estimatedTime": "15:00",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -481,7 +481,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:36",
+    "estimatedTime": "16:05",
     "status": "Ожидается",
     "type": "arrival"
   },
