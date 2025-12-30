@@ -35,7 +35,7 @@ function cleanRoadName(rawName) {
 }
 
 (async () => {
-    console.log('Starting Zimnik scraper...');
+    console.log('Starting Zimnik scraper with details...');
     const browser = await chromium.launch({
         headless: true,
         proxy: {
@@ -53,62 +53,88 @@ function cleanRoadName(rawName) {
     try {
         await page.setViewportSize({ width: 1280, height: 720 });
         console.log('Navigating to map.yanao.ru...');
+        await page.goto('https://map.yanao.ru/eks/zimnik', { waitUntil: 'networkidle', timeout: 90000 });
         
-        // Return to domcontentloaded as requested
-        await page.goto('https://map.yanao.ru/eks/zimnik', { waitUntil: 'domcontentloaded', timeout: 90000 });
-        
-        console.log('Page loaded, waiting for list content...');
-        await page.waitForTimeout(15000); // Wait for JS rendering
+        console.log('Waiting for list content...');
+        await page.waitForSelector('.source-widget-table tbody tr', { timeout: 30000 });
 
-        const bodyText = await page.evaluate(() => document.body ? document.body.innerText : "");
-        const lines = bodyText.split('\n').map(l => l.trim()).filter(l => l);
-        
-        const roadsMap = new Map();
+        const results = [];
+        const rows = await page.$$('.source-widget-table tbody tr');
+        console.log(`Found ${rows.length} winter roads in list.`);
 
-        for (let i = 0; i < lines.length; i++) {
-            const line = lines[i];
-            if (line.includes('регионального значения') || line.includes('муниципального значения') || line.length < 10) continue;
+        for (let i = 0; i < rows.length; i++) {
+            try {
+                // Re-fetch rows to avoid "element handle is detached" error after navigation/interaction
+                const currentRows = await page.$$('.source-widget-table tbody tr');
+                const row = currentRows[i];
+                
+                // Get basic info from the row
+                const cells = await row.$$('td');
+                if (cells.length < 2) continue;
 
-            if (line.startsWith('Автомобильная дорога') || line.startsWith('Зимник') || line.includes(' - ') || line.includes('Ледовая переправа')) {
-                let status = "Неизвестно";
-                let foundStatus = false;
-                for (let j = 1; j <= 3; j++) { 
-                    if (i + j < lines.length) {
-                        const nextLine = lines[i+j].toLowerCase();
-                        if (nextLine.includes('закрыт') || nextLine.includes('открыт') || nextLine.includes('движение') || nextLine.includes('тоннаж') || nextLine.includes('для всех видов транспорта')) {
-                            status = lines[i+j];
-                            foundStatus = true;
-                            break;
+                const rawName = await cells[0].innerText();
+                const status = await cells[1].innerText();
+                const cleanName = cleanRoadName(rawName);
+
+                console.log(`Processing: ${cleanName}...`);
+
+                // Click to open details
+                await row.click();
+                await page.waitForTimeout(2000); // Wait for card to appear
+
+                // Extract tonnage from the attribute table that appeared
+                const details = await page.evaluate(() => {
+                    const data = {};
+                    const attrRows = Array.from(document.querySelectorAll('tr'));
+                    for (const r of attrRows) {
+                        const nameCol = r.querySelector('.identify-attribute-name-column');
+                        if (nameCol) {
+                            const name = nameCol.innerText.trim();
+                            const valCol = r.querySelector('td:nth-child(2) div');
+                            if (valCol) {
+                                const val = valCol.innerText.trim();
+                                if (name.includes('масса (день)')) data.massDay = val;
+                                if (name.includes('масса (ночь)')) data.massNight = val;
+                            }
                         }
                     }
-                }
-                if (foundStatus) {
-                    const cleanName = cleanRoadName(line);
-                    if (cleanName.includes("Коротчаево")) {
-                         roadsMap.set("Коротчаево - Красноселькуп", status);
-                    } else if (cleanName.length > 3) {
-                         roadsMap.set(cleanName, status);
-                    }
-                }
+                    return data;
+                });
+
+                results.push({
+                    road: cleanName,
+                    status: status,
+                    massDay: details.massDay || null,
+                    massNight: details.massNight || null
+                });
+
+                // Optional: Close the identify dialog to clear space, 
+                // but usually clicking another row just updates it.
+                // Let's look for a close button just in case.
+                const closeBtn = await page.$('.identify-dialog-close, .board-close');
+                if (closeBtn) await closeBtn.click();
+
+            } catch (err) {
+                console.error(`Error processing row ${i}:`, err.message);
             }
         }
 
-        const roads = [];
-        roadsMap.forEach((status, road) => {
-            roads.push({ road, status });
-        });
-
-        console.log(`Found ${roads.length} unique winter roads.`);
-        if (roads.length === 0) {
-            roads.push({ road: "Данные не получены", status: "Проверьте источник" });
+        // Deduplicate and filter
+        const finalResults = [];
+        const seen = new Set();
+        for (const item of results) {
+            if (!seen.has(item.road)) {
+                finalResults.push(item);
+                seen.add(item.road);
+            }
         }
 
-        fs.writeFileSync(path.join(__dirname, '../zimnik.json'), JSON.stringify(roads, null, 2));
+        console.log(`Saving ${finalResults.length} unique roads with tonnage.`);
+        fs.writeFileSync(path.join(__dirname, '../zimnik.json'), JSON.stringify(finalResults, null, 2));
         console.log('zimnik.json saved.');
 
     } catch (e) {
         console.error('Error scraping zimnik:', e);
-        fs.writeFileSync(path.join(__dirname, '../zimnik.json'), JSON.stringify([{ road: "Ошибка", status: "Сбой" }], null, 2));
         process.exit(1);
     } finally {
         await browser.close();

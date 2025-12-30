@@ -89,6 +89,25 @@ window.ZimnikSystem = {
                     else displayStatus = "Открыт";
                 }
 
+                // Tonnage logic
+                let massInfo = "";
+                if (item.massDay && item.massDay !== "-") {
+                    let m = item.massDay;
+                    // If it's a long text, try to extract "до 15 тонн"
+                    if (m.length > 5) {
+                        const match = m.match(/до\s+(\d+)\s+тонн/i);
+                        if (match) m = match[1];
+                        else {
+                            // try just finding first number
+                            const numMatch = m.match(/(\d+)/);
+                            if (numMatch) m = numMatch[1];
+                        }
+                    }
+                    if (m && !isNaN(parseInt(m))) {
+                        massInfo = `до ${m}т`;
+                    }
+                }
+
                 // Road name is already cleaned by the scraper; apply display abbreviations
                 let roadName = item.road;
                 roadName = roadName
@@ -103,6 +122,7 @@ window.ZimnikSystem = {
                     </div>
                     <div class="f-info" style="align-items: flex-end; max-width: 40%; text-align: right;">
                         <span class="f-status ${statusClass}" style="font-size: 10px; white-space: nowrap;">${displayStatus}</span>
+                        ${massInfo ? `<span style="font-size: 10px; color: #666; margin-top: 2px;">${massInfo}</span>` : ''}
                     </div>
                 </li>
                 `;
