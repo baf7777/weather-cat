@@ -122,7 +122,7 @@ window.ZimnikSystem = {
                     </div>
                     <div class="f-info" style="align-items: flex-end; max-width: 40%; text-align: right;">
                         <span class="f-status ${statusClass}" style="font-size: 10px; white-space: nowrap;">${displayStatus}</span>
-                        ${massInfo ? `<span style="font-size: 10px; color: #666; margin-top: 2px;">${massInfo}</span>` : ''}
+                        ${massInfo ? `<span class="f-mass">${massInfo}</span>` : ''}
                     </div>
                 </li>
                 `;
