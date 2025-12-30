@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
-    "estimatedTime": "09:40",
-    "status": "Задерживается",
+    "estimatedTime": "10:21",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Омск",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:15",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -59,7 +59,7 @@
     "to": "Лопхари",
     "scheduledTime": "10:30",
     "estimatedTime": "11:00",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -68,7 +68,7 @@
     "to": "Мужи",
     "scheduledTime": "10:30",
     "estimatedTime": "11:00",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -76,8 +76,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "Идет посадка",
+    "estimatedTime": "10:39",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -86,7 +86,7 @@
     "to": "Тюмень",
     "scheduledTime": "11:10",
     "estimatedTime": "11:10",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -130,7 +130,7 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "10:55",
+    "estimatedTime": "11:24",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -157,8 +157,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "10:10",
-    "estimatedTime": "10:19",
-    "status": "Задерживается",
+    "estimatedTime": "10:36",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
-    "estimatedTime": "09:40",
-    "status": "Задерживается",
+    "estimatedTime": "10:21",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -301,8 +301,8 @@
     "from": "Салехард",
     "to": "Омск",
     "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:15",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -311,7 +311,7 @@
     "to": "Лопхари",
     "scheduledTime": "10:30",
     "estimatedTime": "11:00",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -320,7 +320,7 @@
     "to": "Мужи",
     "scheduledTime": "10:30",
     "estimatedTime": "11:00",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -328,8 +328,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "Идет посадка",
+    "estimatedTime": "10:39",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -338,7 +338,7 @@
     "to": "Тюмень",
     "scheduledTime": "11:10",
     "estimatedTime": "11:10",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -382,7 +382,7 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "10:55",
+    "estimatedTime": "11:24",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -409,8 +409,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "10:10",
-    "estimatedTime": "10:19",
-    "status": "Задерживается",
+    "estimatedTime": "10:36",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
