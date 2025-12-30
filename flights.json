@@ -59,7 +59,7 @@
     "to": "Лопхари",
     "scheduledTime": "10:30",
     "estimatedTime": "12:15",
-    "status": "Регистр. завершена",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -68,7 +68,7 @@
     "to": "Мужи",
     "scheduledTime": "10:30",
     "estimatedTime": "12:15",
-    "status": "Регистр. завершена",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -130,8 +130,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "12:03",
-    "status": "Задерживается",
+    "estimatedTime": "12:06",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -311,7 +311,7 @@
     "to": "Лопхари",
     "scheduledTime": "10:30",
     "estimatedTime": "12:15",
-    "status": "Регистр. завершена",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -320,7 +320,7 @@
     "to": "Мужи",
     "scheduledTime": "10:30",
     "estimatedTime": "12:15",
-    "status": "Регистр. завершена",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -382,8 +382,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "12:03",
-    "status": "Задерживается",
+    "estimatedTime": "12:06",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
