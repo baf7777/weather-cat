@@ -112,8 +112,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "18:30",
-    "status": "Задерживается",
+    "estimatedTime": "18:55",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -364,8 +364,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "18:30",
-    "status": "Задерживается",
+    "estimatedTime": "18:55",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
