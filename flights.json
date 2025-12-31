@@ -112,7 +112,7 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "15:00",
+    "estimatedTime": "15:05",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -157,7 +157,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:21",
+    "estimatedTime": "15:53",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -166,7 +166,7 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:21",
+    "estimatedTime": "15:53",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -328,7 +328,7 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "15:00",
+    "estimatedTime": "15:05",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -373,7 +373,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:21",
+    "estimatedTime": "15:53",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -382,7 +382,7 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:21",
+    "estimatedTime": "15:53",
     "status": "Задерживается",
     "type": "arrival"
   },
