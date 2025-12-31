@@ -86,7 +86,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:20",
     "estimatedTime": "16:40",
-    "status": "Задерживается",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -95,7 +95,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "16:20",
     "estimatedTime": "16:40",
-    "status": "Задерживается",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:31",
-    "status": "Ожидается",
+    "estimatedTime": "16:32",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -302,7 +302,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:20",
     "estimatedTime": "16:40",
-    "status": "Задерживается",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -311,7 +311,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "16:20",
     "estimatedTime": "16:40",
-    "status": "Задерживается",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -418,8 +418,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:31",
-    "status": "Ожидается",
+    "estimatedTime": "16:32",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
