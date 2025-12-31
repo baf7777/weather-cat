@@ -23,7 +23,7 @@
     "to": "Сеяха",
     "scheduledTime": "09:20",
     "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -32,7 +32,7 @@
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
     "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -41,7 +41,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "09:20",
     "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -50,7 +50,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -59,7 +59,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -121,8 +121,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "08:25",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -130,8 +130,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "08:40",
-    "status": "По расписанию",
+    "estimatedTime": "08:33",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -139,8 +139,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "12:00",
-    "estimatedTime": "12:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:45",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -211,8 +211,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "17:30",
-    "estimatedTime": "17:30",
-    "status": "По расписанию",
+    "estimatedTime": "17:22",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -239,7 +239,7 @@
     "to": "Сеяха",
     "scheduledTime": "09:20",
     "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -248,7 +248,7 @@
     "to": "Салехард",
     "scheduledTime": "09:20",
     "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -257,7 +257,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "09:20",
     "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -266,7 +266,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -275,7 +275,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -337,8 +337,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "08:25",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -346,8 +346,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "08:40",
-    "status": "По расписанию",
+    "estimatedTime": "08:33",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -355,8 +355,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "12:00",
-    "estimatedTime": "12:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:45",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -427,8 +427,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "17:30",
-    "estimatedTime": "17:30",
-    "status": "По расписанию",
+    "estimatedTime": "17:22",
+    "status": "Ожидается",
     "type": "arrival"
   }
 ]
