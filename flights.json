@@ -68,7 +68,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "13:00",
     "estimatedTime": "13:00",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -284,7 +284,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "13:00",
     "estimatedTime": "13:00",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
