@@ -139,8 +139,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "12:00",
-    "estimatedTime": "11:45",
-    "status": "Ожидается",
+    "estimatedTime": "11:47",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -355,8 +355,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "12:00",
-    "estimatedTime": "11:45",
-    "status": "Ожидается",
+    "estimatedTime": "11:47",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
