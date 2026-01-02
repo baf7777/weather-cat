@@ -5,7 +5,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -40,8 +40,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "08:40",
-    "status": "По расписанию",
+    "estimatedTime": "08:50",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -49,8 +49,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "17:20",
-    "status": "По расписанию",
+    "estimatedTime": "17:15",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -68,7 +68,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "08:40",
-    "status": "По расписанию",
+    "estimatedTime": "08:50",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -112,8 +112,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "17:20",
-    "status": "По расписанию",
+    "estimatedTime": "17:15",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
