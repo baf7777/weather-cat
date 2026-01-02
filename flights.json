@@ -22,8 +22,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Посадка завершена",
+    "estimatedTime": "18:10",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -32,7 +32,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "18:30",
     "estimatedTime": "18:30",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -85,8 +85,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Посадка завершена",
+    "estimatedTime": "18:10",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -95,7 +95,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "18:30",
     "estimatedTime": "18:30",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
