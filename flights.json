@@ -32,7 +32,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "18:30",
     "estimatedTime": "18:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -95,7 +95,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "18:30",
     "estimatedTime": "18:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
