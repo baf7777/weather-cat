@@ -77,7 +77,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "19:35",
-    "status": "Задерживается",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -239,7 +239,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "19:35",
-    "status": "Задерживается",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
