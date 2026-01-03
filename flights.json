@@ -59,6 +59,15 @@
     "to": "Минеральные Воды",
     "scheduledTime": "15:30",
     "estimatedTime": "15:30",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЛА 843",
+    "from": "Салехард",
+    "to": "Казань",
+    "scheduledTime": "16:40",
+    "estimatedTime": "16:40",
     "status": "Регистрация",
     "type": "departure"
   },
@@ -130,8 +139,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "14:30",
-    "estimatedTime": "14:33",
-    "status": "Ожидается",
+    "estimatedTime": "14:37",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -212,6 +221,15 @@
     "to": "Минеральные Воды",
     "scheduledTime": "15:30",
     "estimatedTime": "15:30",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 843",
+    "from": "Казань",
+    "to": "Салехард",
+    "scheduledTime": "16:40",
+    "estimatedTime": "16:40",
     "status": "Регистрация",
     "type": "arrival"
   },
@@ -283,8 +301,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "14:30",
-    "estimatedTime": "14:33",
-    "status": "Ожидается",
+    "estimatedTime": "14:37",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
