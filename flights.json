@@ -166,8 +166,8 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "09:40",
-    "estimatedTime": "22:27",
-    "status": "Задерживается",
+    "estimatedTime": "22:17",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -454,8 +454,8 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "09:40",
-    "estimatedTime": "22:27",
-    "status": "Задерживается",
+    "estimatedTime": "22:17",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
