@@ -5,7 +5,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
     "estimatedTime": "09:10",
-    "status": "По расписанию",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -14,7 +14,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -77,15 +77,6 @@
     "to": "Новосибирск",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 9855",
-    "from": "Салехард",
-    "to": "Тюмень",
-    "scheduledTime": "13:00",
-    "estimatedTime": "13:00",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -157,8 +148,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "08:13",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -166,16 +157,25 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "08:40",
-    "status": "По расписанию",
+    "estimatedTime": "08:33",
+    "status": "Рейс прибыл",
+    "type": "departure"
+  },
+  {
+    "number": "ЛА 844",
+    "from": "Салехард",
+    "to": "Казань",
+    "scheduledTime": "09:40",
+    "estimatedTime": "11:00",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
     "number": "ЛА 486",
     "from": "Сочи",
     "to": "Салехард",
-    "scheduledTime": "12:40",
-    "estimatedTime": "12:40",
+    "scheduledTime": "12:00",
+    "estimatedTime": "12:00",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -293,7 +293,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
     "estimatedTime": "09:10",
-    "status": "По расписанию",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -302,7 +302,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -365,15 +365,6 @@
     "to": "Новосибирск",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 9855",
-    "from": "Салехард",
-    "to": "Тюмень",
-    "scheduledTime": "13:00",
-    "estimatedTime": "13:00",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -445,8 +436,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "08:13",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -454,16 +445,25 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "08:40",
-    "status": "По расписанию",
+    "estimatedTime": "08:33",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 844",
+    "from": "Казань",
+    "to": "Салехард",
+    "scheduledTime": "09:40",
+    "estimatedTime": "11:00",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
     "number": "ЛА 486",
     "from": "Сочи",
     "to": "Салехард",
-    "scheduledTime": "12:40",
-    "estimatedTime": "12:40",
+    "scheduledTime": "12:00",
+    "estimatedTime": "12:00",
     "status": "По расписанию",
     "type": "arrival"
   },
