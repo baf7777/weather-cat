@@ -140,7 +140,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "21:20",
-    "status": "Задерживается",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -166,7 +166,7 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "09:40",
-    "estimatedTime": "20:40",
+    "estimatedTime": "21:15",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -428,7 +428,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "21:20",
-    "status": "Задерживается",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -454,7 +454,7 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "09:40",
-    "estimatedTime": "20:40",
+    "estimatedTime": "21:15",
     "status": "Задерживается",
     "type": "arrival"
   },
