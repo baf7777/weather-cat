@@ -76,7 +76,7 @@
     "from": "Салехард",
     "to": "Новосибирск",
     "scheduledTime": "10:40",
-    "estimatedTime": "14:00",
+    "estimatedTime": "15:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -175,8 +175,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "12:00",
-    "estimatedTime": "12:39",
-    "status": "Ожидается",
+    "estimatedTime": "12:40",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -256,7 +256,7 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "19:10",
+    "estimatedTime": "20:10",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -364,7 +364,7 @@
     "from": "Салехард",
     "to": "Новосибирск",
     "scheduledTime": "10:40",
-    "estimatedTime": "14:00",
+    "estimatedTime": "15:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -463,8 +463,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "12:00",
-    "estimatedTime": "12:39",
-    "status": "Ожидается",
+    "estimatedTime": "12:40",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -544,7 +544,7 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "19:10",
+    "estimatedTime": "20:10",
     "status": "Задерживается",
     "type": "arrival"
   },
