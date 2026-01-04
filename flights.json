@@ -166,7 +166,7 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "09:40",
-    "estimatedTime": "22:10",
+    "estimatedTime": "22:27",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -200,7 +200,7 @@
   {
     "number": "ЯЛ 53",
     "from": "Салехард",
-    "to": "",
+    "to": "Мужи",
     "scheduledTime": "13:05",
     "estimatedTime": "12:51",
     "status": "Рейс прибыл",
@@ -283,8 +283,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "20:28",
-    "status": "Задерживается",
+    "estimatedTime": "20:29",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -454,7 +454,7 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "09:40",
-    "estimatedTime": "22:10",
+    "estimatedTime": "22:27",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -487,7 +487,7 @@
   },
   {
     "number": "ЯЛ 53",
-    "from": "",
+    "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
     "estimatedTime": "12:51",
@@ -571,8 +571,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "20:28",
-    "status": "Задерживается",
+    "estimatedTime": "20:29",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
