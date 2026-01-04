@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
-    "estimatedTime": "09:10",
-    "status": "Посадка завершена",
+    "estimatedTime": "09:23",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -14,7 +14,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -50,7 +50,7 @@
     "to": "Шурышкары",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -59,7 +59,7 @@
     "to": "Мужи",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -68,7 +68,7 @@
     "to": "Восяхово",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -166,7 +166,7 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "09:40",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:06",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -292,8 +292,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
-    "estimatedTime": "09:10",
-    "status": "Посадка завершена",
+    "estimatedTime": "09:23",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -302,7 +302,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -338,7 +338,7 @@
     "to": "Салехард",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -347,7 +347,7 @@
     "to": "Салехард",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -356,7 +356,7 @@
     "to": "Салехард",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -454,7 +454,7 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "09:40",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:06",
     "status": "Задерживается",
     "type": "arrival"
   },
