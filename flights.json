@@ -184,8 +184,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:40",
-    "status": "По расписанию",
+    "estimatedTime": "13:00",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "14:00",
-    "estimatedTime": "14:00",
-    "status": "По расписанию",
+    "estimatedTime": "13:20",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -211,8 +211,8 @@
     "from": "Салехард",
     "to": "Овгорт",
     "scheduledTime": "14:00",
-    "estimatedTime": "14:00",
-    "status": "По расписанию",
+    "estimatedTime": "13:20",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -481,8 +481,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:40",
-    "status": "По расписанию",
+    "estimatedTime": "13:00",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -499,8 +499,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "14:00",
-    "estimatedTime": "14:00",
-    "status": "По расписанию",
+    "estimatedTime": "13:20",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -508,8 +508,8 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "14:00",
-    "estimatedTime": "14:00",
-    "status": "По расписанию",
+    "estimatedTime": "13:20",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
