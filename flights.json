@@ -192,9 +192,9 @@
     "number": "ЛА 22",
     "from": "Новый Уренгой",
     "to": "Салехард",
-    "scheduledTime": "14:00",
+    "scheduledTime": "13:50",
     "estimatedTime": "13:50",
-    "status": "Ожидается",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -489,9 +489,9 @@
     "number": "ЛА 22",
     "from": "Новый Уренгой",
     "to": "Салехард",
-    "scheduledTime": "14:00",
+    "scheduledTime": "13:50",
     "estimatedTime": "13:50",
-    "status": "Ожидается",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
