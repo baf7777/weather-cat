@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Горки",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -58,8 +58,8 @@
     "from": "Салехард",
     "to": "Питляр",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -67,8 +67,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:07",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -319,8 +319,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -328,8 +328,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -337,8 +337,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -508,8 +508,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:07",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
