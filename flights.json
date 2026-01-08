@@ -50,7 +50,7 @@
     "to": "Омск",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "Посадка завершена",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -59,7 +59,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "Регистрация",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -248,7 +248,7 @@
     "to": "Омск",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "Посадка завершена",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -257,7 +257,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "Регистрация",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
