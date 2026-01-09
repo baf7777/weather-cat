@@ -176,7 +176,7 @@
     "to": "Новый Порт",
     "scheduledTime": "12:15",
     "estimatedTime": "14:20",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -473,7 +473,7 @@
     "to": "Салехард",
     "scheduledTime": "12:15",
     "estimatedTime": "14:20",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
