@@ -86,7 +86,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -130,8 +130,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "12:30",
-    "estimatedTime": "11:53",
-    "status": "Ожидается",
+    "estimatedTime": "11:57",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -139,8 +139,8 @@
     "from": "Салехард",
     "to": "Салемал",
     "scheduledTime": "12:30",
-    "estimatedTime": "11:53",
-    "status": "Ожидается",
+    "estimatedTime": "11:57",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -148,8 +148,8 @@
     "from": "Салехард",
     "to": "Панаевск",
     "scheduledTime": "12:30",
-    "estimatedTime": "11:53",
-    "status": "Ожидается",
+    "estimatedTime": "11:57",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:56",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -275,7 +275,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -319,8 +319,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "11:53",
-    "status": "Ожидается",
+    "estimatedTime": "11:57",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -328,8 +328,8 @@
     "from": "Салемал",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "11:53",
-    "status": "Ожидается",
+    "estimatedTime": "11:57",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -337,8 +337,8 @@
     "from": "Панаевск",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "11:53",
-    "status": "Ожидается",
+    "estimatedTime": "11:57",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -373,8 +373,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:56",
+    "status": "Ожидается",
     "type": "arrival"
   }
 ]
