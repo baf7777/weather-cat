@@ -76,7 +76,7 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
+    "estimatedTime": "17:10",
     "status": "Идет посадка",
     "type": "departure"
   },
@@ -95,7 +95,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -274,7 +274,7 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
+    "estimatedTime": "17:10",
     "status": "Идет посадка",
     "type": "arrival"
   },
@@ -293,7 +293,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
