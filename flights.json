@@ -157,8 +157,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "13:30",
-    "estimatedTime": "13:25",
-    "status": "Ожидается",
+    "estimatedTime": "13:26",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -166,8 +166,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:50",
-    "status": "По расписанию",
+    "estimatedTime": "16:04",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -346,8 +346,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "13:30",
-    "estimatedTime": "13:25",
-    "status": "Ожидается",
+    "estimatedTime": "13:26",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -355,8 +355,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:50",
-    "status": "По расписанию",
+    "estimatedTime": "16:04",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
