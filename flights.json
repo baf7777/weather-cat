@@ -175,8 +175,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:50",
-    "status": "По расписанию",
+    "estimatedTime": "15:54",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -193,7 +193,7 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "16:56",
+    "estimatedTime": "16:59",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -373,8 +373,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:50",
-    "status": "По расписанию",
+    "estimatedTime": "15:54",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -391,7 +391,7 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "16:56",
+    "estimatedTime": "16:59",
     "status": "Ожидается",
     "type": "arrival"
   }
