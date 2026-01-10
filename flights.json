@@ -68,7 +68,16 @@
     "to": "Минеральные Воды",
     "scheduledTime": "14:50",
     "estimatedTime": "14:50",
-    "status": "Регистрация",
+    "status": "Идет посадка",
+    "type": "departure"
+  },
+  {
+    "number": "ЛА 843",
+    "from": "Салехард",
+    "to": "Казань",
+    "scheduledTime": "16:40",
+    "estimatedTime": "16:40",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -95,7 +104,7 @@
     "to": "Мыс Каменный",
     "scheduledTime": "13:00",
     "estimatedTime": "14:10",
-    "status": "Задерживается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -166,8 +175,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "16:04",
-    "status": "Ожидается",
+    "estimatedTime": "15:50",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -257,7 +266,16 @@
     "to": "Минеральные Воды",
     "scheduledTime": "14:50",
     "estimatedTime": "14:50",
-    "status": "Регистрация",
+    "status": "Идет посадка",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 843",
+    "from": "Казань",
+    "to": "Салехард",
+    "scheduledTime": "16:40",
+    "estimatedTime": "16:40",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -284,7 +302,7 @@
     "to": "Салехард",
     "scheduledTime": "13:00",
     "estimatedTime": "14:10",
-    "status": "Задерживается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -355,8 +373,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "16:04",
-    "status": "Ожидается",
+    "estimatedTime": "15:50",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
