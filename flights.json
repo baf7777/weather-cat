@@ -130,7 +130,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "12:30",
-    "estimatedTime": "11:47",
+    "estimatedTime": "11:53",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -139,7 +139,7 @@
     "from": "Салехард",
     "to": "Салемал",
     "scheduledTime": "12:30",
-    "estimatedTime": "11:47",
+    "estimatedTime": "11:53",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -148,7 +148,7 @@
     "from": "Салехард",
     "to": "Панаевск",
     "scheduledTime": "12:30",
-    "estimatedTime": "11:47",
+    "estimatedTime": "11:53",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -319,7 +319,7 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "11:47",
+    "estimatedTime": "11:53",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -328,7 +328,7 @@
     "from": "Салемал",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "11:47",
+    "estimatedTime": "11:53",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -337,7 +337,7 @@
     "from": "Панаевск",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "11:47",
+    "estimatedTime": "11:53",
     "status": "Ожидается",
     "type": "arrival"
   },
