@@ -67,8 +67,8 @@
     "from": "Салехард",
     "to": "Минеральные Воды",
     "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
+    "estimatedTime": "14:51",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -184,7 +184,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:43",
+    "estimatedTime": "17:18",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -265,8 +265,8 @@
     "from": "Салехард",
     "to": "Минеральные Воды",
     "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
+    "estimatedTime": "14:51",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -382,7 +382,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:43",
+    "estimatedTime": "17:18",
     "status": "Задерживается",
     "type": "arrival"
   },
