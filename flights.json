@@ -130,7 +130,7 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "19:05",
+    "estimatedTime": "19:35",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -148,7 +148,7 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "19:10",
+    "estimatedTime": "19:40",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -436,7 +436,7 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "19:05",
+    "estimatedTime": "19:35",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -454,7 +454,7 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "19:10",
+    "estimatedTime": "19:40",
     "status": "Задерживается",
     "type": "arrival"
   },
