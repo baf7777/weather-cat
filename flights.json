@@ -14,7 +14,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:10",
     "estimatedTime": "20:30",
-    "status": "Задерживается",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -131,7 +131,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "19:05",
-    "status": "Посадка завершена",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -139,8 +139,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:50",
-    "status": "Посадка завершена",
+    "estimatedTime": "18:58",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -149,7 +149,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "19:10",
-    "status": "Идет посадка",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -320,7 +320,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:10",
     "estimatedTime": "20:30",
-    "status": "Задерживается",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -437,7 +437,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "19:05",
-    "status": "Посадка завершена",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -445,8 +445,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:50",
-    "status": "Посадка завершена",
+    "estimatedTime": "18:58",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -455,7 +455,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "19:10",
-    "status": "Идет посадка",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
