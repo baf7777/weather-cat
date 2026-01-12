@@ -139,8 +139,8 @@
     "from": "Салехард",
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "Посадка завершена",
+    "estimatedTime": "15:19",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:43",
-    "status": "Ожидается",
+    "estimatedTime": "14:45",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Салехард",
     "to": "Новый Порт",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:43",
-    "status": "Ожидается",
+    "estimatedTime": "14:45",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:43",
-    "status": "Ожидается",
+    "estimatedTime": "14:45",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -472,8 +472,8 @@
     "from": "Салехард",
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "Посадка завершена",
+    "estimatedTime": "15:19",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -562,8 +562,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:43",
-    "status": "Ожидается",
+    "estimatedTime": "14:45",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -571,8 +571,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:43",
-    "status": "Ожидается",
+    "estimatedTime": "14:45",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -580,8 +580,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:43",
-    "status": "Ожидается",
+    "estimatedTime": "14:45",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
