@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -112,8 +112,8 @@
     "from": "Салехард",
     "to": "Овгорт",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -122,7 +122,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -131,7 +131,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "10:50",
     "estimatedTime": "10:50",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -436,8 +436,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -445,8 +445,8 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -455,7 +455,7 @@
     "to": "Салехард",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -464,7 +464,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "10:50",
     "estimatedTime": "10:50",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
