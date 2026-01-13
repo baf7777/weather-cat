@@ -167,7 +167,7 @@
     "to": "Антипаюта",
     "scheduledTime": "14:15",
     "estimatedTime": "15:40",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:27",
-    "status": "Ожидается",
+    "estimatedTime": "15:25",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -365,7 +365,7 @@
     "to": "Салехард",
     "scheduledTime": "14:15",
     "estimatedTime": "15:40",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -382,8 +382,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:27",
-    "status": "Ожидается",
+    "estimatedTime": "15:25",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
