@@ -121,7 +121,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "12:35",
-    "estimatedTime": "12:00",
+    "estimatedTime": "13:03",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -130,7 +130,7 @@
     "from": "Салехард",
     "to": "Салемал",
     "scheduledTime": "12:35",
-    "estimatedTime": "12:00",
+    "estimatedTime": "13:03",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -139,7 +139,7 @@
     "from": "Салехард",
     "to": "Панаевск",
     "scheduledTime": "12:35",
-    "estimatedTime": "12:00",
+    "estimatedTime": "13:03",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -148,7 +148,7 @@
     "from": "Салехард",
     "to": "Лопхари",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:15",
+    "estimatedTime": "13:10",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -157,7 +157,7 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:15",
+    "estimatedTime": "13:10",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -319,7 +319,7 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:35",
-    "estimatedTime": "12:00",
+    "estimatedTime": "13:03",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -328,7 +328,7 @@
     "from": "Салемал",
     "to": "Салехард",
     "scheduledTime": "12:35",
-    "estimatedTime": "12:00",
+    "estimatedTime": "13:03",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -337,7 +337,7 @@
     "from": "Панаевск",
     "to": "Салехард",
     "scheduledTime": "12:35",
-    "estimatedTime": "12:00",
+    "estimatedTime": "13:03",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -346,7 +346,7 @@
     "from": "Лопхари",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:15",
+    "estimatedTime": "13:10",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -355,7 +355,7 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:15",
+    "estimatedTime": "13:10",
     "status": "Ожидается",
     "type": "arrival"
   },
