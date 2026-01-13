@@ -189,7 +189,7 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 49Д",
+    "number": "ЯЛ 49Д*",
     "from": "Салехард",
     "to": "Салехард",
     "scheduledTime": "15:55",
@@ -202,7 +202,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "17:56",
+    "estimatedTime": "17:51",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -396,7 +396,7 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 49Д",
+    "number": "ЯЛ 49Д*",
     "from": "Салехард",
     "to": "Салехард",
     "scheduledTime": "15:55",
@@ -409,7 +409,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "17:56",
+    "estimatedTime": "17:51",
     "status": "Задерживается",
     "type": "arrival"
   }
