@@ -166,8 +166,8 @@
     "from": "Салехард",
     "to": "Антипаюта",
     "scheduledTime": "14:15",
-    "estimatedTime": "14:15",
-    "status": "По расписанию",
+    "estimatedTime": "15:40",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -175,8 +175,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "estimatedTime": "15:02",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -364,8 +364,8 @@
     "from": "Антипаюта",
     "to": "Салехард",
     "scheduledTime": "14:15",
-    "estimatedTime": "14:15",
-    "status": "По расписанию",
+    "estimatedTime": "15:40",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -373,8 +373,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "estimatedTime": "15:02",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
