@@ -22,7 +22,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:00",
+    "estimatedTime": "09:40",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -31,7 +31,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:00",
+    "estimatedTime": "09:40",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -40,7 +40,7 @@
     "from": "Салехард",
     "to": "Новый Порт",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:00",
+    "estimatedTime": "09:40",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -139,8 +139,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "По расписанию",
+    "estimatedTime": "18:52",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -203,7 +203,7 @@
     "to": "Мыс Каменный",
     "scheduledTime": "14:20",
     "estimatedTime": "14:20",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -212,7 +212,7 @@
     "to": "Новый Порт",
     "scheduledTime": "14:20",
     "estimatedTime": "14:20",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -221,7 +221,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "14:20",
     "estimatedTime": "14:20",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -310,7 +310,7 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:00",
+    "estimatedTime": "09:40",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -319,7 +319,7 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:00",
+    "estimatedTime": "09:40",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -328,7 +328,7 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:00",
+    "estimatedTime": "09:40",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -427,8 +427,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "По расписанию",
+    "estimatedTime": "18:52",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -491,7 +491,7 @@
     "to": "Салехард",
     "scheduledTime": "14:20",
     "estimatedTime": "14:20",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -500,7 +500,7 @@
     "to": "Салехард",
     "scheduledTime": "14:20",
     "estimatedTime": "14:20",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -509,7 +509,7 @@
     "to": "Салехард",
     "scheduledTime": "14:20",
     "estimatedTime": "14:20",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
