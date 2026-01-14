@@ -118,11 +118,11 @@ window.ZimnikSystem = {
                 
                 return `
                 <li class="flight-item">
-                    <div class="f-info">
+                    <div class="f-info" style="flex: 1;">
                         <span class="f-route">${roadName}</span>
                     </div>
-                    <div class="f-info" style="align-items: flex-end;">
-                        <span class="f-time">${massInfo || '--'}</span>
+                    <div class="f-info" style="align-items: flex-end; min-width: 7rem; text-align: right;">
+                        <span class="f-time" style="white-space: nowrap;">${massInfo || '--'}</span>
                         <span class="f-status ${statusClass}">${displayStatus}</span>
                     </div>
                 </li>
