@@ -50,6 +50,16 @@ function stopCatBreathLoop() {
 
 // Инициализация приложения
 async function init() {
+    // Initialize Telegram WebApp
+    if (window.Telegram && window.Telegram.WebApp) {
+        const tg = window.Telegram.WebApp;
+        tg.expand();
+        tg.ready();
+        
+        // Apply theme params if needed (optional)
+        // document.documentElement.style.setProperty('--tg-theme-bg-color', tg.themeParams.bg_color);
+    }
+
     createStars();
     if (typeof window.PlaneSystem !== 'undefined') {
         window.PlaneSystem.init();

@@ -99,9 +99,23 @@ function getStatusText(code) {
                 road: cleanName,
                 status: status,
                 massDay: attr.weight || "-",
-                massNight: attr.weight_night || "-"
+                massNight: attr.weight_night || "-",
+                type: attr.tip_zimnika // Keep type for filtering
             };
         });
+
+        // Filter: Keep all Regional (1) AND only "Яр-Сале - Сюнай Сале" from Municipal (2)
+        // Or simply: keep if type == 1 OR road == "Яр-Сале - Сюнай Сале"
+        const filteredResults = results.filter(r => {
+            // Check for specific municipal road name (after cleaning)
+            if (r.road === "Яр-Сале - Сюнай Сале") return true;
+            // Otherwise, only keep regional roads (assuming tip_zimnika 1 is regional)
+            // Note: The API docs/behavior suggests 1 is Regional, 2 is Municipal.
+            return r.type === 1;
+        });
+        
+        // Remove 'type' field before saving to match expected JSON format
+        const finalResults = filteredResults.map(({ type, ...rest }) => rest);
 
         // Deduplication: favor "open" status if duplicates exist? 
         // Or just keep unique names.
@@ -110,7 +124,7 @@ function getStatusText(code) {
         const uniqueResults = [];
         const seen = new Set();
         
-        for (const item of results) {
+        for (const item of finalResults) {
             if (!seen.has(item.road)) {
                 uniqueResults.push(item);
                 seen.add(item.road);
