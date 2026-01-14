@@ -85,7 +85,7 @@ window.ZimnikSystem = {
                     statusClass = "st-cancel";
                     displayStatus = "Закрыт";
                 } else if (statusLower.includes("открыт") || statusLower.includes("движение")) {
-                    if (statusLower.includes("всех видов")) displayStatus = "Открыт (все)";
+                    if (statusLower.includes("всех видов")) displayStatus = "Открыт";
                     else if (statusLower.includes("полнопривод")) displayStatus = "Только 4х4";
                     else displayStatus = "Открыт";
                 }
