@@ -117,15 +117,13 @@ window.ZimnikSystem = {
                     .replace("Красноселькуп", "К.Селькуп");
                 
                 return `
-                <li class="flight-item" style="padding: 8px 0;">
-                    <div class="f-info" style="max-width: 55%;">
+                <li class="flight-item" style="padding: 8px 0; gap: 10px;">
+                    <div class="f-info" style="flex: 1; min-width: 0;">
                         <span class="f-route" style="font-size: 13px; line-height: 1.2;">${roadName}</span>
                     </div>
-                    <div class="f-info" style="align-items: flex-end; max-width: 45%; text-align: right; display:flex; flex-direction:row; justify-content:flex-end; gap:5px;">
-                        <div style="display:flex; flex-direction:column; align-items:flex-end;">
-                            <span class="f-status ${statusClass}" style="font-size: 10px; white-space: nowrap;">${displayStatus}</span>
-                            ${massInfo ? `<span class="f-mass">${massInfo}</span>` : ''}
-                        </div>
+                    <div class="f-info" style="flex: 0 0 auto; align-items: flex-end; text-align: right;">
+                        <span class="f-status ${statusClass}" style="font-size: 10px; white-space: nowrap;">${displayStatus}</span>
+                        ${massInfo ? `<span class="f-mass">${massInfo}</span>` : ''}
                     </div>
                 </li>
                 `;
