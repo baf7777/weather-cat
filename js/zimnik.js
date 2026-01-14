@@ -53,8 +53,8 @@ window.ZimnikSystem = {
             // Define the custom order based on the user's request.
             // These should match the canonical names produced by scripts/scrape_zimnik.js
             const customOrder = [
-                "Яр-Сале - Панаевск",
                 "Яр-Сале - Сюнай Сале",
+                "Яр-Сале - Панаевск",
                 "Панаевск - Салемал",
                 "Салемал - Аксарка",
                 "Ледовая переправа",
