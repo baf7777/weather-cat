@@ -54,6 +54,7 @@ window.ZimnikSystem = {
             // These should match the canonical names produced by scripts/scrape_zimnik.js
             const customOrder = [
                 "Яр-Сале - Панаевск",
+                "Яр-Сале - Сюнай Сале",
                 "Панаевск - Салемал",
                 "Салемал - Аксарка",
                 "Ледовая переправа",
@@ -114,15 +115,26 @@ window.ZimnikSystem = {
                     .replace("Лабытнанги", "Лбт")
                     .replace("Салехард", "Схд")
                     .replace("Красноселькуп", "К.Селькуп");
+                
+                // --- Subscription Bell Logic ---
+                // We check localStorage for now to show state (stub for real bot integration)
+                const isSubscribed = localStorage.getItem('sub_zimnik_' + item.road) === 'true';
+                const bellIcon = isSubscribed ? '🔔' : '🔕';
+                const bellClass = isSubscribed ? 'bell-active' : 'bell-inactive';
 
                 return `
                 <li class="flight-item" style="padding: 8px 0;">
-                    <div class="f-info" style="max-width: 60%;">
+                    <div class="f-info" style="max-width: 55%;">
                         <span class="f-route" style="font-size: 13px; line-height: 1.2;">${roadName}</span>
                     </div>
-                    <div class="f-info" style="align-items: flex-end; max-width: 40%; text-align: right;">
-                        <span class="f-status ${statusClass}" style="font-size: 10px; white-space: nowrap;">${displayStatus}</span>
-                        ${massInfo ? `<span class="f-mass">${massInfo}</span>` : ''}
+                    <div class="f-info" style="align-items: flex-end; max-width: 45%; text-align: right; display:flex; flex-direction:row; justify-content:flex-end; gap:5px;">
+                        <div style="display:flex; flex-direction:column; align-items:flex-end;">
+                            <span class="f-status ${statusClass}" style="font-size: 10px; white-space: nowrap;">${displayStatus}</span>
+                            ${massInfo ? `<span class="f-mass">${massInfo}</span>` : ''}
+                        </div>
+                        <div class="zimnik-bell ${bellClass}" onclick="window.ZimnikSystem.toggleSubscribe('${item.road}', this)" style="cursor:pointer; font-size:16px; margin-left:5px;">
+                            ${bellIcon}
+                        </div>
                     </div>
                 </li>
                 `;
@@ -151,6 +163,38 @@ window.ZimnikSystem = {
 
         btn.addEventListener('click', toggle);
         board.querySelector('.board-close').addEventListener('click', () => board.classList.remove('active'));
+    },
+
+    toggleSubscribe(roadName, el) {
+        // Prevent click from propagating if needed, though simple onclick is fine here
+        
+        const key = 'sub_zimnik_' + roadName;
+        const current = localStorage.getItem(key) === 'true';
+        const newState = !current;
+
+        // Visual update
+        el.innerText = newState ? '🔔' : '🔕';
+        el.classList.toggle('bell-active', newState);
+        el.classList.toggle('bell-inactive', !newState);
+        
+        // Haptic Feedback (if in Telegram)
+        if (window.Telegram && window.Telegram.WebApp && window.Telegram.WebApp.HapticFeedback) {
+            window.Telegram.WebApp.HapticFeedback.impactOccurred('medium');
+        }
+
+        // Logic
+        if (newState) {
+            localStorage.setItem(key, 'true');
+            console.log(`Subscribed to ${roadName}`);
+            
+            // In a real scenario, we would send this to the bot:
+            // window.Telegram.WebApp.sendData(JSON.stringify({action: 'subscribe', topic: roadName}));
+            // BUT sendData closes the app, so we might want to use a background fetch to a webhook/cloud function if available.
+            // For now, let's pretend.
+        } else {
+            localStorage.removeItem(key);
+            console.log(`Unsubscribed from ${roadName}`);
+        }
     }
 };
 
