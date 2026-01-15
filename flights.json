@@ -130,8 +130,8 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:00",
-    "estimatedTime": "12:00",
-    "status": "Посадка завершена",
+    "estimatedTime": "12:29",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:35",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -211,8 +211,8 @@
     "from": "Салехард",
     "to": "Овгорт",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:35",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -418,8 +418,8 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:00",
-    "estimatedTime": "12:00",
-    "status": "Посадка завершена",
+    "estimatedTime": "12:29",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -490,8 +490,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:35",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -499,8 +499,8 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:35",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
