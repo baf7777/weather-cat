@@ -202,8 +202,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:35",
-    "status": "Ожидается",
+    "estimatedTime": "13:38",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -211,8 +211,8 @@
     "from": "Салехард",
     "to": "Овгорт",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:35",
-    "status": "Ожидается",
+    "estimatedTime": "13:38",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -490,8 +490,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:35",
-    "status": "Ожидается",
+    "estimatedTime": "13:38",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -499,8 +499,8 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:35",
-    "status": "Ожидается",
+    "estimatedTime": "13:38",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
