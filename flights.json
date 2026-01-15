@@ -220,7 +220,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:30",
-    "estimatedTime": "16:41",
+    "estimatedTime": "16:57",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -256,7 +256,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:42",
+    "estimatedTime": "17:13",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -508,7 +508,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:30",
-    "estimatedTime": "16:41",
+    "estimatedTime": "16:57",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -544,7 +544,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:42",
+    "estimatedTime": "17:13",
     "status": "Задерживается",
     "type": "arrival"
   },
