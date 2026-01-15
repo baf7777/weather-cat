@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { request } = require('playwright');
 
 // Helper to clean road names
 function cleanRoadName(rawName) {
@@ -66,16 +67,28 @@ function getStatusText(code) {
 }
 
 (async () => {
-    console.log('Starting Zimnik API scraper...');
+    console.log('Starting Zimnik API scraper with PROXY...');
     
     // Query for ALL winter roads (tip_zimnika 1 and 2)
     // Layer 29 seems to be the one.
     const url = "https://map.yanao.ru/elitegis/rest/services/dep_dep/dep_transport_pub/MapServer/29/query?f=json&where=1=1&outFields=*&returnGeometry=false";
 
+    let context;
     try {
-        const response = await fetch(url);
-        if (!response.ok) {
-            throw new Error(`API returned status: ${response.status}`);
+        // Create a request context with the proxy
+        context = await request.newContext({
+            proxy: {
+                server: 'http://185.184.78.71:9127',
+                username: 'qv6d1k',
+                password: '4xWwGA'
+            },
+            ignoreHTTPSErrors: true
+        });
+
+        const response = await context.get(url);
+        
+        if (!response.ok()) {
+            throw new Error(`API returned status: ${response.status()} ${response.statusText()}`);
         }
         
         const data = await response.json();
@@ -151,5 +164,7 @@ function getStatusText(code) {
     } catch (err) {
         console.error('Error fetching zimnik data:', err);
         process.exit(1);
+    } finally {
+        if (context) await context.dispose();
     }
 })();
