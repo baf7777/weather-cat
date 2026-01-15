@@ -148,7 +148,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "estimatedTime": "15:50",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -157,7 +157,7 @@
     "from": "Салехард",
     "to": "Новый Порт",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "estimatedTime": "15:50",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -166,7 +166,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "estimatedTime": "15:50",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -436,7 +436,7 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "estimatedTime": "15:50",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -445,7 +445,7 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "estimatedTime": "15:50",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -454,7 +454,7 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "estimatedTime": "15:50",
     "status": "Задерживается",
     "type": "arrival"
   },
