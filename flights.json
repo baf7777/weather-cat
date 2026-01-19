@@ -122,7 +122,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
     "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -176,7 +176,7 @@
     "to": "Салехард",
     "scheduledTime": "12:30",
     "estimatedTime": "12:55",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:40",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -193,8 +193,8 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:40",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -202,7 +202,7 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "14:00",
-    "estimatedTime": "13:43",
+    "estimatedTime": "14:11",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -419,7 +419,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
     "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -473,7 +473,7 @@
     "to": "Салехард",
     "scheduledTime": "12:30",
     "estimatedTime": "12:55",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -481,8 +481,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:40",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -490,8 +490,8 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:40",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -499,7 +499,7 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "14:00",
-    "estimatedTime": "13:43",
+    "estimatedTime": "14:11",
     "status": "Ожидается",
     "type": "arrival"
   },
