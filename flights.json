@@ -67,8 +67,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:40",
-    "estimatedTime": "10:10",
-    "status": "Задерживается",
+    "estimatedTime": "10:28",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -85,8 +85,8 @@
     "from": "Салехард",
     "to": "Овгорт",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -94,8 +94,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:48",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -113,7 +113,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "10:50",
     "estimatedTime": "11:25",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -166,8 +166,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "10:34",
-    "status": "Задерживается",
+    "estimatedTime": "10:36",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:23",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -364,8 +364,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:40",
-    "estimatedTime": "10:10",
-    "status": "Задерживается",
+    "estimatedTime": "10:28",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -382,8 +382,8 @@
     "from": "Салехард",
     "to": "Овгорт",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -391,8 +391,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -400,8 +400,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:48",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -410,7 +410,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "10:50",
     "estimatedTime": "11:25",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -463,8 +463,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "10:34",
-    "status": "Задерживается",
+    "estimatedTime": "10:36",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -571,8 +571,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:23",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
