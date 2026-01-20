@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Регистрация",
+    "estimatedTime": "18:00",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -113,15 +113,6 @@
     "to": "Салехард",
     "scheduledTime": "08:40",
     "estimatedTime": "08:55",
-    "status": "Рейс прибыл",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 51",
-    "from": "Яр-Сале",
-    "to": "Салехард",
-    "scheduledTime": "12:35",
-    "estimatedTime": "13:10",
     "status": "Рейс прибыл",
     "type": "departure"
   },
@@ -211,8 +202,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "17:00",
-    "status": "Задерживается",
+    "estimatedTime": "17:01",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -319,8 +310,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Регистрация",
+    "estimatedTime": "18:00",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -329,15 +320,6 @@
     "to": "Салехард",
     "scheduledTime": "08:40",
     "estimatedTime": "08:55",
-    "status": "Рейс прибыл",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 51",
-    "from": "Яр-Сале",
-    "to": "Салехард",
-    "scheduledTime": "12:35",
-    "estimatedTime": "13:10",
     "status": "Рейс прибыл",
     "type": "arrival"
   },
@@ -427,8 +409,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "17:00",
-    "status": "Задерживается",
+    "estimatedTime": "17:01",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
