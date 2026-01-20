@@ -118,8 +118,8 @@
   },
   {
     "number": "ЯЛ 51",
-    "from": "Яр-Сале",
-    "to": "Салехард",
+    "from": "Салехард",
+    "to": "",
     "scheduledTime": "12:35",
     "estimatedTime": "13:10",
     "status": "Рейс прибыл",
@@ -334,7 +334,7 @@
   },
   {
     "number": "ЯЛ 51",
-    "from": "Яр-Сале",
+    "from": "",
     "to": "Салехард",
     "scheduledTime": "12:35",
     "estimatedTime": "13:10",
