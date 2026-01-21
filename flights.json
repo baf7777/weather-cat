@@ -166,8 +166,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:10",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -175,8 +175,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:10",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:10",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -436,8 +436,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:10",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -445,8 +445,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:10",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -454,8 +454,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:10",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
