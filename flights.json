@@ -77,7 +77,7 @@
     "to": "Уфа",
     "scheduledTime": "12:00",
     "estimatedTime": "12:00",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -257,7 +257,7 @@
     "to": "Уфа",
     "scheduledTime": "12:00",
     "estimatedTime": "12:00",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
