@@ -122,7 +122,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
     "estimatedTime": "16:50",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -140,7 +140,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:03",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -292,7 +292,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "18:31",
+    "estimatedTime": "18:45",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -419,7 +419,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
     "estimatedTime": "16:50",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -437,7 +437,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -562,8 +562,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:03",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -589,7 +589,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "18:31",
+    "estimatedTime": "18:45",
     "status": "Задерживается",
     "type": "arrival"
   }
