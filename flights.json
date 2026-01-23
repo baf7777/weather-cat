@@ -175,7 +175,7 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "14:50",
+    "estimatedTime": "14:45",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -184,8 +184,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "14:03",
-    "status": "Ожидается",
+    "estimatedTime": "14:04",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -193,8 +193,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "14:03",
-    "status": "Ожидается",
+    "estimatedTime": "14:04",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "14:03",
-    "status": "Ожидается",
+    "estimatedTime": "14:04",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -220,8 +220,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "13:50",
-    "estimatedTime": "14:30",
-    "status": "Ожидается",
+    "estimatedTime": "14:29",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:24",
-    "status": "Ожидается",
+    "estimatedTime": "17:10",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -472,7 +472,7 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "14:50",
+    "estimatedTime": "14:45",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -481,8 +481,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "14:03",
-    "status": "Ожидается",
+    "estimatedTime": "14:04",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -490,8 +490,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "14:03",
-    "status": "Ожидается",
+    "estimatedTime": "14:04",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -499,8 +499,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "14:03",
-    "status": "Ожидается",
+    "estimatedTime": "14:04",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -517,8 +517,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "13:50",
-    "estimatedTime": "14:30",
-    "status": "Ожидается",
+    "estimatedTime": "14:29",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -571,8 +571,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:24",
-    "status": "Ожидается",
+    "estimatedTime": "17:10",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
