@@ -130,7 +130,7 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "13:30",
-    "estimatedTime": "16:40",
+    "estimatedTime": "17:15",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -283,7 +283,7 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "13:30",
-    "estimatedTime": "16:40",
+    "estimatedTime": "17:15",
     "status": "Задерживается",
     "type": "arrival"
   },
