@@ -162,6 +162,15 @@
     "type": "departure"
   },
   {
+    "number": "ЛА 956",
+    "from": "Тюмень",
+    "to": "Салехард",
+    "scheduledTime": "",
+    "estimatedTime": "17:00",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
     "number": "ЛА 478",
     "from": "Минеральные Воды",
     "to": "Салехард",
@@ -284,15 +293,6 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:40",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 956",
-    "from": "Тюмень",
-    "to": "Салехард",
-    "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -468,6 +468,15 @@
     "type": "arrival"
   },
   {
+    "number": "ЛА 956",
+    "from": "Тюмень",
+    "to": "Салехард",
+    "scheduledTime": "",
+    "estimatedTime": "17:00",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
     "number": "ЛА 478",
     "from": "Минеральные Воды",
     "to": "Салехард",
@@ -590,15 +599,6 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:40",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 956",
-    "from": "Тюмень",
-    "to": "Салехард",
-    "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
     "status": "По расписанию",
     "type": "arrival"
   },
