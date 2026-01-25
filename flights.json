@@ -101,19 +101,10 @@
   {
     "number": "ЮТ 9015",
     "from": "Салехард",
-    "to": "Бованенково(поселок)",
-    "scheduledTime": "14:00",
-    "estimatedTime": "16:30",
-    "status": "Ожидается",
-    "type": "departure"
-  },
-  {
-    "number": "ЮТ 9015",
-    "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "14:00",
-    "estimatedTime": "16:30",
-    "status": "Ожидается",
+    "estimatedTime": "17:00",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -140,7 +131,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "17:00",
     "estimatedTime": "18:00",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -148,8 +139,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Регистрация",
+    "estimatedTime": "18:00",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -158,7 +149,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -311,7 +302,7 @@
     "to": "Салехард",
     "scheduledTime": "17:00",
     "estimatedTime": "16:55",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -320,7 +311,7 @@
     "to": "Салехард",
     "scheduledTime": "17:20",
     "estimatedTime": "17:15",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -424,20 +415,11 @@
   },
   {
     "number": "ЮТ 9015",
-    "from": "Бованенково(поселок)",
-    "to": "Салехард",
-    "scheduledTime": "14:00",
-    "estimatedTime": "16:30",
-    "status": "Ожидается",
-    "type": "arrival"
-  },
-  {
-    "number": "ЮТ 9015",
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "14:00",
-    "estimatedTime": "16:30",
-    "status": "Ожидается",
+    "estimatedTime": "17:00",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -464,7 +446,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "17:00",
     "estimatedTime": "18:00",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -472,8 +454,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Регистрация",
+    "estimatedTime": "18:00",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -482,7 +464,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -635,7 +617,7 @@
     "to": "Салехард",
     "scheduledTime": "17:00",
     "estimatedTime": "16:55",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -644,7 +626,7 @@
     "to": "Салехард",
     "scheduledTime": "17:20",
     "estimatedTime": "17:15",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
