@@ -103,7 +103,7 @@
     "from": "Салехард",
     "to": "Бованенково(поселок)",
     "scheduledTime": "14:00",
-    "estimatedTime": "15:00",
+    "estimatedTime": "15:40",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -113,7 +113,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "16:00",
     "estimatedTime": "16:10",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -122,7 +122,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:00",
     "estimatedTime": "16:10",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -140,7 +140,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:45",
-    "status": "Задерживается",
+    "estimatedTime": "15:37",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:45",
-    "status": "Задерживается",
+    "estimatedTime": "15:37",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -292,8 +292,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:50",
-    "status": "Ожидается",
+    "estimatedTime": "16:40",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -418,7 +418,7 @@
     "from": "Бованенково(поселок)",
     "to": "Салехард",
     "scheduledTime": "14:00",
-    "estimatedTime": "15:00",
+    "estimatedTime": "15:40",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -428,7 +428,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "16:00",
     "estimatedTime": "16:10",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -437,7 +437,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:00",
     "estimatedTime": "16:10",
-    "status": "Идет посадка",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -455,7 +455,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -580,8 +580,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:45",
-    "status": "Задерживается",
+    "estimatedTime": "15:37",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -589,8 +589,8 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:45",
-    "status": "Задерживается",
+    "estimatedTime": "15:37",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -607,8 +607,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:50",
-    "status": "Ожидается",
+    "estimatedTime": "16:40",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
