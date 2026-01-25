@@ -99,6 +99,15 @@
     "type": "departure"
   },
   {
+    "number": "ЮТ 9015",
+    "from": "Салехард",
+    "to": "Бованенково(поселок)",
+    "scheduledTime": "14:00",
+    "estimatedTime": "14:27",
+    "status": "Ожидается",
+    "type": "departure"
+  },
+  {
     "number": "РГ 298",
     "from": "Салехард",
     "to": "Санкт-Петербург",
@@ -180,6 +189,15 @@
     "type": "departure"
   },
   {
+    "number": "ЮТ 9015",
+    "from": "Уфа",
+    "to": "Салехард",
+    "scheduledTime": "12:00",
+    "estimatedTime": "13:27",
+    "status": "Рейс прибыл",
+    "type": "departure"
+  },
+  {
     "number": "ЛА 486",
     "from": "Сочи",
     "to": "Салехард",
@@ -213,15 +231,6 @@
     "scheduledTime": "12:45",
     "estimatedTime": "13:01",
     "status": "Рейс прибыл",
-    "type": "departure"
-  },
-  {
-    "number": "ЮТ 9015",
-    "from": "Салехард",
-    "to": "Бованенково(поселок)",
-    "scheduledTime": "13:30",
-    "estimatedTime": "13:25",
-    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -405,6 +414,15 @@
     "type": "arrival"
   },
   {
+    "number": "ЮТ 9015",
+    "from": "Бованенково(поселок)",
+    "to": "Салехард",
+    "scheduledTime": "14:00",
+    "estimatedTime": "14:27",
+    "status": "Ожидается",
+    "type": "arrival"
+  },
+  {
     "number": "РГ 298",
     "from": "Салехард",
     "to": "Санкт-Петербург",
@@ -486,6 +504,15 @@
     "type": "arrival"
   },
   {
+    "number": "ЮТ 9015",
+    "from": "Уфа",
+    "to": "Салехард",
+    "scheduledTime": "12:00",
+    "estimatedTime": "13:27",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
     "number": "ЛА 486",
     "from": "Сочи",
     "to": "Салехард",
@@ -519,15 +546,6 @@
     "scheduledTime": "12:45",
     "estimatedTime": "13:01",
     "status": "Рейс прибыл",
-    "type": "arrival"
-  },
-  {
-    "number": "ЮТ 9015",
-    "from": "Бованенково(поселок)",
-    "to": "Салехард",
-    "scheduledTime": "13:30",
-    "estimatedTime": "13:25",
-    "status": "Ожидается",
     "type": "arrival"
   },
   {
