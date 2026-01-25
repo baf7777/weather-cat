@@ -130,8 +130,8 @@
     "from": "Салехард",
     "to": "Екатеринбург",
     "scheduledTime": "17:00",
-    "estimatedTime": "18:00",
-    "status": "Идет посадка",
+    "estimatedTime": "18:30",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -139,8 +139,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "18:00",
-    "status": "Задерживается",
+    "estimatedTime": "18:01",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -148,8 +148,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Идет посадка",
+    "estimatedTime": "18:23",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -445,8 +445,8 @@
     "from": "Салехард",
     "to": "Екатеринбург",
     "scheduledTime": "17:00",
-    "estimatedTime": "18:00",
-    "status": "Идет посадка",
+    "estimatedTime": "18:30",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -454,8 +454,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "18:00",
-    "status": "Задерживается",
+    "estimatedTime": "18:01",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -463,8 +463,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Идет посадка",
+    "estimatedTime": "18:23",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
