@@ -95,7 +95,7 @@
     "to": "Сочи",
     "scheduledTime": "13:50",
     "estimatedTime": "13:50",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -193,8 +193,8 @@
     "from": "Восяхово",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "13:00",
-    "status": "Ожидается",
+    "estimatedTime": "13:01",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Шурышкары",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "13:00",
-    "status": "Ожидается",
+    "estimatedTime": "13:01",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -211,7 +211,16 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "13:00",
+    "estimatedTime": "13:01",
+    "status": "Рейс прибыл",
+    "type": "departure"
+  },
+  {
+    "number": "ЮТ 9015",
+    "from": "Салехард",
+    "to": "Бованенково(поселок)",
+    "scheduledTime": "13:30",
+    "estimatedTime": "13:25",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -220,8 +229,8 @@
     "from": "Азовы",
     "to": "Салехард",
     "scheduledTime": "13:45",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
+    "estimatedTime": "13:02",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -229,8 +238,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:45",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
+    "estimatedTime": "13:02",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -238,8 +247,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:45",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
+    "estimatedTime": "13:02",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -392,7 +401,7 @@
     "to": "Сочи",
     "scheduledTime": "13:50",
     "estimatedTime": "13:50",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -490,8 +499,8 @@
     "from": "Восяхово",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "13:00",
-    "status": "Ожидается",
+    "estimatedTime": "13:01",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -499,8 +508,8 @@
     "from": "Шурышкары",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "13:00",
-    "status": "Ожидается",
+    "estimatedTime": "13:01",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -508,7 +517,16 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "13:00",
+    "estimatedTime": "13:01",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
+    "number": "ЮТ 9015",
+    "from": "Бованенково(поселок)",
+    "to": "Салехард",
+    "scheduledTime": "13:30",
+    "estimatedTime": "13:25",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -517,8 +535,8 @@
     "from": "Азовы",
     "to": "Салехард",
     "scheduledTime": "13:45",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
+    "estimatedTime": "13:02",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -526,8 +544,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:45",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
+    "estimatedTime": "13:02",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -535,8 +553,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:45",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
+    "estimatedTime": "13:02",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
