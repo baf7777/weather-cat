@@ -121,8 +121,8 @@
     "from": "Салехард",
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "estimatedTime": "15:01",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:33",
-    "status": "Ожидается",
+    "estimatedTime": "16:35",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -418,8 +418,8 @@
     "from": "Салехард",
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "estimatedTime": "15:01",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -571,8 +571,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:33",
-    "status": "Ожидается",
+    "estimatedTime": "16:35",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
