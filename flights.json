@@ -49,7 +49,7 @@
     "from": "Салехард",
     "to": "Новый Порт",
     "scheduledTime": "09:20",
-    "estimatedTime": "10:30",
+    "estimatedTime": "11:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -58,7 +58,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
-    "estimatedTime": "10:30",
+    "estimatedTime": "11:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -67,7 +67,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:20",
-    "estimatedTime": "10:30",
+    "estimatedTime": "11:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -77,7 +77,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -86,7 +86,7 @@
     "to": "Мужи",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -95,7 +95,7 @@
     "to": "Овгорт",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -113,7 +113,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "10:50",
     "estimatedTime": "10:50",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -175,8 +175,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "10:05",
-    "status": "Задерживается",
+    "estimatedTime": "10:02",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:14",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -346,7 +346,7 @@
     "from": "Салехард",
     "to": "Новый Порт",
     "scheduledTime": "09:20",
-    "estimatedTime": "10:30",
+    "estimatedTime": "11:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -355,7 +355,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
-    "estimatedTime": "10:30",
+    "estimatedTime": "11:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -364,7 +364,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:20",
-    "estimatedTime": "10:30",
+    "estimatedTime": "11:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -374,7 +374,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -383,7 +383,7 @@
     "to": "Мужи",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -392,7 +392,7 @@
     "to": "Овгорт",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -410,7 +410,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "10:50",
     "estimatedTime": "10:50",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -472,8 +472,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "10:05",
-    "status": "Задерживается",
+    "estimatedTime": "10:02",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -571,8 +571,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:14",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
