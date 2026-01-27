@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:20",
-    "status": "Задерживается",
+    "estimatedTime": "09:25",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:20",
-    "status": "Задерживается",
+    "estimatedTime": "09:25",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -22,8 +22,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:20",
-    "status": "Задерживается",
+    "estimatedTime": "09:25",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -58,8 +58,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:18",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -95,7 +95,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "Регистрация",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -104,7 +104,7 @@
     "to": "Омск",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:20",
-    "status": "Задерживается",
+    "estimatedTime": "09:25",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -283,8 +283,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:20",
-    "status": "Задерживается",
+    "estimatedTime": "09:25",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -292,8 +292,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:20",
-    "status": "Задерживается",
+    "estimatedTime": "09:25",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -328,8 +328,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:18",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -365,7 +365,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "Регистрация",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -374,7 +374,7 @@
     "to": "Омск",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
