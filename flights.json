@@ -148,8 +148,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:50",
-    "estimatedTime": "07:50",
-    "status": "По расписанию",
+    "estimatedTime": "07:41",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -382,8 +382,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:50",
-    "estimatedTime": "07:50",
-    "status": "По расписанию",
+    "estimatedTime": "07:41",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
