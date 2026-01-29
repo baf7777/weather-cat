@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "Задерживается",
+    "estimatedTime": "09:29",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "Задерживается",
+    "estimatedTime": "09:29",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -22,8 +22,8 @@
     "from": "Салехард",
     "to": "Новый Порт",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "Задерживается",
+    "estimatedTime": "09:29",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -67,8 +67,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:40",
-    "estimatedTime": "10:00",
-    "status": "Идет посадка",
+    "estimatedTime": "10:10",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -77,7 +77,7 @@
     "to": "Омск",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -104,7 +104,7 @@
     "to": "Уфа",
     "scheduledTime": "12:00",
     "estimatedTime": "12:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -166,8 +166,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:00",
-    "estimatedTime": "11:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:19",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "Задерживается",
+    "estimatedTime": "09:29",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "Задерживается",
+    "estimatedTime": "09:29",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -256,8 +256,8 @@
     "from": "Салехард",
     "to": "Новый Порт",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "Задерживается",
+    "estimatedTime": "09:29",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -301,8 +301,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:40",
-    "estimatedTime": "10:00",
-    "status": "Идет посадка",
+    "estimatedTime": "10:10",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -311,7 +311,7 @@
     "to": "Омск",
     "scheduledTime": "10:10",
     "estimatedTime": "10:10",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -338,7 +338,7 @@
     "to": "Уфа",
     "scheduledTime": "12:00",
     "estimatedTime": "12:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -400,8 +400,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:00",
-    "estimatedTime": "11:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:19",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
