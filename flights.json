@@ -59,7 +59,7 @@
     "to": "Минеральные Воды",
     "scheduledTime": "14:50",
     "estimatedTime": "14:50",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -139,8 +139,8 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:18",
-    "status": "Ожидается",
+    "estimatedTime": "16:54",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -212,7 +212,7 @@
     "to": "Минеральные Воды",
     "scheduledTime": "14:50",
     "estimatedTime": "14:50",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -292,8 +292,8 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:18",
-    "status": "Ожидается",
+    "estimatedTime": "16:54",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
