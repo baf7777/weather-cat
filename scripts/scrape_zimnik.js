@@ -78,9 +78,9 @@ function getStatusText(code) {
         // Create a request context with the proxy
         context = await request.newContext({
             proxy: {
-                server: 'http://185.184.78.71:9127',
-                username: 'qv6d1k',
-                password: '4xWwGA'
+                server: 'http://213.166.72.60:9450',
+                username: 'FFhVwn',
+                password: 'yQk1E8'
             },
             ignoreHTTPSErrors: true
         });
