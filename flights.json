@@ -157,7 +157,7 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "13:17",
+    "estimatedTime": "13:32",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -167,7 +167,7 @@
     "to": "Салехард",
     "scheduledTime": "13:05",
     "estimatedTime": "12:53",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -176,7 +176,7 @@
     "to": "Салехард",
     "scheduledTime": "13:05",
     "estimatedTime": "12:53",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -185,7 +185,7 @@
     "to": "Салехард",
     "scheduledTime": "13:05",
     "estimatedTime": "12:53",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -427,7 +427,7 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "13:17",
+    "estimatedTime": "13:32",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -437,7 +437,7 @@
     "to": "Салехард",
     "scheduledTime": "13:05",
     "estimatedTime": "12:53",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -446,7 +446,7 @@
     "to": "Салехард",
     "scheduledTime": "13:05",
     "estimatedTime": "12:53",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -455,7 +455,7 @@
     "to": "Салехард",
     "scheduledTime": "13:05",
     "estimatedTime": "12:53",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
