@@ -113,15 +113,6 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:00",
     "estimatedTime": "13:00",
-    "status": "Идет посадка",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 62",
-    "from": "Салехард",
-    "to": "Салехард",
-    "scheduledTime": "13:30",
-    "estimatedTime": "13:30",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -184,8 +175,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
+    "estimatedTime": "12:59",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -220,17 +211,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "13:20",
-    "estimatedTime": "12:55",
-    "status": "Ожидается",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 62",
-    "from": "Салехард",
-    "to": "Салехард",
-    "scheduledTime": "13:35",
-    "estimatedTime": "13:35",
-    "status": "По расписанию",
+    "estimatedTime": "12:54",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -428,15 +410,6 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:00",
     "estimatedTime": "13:00",
-    "status": "Идет посадка",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 62",
-    "from": "Салехард",
-    "to": "Салехард",
-    "scheduledTime": "13:30",
-    "estimatedTime": "13:30",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -499,8 +472,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
+    "estimatedTime": "12:59",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -535,17 +508,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "13:20",
-    "estimatedTime": "12:55",
-    "status": "Ожидается",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 62",
-    "from": "Салехард",
-    "to": "Салехард",
-    "scheduledTime": "13:35",
-    "estimatedTime": "13:35",
-    "status": "По расписанию",
+    "estimatedTime": "12:54",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
