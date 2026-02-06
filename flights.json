@@ -112,8 +112,8 @@
     "from": "Салехард",
     "to": "Новый Уренгой",
     "scheduledTime": "13:00",
-    "estimatedTime": "13:00",
-    "status": "По расписанию",
+    "estimatedTime": "13:11",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:13",
-    "status": "Ожидается",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -193,8 +193,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:13",
-    "status": "Ожидается",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:13",
-    "status": "Ожидается",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -220,8 +220,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "13:50",
-    "estimatedTime": "13:50",
-    "status": "По расписанию",
+    "estimatedTime": "13:59",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -230,7 +230,7 @@
     "to": "Салехард",
     "scheduledTime": "14:45",
     "estimatedTime": "14:45",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "departure"
   },
   {
@@ -239,7 +239,7 @@
     "to": "Салехард",
     "scheduledTime": "14:45",
     "estimatedTime": "14:45",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "departure"
   },
   {
@@ -248,7 +248,7 @@
     "to": "Салехард",
     "scheduledTime": "14:45",
     "estimatedTime": "14:45",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "departure"
   },
   {
@@ -257,7 +257,7 @@
     "to": "Салехард",
     "scheduledTime": "14:45",
     "estimatedTime": "14:45",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "departure"
   },
   {
@@ -409,8 +409,8 @@
     "from": "Салехард",
     "to": "Новый Уренгой",
     "scheduledTime": "13:00",
-    "estimatedTime": "13:00",
-    "status": "По расписанию",
+    "estimatedTime": "13:11",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -481,8 +481,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:13",
-    "status": "Ожидается",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -490,8 +490,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:13",
-    "status": "Ожидается",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -499,8 +499,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:13",
-    "status": "Ожидается",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -517,8 +517,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "13:50",
-    "estimatedTime": "13:50",
-    "status": "По расписанию",
+    "estimatedTime": "13:59",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -527,7 +527,7 @@
     "to": "Салехард",
     "scheduledTime": "14:45",
     "estimatedTime": "14:45",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "arrival"
   },
   {
@@ -536,7 +536,7 @@
     "to": "Салехард",
     "scheduledTime": "14:45",
     "estimatedTime": "14:45",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "arrival"
   },
   {
@@ -545,7 +545,7 @@
     "to": "Салехард",
     "scheduledTime": "14:45",
     "estimatedTime": "14:45",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "arrival"
   },
   {
@@ -554,7 +554,7 @@
     "to": "Салехард",
     "scheduledTime": "14:45",
     "estimatedTime": "14:45",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "arrival"
   },
   {
