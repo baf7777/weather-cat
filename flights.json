@@ -113,7 +113,16 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:00",
     "estimatedTime": "13:00",
-    "status": "Регистрация",
+    "status": "Идет посадка",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 62",
+    "from": "Салехард",
+    "to": "Салехард",
+    "scheduledTime": "13:30",
+    "estimatedTime": "13:30",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -175,8 +184,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "12:30",
-    "status": "По расписанию",
+    "estimatedTime": "13:05",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -184,8 +193,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:13",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -193,8 +202,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:13",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -202,8 +211,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:13",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -211,7 +220,16 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "13:20",
-    "estimatedTime": "13:20",
+    "estimatedTime": "12:55",
+    "status": "Ожидается",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 62",
+    "from": "Салехард",
+    "to": "Салехард",
+    "scheduledTime": "13:35",
+    "estimatedTime": "13:35",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -410,7 +428,16 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:00",
     "estimatedTime": "13:00",
-    "status": "Регистрация",
+    "status": "Идет посадка",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 62",
+    "from": "Салехард",
+    "to": "Салехард",
+    "scheduledTime": "13:30",
+    "estimatedTime": "13:30",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -472,8 +499,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "12:30",
-    "status": "По расписанию",
+    "estimatedTime": "13:05",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -481,8 +508,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:13",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -490,8 +517,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:13",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -499,8 +526,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:13",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -508,7 +535,16 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "13:20",
-    "estimatedTime": "13:20",
+    "estimatedTime": "12:55",
+    "status": "Ожидается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 62",
+    "from": "Салехард",
+    "to": "Салехард",
+    "scheduledTime": "13:35",
+    "estimatedTime": "13:35",
     "status": "По расписанию",
     "type": "arrival"
   },
