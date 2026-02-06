@@ -32,7 +32,7 @@
     "to": "Кутопьеган",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "departure"
   },
   {
@@ -41,7 +41,7 @@
     "to": "Салемал",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "departure"
   },
   {
@@ -50,7 +50,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "departure"
   },
   {
@@ -59,7 +59,7 @@
     "to": "Панаевск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "departure"
   },
   {
@@ -94,8 +94,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:40",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:50",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -113,7 +113,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:00",
     "estimatedTime": "13:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -329,7 +329,7 @@
     "to": "Кутопьеган",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "arrival"
   },
   {
@@ -338,7 +338,7 @@
     "to": "Салемал",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "arrival"
   },
   {
@@ -347,7 +347,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "arrival"
   },
   {
@@ -356,7 +356,7 @@
     "to": "Панаевск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Отменён",
     "type": "arrival"
   },
   {
@@ -391,8 +391,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:40",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -400,8 +400,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:50",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -410,7 +410,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:00",
     "estimatedTime": "13:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
