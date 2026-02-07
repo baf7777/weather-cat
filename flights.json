@@ -41,7 +41,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -50,7 +50,7 @@
     "to": "Казань",
     "scheduledTime": "10:50",
     "estimatedTime": "10:50",
-    "status": "Идет посадка",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -148,8 +148,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:14",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -194,7 +194,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -203,7 +203,7 @@
     "to": "Казань",
     "scheduledTime": "10:50",
     "estimatedTime": "10:50",
-    "status": "Идет посадка",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -301,8 +301,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:14",
+    "status": "Ожидается",
     "type": "arrival"
   }
 ]
