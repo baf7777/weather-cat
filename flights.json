@@ -113,7 +113,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
     "estimatedTime": "15:00",
-    "status": "Идет посадка",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -392,7 +392,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
     "estimatedTime": "15:00",
-    "status": "Идет посадка",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
