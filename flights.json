@@ -95,7 +95,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:00",
     "estimatedTime": "16:10",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -104,7 +104,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "16:00",
     "estimatedTime": "16:10",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -113,7 +113,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
     "estimatedTime": "16:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -220,7 +220,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:30",
+    "estimatedTime": "15:40",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -229,7 +229,7 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:30",
+    "estimatedTime": "15:40",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -238,8 +238,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:02",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -265,7 +265,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "17:07",
+    "estimatedTime": "17:30",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -365,7 +365,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:00",
     "estimatedTime": "16:10",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -374,7 +374,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "16:00",
     "estimatedTime": "16:10",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -383,7 +383,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
     "estimatedTime": "16:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -490,7 +490,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:30",
+    "estimatedTime": "15:40",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -499,7 +499,7 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:30",
+    "estimatedTime": "15:40",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -508,8 +508,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:02",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -535,7 +535,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:20",
-    "estimatedTime": "17:07",
+    "estimatedTime": "17:30",
     "status": "Ожидается",
     "type": "arrival"
   }
