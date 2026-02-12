@@ -5,7 +5,7 @@
     "to": "Новосибирск",
     "scheduledTime": "08:35",
     "estimatedTime": "08:35",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "08:40",
-    "status": "По расписанию",
+    "estimatedTime": "08:34",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -112,8 +112,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "estimatedTime": "09:40",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -121,8 +121,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:00",
-    "estimatedTime": "11:00",
-    "status": "По расписанию",
+    "estimatedTime": "10:58",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -185,7 +185,7 @@
     "to": "Новосибирск",
     "scheduledTime": "08:35",
     "estimatedTime": "08:35",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -283,8 +283,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "08:40",
-    "status": "По расписанию",
+    "estimatedTime": "08:34",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -292,8 +292,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "estimatedTime": "09:40",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -301,8 +301,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:00",
-    "estimatedTime": "11:00",
-    "status": "По расписанию",
+    "estimatedTime": "10:58",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
