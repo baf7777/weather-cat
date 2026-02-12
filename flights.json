@@ -121,8 +121,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:02",
-    "status": "Ожидается",
+    "estimatedTime": "13:00",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -130,8 +130,8 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:02",
-    "status": "Ожидается",
+    "estimatedTime": "13:00",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -166,7 +166,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:10",
+    "estimatedTime": "16:25",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -292,8 +292,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:02",
-    "status": "Ожидается",
+    "estimatedTime": "13:00",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -301,8 +301,8 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:02",
-    "status": "Ожидается",
+    "estimatedTime": "13:00",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -337,7 +337,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:10",
+    "estimatedTime": "16:25",
     "status": "Ожидается",
     "type": "arrival"
   }
