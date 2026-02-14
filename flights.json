@@ -41,7 +41,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -130,8 +130,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "13:30",
-    "estimatedTime": "13:30",
-    "status": "По расписанию",
+    "estimatedTime": "13:20",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -185,7 +185,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "13:30",
-    "estimatedTime": "13:30",
-    "status": "По расписанию",
+    "estimatedTime": "13:20",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
