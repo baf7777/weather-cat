@@ -59,7 +59,7 @@
     "to": "Казань",
     "scheduledTime": "17:00",
     "estimatedTime": "17:00",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -139,7 +139,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:58",
+    "estimatedTime": "16:36",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -203,7 +203,7 @@
     "to": "Казань",
     "scheduledTime": "17:00",
     "estimatedTime": "17:00",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -283,7 +283,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:58",
+    "estimatedTime": "16:36",
     "status": "Ожидается",
     "type": "arrival"
   }
