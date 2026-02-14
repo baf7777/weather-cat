@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
-    "estimatedTime": "09:10",
-    "status": "Задерживается",
+    "estimatedTime": "09:47",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Салемал",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "estimatedTime": "09:54",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -22,8 +22,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "estimatedTime": "09:54",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -31,8 +31,8 @@
     "from": "Салехард",
     "to": "Панаевск",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "estimatedTime": "09:54",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -41,7 +41,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -94,8 +94,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "estimatedTime": "09:41",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -148,8 +148,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:10",
-    "estimatedTime": "09:10",
-    "status": "Задерживается",
+    "estimatedTime": "09:47",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -157,8 +157,8 @@
     "from": "Салехард",
     "to": "Салемал",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "estimatedTime": "09:54",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -166,8 +166,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "estimatedTime": "09:54",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -175,8 +175,8 @@
     "from": "Салехард",
     "to": "Панаевск",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "estimatedTime": "09:54",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -185,7 +185,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "estimatedTime": "09:41",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
