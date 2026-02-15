@@ -220,8 +220,8 @@
     "from": "Азовы",
     "to": "Салехард",
     "scheduledTime": "13:45",
-    "estimatedTime": "13:45",
-    "status": "По расписанию",
+    "estimatedTime": "13:35",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:45",
-    "estimatedTime": "13:45",
-    "status": "По расписанию",
+    "estimatedTime": "13:35",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:45",
-    "estimatedTime": "13:45",
-    "status": "По расписанию",
+    "estimatedTime": "13:35",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -517,8 +517,8 @@
     "from": "Азовы",
     "to": "Салехард",
     "scheduledTime": "13:45",
-    "estimatedTime": "13:45",
-    "status": "По расписанию",
+    "estimatedTime": "13:35",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -526,8 +526,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:45",
-    "estimatedTime": "13:45",
-    "status": "По расписанию",
+    "estimatedTime": "13:35",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -535,8 +535,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:45",
-    "estimatedTime": "13:45",
-    "status": "По расписанию",
+    "estimatedTime": "13:35",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
