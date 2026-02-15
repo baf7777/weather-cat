@@ -148,8 +148,8 @@
     "from": "Салехард",
     "to": "Нижнекамск",
     "scheduledTime": "23:00",
-    "estimatedTime": "23:00",
-    "status": "По расписанию",
+    "estimatedTime": "23:12",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -445,8 +445,8 @@
     "from": "Нижнекамск",
     "to": "Салехард",
     "scheduledTime": "23:00",
-    "estimatedTime": "23:00",
-    "status": "По расписанию",
+    "estimatedTime": "23:12",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
