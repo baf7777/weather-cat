@@ -131,7 +131,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "16:20",
-    "status": "Задерживается",
+    "estimatedTime": "16:25",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -211,8 +211,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "16:20",
-    "status": "Задерживается",
+    "estimatedTime": "16:25",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -220,8 +220,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "16:20",
-    "status": "Задерживается",
+    "estimatedTime": "16:25",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -230,7 +230,7 @@
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "16:20",
-    "status": "По расписанию",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -239,7 +239,7 @@
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "16:20",
-    "status": "По расписанию",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -248,7 +248,7 @@
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "16:20",
-    "status": "По расписанию",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -256,7 +256,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:57",
+    "estimatedTime": "16:56",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -265,8 +265,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "16:55",
-    "status": "Ожидается",
+    "estimatedTime": "17:00",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -410,7 +410,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -481,8 +481,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "16:20",
-    "status": "Задерживается",
+    "estimatedTime": "16:25",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -490,8 +490,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "16:20",
-    "status": "Задерживается",
+    "estimatedTime": "16:25",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -499,8 +499,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "16:20",
-    "status": "Задерживается",
+    "estimatedTime": "16:25",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -509,7 +509,7 @@
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "16:20",
-    "status": "По расписанию",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -518,7 +518,7 @@
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "16:20",
-    "status": "По расписанию",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -527,7 +527,7 @@
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "16:20",
-    "status": "По расписанию",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -535,7 +535,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:57",
+    "estimatedTime": "16:56",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -544,8 +544,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "16:55",
-    "status": "Ожидается",
+    "estimatedTime": "17:00",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
