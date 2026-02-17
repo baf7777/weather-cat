@@ -104,7 +104,7 @@
     "to": "Тюмень",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -220,8 +220,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "14:45",
-    "status": "Ожидается",
+    "estimatedTime": "14:53",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -347,7 +347,7 @@
     "to": "Тюмень",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -463,8 +463,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "14:45",
-    "status": "Ожидается",
+    "estimatedTime": "14:53",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
