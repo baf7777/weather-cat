@@ -27,7 +27,7 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 50",
+    "number": "ЯЛ",
     "from": "Салехард",
     "to": "Панаевск",
     "scheduledTime": "09:30",
@@ -180,7 +180,7 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 50",
+    "number": "ЯЛ",
     "from": "Салехард",
     "to": "Панаевск",
     "scheduledTime": "09:30",
