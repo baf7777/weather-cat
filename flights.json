@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "10:50",
-    "estimatedTime": "16:20",
-    "status": "Посадка завершена",
+    "estimatedTime": "16:50",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -59,7 +59,7 @@
     "to": "Минеральные Воды",
     "scheduledTime": "14:50",
     "estimatedTime": "17:30",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -148,8 +148,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:38",
-    "status": "Ожидается",
+    "estimatedTime": "16:44",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "10:50",
-    "estimatedTime": "16:20",
-    "status": "Посадка завершена",
+    "estimatedTime": "16:50",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -212,7 +212,7 @@
     "to": "Минеральные Воды",
     "scheduledTime": "14:50",
     "estimatedTime": "17:30",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -301,8 +301,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:38",
-    "status": "Ожидается",
+    "estimatedTime": "16:44",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
