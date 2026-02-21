@@ -49,7 +49,7 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "10:50",
-    "estimatedTime": "13:50",
+    "estimatedTime": "14:50",
     "status": "Посадка завершена",
     "type": "departure"
   },
@@ -139,7 +139,7 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "19:40",
+    "estimatedTime": "20:40",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -202,7 +202,7 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "10:50",
-    "estimatedTime": "13:50",
+    "estimatedTime": "14:50",
     "status": "Посадка завершена",
     "type": "arrival"
   },
@@ -292,7 +292,7 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "19:40",
+    "estimatedTime": "20:40",
     "status": "Задерживается",
     "type": "arrival"
   },
