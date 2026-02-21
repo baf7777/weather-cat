@@ -49,7 +49,7 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "10:50",
-    "estimatedTime": "12:20",
+    "estimatedTime": "12:50",
     "status": "Посадка завершена",
     "type": "departure"
   },
@@ -130,7 +130,7 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "13:30",
-    "estimatedTime": "15:02",
+    "estimatedTime": "17:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -202,7 +202,7 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "10:50",
-    "estimatedTime": "12:20",
+    "estimatedTime": "12:50",
     "status": "Посадка завершена",
     "type": "arrival"
   },
@@ -283,7 +283,7 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "13:30",
-    "estimatedTime": "15:02",
+    "estimatedTime": "17:00",
     "status": "Задерживается",
     "type": "arrival"
   },
