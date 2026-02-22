@@ -157,8 +157,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:30",
-    "status": "Ожидается",
+    "estimatedTime": "12:27",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -166,8 +166,8 @@
     "from": "Восяхово",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "12:41",
-    "status": "Ожидается",
+    "estimatedTime": "12:45",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -175,8 +175,8 @@
     "from": "Шурышкары",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "12:41",
-    "status": "Ожидается",
+    "estimatedTime": "12:45",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "12:41",
-    "status": "Ожидается",
+    "estimatedTime": "12:45",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -427,8 +427,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:30",
-    "status": "Ожидается",
+    "estimatedTime": "12:27",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -436,8 +436,8 @@
     "from": "Восяхово",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "12:41",
-    "status": "Ожидается",
+    "estimatedTime": "12:45",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -445,8 +445,8 @@
     "from": "Шурышкары",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "12:41",
-    "status": "Ожидается",
+    "estimatedTime": "12:45",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -454,8 +454,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "12:41",
-    "status": "Ожидается",
+    "estimatedTime": "12:45",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
