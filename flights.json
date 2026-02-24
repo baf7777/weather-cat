@@ -76,8 +76,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Регистрация",
+    "estimatedTime": "18:10",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -153,6 +153,15 @@
     "type": "departure"
   },
   {
+    "number": "ЯЛ 67",
+    "from": "Мужи",
+    "to": "Салехард",
+    "scheduledTime": "13:05",
+    "estimatedTime": "13:28",
+    "status": "Рейс прибыл",
+    "type": "departure"
+  },
+  {
     "number": "ЯЛ 29",
     "from": "Сеяха",
     "to": "Салехард",
@@ -176,7 +185,7 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:57",
-    "status": "Задерживается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -256,8 +265,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Регистрация",
+    "estimatedTime": "18:10",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -333,6 +342,15 @@
     "type": "arrival"
   },
   {
+    "number": "ЯЛ 67",
+    "from": "Мужи",
+    "to": "Салехард",
+    "scheduledTime": "13:05",
+    "estimatedTime": "13:28",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
     "number": "ЯЛ 29",
     "from": "Сеяха",
     "to": "Салехард",
@@ -356,7 +374,7 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:57",
-    "status": "Задерживается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
