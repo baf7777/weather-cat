@@ -153,15 +153,6 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 67",
-    "from": "Мужи",
-    "to": "Салехард",
-    "scheduledTime": "13:05",
-    "estimatedTime": "13:28",
-    "status": "Рейс прибыл",
-    "type": "departure"
-  },
-  {
     "number": "ЯЛ 29",
     "from": "Сеяха",
     "to": "Салехард",
@@ -184,7 +175,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:59",
+    "estimatedTime": "16:57",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -342,15 +333,6 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 67",
-    "from": "Мужи",
-    "to": "Салехард",
-    "scheduledTime": "13:05",
-    "estimatedTime": "13:28",
-    "status": "Рейс прибыл",
-    "type": "arrival"
-  },
-  {
     "number": "ЯЛ 29",
     "from": "Сеяха",
     "to": "Салехард",
@@ -373,7 +355,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:59",
+    "estimatedTime": "16:57",
     "status": "Задерживается",
     "type": "arrival"
   }
