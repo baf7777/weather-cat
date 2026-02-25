@@ -86,7 +86,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "13:40",
     "estimatedTime": "13:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -157,8 +157,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:40",
-    "status": "По расписанию",
+    "estimatedTime": "12:30",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -356,7 +356,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "13:40",
     "estimatedTime": "13:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -427,8 +427,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:40",
-    "status": "По расписанию",
+    "estimatedTime": "12:30",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
