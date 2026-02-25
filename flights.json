@@ -86,7 +86,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "13:40",
     "estimatedTime": "13:40",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -167,7 +167,7 @@
     "to": "Салехард",
     "scheduledTime": "13:05",
     "estimatedTime": "13:16",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -176,7 +176,7 @@
     "to": "Салехард",
     "scheduledTime": "13:05",
     "estimatedTime": "13:16",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -185,7 +185,7 @@
     "to": "Салехард",
     "scheduledTime": "13:05",
     "estimatedTime": "13:16",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:37",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -356,7 +356,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "13:40",
     "estimatedTime": "13:40",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -437,7 +437,7 @@
     "to": "Салехард",
     "scheduledTime": "13:05",
     "estimatedTime": "13:16",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -446,7 +446,7 @@
     "to": "Салехард",
     "scheduledTime": "13:05",
     "estimatedTime": "13:16",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -455,7 +455,7 @@
     "to": "Салехард",
     "scheduledTime": "13:05",
     "estimatedTime": "13:16",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -508,8 +508,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:37",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
