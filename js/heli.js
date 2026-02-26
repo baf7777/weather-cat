@@ -360,6 +360,10 @@ class HeliSystem {
         this.els.group.setAttribute("transform", 
             `translate(${xPos + vibX} ${yPos + vibY}) rotate(${this.animVars.tilt} 1500 700)`);
 
+        if (window.updateHeliSound) {
+            window.updateHeliSound(this.animVars.rpm);
+        }
+
         requestAnimationFrame((t) => this.tick(t));
     }
 }
