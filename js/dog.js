@@ -1,11 +1,19 @@
 // js/dog.js
 class DogSystem {
     constructor() {
-        this.dog = null;
         this.el = null;
-        this.state = 'IDLE'; // IDLE (sitting), WALK, BARK
-        this.pos = { x: 0, y: 0 };
+        this.state = 'IDLE'; // IDLE, TO_DEER, BARKING, TO_HOME, RANDOM_WALK
+        this.pos = { x: 0, bottom: 0 };
+        this.homeX = 0;
+        this.targetX = 0;
         this.stateTimer = 0;
+
+        // НАСТРОЙКИ СКОРОСТИ СОБАКИ (можно менять тут)
+        this.speeds = {
+            toDeer: 0.5,  // Скорость бега к оленю
+            toHome: 0.3,  // Скорость возврата домой (конвоирование)
+            random: 0.2   // Скорость обычной прогулки у чума
+        };
     }
 
     init() {
@@ -30,53 +38,64 @@ class DogSystem {
         const el = document.createElement('div');
         el.className = 'dog sit';
         
-        // Позиция рядом с чумом
-        this.pos.x = chum.x + 40;
-        this.pos.bottom = chum.bottom - 3; // Чуть ниже чума
+        this.homeX = chum.x + 50;
+        this.pos.x = this.homeX;
+        this.pos.bottom = chum.bottom - 2;
 
         el.style.left = `${this.pos.x}px`;
         el.style.bottom = `${this.pos.bottom}%`;
+        el.style.zIndex = 5;
         
         document.body.appendChild(el);
         this.el = el;
 
-        el.addEventListener('click', () => this.bark());
+        el.addEventListener('click', () => this.startMission());
+        this.stateTimer = Date.now() + 5000;
+    }
+
+    startMission() {
+        if (this.state !== 'IDLE' && this.state !== 'RANDOM_WALK') return;
+        if (!window.DeerSystem || !window.DeerSystem.escapedDeer) {
+            this.bark();
+            return;
+        }
+        this.setState('TO_DEER');
     }
 
     bark() {
-        if (this.state === 'BARK') return;
         const prevState = this.state;
-        this.setState('BARK');
+        this.setState('BARKING');
+        if (window.playBark) window.playBark();
         
-        if (window.playBark) {
-            window.playBark();
-        }
-        
-        // Лает 2 секунды и возвращается в прошлое состояние
         setTimeout(() => {
-            this.setState(prevState === 'BARK' ? 'IDLE' : prevState);
-        }, 2000);
+            if (window.DeerSystem && window.DeerSystem.escapedDeer && prevState === 'TO_DEER') {
+                const d = window.DeerSystem.escapedDeer;
+                d.state = 'RETURNING';
+                d.el.classList.remove('idle');
+                d.el.classList.add('walk');
+                this.setState('TO_HOME');
+            } else {
+                this.setState('IDLE');
+            }
+        }, 1500);
     }
 
     setState(newState) {
-        if (this.state === newState) return;
+        if (!this.el) return;
         this.el.classList.remove('walk', 'sit', 'bark');
         this.state = newState;
-        this.el.classList.add(newState.toLowerCase());
         
-        // Настройка таймера для следующей смены состояния
-        if (newState === 'IDLE') {
-            this.stateTimer = Date.now() + (5000 + Math.random() * 10000);
-        } else if (newState === 'WALK') {
-            this.stateTimer = Date.now() + (3000 + Math.random() * 5000);
-            this.targetX = this.getNewTargetX();
-        }
-    }
+        let className = 'sit';
+        if (newState === 'TO_DEER' || newState === 'TO_HOME' || newState === 'RANDOM_WALK') className = 'walk';
+        if (newState === 'BARKING') className = 'bark';
+        
+        this.el.classList.add(className);
 
-    getNewTargetX() {
-        const chum = this.getChumPos();
-        const range = 100;
-        return chum.x + (Math.random() * range * 2 - range);
+        if (newState === 'IDLE') {
+            this.stateTimer = Date.now() + 10000 + Math.random() * 10000;
+        } else if (newState === 'RANDOM_WALK') {
+            this.targetX = this.homeX + (Math.random() * 100 - 50);
+        }
     }
 
     tick(now) {
@@ -84,39 +103,49 @@ class DogSystem {
 
         const currentTime = Date.now();
         const chum = this.getChumPos();
+        this.pos.bottom = chum.bottom - 2;
+        this.el.style.bottom = `${this.pos.bottom}%`;
 
-        // Логика смены состояний
-        if (currentTime > this.stateTimer && this.state !== 'BARK') {
-            if (this.state === 'IDLE') {
-                this.setState('WALK');
-            } else {
-                this.setState('IDLE');
-            }
+        if (this.state === 'IDLE' && currentTime > this.stateTimer) {
+            this.setState('RANDOM_WALK');
         }
 
-        // Движение
-        if (this.state === 'WALK') {
-            const dx = this.targetX - this.pos.x;
-            if (Math.abs(dx) > 2) {
-                const move = dx > 0 ? 1 : -1;
-                this.pos.x += move * 0.8;
+        if (this.state === 'TO_DEER') {
+            const target = window.DeerSystem.escapedDeer;
+            if (target) {
+                const dist = (target.pos - 30) - this.pos.x;
+                if (Math.abs(dist) > 5) {
+                    const move = dist > 0 ? this.speeds.toDeer : -this.speeds.toDeer;
+                    this.pos.x += move;
+                    this.el.style.left = `${this.pos.x}px`;
+                    if (move > 0) this.el.classList.add('flip');
+                    else this.el.classList.remove('flip');
+                } else {
+                    this.bark();
+                }
+            }
+        } else if (this.state === 'TO_HOME') {
+            const dist = this.homeX - this.pos.x;
+            if (Math.abs(dist) > 5) {
+                const move = dist > 0 ? this.speeds.toHome : -this.speeds.toHome;
+                this.pos.x += move;
                 this.el.style.left = `${this.pos.x}px`;
-                
-                if (move > 0) this.el.classList.remove('flip');
-                else this.el.classList.add('flip');
+                if (move > 0) this.el.classList.add('flip');
+                else this.el.classList.remove('flip');
             } else {
                 this.setState('IDLE');
+                this.el.classList.remove('flip');
             }
-        }
-
-        // Проверка близости оленей (чтобы погавкать)
-        if (this.state === 'IDLE' && window.DeerSystem && window.DeerSystem.deers) {
-            const nearbyDeer = window.DeerSystem.deers.find(d => 
-                Math.abs(d.pos - this.pos.x) < 60 && 
-                Math.abs(parseFloat(d.el.style.bottom) - this.pos.bottom) < 5
-            );
-            if (nearbyDeer && Math.random() < 0.01) {
-                this.bark();
+        } else if (this.state === 'RANDOM_WALK') {
+            const dist = this.targetX - this.pos.x;
+            if (Math.abs(dist) > 2) {
+                const move = dist > 0 ? this.speeds.random : -this.speeds.random;
+                this.pos.x += move;
+                this.el.style.left = `${this.pos.x}px`;
+                if (move > 0) this.el.classList.add('flip');
+                else this.el.classList.remove('flip');
+            } else {
+                this.setState('IDLE');
             }
         }
 

@@ -547,7 +547,7 @@ body.night .clouds { opacity: 0.3; }
         opacity: 0.7;
     }
     100% { 
-        transform: translateY(-4rem) translateX(0.6rem) scaleY(2);
+        transform: translateY(-4rem) translateX(-0.6rem) scaleY(2);
         opacity: 0;
     }
 }
@@ -868,18 +868,11 @@ body.night .clouds { opacity: 0.3; }
 .deer.walk {
     background: url('../assets/deer_walk.png') no-repeat left center;
     background-size: 640px 80px;
-    animation: deer-walk 2.4s steps(8) infinite;
+    animation: deer-walk 1s steps(8) infinite;
 }
 
-@keyframes deer-idle {
-    from { background-position: 0; }
-    to { background-position: -640px; }
-}
-
-@keyframes deer-walk {
-    from { background-position: 0; }
-    to { background-position: -640px; }
-}
+@keyframes deer-idle { from { background-position: 0; } to { background-position: -640px; } }
+@keyframes deer-walk { from { background-position: 0; } to { background-position: -640px; } }
 
 /* Отражение если идет в обратную сторону */
 .deer.flip {
@@ -889,8 +882,8 @@ body.night .clouds { opacity: 0.3; }
 /* --- ЛАЙКА (DOG) --- */
 .dog {
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     z-index: 5; /* Перед оленями */
     image-rendering: pixelated;
     pointer-events: auto;
@@ -900,25 +893,25 @@ body.night .clouds { opacity: 0.3; }
 
 .dog.walk {
     background: url('../assets/dog_walk.png') no-repeat left center;
-    background-size: 640px 80px;
-    animation: dog-walk 0.8s steps(8) infinite;
+    background-size: 320px 40px;
+    animation: dog-walk 0.6s steps(8) infinite; /* Синхронно с 8 кадрами */
 }
 
 .dog.bark {
     background: url('../assets/dog_bark.png') no-repeat left center;
-    background-size: 640px 80px;
+    background-size: 320px 40px;
     animation: dog-bark 0.5s steps(8) infinite;
 }
 
 .dog.sit {
     background: url('../assets/dog_sit.png') no-repeat left center;
-    background-size: 640px 80px;
-    animation: dog-sit 3s steps(8) infinite;
+    background-size: 320px 40px;
+    animation: dog-sit 1s steps(7) forwards; /* 7 шагов чтобы замереть на 8-м */
 }
 
-@keyframes dog-walk { from { background-position: 0; } to { background-position: -640px; } }
-@keyframes dog-bark { from { background-position: 0; } to { background-position: -640px; } }
-@keyframes dog-sit { from { background-position: 0; } to { background-position: -640px; } }
+@keyframes dog-walk { from { background-position: 0; } to { background-position: -320px; } }
+@keyframes dog-bark { from { background-position: 0; } to { background-position: -320px; } }
+@keyframes dog-sit { from { background-position: 0; } to { background-position: -280px; } }
 
 .dog.flip { transform: scaleX(-1); }
 

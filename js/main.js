@@ -76,6 +76,18 @@ async function init() {
         await loadWeatherCSV();
     }
     await fetchWeather();
+    
+    // Клик по чуму - олень убегает
+    const chum = document.querySelector('.chum-bg img');
+    if (chum) {
+        chum.style.cursor = 'pointer';
+        chum.style.pointerEvents = 'auto';
+        chum.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if (window.DeerSystem) window.DeerSystem.triggerEscape();
+        });
+    }
+
     els.box.addEventListener('click', toggleBox);
     trackMouse(); // Запуск слежения глаз
     startCatBreathLoop(); // Запуск дыхания кота
