@@ -5,6 +5,7 @@ const windSound = new Audio('sound/wind.mp3');
 windSound.loop = true;
 const heliSound = new Audio('sound/helicopter.mp3');
 heliSound.loop = true;
+const barkSound = new Audio('sound/bark.mp3');
 
 let isSoundEnabled = false;
 
@@ -27,6 +28,7 @@ function initSound() {
             bgMusic.pause();
             windSound.pause();
             heliSound.pause();
+            barkSound.pause();
             soundToggle.innerText = '🔊 Вкл. звук';
             soundToggle.classList.remove('active');
         }
@@ -60,8 +62,15 @@ function updateHeliSound(rpm) {
     }
 }
 
+function playBark() {
+    if (!isSoundEnabled) return;
+    barkSound.currentTime = 0;
+    barkSound.play().catch(e => console.warn("Sound play failed:", e));
+}
+
 document.addEventListener('DOMContentLoaded', initSound);
 
 // Export for other modules if needed
 window.updateWindSound = updateWindSound;
 window.updateHeliSound = updateHeliSound;
+window.playBark = playBark;

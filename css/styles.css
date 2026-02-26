@@ -791,13 +791,29 @@ body.night .clouds { opacity: 0.3; }
 
 .chum-bg {
     position: absolute;
-    bottom: 22rem; /* Выше коробки */
-    left: 8rem; /* Слева */
-    width: 10rem; /* Небольшой размер */
+    bottom: 32%; /* Подняли выше */
+    left: 12%; 
+    width: 20vmin; /* Сделали больше */
+    min-width: 100px;
     height: auto;
-    z-index: 3; /* За вертолетом и котом */
+    z-index: 3;
     pointer-events: none;
     filter: drop-shadow(0 5px 15px rgba(0,0,0,0.1));
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 2.2vmin; /* Уменьшаем базу для мобилок */
+    }
+    .stage {
+        transform: scale(0.85); /* Уменьшаем всю сцену с котом, чтобы не была огромной */
+        transform-origin: bottom center;
+    }
+    .chum-bg {
+        bottom: 38%; /* На мобилках еще выше */
+        left: 5%;
+        width: 25vmin; /* На мобилках чуть крупнее */
+    }
 }
 
 .chum-bg img {
@@ -809,23 +825,23 @@ body.night .clouds { opacity: 0.3; }
 /* ДЫМ ИЗ ЧУМА */
 .chum-smoke {
     position: absolute;
-    top: 5%; /* Примерно на верхушке чума */
+    top: -5px; /* На верхушке чума */
     left: 50%;
     transform: translateX(-50%);
     width: 20px;
     height: 20px;
-    z-index: -1; /* За самим чумом */
+    z-index: 10; /* ПОВЕРХ ЧУМА */
 }
 
 .smoke-particle {
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 8px;
-    height: 8px;
-    background: rgba(200, 200, 200, 0.6);
+    width: 10px;
+    height: 10px;
+    background: radial-gradient(circle, rgba(220, 220, 220, 0.8) 0%, rgba(150, 150, 150, 0) 70%);
     border-radius: 50%;
-    filter: blur(4px);
+    filter: blur(3px);
     animation: smokeRise 4s ease-out forwards;
 }
 
@@ -869,6 +885,42 @@ body.night .clouds { opacity: 0.3; }
 .deer.flip {
     transform: scaleX(-1);
 }
+
+/* --- ЛАЙКА (DOG) --- */
+.dog {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    z-index: 5; /* Перед оленями */
+    image-rendering: pixelated;
+    pointer-events: auto;
+    cursor: pointer;
+    transform-origin: bottom center;
+}
+
+.dog.walk {
+    background: url('../assets/dog_walk.png') no-repeat left center;
+    background-size: 640px 80px;
+    animation: dog-walk 0.8s steps(8) infinite;
+}
+
+.dog.bark {
+    background: url('../assets/dog_bark.png') no-repeat left center;
+    background-size: 640px 80px;
+    animation: dog-bark 0.5s steps(8) infinite;
+}
+
+.dog.sit {
+    background: url('../assets/dog_sit.png') no-repeat left center;
+    background-size: 640px 80px;
+    animation: dog-sit 3s steps(8) infinite;
+}
+
+@keyframes dog-walk { from { background-position: 0; } to { background-position: -640px; } }
+@keyframes dog-bark { from { background-position: 0; } to { background-position: -640px; } }
+@keyframes dog-sit { from { background-position: 0; } to { background-position: -640px; } }
+
+.dog.flip { transform: scaleX(-1); }
 
 .loader {
     position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%);

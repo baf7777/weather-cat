@@ -6,11 +6,22 @@ class DeerSystem {
     }
 
     init() {
-        // Сразу создаем 5 оленей
         for (let i = 0; i < this.maxDeers; i++) {
             this.spawnDeer();
         }
         requestAnimationFrame((t) => this.tick(t));
+    }
+
+    getChumPos() {
+        const chum = document.querySelector('.chum-bg');
+        if (!chum) return { x: 100, bottom: 32 };
+        const rect = chum.getBoundingClientRect();
+        const isMobile = window.innerWidth < 600;
+        return {
+            x: rect.left + rect.width / 2,
+            bottom: isMobile ? 38 : 32,
+            width: rect.width
+        };
     }
 
     spawnDeer() {
@@ -18,26 +29,22 @@ class DeerSystem {
         const initialState = Math.random() > 0.5 ? 'WALK' : 'IDLE';
         deer.className = `deer ${initialState.toLowerCase()}`;
         
-        // Пастбище возле чума (от 5% до 45% экрана)
-        const minX = window.innerWidth * 0.05;
-        const maxX = window.innerWidth * 0.45;
+        const chumPos = this.getChumPos();
+        // Возвращаем компактный радиус прогулки
+        const range = window.innerWidth < 600 ? 80 : 150; 
+        const minX = Math.max(10, chumPos.x - range);
+        const maxX = Math.min(window.innerWidth - 50, chumPos.x + range);
         
-        // Случайная позиция, которая не слишком близко к другим оленям
-        let startPos;
-        let attempts = 0;
-        do {
-            startPos = minX + Math.random() * (maxX - minX);
-            attempts++;
-        } while (this.isTooClose(startPos) && attempts < 10);
+        let startPos = minX + Math.random() * (maxX - minX);
         
-        const speed = 0.1 + Math.random() * 0.1;
+        const speed = 0.06 + Math.random() * 0.06;
         const scale = 0.4 + Math.random() * 0.15; 
-        const bottomRem = 18 + Math.random() * 4; 
-
+        const baseBottom = chumPos.bottom - 2.5; 
+        const randomOffset = (Math.random() * 2) - 1; 
+        
         deer.style.left = `${startPos}px`;
-        deer.style.bottom = `${bottomRem}rem`;
-        // Устанавливаем z-index на основе высоты (чем ниже на экране, тем ближе к нам)
-        deer.style.zIndex = Math.round(100 - bottomRem);
+        deer.style.bottom = `${baseBottom + randomOffset}%`;
+        deer.style.zIndex = 4; 
         deer.style.transform = `scale(${scale})`;
         
         const isFlipped = Math.random() > 0.5;
@@ -49,14 +56,12 @@ class DeerSystem {
             id: Math.random(),
             el: deer,
             pos: startPos,
-            minX: minX,
-            maxX: maxX,
             speed: isFlipped ? -speed : speed,
             scale: scale,
             state: initialState,
             isFlipped: isFlipped,
-            width: 40, // Примерная ширина оленя для коллизий
-            stateTimer: Date.now() + (initialState === 'IDLE' ? (5000 + Math.random() * 7000) : (3000 + Math.random() * 4000))
+            // Начальные таймеры: ходьба дольше, стоянка меньше
+            stateTimer: Date.now() + (initialState === 'IDLE' ? (2000 + Math.random() * 3000) : (6000 + Math.random() * 6000))
         };
 
         this.deers.push(deerObj);
@@ -67,7 +72,7 @@ class DeerSystem {
     }
 
     isTooClose(x, id = null) {
-        return this.deers.some(d => d.id !== id && Math.abs(d.pos - x) < 50);
+        return this.deers.some(d => d.id !== id && Math.abs(d.pos - x) < 60);
     }
 
     toggleDeerState(d) {
@@ -75,22 +80,27 @@ class DeerSystem {
             d.state = 'IDLE';
             d.el.classList.remove('walk');
             d.el.classList.add('idle');
-            d.stateTimer = Date.now() + (6000 + Math.random() * 10000); 
+            // Стоит МЕНЬШЕ (от 2 до 5 секунд)
+            d.stateTimer = Date.now() + (2000 + Math.random() * 3000); 
         } else {
             d.state = 'WALK';
             d.el.classList.remove('idle');
             d.el.classList.add('walk');
-            d.stateTimer = Date.now() + (3000 + Math.random() * 5000); 
+            // Ходит ДОЛЬШЕ (от 6 до 12 секунд)
+            d.stateTimer = Date.now() + (6000 + Math.random() * 6000); 
         }
     }
 
     tick(now) {
-        // Поддерживаем ровно 5 оленей
         if (this.deers.length < this.maxDeers) {
             this.spawnDeer();
         }
 
         const currentTime = Date.now();
+        const chumPos = this.getChumPos();
+        const range = window.innerWidth < 600 ? 80 : 150;
+        const minX = Math.max(10, chumPos.x - range);
+        const maxX = Math.min(window.innerWidth - 50, chumPos.x + range);
 
         for (let i = 0; i < this.deers.length; i++) {
             const d = this.deers[i];
@@ -102,25 +112,24 @@ class DeerSystem {
             if (d.state === 'WALK') {
                 let nextPos = d.pos + d.speed;
 
-                // 1. Проверка границ пастбища
-                if (nextPos > d.maxX || nextPos < d.minX) {
+                if (nextPos > maxX || nextPos < minX) {
                     this.reverseDeer(d);
                     continue;
                 }
 
-                // 2. Проверка столкновения с другими оленями
-                const collision = this.deers.find(other => 
-                    other.id !== d.id && 
-                    Math.abs(other.pos - nextPos) < 45 && // Дистанция между оленями
-                    Math.abs(parseFloat(other.el.style.bottom) - parseFloat(d.el.style.bottom)) < 1 // Только если на одной линии
-                );
+                const collision = this.deers.find(other => {
+                    if (other.id === d.id) return false;
+                    const dist = other.pos - d.pos;
+                    const isAhead = (d.speed > 0 && dist > 0) || (d.speed < 0 && dist < 0);
+                    return isAhead && Math.abs(dist) < 70 && 
+                           Math.abs(parseFloat(other.el.style.bottom) - parseFloat(d.el.style.bottom)) < 1.5;
+                });
 
                 if (collision) {
-                    // Если впереди кто-то есть, олень просто останавливается и ждет
                     d.state = 'IDLE';
                     d.el.classList.remove('walk');
                     d.el.classList.add('idle');
-                    d.stateTimer = currentTime + (2000 + Math.random() * 3000);
+                    d.stateTimer = currentTime + (1500 + Math.random() * 2000); // Быстро трогается дальше
                 } else {
                     d.pos = nextPos;
                     d.el.style.left = `${d.pos}px`;
