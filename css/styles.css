@@ -774,8 +774,46 @@ body.night .clouds { opacity: 0.3; }
 }
 
 .sound-btn:hover { background: rgba(255,255,255,0.4); transform: translateY(-2px); }
-.sound-btn:active { transform: translateY(0) scale(0.95); }
-.sound-btn.active { background: rgba(102, 187, 106, 0.4); border-color: rgba(102, 187, 106, 0.8); }
+/* --- ОЛЕНИ (DEER) --- */
+.deer {
+    position: absolute;
+    bottom: 8rem; /* На линии тундры */
+    left: -10rem;
+    width: 80px;
+    height: 80px;
+    z-index: 8; /* Между тундрой и котиком */
+    image-rendering: pixelated; /* Сохраняем четкость пиксель-арта */
+    pointer-events: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+}
+
+.deer.idle {
+    background: url('../assets/deer_idle.png') no-repeat left center;
+    background-size: 640px 80px;
+    animation: deer-idle 1.5s steps(8) infinite;
+}
+
+.deer.walk {
+    background: url('../assets/deer_walk.png') no-repeat left center;
+    background-size: 640px 80px;
+    animation: deer-walk 1.6s steps(8) infinite;
+}
+
+@keyframes deer-idle {
+    from { background-position: 0; }
+    to { background-position: -640px; }
+}
+
+@keyframes deer-walk {
+    from { background-position: 0; }
+    to { background-position: -640px; }
+}
+
+/* Отражение если идет в обратную сторону */
+.deer.flip {
+    transform: scaleX(-1);
+}
 
 .loader {
     position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%);
