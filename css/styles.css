@@ -600,7 +600,7 @@ body.night .clouds { opacity: 0.3; }
 /* --- МЫШЬ (Meteorologist) --- */
 .mouse-wrapper {
     position: fixed;
-    bottom: 4rem; right: -8rem;
+    bottom: 1.2rem; right: -8rem;
     width: 6rem; height: 6rem;
     z-index: 50;
     will-change: transform, right, bottom;
@@ -816,10 +816,21 @@ body.night .clouds { opacity: 0.3; }
     }
 }
 
-.chum-bg img {
+.chum-bg img:not(.narty-img) {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.narty-img {
+    position: absolute;
+    bottom: 10px; /* На снегу у основания */
+    left: -40%; /* Подвинули правее, ближе к чуму */
+    width: 50%; /* Увеличили в два раза */
+    height: auto;
+    z-index: 2;
+    filter: drop-shadow(0 3px 8px rgba(0,0,0,0.2));
+    pointer-events: auto;
 }
 
 /* ДЫМ ИЗ ЧУМА */
@@ -837,24 +848,26 @@ body.night .clouds { opacity: 0.3; }
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 10px;
-    height: 10px;
-    background: radial-gradient(circle, rgba(220, 220, 220, 0.8) 0%, rgba(150, 150, 150, 0) 70%);
+    width: 12px;
+    height: 12px;
+    background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.8), rgba(180, 180, 180, 0.2));
     border-radius: 50%;
-    filter: blur(3px);
-    animation: smokeRise 4s ease-out forwards;
+    filter: blur(2px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    animation: smokeRise var(--duration, 4s) ease-out forwards;
+    pointer-events: none;
 }
 
 @keyframes smokeRise {
     0% {
-        transform: translate(-50%, 0) scale(1);
+        transform: translate(-50%, 0) scale(0.5) rotate(0deg);
         opacity: 0;
     }
-    10% {
-        opacity: 0.6;
+    15% {
+        opacity: 0.7;
     }
     100% {
-        transform: translate(calc(-50% + var(--drift-x)), -80px) scale(4);
+        transform: translate(calc(-50% + var(--drift-x)), -120px) scale(5) rotate(var(--rotation));
         opacity: 0;
     }
 }
@@ -914,6 +927,54 @@ body.night .clouds { opacity: 0.3; }
 @keyframes dog-sit { from { background-position: 0; } to { background-position: -280px; } }
 
 .dog.flip { transform: scaleX(-1); }
+
+/* --- НЕНЕЦ (NENETS) --- */
+.nenets {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 6; /* Перед собакой и оленями */
+    image-rendering: pixelated;
+    pointer-events: auto;
+    cursor: pointer;
+    transform-origin: bottom center;
+}
+
+.nenets.walk {
+    background: url('../assets/nenets_walk.png') no-repeat left center;
+    background-size: 400px 50px;
+    animation: nenets-walk 1.2s steps(8) infinite; /* Медленнее ноги */
+}
+
+.nenets.smoke {
+    background: url('../assets/nenets_smoke.png') no-repeat left center;
+    background-size: 400px 50px;
+    animation: nenets-smoke 2.5s steps(7) forwards;
+}
+
+@keyframes nenets-walk { from { background-position: 0; } to { background-position: -400px; } }
+@keyframes nenets-smoke { from { background-position: 0; } to { background-position: -350px; } }
+
+.nenets.flip { transform: scaleX(-1); }
+
+/* Дымок от сигареты/трубки */
+.nenets-smoke-particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    filter: blur(1px);
+    animation: nenetsSmokeRise 2s ease-out forwards;
+    pointer-events: none;
+    z-index: 7;
+}
+
+@keyframes nenetsSmokeRise {
+    0% { transform: translate(0, 0) scale(1); opacity: 0; }
+    20% { opacity: 0.5; }
+    100% { transform: translate(var(--dx), -30px) scale(3); opacity: 0; }
+}
 
 .loader {
     position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%);

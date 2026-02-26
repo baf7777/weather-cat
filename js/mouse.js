@@ -32,7 +32,7 @@ function getStageScale() {
     }
 }
 
-const MOUSE_GROUND_OFFSET = 70; // Чуть повыше, на уровне коробки
+const MOUSE_GROUND_OFFSET = 20; // Опускаем мышь на самый низ экрана
 const MOUSE_ROAM_BACK = 80;   // Unused in new logic but kept for reference
 const MOUSE_ROAM_FORWARD = 80; // Unused in new logic but kept for reference
 const MOUSE_SPAWN_OFFSET = 80;

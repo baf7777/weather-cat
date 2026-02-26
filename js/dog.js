@@ -2,17 +2,17 @@
 class DogSystem {
     constructor() {
         this.el = null;
-        this.state = 'IDLE'; // IDLE, TO_DEER, BARKING, TO_HOME, RANDOM_WALK
+        this.state = 'IDLE'; // IDLE, TO_DEER, BARKING, TO_HOME, RANDOM_WALK, TO_NENETS
         this.pos = { x: 0, bottom: 0 };
         this.homeX = 0;
         this.targetX = 0;
         this.stateTimer = 0;
 
-        // НАСТРОЙКИ СКОРОСТИ СОБАКИ (можно менять тут)
         this.speeds = {
-            toDeer: 0.5,  // Скорость бега к оленю
-            toHome: 0.3,  // Скорость возврата домой (конвоирование)
-            random: 0.2   // Скорость обычной прогулки у чума
+            toDeer: 1.2,
+            toHome: 1.0,
+            random: 0.5,
+            toNenets: 0.9
         };
     }
 
@@ -86,7 +86,7 @@ class DogSystem {
         this.state = newState;
         
         let className = 'sit';
-        if (newState === 'TO_DEER' || newState === 'TO_HOME' || newState === 'RANDOM_WALK') className = 'walk';
+        if (newState === 'TO_DEER' || newState === 'TO_HOME' || newState === 'RANDOM_WALK' || newState === 'TO_NENETS') className = 'walk';
         if (newState === 'BARKING') className = 'bark';
         
         this.el.classList.add(className);
@@ -106,8 +106,14 @@ class DogSystem {
         this.pos.bottom = chum.bottom - 2;
         this.el.style.bottom = `${this.pos.bottom}%`;
 
+        // Случайные события для собаки
         if (this.state === 'IDLE' && currentTime > this.stateTimer) {
-            this.setState('RANDOM_WALK');
+            const rand = Math.random();
+            if (rand < 0.3 && window.NenetsSystem && window.NenetsSystem.el) {
+                this.setState('TO_NENETS');
+            } else {
+                this.setState('RANDOM_WALK');
+            }
         }
 
         if (this.state === 'TO_DEER') {
@@ -123,6 +129,22 @@ class DogSystem {
                 } else {
                     this.bark();
                 }
+            }
+        } else if (this.state === 'TO_NENETS') {
+            const nenets = window.NenetsSystem;
+            if (nenets && nenets.el) {
+                const dist = (nenets.pos.x + 20) - this.pos.x;
+                if (Math.abs(dist) > 30) {
+                    const move = dist > 0 ? this.speeds.toNenets : -this.speeds.toNenets;
+                    this.pos.x += move;
+                    this.el.style.left = `${this.pos.x}px`;
+                    if (move > 0) this.el.classList.add('flip');
+                    else this.el.classList.remove('flip');
+                } else {
+                    this.bark(); // Подбежал к мужику и гавкнул
+                }
+            } else {
+                this.setState('TO_HOME');
             }
         } else if (this.state === 'TO_HOME') {
             const dist = this.homeX - this.pos.x;

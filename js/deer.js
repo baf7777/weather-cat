@@ -37,7 +37,8 @@ class DeerSystem {
         let startPos = minX + Math.random() * (maxX - minX);
         
         const speed = 0.06 + Math.random() * 0.06;
-        const scale = 0.4 + Math.random() * 0.15; 
+        // ОЛЕНИ СТАЛИ БОЛЬШЕ (0.55 - 0.75 вместо 0.4 - 0.55)
+        const scale = 0.55 + Math.random() * 0.2; 
         const baseBottom = chumPos.bottom - 2.5; 
         const randomOffset = (Math.random() * 2) - 1; 
         
@@ -61,7 +62,7 @@ class DeerSystem {
             scale: scale,
             state: 'IDLE',
             isFlipped: isFlipped,
-            stateTimer: Date.now() + 5000 + Math.random() * 5000
+            stateTimer: Date.now() + 2000 + Math.random() * 3000
         };
 
         this.deers.push(deerObj);
@@ -74,7 +75,6 @@ class DeerSystem {
         d.state = 'ESCAPING';
         d.el.classList.remove('idle');
         d.el.classList.add('walk');
-        
         d.targetX = window.innerWidth * 0.85;
         d.speed = 0.4;
         d.isFlipped = false;
@@ -91,7 +91,6 @@ class DeerSystem {
         for (let i = 0; i < this.deers.length; i++) {
             const d = this.deers[i];
             
-            // Исправление "лунной походки": всегда проверяем направление спрайта
             if (d.speed < 0) {
                 d.isFlipped = true;
                 d.el.classList.add('flip');
@@ -115,7 +114,6 @@ class DeerSystem {
                     const dir = d.pos > targetX ? -0.6 : 0.6;
                     d.pos += dir;
                     d.el.style.left = `${d.pos}px`;
-                    // Олень всегда должен смотреть туда, куда его гонит собака (влево)
                     d.isFlipped = dir < 0; 
                 } else {
                     d.state = 'IDLE';
@@ -136,14 +134,14 @@ class DeerSystem {
                     d.state = 'IDLE';
                     d.el.classList.remove('walk');
                     d.el.classList.add('idle');
-                    d.stateTimer = currentTime + 3000 + Math.random() * 5000;
+                    d.stateTimer = currentTime + 2000 + Math.random() * 3000;
                 }
             } else if (d.state === 'IDLE') {
                 if (currentTime > d.stateTimer && !this.escapedDeer) {
                     d.state = 'WALK';
                     d.el.classList.remove('idle');
                     d.el.classList.add('walk');
-                    d.stateTimer = currentTime + 5000 + Math.random() * 5000;
+                    d.stateTimer = currentTime + 6000 + Math.random() * 6000;
                 }
             }
 
@@ -155,7 +153,6 @@ class DeerSystem {
 
     reverseDeer(d) {
         d.speed = -d.speed;
-        // Направление обновится в начале следующего тика автоматически
     }
 }
 
