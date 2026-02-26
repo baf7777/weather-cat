@@ -2,12 +2,13 @@
 class NenetsSystem {
     constructor() {
         this.el = null;
-        this.state = 'WALK'; 
+        this.state = 'WALK'; // WALK, SMOKE, IDLE, REPAIRING
         this.pos = { x: 0, bottom: 0 };
         this.targetX = 0;
         this.stateTimer = 0;
         this.smokeInterval = null;
         this.lastSmokeTime = 0;
+        this.activeBuran = null; // Буран, который мы чиним
     }
 
     init() {
@@ -17,24 +18,25 @@ class NenetsSystem {
 
     getChumPos() {
         const chum = document.querySelector('.chum-bg');
-        if (!chum) return { x: window.innerWidth * 0.15, bottom: 32 };
+        if (!chum) return { x: window.innerWidth * 0.15, bottom: 32, width: 100 };
         const rect = chum.getBoundingClientRect();
         const isMobile = window.innerWidth < 600;
         return {
             x: rect.left + rect.width / 2,
-            bottom: isMobile ? 38 : 32
+            bottom: isMobile ? 38 : 32,
+            width: rect.width
         };
     }
 
     createNenets() {
-        const chum = this.getChumPos();
         const el = document.getElementById('nenets');
         if (!el) return;
 
-        this.pos.x = chum.x - 30; 
-        this.pos.bottom = chum.bottom - 2;
+        // Позиционируем относительно родителя (chum-bg)
+        this.pos.x = 50; // Центр чума (в % от родителя)
+        this.pos.bottom = -2;
 
-        el.style.left = `${this.pos.x}px`;
+        el.style.left = `${this.pos.x}%`;
         el.style.bottom = `${this.pos.bottom}%`;
         
         this.el = el;
@@ -42,7 +44,7 @@ class NenetsSystem {
         el.addEventListener('click', (e) => {
             e.stopPropagation();
             const now = Date.now();
-            if (this.state !== 'SMOKE' && now - this.lastSmokeTime > 20000) {
+            if (this.state !== 'SMOKE' && now - this.lastSmokeTime > 15000) {
                 this.setState('SMOKE');
                 this.lastSmokeTime = now;
             }
@@ -64,12 +66,14 @@ class NenetsSystem {
         if (newState === 'WALK') {
             this.el.classList.add('walk');
             this.targetX = this.getNewTargetX();
-            this.stateTimer = Date.now() + 8000 + Math.random() * 5000;
-        } else if (newState === 'SMOKE') {
+            this.stateTimer = Date.now() + 10000; 
+        } else if (newState === 'SMOKE' || newState === 'REPAIRING') {
             this.el.classList.add('smoke');
-            this.stateTimer = Date.now() + 12000;
+            const duration = newState === 'REPAIRING' ? 15000 : 10000;
+            this.stateTimer = Date.now() + duration;
+            
             setTimeout(() => {
-                if (this.state === 'SMOKE') this.startSmoking();
+                if (this.state === newState) this.startSmoking();
             }, 1000);
         } else if (newState === 'IDLE') {
             this.el.classList.add('smoke'); 
@@ -78,37 +82,49 @@ class NenetsSystem {
     }
 
     getNewTargetX() {
-        const chum = this.getChumPos();
         const rand = Math.random();
         
-        // 20% шанс, что мужик пойдет проведать оленей
-        if (rand < 0.2 && window.DeerSystem && window.DeerSystem.deers.length > 0) {
-            const randomDeer = window.DeerSystem.deers[Math.floor(Math.random() * window.DeerSystem.deers.length)];
-            return randomDeer.pos + (Math.random() * 40 - 20);
+        // 30% шанс пойти чинить буран
+        if (rand < 0.3) {
+            this.activeBuran = Math.random() > 0.5 ? 'b1' : 'b2';
+            const buran = document.querySelector(`.buran-img.${this.activeBuran}`);
+            if (buran) {
+                // Идем к позиции бурана (парсим его left из стилей)
+                const buranLeft = parseFloat(buran.style.left) || 0;
+                return buranLeft + (this.activeBuran === 'b1' ? -5 : 5);
+            }
         }
         
-        const range = 60; 
-        return chum.x + (Math.random() * range * 2 - range);
+        // 20% шанс пойти к оленям (если мы знаем их примерные координаты в %)
+        if (rand < 0.5) {
+            return 100 + Math.random() * 50; // Уходим вправо к стаду
+        }
+
+        // Обычная прогулка у чума
+        this.activeBuran = null;
+        return 20 + Math.random() * 60;
     }
 
     tick(now) {
         if (!this.el) return;
 
         const currentTime = Date.now();
-        const chum = this.getChumPos();
-        this.pos.bottom = chum.bottom - 2;
-        this.el.style.bottom = `${this.pos.bottom}%`;
 
         if (this.state === 'WALK') {
             const dx = this.targetX - this.pos.x;
-            if (Math.abs(dx) > 3) {
-                const move = dx > 0 ? 0.3 : -0.3;
+            if (Math.abs(dx) > 1) {
+                const move = dx > 0 ? 0.2 : -0.2; // Медленный шаг в %
                 this.pos.x += move;
-                this.el.style.left = `${this.pos.x}px`;
+                this.el.style.left = `${this.pos.x}%`;
+                
                 if (move > 0) this.el.classList.add('flip');
                 else this.el.classList.remove('flip');
             } else {
-                this.setState('IDLE');
+                if (this.activeBuran) {
+                    this.setState('REPAIRING');
+                } else {
+                    this.setState('IDLE');
+                }
             }
         } else {
             if (currentTime > this.stateTimer) {
@@ -127,7 +143,7 @@ class NenetsSystem {
     }
 
     createSmokeParticle() {
-        if (!this.el || this.state !== 'SMOKE') return;
+        if (!this.el) return;
         const p = document.createElement('div');
         p.className = 'nenets-smoke-particle';
         const rect = this.el.getBoundingClientRect();

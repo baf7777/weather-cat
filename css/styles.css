@@ -816,6 +816,22 @@ body.night .clouds { opacity: 0.3; }
     }
 }
 
+/* ФИКС ДЛЯ ГОРИЗОНТАЛЬНОГО РЕЖИМА (LANDSCAPE) */
+@media (max-height: 450px) and (orientation: landscape) {
+    .stage {
+        transform: scale(0.55) !important; /* Сильно уменьшаем кота */
+        bottom: -2rem;
+    }
+    .chum-bg {
+        bottom: 45% !important; /* Поднимаем тундру выше */
+        width: 20vh; /* Масштабируем от высоты экрана */
+        left: 2%;
+    }
+    .controls-left, .controls-right {
+        top: 1rem; /* Кнопки выше, чтобы не мешали */
+    }
+}
+
 .chum-bg img:not(.narty-img):not(.buran-img) {
     width: 100%;
     height: auto;

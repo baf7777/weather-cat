@@ -10,10 +10,10 @@ class DogSystem {
         this.isMobile = window.innerWidth < 600;
 
         this.speeds = {
-            toDeer: 1.2,
-            toHome: 1.0,
+            toDeer: 0.5,
+            toHome: 0.4,
             random: 0.5,
-            toNenets: 0.9
+            toNenets: 0.4
         };
     }
 
