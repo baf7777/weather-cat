@@ -2,11 +2,12 @@
 class DogSystem {
     constructor() {
         this.el = null;
-        this.state = 'IDLE'; // IDLE, TO_DEER, BARKING, TO_HOME, RANDOM_WALK, TO_NENETS
+        this.state = 'IDLE'; 
         this.pos = { x: 0, bottom: 0 };
         this.homeX = 0;
         this.targetX = 0;
         this.stateTimer = 0;
+        this.isMobile = window.innerWidth < 600;
 
         this.speeds = {
             toDeer: 1.2,
@@ -25,11 +26,9 @@ class DogSystem {
         const chum = document.querySelector('.chum-bg');
         if (!chum) return { x: window.innerWidth * 0.15, bottom: 32 };
         const rect = chum.getBoundingClientRect();
-        const styles = window.getComputedStyle(chum);
-        const isMobile = window.innerWidth < 600;
         return {
             x: rect.left + rect.width / 2,
-            bottom: isMobile ? 38 : 32
+            bottom: this.isMobile ? 38 : 32
         };
     }
 
@@ -38,7 +37,8 @@ class DogSystem {
         const el = document.createElement('div');
         el.className = 'dog sit';
         
-        this.homeX = chum.x + 50;
+        // На мобилках ставим собаку чуть правее чума, чтобы не в куче
+        this.homeX = chum.x + (this.isMobile ? 60 : 50);
         this.pos.x = this.homeX;
         this.pos.bottom = chum.bottom - 2;
 
@@ -63,12 +63,11 @@ class DogSystem {
     }
 
     bark() {
-        const prevState = this.state;
         this.setState('BARKING');
         if (window.playBark) window.playBark();
         
         setTimeout(() => {
-            if (window.DeerSystem && window.DeerSystem.escapedDeer && prevState === 'TO_DEER') {
+            if (window.DeerSystem && window.DeerSystem.escapedDeer && this.state === 'BARKING') {
                 const d = window.DeerSystem.escapedDeer;
                 d.state = 'RETURNING';
                 d.el.classList.remove('idle');
@@ -94,7 +93,9 @@ class DogSystem {
         if (newState === 'IDLE') {
             this.stateTimer = Date.now() + 10000 + Math.random() * 10000;
         } else if (newState === 'RANDOM_WALK') {
-            this.targetX = this.homeX + (Math.random() * 100 - 50);
+            // Ограничиваем гуляние собаки, чтобы не путалась под ногами
+            const range = this.isMobile ? 40 : 80;
+            this.targetX = this.homeX + (Math.random() * range * 2 - range);
         }
     }
 
@@ -106,10 +107,9 @@ class DogSystem {
         this.pos.bottom = chum.bottom - 2;
         this.el.style.bottom = `${this.pos.bottom}%`;
 
-        // Случайные события для собаки
         if (this.state === 'IDLE' && currentTime > this.stateTimer) {
             const rand = Math.random();
-            if (rand < 0.3 && window.NenetsSystem && window.NenetsSystem.el) {
+            if (rand < 0.2 && window.NenetsSystem && window.NenetsSystem.el) {
                 this.setState('TO_NENETS');
             } else {
                 this.setState('RANDOM_WALK');
@@ -141,7 +141,7 @@ class DogSystem {
                     if (move > 0) this.el.classList.add('flip');
                     else this.el.classList.remove('flip');
                 } else {
-                    this.bark(); // Подбежал к мужику и гавкнул
+                    this.bark();
                 }
             } else {
                 this.setState('TO_HOME');

@@ -816,17 +816,42 @@ body.night .clouds { opacity: 0.3; }
     }
 }
 
-.chum-bg img:not(.narty-img) {
+.chum-bg img:not(.narty-img):not(.buran-img) {
     width: 100%;
     height: auto;
     display: block;
+    position: relative;
+    z-index: 3;
+}
+
+.buran-img {
+    position: absolute;
+    width: 45%; /* Чуть меньше половины ширины чума */
+    height: auto;
+    z-index: 1; /* ЗА ЧУМОМ */
+    filter: drop-shadow(0 2px 5px rgba(0,0,0,0.2));
+}
+
+.buran-img.b1 {
+    left: 83.1%;
+    bottom: 19.4%;
+    width: 30%;
+    transform: rotate(4deg) scaleX(1);
+}
+
+.buran-img.b2 {
+    left: -8.2%;
+    bottom: 23.5%;
+    width: 28%;
+    transform: rotate(6deg) scaleX(1);
 }
 
 .narty-img {
     position: absolute;
-    bottom: 10px; /* На снегу у основания */
-    left: -40%; /* Подвинули правее, ближе к чуму */
-    width: 50%; /* Увеличили в два раза */
+    left: -52.5%;
+    bottom: 21.5%;
+    width: 45%;
+    transform: rotate(0deg) scaleX(1);
     height: auto;
     z-index: 2;
     filter: drop-shadow(0 3px 8px rgba(0,0,0,0.2));

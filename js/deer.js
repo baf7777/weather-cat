@@ -2,7 +2,9 @@
 class DeerSystem {
     constructor() {
         this.deers = [];
-        this.maxDeers = 5;
+        // На мобилках делаем стадо поменьше, чтобы не было кучи
+        this.isMobile = window.innerWidth < 600;
+        this.maxDeers = this.isMobile ? 3 : 5; 
         this.escapedDeer = null;
     }
 
@@ -17,10 +19,9 @@ class DeerSystem {
         const chum = document.querySelector('.chum-bg');
         if (!chum) return { x: 100, bottom: 32 };
         const rect = chum.getBoundingClientRect();
-        const isMobile = window.innerWidth < 600;
         return {
             x: rect.left + rect.width / 2,
-            bottom: isMobile ? 38 : 32,
+            bottom: this.isMobile ? 38 : 32,
             width: rect.width
         };
     }
@@ -30,20 +31,30 @@ class DeerSystem {
         deer.className = `deer idle`;
         
         const chumPos = this.getChumPos();
-        const range = window.innerWidth < 600 ? 80 : 150; 
-        const minX = Math.max(10, chumPos.x - range);
-        const maxX = Math.min(window.innerWidth - 50, chumPos.x + range);
         
-        let startPos = minX + Math.random() * (maxX - minX);
+        // РАСШИРЯЕМ ЗОНУ ПРОГУЛКИ: на мобилках даем больше места вправо (до 150px)
+        const range = this.isMobile ? 120 : 200; 
+        const minX = Math.max(10, chumPos.x - 40); // Слева прижимаем к чуму
+        const maxX = Math.min(window.innerWidth - 50, chumPos.x + range); // Вправо даем гулять больше
         
-        const speed = 0.06 + Math.random() * 0.06;
-        // ОЛЕНИ СТАЛИ БОЛЬШЕ (0.55 - 0.75 вместо 0.4 - 0.55)
-        const scale = 0.55 + Math.random() * 0.2; 
-        const baseBottom = chumPos.bottom - 2.5; 
-        const randomOffset = (Math.random() * 2) - 1; 
+        let startPos;
+        let attempts = 0;
+        do {
+            startPos = minX + Math.random() * (maxX - minX);
+            attempts++;
+        } while (this.isTooClose(startPos) && attempts < 20);
+        
+        const speed = 0.05 + Math.random() * 0.05;
+        const scale = (this.isMobile ? 0.45 : 0.55) + Math.random() * 0.15; 
+        
+        // БОЛЬШЕ ВЕРТИКАЛЬНОГО РАЗНООБРАЗИЯ (создаем глубину)
+        const baseBottom = chumPos.bottom - 3; 
+        const randomOffset = (Math.random() * 6) - 3; // Разброс высоты +-3%
         
         deer.style.left = `${startPos}px`;
         deer.style.bottom = `${baseBottom + randomOffset}%`;
+        
+        // z-index на основе высоты для правильного перекрытия
         deer.style.zIndex = 4; 
         deer.style.transform = `scale(${scale})`;
         
@@ -68,24 +79,30 @@ class DeerSystem {
         this.deers.push(deerObj);
     }
 
-    triggerEscape() {
-        if (this.escapedDeer) return;
-        const d = this.deers[Math.floor(Math.random() * this.deers.length)];
-        this.escapedDeer = d;
-        d.state = 'ESCAPING';
-        d.el.classList.remove('idle');
-        d.el.classList.add('walk');
-        d.targetX = window.innerWidth * 0.85;
-        d.speed = 0.4;
-        d.isFlipped = false;
-        d.el.classList.remove('flip');
+    isTooClose(x, id = null) {
+        // Увеличили минимальную дистанцию между оленями при спавне
+        return this.deers.some(d => d.id !== id && Math.abs(d.pos - x) < 80);
+    }
+
+    toggleDeerState(d) {
+        if (d.state === 'WALK') {
+            d.state = 'IDLE';
+            d.el.classList.remove('walk');
+            d.el.classList.add('idle');
+            d.stateTimer = Date.now() + (2000 + Math.random() * 3000); 
+        } else {
+            d.state = 'WALK';
+            d.el.classList.remove('idle');
+            d.el.classList.add('walk');
+            d.stateTimer = Date.now() + (6000 + Math.random() * 6000); 
+        }
     }
 
     tick(now) {
         const currentTime = Date.now();
         const chumPos = this.getChumPos();
-        const range = window.innerWidth < 600 ? 80 : 150;
-        const minX = Math.max(10, chumPos.x - range);
+        const range = this.isMobile ? 120 : 200;
+        const minX = Math.max(10, chumPos.x - 40);
         const maxX = Math.min(window.innerWidth - 50, chumPos.x + range);
 
         for (let i = 0; i < this.deers.length; i++) {
@@ -130,18 +147,30 @@ class DeerSystem {
                 }
                 d.pos += d.speed;
                 d.el.style.left = `${d.pos}px`;
-                if (currentTime > d.stateTimer) {
+                
+                // СТРОГАЯ КОЛЛИЗИЯ: олени не заходят друг в друга
+                const collision = this.deers.find(other => {
+                    if (other.id === d.id) return false;
+                    const dist = other.pos - d.pos;
+                    const isAhead = (d.speed > 0 && dist > 0) || (d.speed < 0 && dist < 0);
+                    // Проверяем близость по X и схожесть по высоте (bottom)
+                    return isAhead && Math.abs(dist) < 90 && 
+                           Math.abs(parseFloat(other.el.style.bottom) - parseFloat(d.el.style.bottom)) < 2;
+                });
+
+                if (collision) {
                     d.state = 'IDLE';
                     d.el.classList.remove('walk');
                     d.el.classList.add('idle');
-                    d.stateTimer = currentTime + 2000 + Math.random() * 3000;
+                    d.stateTimer = currentTime + 2000;
+                }
+
+                if (currentTime > d.stateTimer) {
+                    this.toggleDeerState(d);
                 }
             } else if (d.state === 'IDLE') {
                 if (currentTime > d.stateTimer && !this.escapedDeer) {
-                    d.state = 'WALK';
-                    d.el.classList.remove('idle');
-                    d.el.classList.add('walk');
-                    d.stateTimer = currentTime + 6000 + Math.random() * 6000;
+                    this.toggleDeerState(d);
                 }
             }
 
@@ -153,6 +182,19 @@ class DeerSystem {
 
     reverseDeer(d) {
         d.speed = -d.speed;
+    }
+
+    triggerEscape() {
+        if (this.escapedDeer) return;
+        const d = this.deers[Math.floor(Math.random() * this.deers.length)];
+        this.escapedDeer = d;
+        d.state = 'ESCAPING';
+        d.el.classList.remove('idle');
+        d.el.classList.add('walk');
+        d.targetX = window.innerWidth * 0.85;
+        d.speed = 0.4;
+        d.isFlipped = false;
+        d.el.classList.remove('flip');
     }
 }
 
