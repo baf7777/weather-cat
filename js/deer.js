@@ -2,12 +2,11 @@
 class DeerSystem {
     constructor() {
         this.deers = [];
-        this.maxDeers = 3;
+        this.maxDeers = 5;
         this.nextSpawnTime = 0;
     }
 
     init() {
-        // Запускаем цикл обновления
         requestAnimationFrame((t) => this.tick(t));
     }
 
@@ -15,78 +14,93 @@ class DeerSystem {
         if (this.deers.length >= this.maxDeers) return;
 
         const deer = document.createElement('div');
-        deer.className = 'deer walk';
+        // Начинаем либо с ходьбы, либо с ожидания
+        const initialState = Math.random() > 0.5 ? 'WALK' : 'IDLE';
+        deer.className = `deer ${initialState.toLowerCase()}`;
         
-        // Рандомные параметры
+        const minX = window.innerWidth * 0.1;
+        const maxX = window.innerWidth * 0.5;
+        
         const side = Math.random() > 0.5 ? 'left' : 'right';
-        const startPos = side === 'left' ? -100 : window.innerWidth + 100;
-        const targetPos = side === 'left' ? window.innerWidth + 200 : -200;
-        const speed = 0.6 + Math.random() * 0.8;
-        const scale = 0.8 + Math.random() * 0.4;
-        const bottom = 5 + Math.random() * 5; // Разная высота в "снегу"
+        const startPos = minX + Math.random() * (maxX - minX);
+        
+        const speed = 0.12 + Math.random() * 0.1;
+        const scale = 0.4 + Math.random() * 0.2; 
+        const bottom = 18 + Math.random() * 4; 
 
         deer.style.left = `${startPos}px`;
         deer.style.bottom = `${bottom}rem`;
         deer.style.transform = `scale(${scale})`;
         
-        if (side === 'right') {
-            deer.classList.add('flip');
-        }
+        const isFlipped = Math.random() > 0.5;
+        if (isFlipped) deer.classList.add('flip');
 
         document.body.appendChild(deer);
 
         const deerObj = {
             el: deer,
             pos: startPos,
-            target: targetPos,
-            speed: side === 'left' ? speed : -speed,
+            minX: minX,
+            maxX: maxX,
+            speed: isFlipped ? -speed : speed,
             scale: scale,
-            state: 'WALK',
-            isFlipped: side === 'right'
+            state: initialState,
+            isFlipped: isFlipped,
+            // Таймер до следующей смены состояния
+            stateTimer: Date.now() + (initialState === 'IDLE' ? (5000 + Math.random() * 7000) : (3000 + Math.random() * 4000))
         };
 
         this.deers.push(deerObj);
         
-        // Клик по оленю
         deer.addEventListener('click', () => {
-            if (deerObj.state === 'WALK') {
-                deerObj.state = 'IDLE';
-                deer.classList.remove('walk');
-                deer.classList.add('idle');
-                
-                // Через 3 секунды пойдет дальше
-                setTimeout(() => {
-                    deerObj.state = 'WALK';
-                    deer.classList.remove('idle');
-                    deer.classList.add('walk');
-                }, 3000);
-            }
+            this.toggleDeerState(deerObj);
         });
     }
 
-    tick(now) {
-        if (now > this.nextSpawnTime) {
-            this.spawnDeer();
-            this.nextSpawnTime = now + 10000 + Math.random() * 15000; // Раз в 10-25 секунд
+    toggleDeerState(d) {
+        if (d.state === 'WALK') {
+            d.state = 'IDLE';
+            d.el.classList.remove('walk');
+            d.el.classList.add('idle');
+            d.stateTimer = Date.now() + (6000 + Math.random() * 8000); // Стоит подольше
+        } else {
+            d.state = 'WALK';
+            d.el.classList.remove('idle');
+            d.el.classList.add('walk');
+            d.stateTimer = Date.now() + (3000 + Math.random() * 4000); // Идет меньше
         }
+    }
+
+    tick(now) {
+        if (performance.now() > this.nextSpawnTime) {
+            this.spawnDeer();
+            this.nextSpawnTime = performance.now() + 5000 + Math.random() * 10000; 
+        }
+
+        const currentTime = Date.now();
 
         for (let i = this.deers.length - 1; i >= 0; i--) {
             const d = this.deers[i];
             
+            // Автоматическая смена состояния по таймеру
+            if (currentTime > d.stateTimer) {
+                this.toggleDeerState(d);
+            }
+
             if (d.state === 'WALK') {
                 d.pos += d.speed;
                 d.el.style.left = `${d.pos}px`;
                 
-                // Зеркальное отображение
+                // Разворот у границ
+                if (d.pos > d.maxX || d.pos < d.minX) {
+                    d.speed = -d.speed;
+                    d.isFlipped = !d.isFlipped;
+                    if (d.isFlipped) d.el.classList.add('flip');
+                    else d.el.classList.remove('flip');
+                }
+
                 const flip = d.isFlipped ? 'scaleX(-1)' : 'scaleX(1)';
                 d.el.style.transform = `scale(${d.scale}) ${flip}`;
-            }
-
-            // Удаляем если ушел за экран
-            if ((d.speed > 0 && d.pos > window.innerWidth + 300) || 
-                (d.speed < 0 && d.pos < -300)) {
-                d.el.remove();
-                this.deers.splice(i, 1);
             }
         }
 
@@ -94,7 +108,6 @@ class DeerSystem {
     }
 }
 
-// Инициализация после загрузки
 window.addEventListener('load', () => {
     window.DeerSystem = new DeerSystem();
     window.DeerSystem.init();

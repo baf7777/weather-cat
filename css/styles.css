@@ -786,18 +786,73 @@ body.night .clouds { opacity: 0.3; }
     pointer-events: auto;
     cursor: pointer;
     transition: transform 0.2s ease-out;
+    transform-origin: bottom center;
+}
+
+.chum-bg {
+    position: absolute;
+    bottom: 22rem; /* Выше коробки */
+    left: 8rem; /* Слева */
+    width: 10rem; /* Небольшой размер */
+    height: auto;
+    z-index: 3; /* За вертолетом и котом */
+    pointer-events: none;
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.1));
+}
+
+.chum-bg img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ДЫМ ИЗ ЧУМА */
+.chum-smoke {
+    position: absolute;
+    top: 5%; /* Примерно на верхушке чума */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    z-index: -1; /* За самим чумом */
+}
+
+.smoke-particle {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background: rgba(200, 200, 200, 0.6);
+    border-radius: 50%;
+    filter: blur(4px);
+    animation: smokeRise 4s ease-out forwards;
+}
+
+@keyframes smokeRise {
+    0% {
+        transform: translate(-50%, 0) scale(1);
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translate(calc(-50% + var(--drift-x)), -80px) scale(4);
+        opacity: 0;
+    }
 }
 
 .deer.idle {
     background: url('../assets/deer_idle.png') no-repeat left center;
     background-size: 640px 80px;
-    animation: deer-idle 1.5s steps(8) infinite;
+    animation: deer-idle 3s steps(8) infinite;
 }
 
 .deer.walk {
     background: url('../assets/deer_walk.png') no-repeat left center;
     background-size: 640px 80px;
-    animation: deer-walk 1.6s steps(8) infinite;
+    animation: deer-walk 2.4s steps(8) infinite;
 }
 
 @keyframes deer-idle {
