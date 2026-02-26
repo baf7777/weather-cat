@@ -98,6 +98,10 @@ function renderWeather() {
     } else if (catBreathTimer) {
         stopCatBreathLoop();
     }
+    
+    if (window.updateWindSound) {
+        window.updateWindSound(wind);
+    }
 }
 
 function createSnow(windSpeed) {
