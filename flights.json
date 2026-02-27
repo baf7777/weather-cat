@@ -22,8 +22,8 @@
     "from": "Салехард",
     "to": "Новый Порт",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "estimatedTime": "09:51",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -31,8 +31,8 @@
     "from": "Салехард",
     "to": "Горки",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:25",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -40,8 +40,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:25",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Питляр",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:25",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -59,7 +59,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -67,8 +67,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:46",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -193,8 +193,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
+    "estimatedTime": "15:42",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:19",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Салехард",
     "to": "Новый Порт",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "estimatedTime": "09:51",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -256,8 +256,8 @@
     "from": "Салехард",
     "to": "Горки",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:25",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:25",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Салехард",
     "to": "Питляр",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:25",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -284,7 +284,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -292,8 +292,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:46",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -418,8 +418,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
+    "estimatedTime": "15:42",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -427,8 +427,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:19",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
