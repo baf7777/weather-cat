@@ -112,8 +112,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "21:40",
-    "status": "Задерживается",
+    "estimatedTime": "21:57",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -337,8 +337,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "21:40",
-    "status": "Задерживается",
+    "estimatedTime": "21:57",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
