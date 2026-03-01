@@ -86,7 +86,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "13:00",
     "estimatedTime": "13:00",
-    "status": "Регистрация",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -95,7 +95,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "13:00",
     "estimatedTime": "13:00",
-    "status": "Регистрация",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -365,7 +365,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "13:00",
     "estimatedTime": "13:00",
-    "status": "Регистрация",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -374,7 +374,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "13:00",
     "estimatedTime": "13:00",
-    "status": "Регистрация",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
