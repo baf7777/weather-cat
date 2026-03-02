@@ -94,8 +94,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Новый Уренгой",
     "scheduledTime": "11:00",
-    "estimatedTime": "11:00",
-    "status": "Идет посадка",
+    "estimatedTime": "11:05",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -373,8 +373,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -382,8 +382,8 @@
     "from": "Салехард",
     "to": "Новый Уренгой",
     "scheduledTime": "11:00",
-    "estimatedTime": "11:00",
-    "status": "Идет посадка",
+    "estimatedTime": "11:05",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
