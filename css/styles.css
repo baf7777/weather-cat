@@ -122,6 +122,66 @@ body.night .clouds { opacity: 0.3; }
 
 @keyframes floatCloud { 0% { transform: translateX(-15rem); } 100% { transform: translateX(calc(100vw + 15rem)); } }
 
+/* --- ЗАСНЕЖЕННАЯ ТУНДРА (ГОРЫ/ХОЛМЫ) --- */
+.tundra-landscape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35%; /* Снизил общую высоту тундры */
+    z-index: 2; /* Поверх неба (0-1), под чумом (3) */
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.hill {
+    position: absolute;
+    border-radius: 50% 50% 0 0;
+    transition: background-color 2s ease;
+}
+
+/* Дальний холм */
+.hill-back {
+    width: 160%;
+    height: 60%;
+    left: -30%;
+    bottom: -10%;
+    background: #e6f2ff; /* Светло-голубоватый снег вдалеке */
+    opacity: 0.9;
+    border-radius: 60% 40% 0 0; /* Делаем форму менее симметричной */
+}
+
+/* Средний холм */
+.hill-mid {
+    width: 140%;
+    height: 45%;
+    left: -10%;
+    bottom: -5%;
+    background: #f0f8ff;
+    border-radius: 40% 60% 0 0; /* Асимметрия в другую сторону */
+}
+
+/* Ближний холм (земля) */
+.hill-front {
+    width: 120%;
+    height: 30%;
+    left: -10%;
+    bottom: 0;
+    background: #ffffff; /* Чистый белый снег вблизи */
+    border-radius: 50% 50% 0 0;
+    /* Убираем внутреннюю тень, чтобы не было "грязного" края */
+}
+
+/* Затемнение холмов ночью */
+body.night .hill-back { background: #1c2b3d; }
+body.night .hill-mid { background: #23354a; }
+body.night .hill-front { background: #2a3f58; }
+
+/* Затемнение холмов в шторм */
+body.storm .hill-back { background: #3a4045; }
+body.storm .hill-mid { background: #454d54; }
+body.storm .hill-front { background: #505962; }
+
 /* --- ОСАДКИ --- */
 .precip-container { position: absolute; width: 100%; height: 100%; z-index: 90; pointer-events: none; }
 
@@ -147,16 +207,32 @@ body.night .clouds { opacity: 0.3; }
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 2rem;
+    pointer-events: none; /* Чтобы не блокировало клики по фону/острову */
 }
 
 .stage {
     position: relative; width: 30rem; height: 28rem;
     z-index: 10; display: flex; justify-content: center;
     perspective: 80rem;
-    /* Увеличиваем базовый масштаб до 150% */
-    
-    
+    pointer-events: none;
     transition: transform 0.3s ease-out; /* Smooth scaling */
+}
+
+/* Элементы внутри сцены должны ловить клики */
+.box-wrapper, .cat-container, .refresh-btn, .sound-btn, .schedule-btn {
+    pointer-events: auto !important;
+}
+
+/* Визуальная помощь в режиме редактора */
+body.editor-drag-mode .chum-bg {
+    outline: 2px dashed rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.05);
+}
+body.editor-drag-mode .chum-animated, 
+body.editor-drag-mode .nenets, 
+body.editor-drag-mode .dog, 
+body.editor-drag-mode .deer {
+    outline: 1px solid rgba(255, 255, 0, 0.5);
 }
 
 /* Адаптация для мобильных устройств */
@@ -795,7 +871,7 @@ body.night .clouds { opacity: 0.3; }
     left: 12%; 
     width: 20vmin; /* Сделали больше */
     min-width: 100px;
-    height: auto;
+    height: 20vmin; /* ЗАДАЛИ ВЫСОТУ, ЧТОБЫ РАБОТАЛ BOTTOM % */
     z-index: 3;
     pointer-events: none;
     filter: drop-shadow(0 5px 15px rgba(0,0,0,0.1));
@@ -832,12 +908,44 @@ body.night .clouds { opacity: 0.3; }
     }
 }
 
-.chum-bg img:not(.narty-img):not(.buran-img) {
+.chum-bg img:not(.narty-img):not(.buran-img):not(.tundra-base) {
     width: 100%;
     height: auto;
-    display: block;
-    position: relative;
+    display: none; /* Скрываем старый img, так как теперь чум будет фоном для анимации */
+}
+
+/* Анимированный чум (Sprite sheet) */
+.chum-animated {
+    position: absolute;
+    width: 256px; /* Ширина одного кадра */
+    height: 256px; /* Высота одного кадра */
+    bottom: 22%;
+    left: 50%;
+    transform: translateX(-50%) scale(0.6); /* Уменьшаем чум до 60% от оригинала */
+    transform-origin: bottom center; /* Масштабируем от основания, чтобы он не "взлетел" */
+    background: url('../assets/chum.png') no-repeat left center;
+    background-size: 2048px 256px; /* 8 кадров по 256px = 2048px */
+    animation: chum-idle 1.5s steps(8) infinite;
     z-index: 3;
+    pointer-events: none;
+}
+
+/* Если нужен масштаб, можно добавить transform: translateX(-50%) scale(1.5) например */
+
+@keyframes chum-idle { 
+    from { background-position: 0; } 
+    to { background-position: -2048px; } 
+}
+
+.tundra-base {
+    position: absolute;
+    bottom: -30%; /* Сдвигаем вниз, чтобы чум визуально стоял на ней */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250%; /* Широкая подставка для чума, буранов и нарт */
+    height: auto;
+    z-index: 0; /* На заднем плане, под всем остальным в блоке */
+    pointer-events: none;
 }
 
 .buran-img {

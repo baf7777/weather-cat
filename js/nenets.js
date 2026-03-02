@@ -2,13 +2,12 @@
 class NenetsSystem {
     constructor() {
         this.el = null;
-        this.state = 'WALK'; // WALK, SMOKE, IDLE, REPAIRING
+        this.state = 'WALK'; // WALK, SMOKE, IDLE
         this.pos = { x: 0, bottom: 0 };
         this.targetX = 0;
         this.stateTimer = 0;
         this.smokeInterval = null;
         this.lastSmokeTime = 0;
-        this.activeBuran = null; // Буран, который мы чиним
     }
 
     init() {
@@ -16,28 +15,17 @@ class NenetsSystem {
         requestAnimationFrame((t) => this.tick(t));
     }
 
-    getChumPos() {
-        const chum = document.querySelector('.chum-bg');
-        if (!chum) return { x: window.innerWidth * 0.15, bottom: 32, width: 100 };
-        const rect = chum.getBoundingClientRect();
-        const isMobile = window.innerWidth < 600;
-        return {
-            x: rect.left + rect.width / 2,
-            bottom: isMobile ? 38 : 32,
-            width: rect.width
-        };
-    }
-
     createNenets() {
         const el = document.getElementById('nenets');
         if (!el) return;
 
-        // Позиционируем относительно родителя (chum-bg)
-        this.pos.x = 50; // Центр чума (в % от родителя)
-        this.pos.bottom = -2;
+        const t = CONFIG.tundra.nenets;
+        this.pos.x = 50; 
+        this.pos.bottom = t.bottom;
 
         el.style.left = `${this.pos.x}%`;
         el.style.bottom = `${this.pos.bottom}%`;
+        el.style.transform = `scale(${t.scale})`;
         
         this.el = el;
         
@@ -67,13 +55,12 @@ class NenetsSystem {
             this.el.classList.add('walk');
             this.targetX = this.getNewTargetX();
             this.stateTimer = Date.now() + 10000; 
-        } else if (newState === 'SMOKE' || newState === 'REPAIRING') {
+        } else if (newState === 'SMOKE') {
             this.el.classList.add('smoke');
-            const duration = newState === 'REPAIRING' ? 15000 : 10000;
-            this.stateTimer = Date.now() + duration;
+            this.stateTimer = Date.now() + 10000;
             
             setTimeout(() => {
-                if (this.state === newState) this.startSmoking();
+                if (this.state === 'SMOKE') this.startSmoking();
             }, 1000);
         } else if (newState === 'IDLE') {
             this.el.classList.add('smoke'); 
@@ -82,49 +69,71 @@ class NenetsSystem {
     }
 
     getNewTargetX() {
+        const t = CONFIG.tundra.nenets;
+        const cz = CONFIG.tundra.chumZone;
         const rand = Math.random();
         
-        // 30% шанс пойти чинить буран
-        if (rand < 0.3) {
-            this.activeBuran = Math.random() > 0.5 ? 'b1' : 'b2';
-            const buran = document.querySelector(`.buran-img.${this.activeBuran}`);
-            if (buran) {
-                // Идем к позиции бурана (парсим его left из стилей)
-                const buranLeft = parseFloat(buran.style.left) || 0;
-                return buranLeft + (this.activeBuran === 'b1' ? -5 : 5);
-            }
-        }
-        
-        // 20% шанс пойти к оленям (если мы знаем их примерные координаты в %)
-        if (rand < 0.5) {
-            return 100 + Math.random() * 50; // Уходим вправо к стаду
+        let minX = t.minX;
+        let maxX = t.maxX;
+
+        // Если ненец находится справа от чума, он гуляет только справа
+        if (this.pos.x > cz.max) {
+            minX = cz.max;
+        } 
+        // Если слева - гуляет только слева
+        else if (this.pos.x < cz.min) {
+            maxX = cz.min;
         }
 
-        // Обычная прогулка у чума
-        this.activeBuran = null;
-        return 20 + Math.random() * 60;
+        if (rand < 0.3) {
+            return maxX - 40 + Math.random() * 20; 
+        }
+        return minX + Math.random() * (maxX - minX);
     }
 
     tick(now) {
         if (!this.el) return;
+        if (window.tundraEditor && window.tundraEditor.paused) {
+            requestAnimationFrame((t) => this.tick(t));
+            return;
+        }
 
         const currentTime = Date.now();
+        const t = CONFIG.tundra.nenets;
+        const cz = CONFIG.tundra.chumZone;
+        this.el.style.bottom = `${t.bottom}%`;
+
+        let minX = t.minX;
+        let maxX = t.maxX;
+
+        // Определяем текущие границы в зависимости от стороны от чума
+        if (this.pos.x >= cz.max) minX = cz.max;
+        else if (this.pos.x <= cz.min) maxX = cz.min;
 
         if (this.state === 'WALK') {
             const dx = this.targetX - this.pos.x;
             if (Math.abs(dx) > 1) {
-                const move = dx > 0 ? 0.2 : -0.2; // Медленный шаг в %
+                let move = dx > 0 ? 0.2 : -0.2; 
+                
+                // Строгая проверка границ
+                let nextPos = this.pos.x + move;
+                if (nextPos > maxX) {
+                    this.targetX = minX + Math.random() * (maxX - minX); // Выбираем новую цель
+                    move = 0;
+                } else if (nextPos < minX) {
+                    this.targetX = minX + Math.random() * (maxX - minX);
+                    move = 0;
+                }
+
                 this.pos.x += move;
                 this.el.style.left = `${this.pos.x}%`;
                 
+                const flip = move > 0 ? 'scaleX(-1)' : '';
+                this.el.style.transform = `scale(${t.scale}) ${flip}`;
                 if (move > 0) this.el.classList.add('flip');
-                else this.el.classList.remove('flip');
+                else if (move < 0) this.el.classList.remove('flip');
             } else {
-                if (this.activeBuran) {
-                    this.setState('REPAIRING');
-                } else {
-                    this.setState('IDLE');
-                }
+                this.setState('IDLE');
             }
         } else {
             if (currentTime > this.stateTimer) {

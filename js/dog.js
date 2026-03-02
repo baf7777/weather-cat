@@ -8,13 +8,6 @@ class DogSystem {
         this.targetX = 0;
         this.stateTimer = 0;
         this.isMobile = window.innerWidth < 600;
-
-        this.speeds = {
-            toDeer: 0.5,
-            toHome: 0.4,
-            random: 0.5,
-            toNenets: 0.4
-        };
     }
 
     init() {
@@ -22,31 +15,24 @@ class DogSystem {
         requestAnimationFrame((t) => this.tick(t));
     }
 
-    getChumPos() {
-        const chum = document.querySelector('.chum-bg');
-        if (!chum) return { x: window.innerWidth * 0.15, bottom: 32 };
-        const rect = chum.getBoundingClientRect();
-        return {
-            x: rect.left + rect.width / 2,
-            bottom: this.isMobile ? 38 : 32
-        };
-    }
-
     createDog() {
-        const chum = this.getChumPos();
+        const chumBg = document.querySelector('.chum-bg');
+        if (!chumBg) return;
+
         const el = document.createElement('div');
         el.className = 'dog sit';
         
-        // На мобилках ставим собаку чуть правее чума, чтобы не в куче
-        this.homeX = chum.x + (this.isMobile ? 60 : 50);
+        const t = CONFIG.tundra.dog;
+        this.homeX = t.homeX;
         this.pos.x = this.homeX;
-        this.pos.bottom = chum.bottom - 2;
+        this.pos.bottom = t.bottom;
 
-        el.style.left = `${this.pos.x}px`;
+        el.style.left = `${this.pos.x}%`;
         el.style.bottom = `${this.pos.bottom}%`;
+        el.style.transform = `scale(${t.scale})`;
         el.style.zIndex = 5;
         
-        document.body.appendChild(el);
+        chumBg.appendChild(el);
         this.el = el;
 
         el.addEventListener('click', () => this.startMission());
@@ -93,19 +79,38 @@ class DogSystem {
         if (newState === 'IDLE') {
             this.stateTimer = Date.now() + 10000 + Math.random() * 10000;
         } else if (newState === 'RANDOM_WALK') {
-            // Ограничиваем гуляние собаки, чтобы не путалась под ногами
-            const range = this.isMobile ? 40 : 80;
-            this.targetX = this.homeX + (Math.random() * range * 2 - range);
+            const cz = CONFIG.tundra.chumZone;
+            const t = CONFIG.tundra.dog;
+            
+            // Собака гуляет либо справа, либо слева от чума, не пересекая его
+            let minX = -60;
+            let maxX = 160;
+            
+            if (this.homeX > cz.max) {
+                // Собака живет справа
+                minX = cz.max;
+            } else if (this.homeX < cz.min) {
+                // Собака живет слева
+                maxX = cz.min;
+            }
+            
+            const range = this.isMobile ? 30 : 60;
+            this.targetX = this.homeX + (Math.random() * range - range/2);
+            this.targetX = Math.max(minX, Math.min(maxX, this.targetX));
         }
     }
 
     tick(now) {
         if (!this.el) return;
+        if (window.tundraEditor && window.tundraEditor.paused) {
+            requestAnimationFrame((t) => this.tick(t));
+            return;
+        }
 
         const currentTime = Date.now();
-        const chum = this.getChumPos();
-        this.pos.bottom = chum.bottom - 2;
-        this.el.style.bottom = `${this.pos.bottom}%`;
+        const t = CONFIG.tundra.dog;
+        this.el.style.bottom = `${t.bottom}%`;
+        this.homeX = t.homeX;
 
         if (this.state === 'IDLE' && currentTime > this.stateTimer) {
             const rand = Math.random();
@@ -119,11 +124,14 @@ class DogSystem {
         if (this.state === 'TO_DEER') {
             const target = window.DeerSystem.escapedDeer;
             if (target) {
-                const dist = (target.pos - 30) - this.pos.x;
-                if (Math.abs(dist) > 5) {
-                    const move = dist > 0 ? this.speeds.toDeer : -this.speeds.toDeer;
+                const dist = (target.pos - 10) - this.pos.x;
+                if (Math.abs(dist) > 2) {
+                    const move = dist > 0 ? 0.3 : -0.3;
                     this.pos.x += move;
-                    this.el.style.left = `${this.pos.x}px`;
+                    this.el.style.left = `${this.pos.x}%`;
+                    
+                    const flip = move > 0 ? 'scaleX(-1)' : '';
+                    this.el.style.transform = `scale(${t.scale}) ${flip}`;
                     if (move > 0) this.el.classList.add('flip');
                     else this.el.classList.remove('flip');
                 } else {
@@ -133,11 +141,14 @@ class DogSystem {
         } else if (this.state === 'TO_NENETS') {
             const nenets = window.NenetsSystem;
             if (nenets && nenets.el) {
-                const dist = (nenets.pos.x + 20) - this.pos.x;
-                if (Math.abs(dist) > 30) {
-                    const move = dist > 0 ? this.speeds.toNenets : -this.speeds.toNenets;
+                const dist = (nenets.pos.x + 10) - this.pos.x;
+                if (Math.abs(dist) > 5) {
+                    const move = dist > 0 ? 0.3 : -0.3;
                     this.pos.x += move;
-                    this.el.style.left = `${this.pos.x}px`;
+                    this.el.style.left = `${this.pos.x}%`;
+                    
+                    const flip = move > 0 ? 'scaleX(-1)' : '';
+                    this.el.style.transform = `scale(${t.scale}) ${flip}`;
                     if (move > 0) this.el.classList.add('flip');
                     else this.el.classList.remove('flip');
                 } else {
@@ -148,22 +159,43 @@ class DogSystem {
             }
         } else if (this.state === 'TO_HOME') {
             const dist = this.homeX - this.pos.x;
-            if (Math.abs(dist) > 5) {
-                const move = dist > 0 ? this.speeds.toHome : -this.speeds.toHome;
+            if (Math.abs(dist) > 2) {
+                const move = dist > 0 ? 0.3 : -0.3;
                 this.pos.x += move;
-                this.el.style.left = `${this.pos.x}px`;
+                this.el.style.left = `${this.pos.x}%`;
+                
+                const flip = move > 0 ? 'scaleX(-1)' : '';
+                this.el.style.transform = `scale(${t.scale}) ${flip}`;
                 if (move > 0) this.el.classList.add('flip');
                 else this.el.classList.remove('flip');
             } else {
                 this.setState('IDLE');
                 this.el.classList.remove('flip');
+                this.el.style.transform = `scale(${t.scale})`;
             }
-        } else if (this.state === 'RANDOM_WALK') {
+        if (this.state === 'RANDOM_WALK') {
+            const cz = CONFIG.tundra.chumZone;
+            let minX = CONFIG.tundra.dog.minX || -30;
+            let maxX = CONFIG.tundra.dog.maxX || 160;
+            
+            if (this.homeX >= cz.max) minX = cz.max;
+            else if (this.homeX <= cz.min) maxX = cz.min;
+
             const dist = this.targetX - this.pos.x;
-            if (Math.abs(dist) > 2) {
-                const move = dist > 0 ? this.speeds.random : -this.speeds.random;
+            if (Math.abs(dist) > 1) {
+                let move = dist > 0 ? 0.3 : -0.3;
+                
+                let nextPos = this.pos.x + move;
+                if (nextPos > maxX || nextPos < minX) {
+                    this.setState('IDLE'); // Отменяем прогулку, если уперлись в край
+                    return requestAnimationFrame((t) => this.tick(t));
+                }
+
                 this.pos.x += move;
-                this.el.style.left = `${this.pos.x}px`;
+                this.el.style.left = `${this.pos.x}%`;
+                
+                const flip = move > 0 ? 'scaleX(-1)' : '';
+                this.el.style.transform = `scale(${t.scale}) ${flip}`;
                 if (move > 0) this.el.classList.add('flip');
                 else this.el.classList.remove('flip');
             } else {
