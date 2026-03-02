@@ -130,8 +130,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Идет посадка",
+    "estimatedTime": "18:36",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "18:06",
-    "status": "Ожидается",
+    "estimatedTime": "18:02",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -409,8 +409,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Идет посадка",
+    "estimatedTime": "18:36",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -553,8 +553,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "18:06",
-    "status": "Ожидается",
+    "estimatedTime": "18:02",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
