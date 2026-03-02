@@ -173,7 +173,7 @@ class DogSystem {
                 this.el.classList.remove('flip');
                 this.el.style.transform = `scale(${t.scale})`;
             }
-        if (this.state === 'RANDOM_WALK') {
+        } else if (this.state === 'RANDOM_WALK') {
             const cz = CONFIG.tundra.chumZone;
             let minX = CONFIG.tundra.dog.minX || -30;
             let maxX = CONFIG.tundra.dog.maxX || 160;
