@@ -886,9 +886,11 @@ body.editor-drag-mode .deer {
         transform-origin: bottom center;
     }
     .chum-bg {
-        bottom: 38%; /* На мобилках еще выше */
+        bottom: 40%; /* На мобилках еще выше, чтобы не перекрывался коробкой */
         left: 5%;
-        width: 25vmin; /* На мобилках чуть крупнее */
+        width: 35vmin; /* Делаем сам контейнер шире, чтобы остров был заметнее, но персонажи оставались в пропорции */
+        transform: scale(0.7); /* Уменьшаем весь остров с чумом целиком */
+        transform-origin: bottom left;
     }
 }
 
