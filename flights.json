@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Панаевск",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "estimatedTime": "09:40",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -22,8 +22,8 @@
     "from": "Салехард",
     "to": "Салемал",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "estimatedTime": "09:40",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -31,8 +31,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "estimatedTime": "09:40",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -40,8 +40,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "Идет посадка",
+    "estimatedTime": "09:56",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:10",
-    "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "estimatedTime": "10:21",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -58,8 +58,8 @@
     "from": "Салехард",
     "to": "Казым Мыс",
     "scheduledTime": "10:10",
-    "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "estimatedTime": "10:21",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -67,8 +67,8 @@
     "from": "Салехард",
     "to": "Горки",
     "scheduledTime": "10:10",
-    "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "estimatedTime": "10:21",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -76,8 +76,8 @@
     "from": "Салехард",
     "to": "Омск",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "Регистрация",
+    "estimatedTime": "10:30",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Салехард",
     "to": "Панаевск",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "estimatedTime": "09:40",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Салехард",
     "to": "Салемал",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "estimatedTime": "09:40",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "estimatedTime": "09:40",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -256,8 +256,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "Идет посадка",
+    "estimatedTime": "09:56",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:10",
-    "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "estimatedTime": "10:21",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Салехард",
     "to": "Казым Мыс",
     "scheduledTime": "10:10",
-    "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "estimatedTime": "10:21",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -283,8 +283,8 @@
     "from": "Салехард",
     "to": "Горки",
     "scheduledTime": "10:10",
-    "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "estimatedTime": "10:21",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -292,8 +292,8 @@
     "from": "Салехард",
     "to": "Омск",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "Регистрация",
+    "estimatedTime": "10:30",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
