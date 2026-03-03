@@ -9,15 +9,6 @@
     "type": "departure"
   },
   {
-    "number": "ЛА 131",
-    "from": "Салехард",
-    "to": "Москва / Шереметьево",
-    "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
     "number": "ЯЛ 50",
     "from": "Салехард",
     "to": "Панаевск",
@@ -121,8 +112,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:40",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -211,8 +202,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:30",
-    "estimatedTime": "15:30",
-    "status": "По расписанию",
+    "estimatedTime": "17:40",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -234,15 +225,6 @@
     "type": "arrival"
   },
   {
-    "number": "ЛА 131",
-    "from": "Салехард",
-    "to": "Москва / Шереметьево",
-    "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
     "number": "ЯЛ 50",
     "from": "Салехард",
     "to": "Панаевск",
@@ -346,8 +328,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:40",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -436,8 +418,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:30",
-    "estimatedTime": "15:30",
-    "status": "По расписанию",
+    "estimatedTime": "17:40",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
