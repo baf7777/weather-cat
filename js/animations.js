@@ -58,6 +58,39 @@ function stopRandomGaze() {
     eyeDesiredTarget = null;
 }
 
+// --- ПАСХАЛКА: ПЕРЕКЛЮЧЕНИЕ ДНЯ/НОЧИ ПО КЛИКУ ---
+let manualDayNightTimeout = null;
+let isManualDayNight = false;
+
+function initCelestialClicks() {
+    if (els.sun) {
+        els.sun.style.pointerEvents = 'auto';
+        els.sun.style.cursor = 'pointer';
+        els.sun.addEventListener('click', () => toggleManualDayNight());
+    }
+    if (els.moon) {
+        els.moon.style.pointerEvents = 'auto';
+        els.moon.style.cursor = 'pointer';
+        els.moon.addEventListener('click', () => toggleManualDayNight());
+    }
+}
+
+function toggleManualDayNight() {
+    isManualDayNight = !isManualDayNight;
+    clearTimeout(manualDayNightTimeout);
+    
+    // Инвертируем текущий класс night
+    els.body.classList.toggle('night');
+    
+    // Возвращаем как было через 30 секунд
+    manualDayNightTimeout = setTimeout(() => {
+        isManualDayNight = false;
+        // Возвращаем реальное состояние из погоды
+        if (weatherState.isDay === 0) els.body.classList.add('night');
+        else els.body.classList.remove('night');
+    }, 30000);
+}
+
 function trackMouse() {
     if (els.box.classList.contains('box-open')) {
         const catRect = els.catSign.getBoundingClientRect();

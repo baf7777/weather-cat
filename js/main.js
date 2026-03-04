@@ -14,7 +14,9 @@ const els = {
     loader: document.getElementById('loader'),
     pupils: document.querySelectorAll('.pupil'),
     stars: document.getElementById('stars-container'),
-    catBreath: document.getElementById('cat-breath')
+    catBreath: document.getElementById('cat-breath'),
+    sun: document.getElementById('sun-body'),
+    moon: document.getElementById('moon-body')
 };
 
 // Глобальное состояние погоды
@@ -91,6 +93,11 @@ async function init() {
     els.box.addEventListener('click', toggleBox);
     trackMouse(); // Запуск слежения глаз
     startCatBreathLoop(); // Запуск дыхания кота
+    
+    if (typeof initCelestialClicks === 'function') {
+        initCelestialClicks();
+    }
+    
     if (typeof setMouseToSpawnState === 'function') {
         setMouseToSpawnState();
     }

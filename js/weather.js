@@ -67,8 +67,10 @@ function renderWeather() {
     els.catSign.style.background = signColor;
 
     // 3. День / Ночь
-    if (isDay === 0) els.body.classList.add('night');
-    else els.body.classList.remove('night');
+    if (!isManualDayNight) {
+        if (isDay === 0) els.body.classList.add('night');
+        else els.body.classList.remove('night');
+    }
 
     // 4. Осадки
     els.snowContainer.innerHTML = '';
