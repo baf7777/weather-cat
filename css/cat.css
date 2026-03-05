@@ -585,16 +585,17 @@ body.freeze-mode .box-open ~ .cat-container .paws {
 
 @media (max-width: 40rem) {
     .sign-aurora {
-        top: 0.35rem;
-        right: 0.42rem;
-        bottom: auto;
+        top: auto;
+        right: 0.38rem;
+        bottom: 0.22rem;
         padding: 0.1rem 0.3rem;
         font-size: 0.58rem;
         border-radius: 0.35rem;
     }
 
     .sign-feel {
-        padding-right: 2.55rem;
+        padding-right: 0.2rem;
+        margin-bottom: 0.58rem;
     }
 }
 @keyframes kpBadgeIdle {
@@ -745,6 +746,4 @@ body.freeze-mode .box-open ~ .cat-container .paws {
 
 .mouse-wrapper.frozen .mouse-body { background: #b0c4de; }
 .mouse-wrapper.frozen .mouse-ear { background: #b0c4de; }
-
-
 
