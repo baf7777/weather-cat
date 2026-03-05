@@ -357,16 +357,18 @@ function parseCSV(text) {
 }
 
 function getCSVRule(temp, wind) {
-    if (!weatherRules) return null;
-    
-    // Clamp wind to max 20
-    const w = Math.max(0, Math.min(20, Math.round(wind)));
     const t = Math.round(temp);
-    
+
     // Temperature range logic
     if (t > -14) return ""; // Warmer than table -> No cancel
     if (t < -42) return "1-11"; // Colder than table -> Max cancel
-    
+
+    // Если таблица не загрузилась, для промежуточных температур нет точного правила
+    if (!weatherRules) return null;
+
+    // Clamp wind to max 20
+    const w = Math.max(0, Math.min(20, Math.round(wind)));
+
     const row = weatherRules[t];
     if (row) {
         return row[w] || "";
@@ -427,3 +429,4 @@ function updateMouseBehavior() {
     if (isFrozen) m.classList.add('frozen');
     else m.classList.remove('frozen');
 }
+

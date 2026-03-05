@@ -75,6 +75,35 @@
 }
 .box-wrapper.frozen-box .frost-overlay { opacity: 1; }
 
+/* Стикеры на коробке */
+.box-stickers {
+    position: absolute;
+    inset: 0;
+    z-index: 39;
+    pointer-events: none;
+}
+
+.box-sticker {
+    position: absolute;
+    display: block;
+    width: 5rem;
+    height: auto;
+    max-width: 40%;
+    transform-origin: 50% 50%;
+    filter: drop-shadow(0 0.2rem 0.35rem rgba(0,0,0,0.28));
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.box-sticker.sway {
+    animation: stickerSway 6.5s ease-in-out infinite;
+}
+
+@keyframes stickerSway {
+    0%, 100% { transform: rotate(var(--sticker-rot, -6deg)); }
+    50% { transform: rotate(calc(var(--sticker-rot, -6deg) + 1.3deg)); }
+}
+
 .box-label {
     position: relative;
     background: #fff5e6; padding: 0.8rem 1.6rem;
@@ -133,7 +162,7 @@
     opacity: 0;
 }
 .box-open ~ .cat-container { 
-    bottom: 16.5rem; 
+    bottom: 15.5rem; 
     opacity: 1;
     pointer-events: auto;
 }
@@ -151,7 +180,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 14rem;
-    height: 4rem;
+    height: 4.3rem;
     background: #e0dcb8; /* Цвет светлого меха */
     border-radius: 2rem;
     z-index: 19;
@@ -181,38 +210,179 @@ body.cold-mode .fur-collar {
     bottom: -0.5rem;
 }
 
+/* Раздельная анимация кота: табличка не дергается */
+body.cold-mode .box-open ~ .cat-container .cat-head {
+    animation: catHeadShiver 1.9s ease-in-out infinite;
+}
+body.cold-mode .box-open ~ .cat-container .paws {
+    animation: catPawsShiver 3.6s ease-in-out infinite;
+}
+
 body.squint-mode .eyelid {
     top: -30%; /* Прикрывает глаза на 70% */
 }
 
-/* Глубокое погружение при экстремальном холоде */
+/* Глубокое погружение и усиленный озноб при экстремальном холоде */
 body.freeze-mode .box-open ~ .cat-container {
-    bottom: 14.5rem; /* Поднял еще выше для режима замерзания */
+    bottom: 13.5rem; /* Глубже в коробку, без зазора */
 }
-body.freeze-mode .cat-head {
-    transform: scale(0.95);
+body.freeze-mode .box-open ~ .cat-container .cat-head {
+    animation: catHeadShiverFreeze 1.25s ease-in-out infinite;
 }
+body.freeze-mode .box-open ~ .cat-container .paws {
+    animation: catPawsShiverFreeze 2.4s ease-in-out infinite;
+}
+
+@keyframes catHeadShiver {
+    0%, 100% { transform: translateX(0) rotate(0deg); }
+    25% { transform: translateX(-0.05rem) rotate(-0.3deg); }
+    50% { transform: translateX(0.05rem) rotate(0.26deg); }
+    75% { transform: translateX(-0.04rem) rotate(-0.2deg); }
+}
+
+@keyframes catPawsShiver {
+    0%, 100% { transform: translateX(0) rotate(0deg); }
+    25% { transform: translateX(0.014rem) rotate(0.08deg); }
+    50% { transform: translateX(-0.014rem) rotate(-0.07deg); }
+    75% { transform: translateX(0.01rem) rotate(0.05deg); }
+}
+
+@keyframes catHeadShiverFreeze {
+    0%, 100% { transform: scale(0.95) translateX(0) rotate(0deg); }
+    25% { transform: scale(0.95) translateX(-0.08rem) rotate(-0.55deg); }
+    50% { transform: scale(0.95) translateX(0.08rem) rotate(0.5deg); }
+    75% { transform: scale(0.95) translateX(-0.06rem) rotate(-0.4deg); }
+}
+
+@keyframes catPawsShiverFreeze {
+    0%, 100% { transform: translateX(0) rotate(0deg); }
+    25% { transform: translateX(0.02rem) rotate(0.12deg); }
+    50% { transform: translateX(-0.02rem) rotate(-0.1deg); }
+    75% { transform: translateX(0.015rem) rotate(0.08deg); }
+}
+
 .ear {
     position: absolute; top: -2.5rem; width: 3.5rem; height: 5rem;
     background: #505050; border-radius: 1rem 2rem 0 0; z-index: 10;
+    transform-origin: 50% 100%;
 }
 .ear::after {
     content: ''; position: absolute; bottom: 0.5rem; left: 0.5rem;
-    width: 2.5rem; height: 3.5rem; background: #ffb7b2;
-    border-radius: 1rem 2rem 0 0; opacity: 0.8;
+    width: 2.7rem; height: 3.5rem; background: #ffb7b2;
+    border-radius: 1rem 2rem 0 0; opacity: 0.62;
 }
 .ear.l { left: 0.5rem; transform: rotate(-15deg); }
 .ear.r { right: 0.5rem; transform: rotate(15deg); }
 
+/* Уши-радар: мягкие редкие движения */
+.box-open ~ .cat-container .ear.l {
+    animation: earRadarL 9.5s ease-in-out infinite;
+}
+.box-open ~ .cat-container .ear.r {
+    animation: earRadarR 8.8s ease-in-out infinite;
+}
+
+@keyframes earRadarL {
+    0%, 100% { transform: rotate(-15deg); }
+    16% { transform: rotate(-16.2deg); }
+    28% { transform: rotate(-14.1deg); }
+    42% { transform: rotate(-15.3deg); }
+    76% { transform: rotate(-15deg); }
+    88% { transform: rotate(-14.2deg); }
+    96% { transform: rotate(-14.8deg); }
+}
+
+@keyframes earRadarR {
+    0%, 100% { transform: rotate(15deg); }
+    14% { transform: rotate(14.1deg); }
+    26% { transform: rotate(16.3deg); }
+    40% { transform: rotate(14.7deg); }
+    74% { transform: rotate(15deg); }
+    86% { transform: rotate(16.1deg); }
+    94% { transform: rotate(15.1deg); }
+}
+
 .face-mask {
     position: absolute; bottom: 0; left: 10%; width: 80%; height: 50%;
     background: #fff; border-radius: 35% 35% 45% 45%;
-    overflow: hidden; z-index: 21;
+    overflow: visible; z-index: 21;
 }
 .nose {
     position: absolute; top: 1.5rem; left: 50%; transform: translateX(-50%);
     width: 1.4rem; height: 1rem; background: #ffb7b2; border-radius: 40%;
 }
+.whiskers {
+    position: absolute;
+    top: 2.92rem;
+    width: 2.9rem;
+    height: 1.55rem;
+    z-index: 22;
+    pointer-events: none;
+}
+
+.whiskers-l {
+    right: 50%;
+    margin-right: 0.18rem;
+}
+
+.whiskers-r {
+    left: 50%;
+    margin-left: 0.18rem;
+}
+
+.whisker {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #8d8d8d;
+    border-radius: 2px;
+    opacity: 0.62;
+}
+
+.whiskers-l .whisker {
+    transform-origin: right center;
+    transform: rotate(var(--base-rot, 0deg));
+}
+
+.whiskers-r .whisker {
+    transform-origin: left center;
+    transform: rotate(var(--base-rot, 0deg));
+}
+
+.whisker.w1 { top: 0.06rem; }
+.whisker.w2 { top: 0.58rem; }
+.whisker.w3 { top: 1.08rem; }
+
+.whiskers-l .w1 { --base-rot: -8deg; }
+.whiskers-l .w2 { --base-rot: -1deg; }
+.whiskers-l .w3 { --base-rot: 7deg; }
+
+.whiskers-r .w1 { --base-rot: 8deg; }
+.whiskers-r .w2 { --base-rot: 1deg; }
+.whiskers-r .w3 { --base-rot: -7deg; }
+
+.box-open ~ .cat-container .whiskers-l .whisker {
+    animation: whiskerSwayL 10.5s ease-in-out infinite;
+}
+
+.box-open ~ .cat-container .whiskers-r .whisker {
+    animation: whiskerSwayR 10.5s ease-in-out infinite;
+}
+
+.whisker.w2 { animation-delay: 0.18s; }
+.whisker.w3 { animation-delay: 0.34s; }
+
+@keyframes whiskerSwayL {
+    0%, 100% { transform: rotate(var(--base-rot)); }
+    50% { transform: rotate(calc(var(--base-rot) - 0.55deg)); }
+}
+
+@keyframes whiskerSwayR {
+    0%, 100% { transform: rotate(var(--base-rot)); }
+    50% { transform: rotate(calc(var(--base-rot) + 0.55deg)); }
+}
+
 .mouth-line {
     position: absolute; top: 2.5rem; left: 50%; transform: translateX(-50%);
     width: 2px; height: 1rem; background: #333;
@@ -230,8 +400,8 @@ body.freeze-mode .cat-head {
     top: 3.5rem; /* Позиция чуть ниже рта */
     left: 50%;
     transform: translateX(-50%);
-    width: 2.5rem;
-    height: 4rem;
+    width: 2.7rem;
+    height: 4.3rem;
     opacity: 0;
     pointer-events: none;
     z-index: 23;
@@ -239,7 +409,7 @@ body.freeze-mode .cat-head {
 
 .breath-steam.show {
     opacity: 1;
-    animation: breathSteam 2.5s ease-out forwards;
+    animation: breathSteam 2.8s ease-out forwards;
 }
 
 .breath-steam::before,
@@ -247,22 +417,22 @@ body.freeze-mode .cat-head {
     content: '';
     position: absolute;
     bottom: 0;
-    width: 1rem;
-    height: 3rem;
-    background: radial-gradient(ellipse at bottom, rgba(255, 255, 255, 0.9) 0%, rgba(240, 248, 255, 0.6) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%);
+    width: 1.15rem;
+    height: 3.2rem;
+    background: radial-gradient(ellipse at bottom, rgba(255, 255, 255, 0.97) 0%, rgba(240, 248, 255, 0.72) 42%, rgba(255, 255, 255, 0.28) 74%, transparent 100%);
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    filter: blur(0.4rem);
+    filter: blur(0.32rem);
     opacity: 0;
 }
 
 .breath-steam.show::before {
     left: 0.3rem;
-    animation: steamRise1 2.5s ease-out forwards;
+    animation: steamRise1 2.8s ease-out forwards;
 }
 
 .breath-steam.show::after {
     right: 0.3rem;
-    animation: steamRise2 2.5s ease-out forwards;
+    animation: steamRise2 2.8s ease-out forwards;
 }
 
 @keyframes breathSteam {
@@ -275,7 +445,7 @@ body.freeze-mode .cat-head {
         transform: translateX(-50%) translateY(-0.3rem) scale(1); 
     }
     70% { 
-        opacity: 0.9; 
+        opacity: 1; 
         transform: translateX(-50%) translateY(-2.5rem) scale(1.3); 
     }
     100% { 
@@ -290,11 +460,11 @@ body.freeze-mode .cat-head {
         opacity: 0;
     }
     10% {
-        opacity: 0.9;
+        opacity: 1;
     }
     50% { 
         transform: translateY(-1.8rem) translateX(-0.3rem) scaleY(1.4);
-        opacity: 0.7;
+        opacity: 0.82;
     }
     100% { 
         transform: translateY(-4rem) translateX(-0.6rem) scaleY(2);
@@ -308,11 +478,11 @@ body.freeze-mode .cat-head {
         opacity: 0;
     }
     10% {
-        opacity: 0.9;
+        opacity: 1;
     }
     50% { 
         transform: translateY(-1.8rem) translateX(0.3rem) scaleY(1.4);
-        opacity: 0.7;
+        opacity: 0.82;
     }
     100% { 
         transform: translateY(-4rem) translateX(-0.6rem) scaleY(2);
@@ -342,11 +512,28 @@ body.freeze-mode .cat-head {
 }
 
 .paws {
-    position: absolute; top: 12rem; width: 100%; display: flex; justify-content: space-between; padding: 0 2rem; box-sizing: border-box; z-index: 35;
+    position: absolute;
+    top: 10.4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.6rem;
+    box-sizing: border-box;
+    z-index: 42;
 }
 .paw {
-    width: 3rem; height: 3rem; background: #FFF;
-    border-radius: 50%; box-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.2);
+    width: 3.1rem;
+    height: 2.35rem;
+    background: #fff;
+    border-radius: 1.2rem 1.2rem 0.95rem 0.95rem;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 0.22rem 0.45rem rgba(0,0,0,0.18);
+}
+.paw:first-child {
+    transform: rotate(-3deg);
+}
+.paw:last-child {
+    transform: rotate(3deg);
 }
 
 .sign-board {
@@ -360,7 +547,8 @@ body.freeze-mode .cat-head {
     z-index: 40;
     position: relative; /* Для позиционирования индекса сияния */
 
-    animation: signSway 4s ease-in-out infinite;
+    transform-origin: 50% 0%;
+    animation: signSway 5.2s ease-in-out infinite;
 }
 .sign-temp { 
     font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -370,11 +558,54 @@ body.freeze-mode .cat-head {
     font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     font-size: 0.95rem; font-weight: 800; text-transform: uppercase; opacity: 0.9; letter-spacing: 2px; 
 }
-.sign-feel { font-size: 1rem; opacity: 0.8; font-style: italic; }
-.sign-aurora { 
-    position: absolute; top: 0.4rem; right: 0.6rem;
-    font-size: 0.85rem; font-weight: bold; text-shadow: 1px 1px 2px rgba(0,0,0,0.3); margin: 0;
+.sign-feel { font-size: 1rem; opacity: 0.62; font-style: italic; }
+.sign-aurora {
+    position: absolute;
+    top: auto;
+    right: 0.5rem;
+    margin: 0;
+    bottom: 0.45rem;
+    padding: 0.14rem 0.38rem;
+    font-size: 0.64rem;
+    font-weight: 700;
+    line-height: 1;
+    color: rgba(255,255,255,0.95);
+    background: rgba(18, 34, 56, 0.85);
+    border: 1px solid rgba(255,255,255,0.35);
+    border-radius: 0.45rem;
+    text-shadow: none;
+    letter-spacing: 0.15px;
+    z-index: 45;
+    animation: kpBadgeIdle 3.2s ease-in-out infinite;
 }
+
+.sign-aurora.active {
+    animation: kpBadgeActive 1.8s ease-in-out infinite;
+}
+
+@keyframes kpBadgeIdle {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-0.08rem); }
+}
+
+@keyframes kpBadgeActive {
+    0%, 100% {
+        transform: translateY(0) scale(1);
+        box-shadow: 0 0 0 rgba(255, 224, 122, 0);
+    }
+    50% {
+        transform: translateY(-0.1rem) scale(1.04);
+        box-shadow: 0 0 0.7rem rgba(255, 224, 122, 0.55);
+    }
+}
+
+@keyframes signSway {
+    0%, 100% { transform: translateX(-50%) rotate(0deg); }
+    25% { transform: translateX(-50%) rotate(-1.1deg); }
+    50% { transform: translateX(-50%) rotate(0.85deg); }
+    75% { transform: translateX(-50%) rotate(-0.7deg); }
+}
+
 /* --- МЫШЬ (Meteorologist) --- */
 .mouse-wrapper {
     position: fixed;
@@ -395,7 +626,7 @@ body.freeze-mode .cat-head {
     height: 0.8rem;
     background: rgba(0, 0, 0, 0.2);
     border-radius: 50%;
-    filter: blur(0.4rem);
+    filter: blur(0.32rem);
     z-index: -1;
 }
 .mouse-body {
@@ -494,9 +725,17 @@ body.freeze-mode .cat-head {
 }
 @keyframes blownAway {
     0% { transform: rotate(0deg); opacity: 1; }
-    50% { transform: rotate(540deg); opacity: 0.8; }
+    50% { transform: rotate(540deg); opacity: 0.62; }
     100% { right: 200vw; bottom: 80vh; transform: rotate(1080deg); opacity: 0; }
 }
 
 .mouse-wrapper.frozen .mouse-body { background: #b0c4de; }
 .mouse-wrapper.frozen .mouse-ear { background: #b0c4de; }
+
+
+
+
+
+
+
+

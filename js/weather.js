@@ -108,7 +108,7 @@ function renderWeather() {
         els.body.classList.add('squint-mode');
     }
 
-    if (temp < 0 && els.box.classList.contains('box-open')) {
+    if (typeof isCatBreathColdEnough === 'function' && isCatBreathColdEnough() && els.box.classList.contains('box-open')) {
         if (!catBreathTimer) {
             startCatBreathLoop();
         }
@@ -119,6 +119,11 @@ function renderWeather() {
     // Обновляем состояние сияния (зависит от дня/ночи и шторма)
     if (typeof renderAurora === 'function') {
         renderAurora();
+    }
+
+    // Если коробка открыта, держим табличку мыши в актуальном состоянии
+    if (els.box && els.box.classList.contains('box-open') && typeof updateMouseBehavior === 'function') {
+        updateMouseBehavior();
     }
 
     if (window.updateWindSound) {
@@ -153,4 +158,6 @@ function createSnow(windSpeed) {
         els.snowContainer.appendChild(f);
     }
 }
+
+
 

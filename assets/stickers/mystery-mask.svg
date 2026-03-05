@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <g filter="url(#s)">
+    <path d="M128 16c60 0 108 48 108 108s-48 108-108 108S20 184 20 124 68 16 128 16z" fill="#fff"/>
+    <path d="M128 24c56 0 100 44 100 100s-44 100-100 100S28 180 28 124 72 24 128 24z" fill="#2d2d2d"/>
+    <path d="M128 32c50 0 92 42 92 92s-42 92-92 92-92-42-92-92 42-92 92-92z" fill="#f7f1df"/>
+
+    <path d="M66 150c16 26 46 42 62 42s46-16 62-42c-14-8-30-12-62-12s-48 4-62 12z" fill="#b4551f"/>
+    <path d="M62 157c22 22 44 33 66 33s44-11 66-33c-8-10-22-17-66-17s-58 7-66 17z" fill="#cf6a25"/>
+
+    <path d="M90 80c20-14 56-14 76 0l-4 54c0 16-12 28-34 28s-34-12-34-28z" fill="#efe8d3" stroke="#9f8b67" stroke-width="3"/>
+    <path d="M106 102c10-7 30-7 40 0" fill="none" stroke="#7a4a22" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="106" cy="118" r="5" fill="#b95722"/>
+    <circle cx="150" cy="118" r="5" fill="#b95722"/>
+
+    <text x="80" y="68" font-family="Arial, sans-serif" font-weight="900" font-size="56" fill="#f7f7f7" stroke="#2b2b2b" stroke-width="8">??</text>
+  </g>
+</svg>

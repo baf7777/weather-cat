@@ -3,6 +3,7 @@ const els = {
     body: document.body,
     box: document.getElementById('the-box'),
     frost: document.querySelector('.frost-overlay'),
+    boxStickers: document.getElementById('box-stickers'),
     catSign: document.getElementById('cat-sign'),
     tempDisplay: document.getElementById('temp-display'),
     feelDisplay: document.getElementById('feel-display'),
@@ -24,26 +25,45 @@ const els = {
 let weatherState = { temp: 0, feel: 0, wind: 0, code: 0, isDay: 1 };
 let catBreathTimer = null;
 
+function isCatBreathColdEnough() {
+    return weatherState.temp <= -8;
+}
+
 function triggerCatBreath() {
     if (!els.catBreath) return;
     if (!els.box || !els.box.classList.contains('box-open')) return;
-    if (weatherState.temp >= 0) return;
+    if (!isCatBreathColdEnough()) return;
 
     els.catBreath.classList.remove('show');
     setTimeout(() => {
-        els.catBreath.classList.add('show');
-    }, 10);
+        if (els.box && els.box.classList.contains('box-open') && isCatBreathColdEnough()) {
+            els.catBreath.classList.add('show');
+        }
+    }, 20);
+}
+
+function scheduleNextCatBreath() {
+    if (!els.box || !els.box.classList.contains('box-open') || !isCatBreathColdEnough()) {
+        catBreathTimer = null;
+        return;
+    }
+
+    const nextDelay = 3200 + Math.random() * 5200;
+    catBreathTimer = setTimeout(() => {
+        triggerCatBreath();
+        scheduleNextCatBreath();
+    }, nextDelay);
 }
 
 function startCatBreathLoop() {
     if (catBreathTimer) return;
     triggerCatBreath();
-    catBreathTimer = setInterval(triggerCatBreath, 6000);
+    scheduleNextCatBreath();
 }
 
 function stopCatBreathLoop() {
     if (catBreathTimer) {
-        clearInterval(catBreathTimer);
+        clearTimeout(catBreathTimer);
         catBreathTimer = null;
     }
     if (els.catBreath) {
@@ -51,13 +71,87 @@ function stopCatBreathLoop() {
     }
 }
 
+
+function renderBoxStickers() {
+    if (!els.boxStickers) return;
+
+    els.boxStickers.innerHTML = "";
+    const stickers = Array.isArray(CONFIG.boxStickers) ? CONFIG.boxStickers : [];
+
+    stickers.forEach((sticker, index) => {
+        if (!sticker || !sticker.src) return;
+
+        const img = document.createElement("img");
+        img.className = "box-sticker";
+        img.src = sticker.src;
+        img.alt = sticker.alt || `Sticker ${index + 1}`;
+        img.draggable = false;
+
+        if (sticker.width != null) {
+            img.style.width = typeof sticker.width === "number" ? `${sticker.width}rem` : String(sticker.width);
+        }
+        if (sticker.x != null) {
+            img.style.left = typeof sticker.x === "number" ? `${sticker.x}%` : String(sticker.x);
+        }
+        if (sticker.y != null) {
+            img.style.top = typeof sticker.y === "number" ? `${sticker.y}%` : String(sticker.y);
+        }
+        if (sticker.z != null) {
+            img.style.zIndex = String(sticker.z);
+        }
+        if (sticker.opacity != null) {
+            img.style.opacity = String(sticker.opacity);
+        }
+
+        const rotate = Number.isFinite(sticker.rotate) ? sticker.rotate : -6;
+        img.style.setProperty("--sticker-rot", `${rotate}deg`);
+
+        if (sticker.animate !== false) {
+            img.classList.add("sway");
+        } else {
+            img.style.transform = `rotate(${rotate}deg)`;
+        }
+
+        img.addEventListener("error", () => {
+            img.remove();
+            console.warn(`Sticker not found: ${sticker.src}`);
+        });
+
+        els.boxStickers.appendChild(img);
+    });
+}
+
 function toggleBox() {
     if (!els.box) return;
     els.box.classList.toggle('box-open');
+
     if (els.box.classList.contains('box-open')) {
-        if (weatherState.temp < 0) startCatBreathLoop();
+        if (typeof startRandomGaze === 'function') {
+            startRandomGaze();
+        }
+
+        if (isCatBreathColdEnough()) startCatBreathLoop();
+        else stopCatBreathLoop();
+
+        if (typeof updateMouseBehavior === 'function') {
+            setTimeout(updateMouseBehavior, 300);
+        }
     } else {
+        if (typeof stopRandomGaze === 'function') {
+            stopRandomGaze();
+        }
+
         stopCatBreathLoop();
+
+        if (typeof requestMouseReturnHome === 'function') {
+            requestMouseReturnHome(() => {
+                if (typeof resetMouseAfterClose === 'function') {
+                    setTimeout(resetMouseAfterClose, 150);
+                }
+            });
+        } else if (typeof resetMouseAfterClose === 'function') {
+            setTimeout(resetMouseAfterClose, 150);
+        }
     }
 }
 
@@ -92,6 +186,7 @@ async function init() {
 
     // 2. Инициализируем визуальные системы
     createStars();
+    renderBoxStickers();
     if (typeof window.PlaneSystem !== 'undefined') {
         window.PlaneSystem.init();
     }
@@ -125,3 +220,8 @@ async function init() {
 // Запуск приложения
 init();
 setInterval(fetchWeather, CONFIG.updateInterval);
+
+
+
+
+

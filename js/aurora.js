@@ -25,25 +25,19 @@ function renderAurora() {
     const container = document.querySelector('.aurora-container');
     if (!container) return;
 
-    // Обновляем текст на картонке
+    // Компактный Kp в углу таблички без лишней подписи
     if (els.auroraDisplay) {
         els.auroraDisplay.style.display = 'block';
-        let icon = '✨';
-        let color = '#99ff99'; // Светло-зеленый (норма)
-        
-        if (kp >= 5) {
-            icon = '🔥';
-            color = '#ff4d4d'; // Красный (шторм)
-        } else if (kp >= 3) {
-            icon = '🌌';
-            color = '#ffff00'; // Желтый (активно)
-        } else if (kp < 1) {
-            icon = '💤';
-            color = '#a0a0a0'; // Серый (штиль)
-        }
-        
-        els.auroraDisplay.innerHTML = `${icon} Сияние: ${kp} Kp`;
+
+        let color = '#99ff99';
+        if (kp >= 5) color = '#ff7a7a';
+        else if (kp >= 3) color = '#ffe07a';
+        else if (kp < 1) color = '#c6ccd6';
+
+        const kpValue = Number.isFinite(kp) ? Number(kp).toFixed(1).replace(/\.0$/, '') : '--';
+        els.auroraDisplay.textContent = `Kp ${kpValue}`;
         els.auroraDisplay.style.color = color;
+        els.auroraDisplay.classList.toggle('active', kp >= 3);
     }
 
     // Условия для показа на небе: Ночь, Нет шторма, Kp > 1.5
@@ -77,3 +71,10 @@ function initAurora() {
 
 // Слушаем изменения погоды (день/ночь/шторм), чтобы сразу обновить сияние
 // Мы можем вызывать renderAurora из weather.js или просто по таймеру
+
+
+
+
+
+
+

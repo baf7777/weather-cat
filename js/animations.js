@@ -13,47 +13,56 @@ function createStars() {
 }
 
 // --- ЛОГИКА СЛУЧАЙНОГО ВЗГЛЯДА КОТА ---
-let eyeTargetMode = 'mouse'; // mouse | sky
-let eyeSkyTarget = { x: 0, y: 0 };
+let eyeTargetMode = 'roam'; // roam | mouse
+let eyeRoamTarget = { x: 0, y: 0 };
 let eyeRandomTimer = null;
 let eyeCurrentTarget = null;
 let eyeDesiredTarget = null;
 const EYE_SMOOTH_FACTOR = 0.035;
 
+function pickRoamTarget() {
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+
+    return {
+        x: viewportWidth * (0.1 + Math.random() * 0.8),
+        y: viewportHeight * (0.4 + Math.random() * 0.52)
+    };
+}
+
 function scheduleRandomGaze() {
     clearTimeout(eyeRandomTimer);
-    
+
     if (!els.box.classList.contains('box-open')) {
-        eyeTargetMode = 'mouse';
+        eyeTargetMode = 'roam';
         return;
     }
 
-    // Иногда оставляем прежний взгляд, чтобы избежать дерганий
-    const keepCurrent = Math.random() < 0.2;
+    // Чаще свободно смотрим по сцене, иногда коротко поглядываем на мышь
+    const keepCurrent = Math.random() < 0.25;
     if (!keepCurrent) {
-        eyeTargetMode = Math.random() > 0.55 ? 'sky' : 'mouse';
-    }
-    
-    if (eyeTargetMode === 'sky') {
-        const viewportWidth = window.innerWidth;
-        const viewportHeight = window.innerHeight;
-        eyeSkyTarget = {
-            x: viewportWidth * (0.15 + Math.random() * 0.7),
-            y: viewportHeight * (0.05 + Math.random() * 0.25)
-        };
+        eyeTargetMode = Math.random() < 0.28 ? 'mouse' : 'roam';
     }
 
-    eyeRandomTimer = setTimeout(scheduleRandomGaze, 3200 + Math.random() * 2600);
+    if (eyeTargetMode === 'roam') {
+        eyeRoamTarget = pickRoamTarget();
+    }
+
+    const nextDelay = eyeTargetMode === 'mouse'
+        ? 900 + Math.random() * 1300
+        : 2200 + Math.random() * 2600;
+    eyeRandomTimer = setTimeout(scheduleRandomGaze, nextDelay);
 }
 
 function startRandomGaze() {
+    eyeRoamTarget = pickRoamTarget();
     scheduleRandomGaze();
 }
 
 function stopRandomGaze() {
     clearTimeout(eyeRandomTimer);
     eyeRandomTimer = null;
-    eyeTargetMode = 'mouse';
+    eyeTargetMode = 'roam';
     eyeCurrentTarget = null;
     eyeDesiredTarget = null;
 }
@@ -100,13 +109,13 @@ function trackMouse() {
         let targetX;
         let targetY;
 
-        if (eyeTargetMode === 'sky') {
-            targetX = eyeSkyTarget.x;
-            targetY = eyeSkyTarget.y;
-        } else {
+        if (eyeTargetMode === 'mouse') {
             const mouseRect = els.mouse.getBoundingClientRect();
             targetX = mouseRect.left + mouseRect.width / 2;
             targetY = mouseRect.top + mouseRect.height / 2;
+        } else {
+            targetX = eyeRoamTarget.x;
+            targetY = eyeRoamTarget.y;
         }
 
         if (!eyeCurrentTarget) {
@@ -125,7 +134,7 @@ function trackMouse() {
 
         els.pupils.forEach(pupil => {
             const limitX = Math.max(-10, Math.min(10, dx * 30));
-            const limitY = Math.max(-5, Math.min(8, dy * 20));
+            const limitY = Math.max(-4, Math.min(12, dy * 22));
             pupil.style.transform = `translate(calc(-50% + ${limitX}px), calc(-50% + ${limitY}px))`;
         });
     }
@@ -179,4 +188,8 @@ function toggleBox() {
         });
     }
 }
+
+
+
+
 
