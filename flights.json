@@ -63,15 +63,6 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 60",
-    "from": "Салехард",
-    "to": "Овгорт",
-    "scheduledTime": "10:30",
-    "estimatedTime": "10:33",
-    "status": "Вылетел",
-    "type": "departure"
-  },
-  {
     "number": "ЛА 437",
     "from": "Салехард",
     "to": "Уфа",
@@ -237,15 +228,6 @@
     "number": "ЯЛ 60",
     "from": "Салехард",
     "to": "Мужи",
-    "scheduledTime": "10:30",
-    "estimatedTime": "10:33",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 60",
-    "from": "Салехард",
-    "to": "Овгорт",
     "scheduledTime": "10:30",
     "estimatedTime": "10:33",
     "status": "Вылетел",
