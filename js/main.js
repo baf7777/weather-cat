@@ -24,6 +24,7 @@ const els = {
 // Глобальное состояние погоды
 let weatherState = { temp: 0, feel: 0, wind: 0, code: 0, isDay: 1 };
 let catBreathTimer = null;
+let tundraLayoutResizeTimer = null;
 
 function isCatBreathColdEnough() {
     return weatherState.temp <= -8;
@@ -72,6 +73,37 @@ function stopCatBreathLoop() {
 }
 
 
+function applyTundraLayoutFromConfig() {
+    const t = CONFIG && CONFIG.tundra;
+    if (!t) return;
+
+    const chumBg = document.querySelector('.chum-bg');
+    if (chumBg && t.container) {
+        if (t.container.left != null) chumBg.style.left = `${t.container.left}%`;
+        if (t.container.bottom != null) chumBg.style.bottom = `${t.container.bottom}%`;
+        if (t.container.width != null) chumBg.style.width = `${t.container.width}vmin`;
+    }
+
+    const tundraBase = document.querySelector('.tundra-base');
+    if (tundraBase && t.base) {
+        if (t.base.width != null) tundraBase.style.width = `${t.base.width}%`;
+        if (t.base.bottom != null) tundraBase.style.bottom = `${t.base.bottom}%`;
+    }
+
+    const chum = document.getElementById('chum');
+    if (chum && t.chum) {
+        if (t.chum.left != null) chum.style.left = `${t.chum.left}%`;
+        if (t.chum.bottom != null) chum.style.bottom = `${t.chum.bottom}%`;
+        if (t.chum.scale != null) chum.style.transform = `translateX(-50%) scale(${t.chum.scale})`;
+    }
+}
+
+function refreshTundraProfileAndLayout() {
+    if (typeof applyTundraProfile === 'function') {
+        applyTundraProfile();
+    }
+    applyTundraLayoutFromConfig();
+}
 function renderBoxStickers() {
     if (!els.boxStickers) return;
 
@@ -104,12 +136,14 @@ function renderBoxStickers() {
         }
 
         const rotate = Number.isFinite(sticker.rotate) ? sticker.rotate : -6;
+        const scaleX = sticker.flipX ? -1 : 1;
         img.style.setProperty("--sticker-rot", `${rotate}deg`);
+        img.style.setProperty("--sticker-scale-x", String(scaleX));
 
         if (sticker.animate !== false) {
             img.classList.add("sway");
         } else {
-            img.style.transform = `rotate(${rotate}deg)`;
+            img.style.transform = `rotate(${rotate}deg) scaleX(${scaleX})`;
         }
 
         img.addEventListener("error", () => {
@@ -157,6 +191,7 @@ function toggleBox() {
 
 // Инициализация приложения
 async function init() {
+    refreshTundraProfileAndLayout();
     // 1. Привязываем клики СРАЗУ, чтобы они работали даже если API тормозит
     if (els.box) {
         els.box.addEventListener('click', toggleBox);
@@ -204,6 +239,17 @@ async function init() {
     if (typeof setMouseToSpawnState === 'function') {
         setMouseToSpawnState();
     }
+    window.addEventListener('resize', () => {
+        if (tundraLayoutResizeTimer) {
+            clearTimeout(tundraLayoutResizeTimer);
+        }
+        tundraLayoutResizeTimer = setTimeout(() => {
+            refreshTundraProfileAndLayout();
+            if (typeof setMouseToSpawnState === 'function') {
+                setMouseToSpawnState();
+            }
+        }, 120);
+    });
 
     // 3. Загружаем данные (может занять время)
     try {
@@ -220,6 +266,15 @@ async function init() {
 // Запуск приложения
 init();
 setInterval(fetchWeather, CONFIG.updateInterval);
+
+
+
+
+
+
+
+
+
 
 
 

@@ -202,3 +202,115 @@
     letter-spacing: 0.5px;
     text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
+/* --- SCENE EDITOR --- */
+.toggle-editor {
+    position: fixed;
+    left: 1.2rem;
+    bottom: 1.2rem;
+    z-index: 1200;
+    background: rgba(20, 24, 32, 0.82);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.28);
+    border-radius: 0.7rem;
+    padding: 0.55rem 0.9rem;
+    font-size: 1rem;
+    cursor: pointer;
+    backdrop-filter: blur(0.35rem);
+}
+
+.editor-ui {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    width: min(28rem, calc(100vw - 2rem));
+    max-height: calc(100vh - 2rem);
+    overflow: auto;
+    z-index: 1300;
+    background: rgba(14, 20, 28, 0.92);
+    border: 1px solid rgba(255,255,255,0.22);
+    border-radius: 0.9rem;
+    padding: 0.9rem;
+    color: #fff;
+    display: none;
+    box-shadow: 0 0.5rem 1.8rem rgba(0,0,0,0.35);
+}
+
+.editor-ui.show {
+    display: block;
+}
+
+.editor-ui h3 {
+    margin: 0 0 0.7rem;
+    font-size: 1.15rem;
+}
+
+.editor-group {
+    margin-bottom: 0.7rem;
+    padding: 0.55rem;
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 0.6rem;
+    background: rgba(255,255,255,0.04);
+}
+
+.editor-group label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+}
+
+.editor-row {
+    display: grid;
+    grid-template-columns: 4.6rem 1fr 4.6rem;
+    gap: 0.45rem;
+    align-items: center;
+    margin-bottom: 0.35rem;
+}
+
+.editor-row span {
+    font-size: 0.78rem;
+    opacity: 0.9;
+}
+
+.editor-row input[type="range"] {
+    width: 100%;
+}
+
+.editor-row input[type="number"] {
+    width: 100%;
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: #fff;
+    border-radius: 0.35rem;
+    padding: 0.2rem 0.3rem;
+}
+
+.editor-actions {
+    display: flex;
+    gap: 0.45rem;
+}
+
+.editor-btn {
+    flex: 1;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 0.55rem;
+    padding: 0.45rem 0.6rem;
+    color: #fff;
+    cursor: pointer;
+    background: rgba(255,255,255,0.08);
+}
+
+.editor-btn.save-btn {
+    background: rgba(34, 166, 86, 0.35);
+}
+
+.editor-btn.copy-btn {
+    background: rgba(52, 120, 246, 0.32);
+}
+
+body.editor-paused .deer,
+body.editor-paused .dog,
+body.editor-paused .nenets,
+body.editor-paused .chum-animated {
+    animation-play-state: paused !important;
+}
+

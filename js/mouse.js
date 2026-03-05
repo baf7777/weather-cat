@@ -356,6 +356,13 @@ function parseCSV(text) {
     return data;
 }
 
+function normalizeRuleValue(value) {
+    if (value == null) return "";
+    return String(value)
+        .replace(/\uFEFF/g, "")
+        .replace(/\s+/g, "")
+        .trim();
+}
 function getCSVRule(temp, wind) {
     const t = Math.round(temp);
 
@@ -364,14 +371,18 @@ function getCSVRule(temp, wind) {
     if (t < -42) return "1-11"; // Colder than table -> Max cancel
 
     // Если таблица не загрузилась, для промежуточных температур нет точного правила
-    if (!weatherRules) return null;
+    if (!weatherRules) {
+        // Защитный fallback: при очень сильном морозе всегда показываем отмену
+        if (t <= -38) return "1-11";
+        return null;
+    }
 
     // Clamp wind to max 20
     const w = Math.max(0, Math.min(20, Math.round(wind)));
 
     const row = weatherRules[t];
     if (row) {
-        return row[w] || "";
+        return normalizeRuleValue(row[w] || "");
     }
     return "";
 }
@@ -396,7 +407,7 @@ function updateMouseBehavior() {
         return;
     }
 
-    const ruleValue = getCSVRule(temp, wind);
+    const ruleValue = normalizeRuleValue(getCSVRule(temp, wind));
     
     let cancelText = "";
     let color = "#2a9d8f";
@@ -429,4 +440,8 @@ function updateMouseBehavior() {
     if (isFrozen) m.classList.add('frozen');
     else m.classList.remove('frozen');
 }
+
+
+
+
 

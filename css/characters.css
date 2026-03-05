@@ -120,35 +120,46 @@
 /* --- ЧУМ И ОСТРОВ --- */
 .chum-bg {
     position: absolute;
-    bottom: 32%; /* Подняли выше */
-    left: 12%; 
-    width: 20vmin; /* Сделали больше */
-    min-width: 100px;
-    height: 20vmin; /* ЗАДАЛИ ВЫСОТУ, ЧТОБЫ РАБОТАЛ BOTTOM % */
+    bottom: 35%;
+    left: 5%;
+    width: 175px;
+    min-width: 112px;
+    height: 175px;
     z-index: 3;
     pointer-events: none;
     filter: drop-shadow(0 5px 15px rgba(0,0,0,0.1));
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
     .chum-bg {
-        bottom: 40%; /* На мобилках еще выше, чтобы не перекрывался коробкой */
-        left: 5%;
-        width: 35vmin; /* Делаем сам контейнер шире, чтобы остров был заметнее, но персонажи оставались в пропорции */
-        transform: scale(0.7); /* Уменьшаем весь остров с чумом целиком */
-        transform-origin: bottom left;
+        bottom: 40%;
+        left: 2%;
+        width: 150px;
+        min-width: 102px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 640px) {
+    .chum-bg {
+        bottom: 44%;
+        left: -3%;
+        width: 124px;
+        min-width: 90px;
+        height: 124px;
+        opacity: 0.92;
     }
 }
 
 /* ФИКС ДЛЯ ГОРИЗОНТАЛЬНОГО РЕЖИМА (LANDSCAPE) */
 @media (max-height: 450px) and (orientation: landscape) {
     .chum-bg {
-        bottom: 45% !important; /* Поднимаем тундру выше */
-        width: 20vh; /* Масштабируем от высоты экрана */
+        bottom: 24% !important;
+        width: 100px;
+        height: 100px;
         left: 2%;
     }
 }
-
 .chum-bg img:not(.narty-img):not(.buran-img):not(.tundra-base) {
     width: 100%;
     height: auto;
@@ -162,7 +173,7 @@
     height: 256px; /* Высота одного кадра */
     bottom: 22%;
     left: 50%;
-    transform: translateX(-50%) scale(0.6); /* Уменьшаем чум до 60% от оригинала */
+    transform: translateX(-50%) scale(0.45);
     transform-origin: bottom center; /* Масштабируем от основания, чтобы он не "взлетел" */
     background: url('../assets/chum.webp') no-repeat left center;
     background-size: 2048px 256px; /* 8 кадров по 256px = 2048px */
@@ -171,6 +182,24 @@
     pointer-events: none;
 }
 
+
+@media (max-width: 1024px) {
+    .chum-animated {
+        transform: translateX(-50%) scale(0.40);
+    }
+}
+
+@media (max-width: 640px) {
+    .chum-animated {
+        transform: translateX(-50%) scale(0.36);
+    }
+}
+
+@media (max-height: 450px) and (orientation: landscape) {
+    .chum-animated {
+        transform: translateX(-50%) scale(0.33);
+    }
+}
 @keyframes chum-idle { 
     from { background-position: 0; } 
     to { background-position: -2048px; } 
@@ -178,13 +207,34 @@
 
 .tundra-base {
     position: absolute;
-    bottom: -30%; /* Сдвигаем вниз, чтобы чум визуально стоял на ней */
+    bottom: -18%;
     left: 50%;
     transform: translateX(-50%);
-    width: 250%; /* Широкая подставка для чума, буранов и нарт */
+    width: 145%;
     height: auto;
-    z-index: 0; /* На заднем плане, под всем остальным в блоке */
+    z-index: 0;
     pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+    .tundra-base {
+        width: 130%;
+        bottom: -14%;
+    }
+}
+
+@media (max-width: 640px) {
+    .tundra-base {
+        width: 125%;
+        bottom: -10%;
+    }
+}
+
+@media (max-height: 450px) and (orientation: landscape) {
+    .tundra-base {
+        width: 130%;
+        bottom: -12%;
+    }
 }
 
 .buran-img {
@@ -259,3 +309,4 @@
         opacity: 0;
     }
 }
+

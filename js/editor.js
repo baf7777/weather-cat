@@ -377,4 +377,19 @@ class TundraEditor {
 }
 
 const tundraEditor = new TundraEditor();
-window.addEventListener('load', () => tundraEditor.init());
+window.tundraEditor = tundraEditor;
+
+function isEditorModeEnabled() {
+    try {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('editor') === '1';
+    } catch (e) {
+        return false;
+    }
+}
+
+window.addEventListener('load', () => {
+    if (!isEditorModeEnabled()) return;
+    tundraEditor.init();
+});
+

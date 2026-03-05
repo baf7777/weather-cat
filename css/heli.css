@@ -1,9 +1,9 @@
 /* --- ВЕРТОЛЕТ (Mi-8) --- */
 .heli-wrapper {
     position: absolute;
-    bottom: 25%; 
-    right: 10%;
-    width: 15rem; 
+    bottom: 36%; 
+    right: 8%;
+    width: 12.5rem; 
     height: auto;
     z-index: 4;
     pointer-events: auto;
@@ -22,11 +22,11 @@
 /* --- ТУНДРА (СУГРОБЫ) --- */
 .heli-tundra {
     position: absolute;
-    bottom: -2rem;
+    bottom: -0.55rem;
     left: 50%;
     transform: translateX(-50%);
-    width: 200%;
-    height: 10rem;
+    width: 170%;
+    height: 4.2rem;
     z-index: 6; /* ПОВЕРХ вертолета (чтобы закрыть колеса) */
     pointer-events: none;
     filter: drop-shadow(0 0 0.5rem rgba(255,255,255,0.5));
@@ -37,11 +37,11 @@
 /* --- СНЕЖНАЯ ПЫЛЬ (DOWNWASH) --- */
 .heli-snow-dust {
     position: absolute;
-    bottom: -1rem;
+    bottom: -0.7rem;
     left: 50%;
     transform: translateX(-50%);
     width: 30rem;
-    height: 10rem;
+    height: 4.2rem;
     z-index: 7; /* Поверх тундры */
     pointer-events: none;
     opacity: 0; 
@@ -87,26 +87,26 @@
 /* Планшеты (до 800px) */
 @media (max-width: 800px) {
     .heli-wrapper {
-        width: 140px;
-        bottom: 30%;
-        right: 5%;
+        width: 118px;
+        bottom: 40%;
+        right: 3.5%;
     }
     .heli-wrapper .heli-tundra {
-        height: 80px !important; /* Увеличил */
-        bottom: -5px !important; /* Поднял выше, чтобы наезжало на колеса */
+        height: 54px !important;
+        bottom: -4px !important;
     }
 }
 
 /* Телефоны (до 480px) */
 @media (max-width: 480px) {
     .heli-wrapper {
-        width: 120px;
-        bottom: 40%;
+        width: 100px;
+        bottom: 43%;
         right: 2%;
     }
     .heli-wrapper .heli-tundra {
-        height: 45px !important; /* Увеличил */
-        bottom: -5px !important; /* Поднял выше */
+        height: 38px !important;
+        bottom: -4px !important;
     }
 }
 
@@ -155,3 +155,4 @@ body.night .heli-snow-dust {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
+
