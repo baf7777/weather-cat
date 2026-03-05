@@ -358,13 +358,23 @@ body.freeze-mode .cat-head {
     display: flex; flex-direction: column; align-items: center; justify-content: center;
     box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.2);
     z-index: 40;
+    position: relative; /* Для позиционирования индекса сияния */
 
     animation: signSway 4s ease-in-out infinite;
 }
-.sign-temp { font-size: 3.8rem; font-weight: 800; line-height: 1; text-shadow: 2px 2px 0 rgba(0,0,0,0.1); margin: 0.5rem 0; }
-.sign-city { font-size: 1rem; text-transform: uppercase; opacity: 0.9; letter-spacing: 1px; }
+.sign-temp { 
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 3.8rem; font-weight: 900; line-height: 1; text-shadow: 2px 2px 0 rgba(0,0,0,0.1); margin: 0.5rem 0; 
+}
+.sign-city { 
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.95rem; font-weight: 800; text-transform: uppercase; opacity: 0.9; letter-spacing: 2px; 
+}
 .sign-feel { font-size: 1rem; opacity: 0.8; font-style: italic; }
-.sign-aurora { font-size: 0.85rem; font-weight: bold; margin-top: 0.2rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.3); }
+.sign-aurora { 
+    position: absolute; top: 0.4rem; right: 0.6rem;
+    font-size: 0.85rem; font-weight: bold; text-shadow: 1px 1px 2px rgba(0,0,0,0.3); margin: 0;
+}
 /* --- МЫШЬ (Meteorologist) --- */
 .mouse-wrapper {
     position: fixed;
