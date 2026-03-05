@@ -138,8 +138,7 @@
     pointer-events: auto;
 }
 
-.cat-head {
-    position: absolute; top: 3rem; left: 1.5rem; width: 13rem; height: 11rem;
+.cat-head {    position: absolute; top: 3rem; left: 1.5rem; width: 13rem; height: 11rem;
     background: #505050; border-radius: 45% 45% 40% 40%;
     z-index: 20; box-shadow: inset -0.5rem -0.5rem 2rem rgba(0,0,0,0.3);
     transition: transform 0.5s ease-in-out;
@@ -188,7 +187,7 @@ body.squint-mode .eyelid {
 
 /* Глубокое погружение при экстремальном холоде */
 body.freeze-mode .box-open ~ .cat-container {
-    bottom: 13rem; /* Поднял с 11rem до 13rem, чтобы табличка не пряталась совсем */
+    bottom: 14.5rem; /* Поднял еще выше для режима замерзания */
 }
 body.freeze-mode .cat-head {
     transform: scale(0.95);
