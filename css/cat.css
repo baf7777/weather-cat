@@ -133,7 +133,7 @@
     opacity: 0;
 }
 .box-open ~ .cat-container { 
-    bottom: 15rem; 
+    bottom: 16.5rem; 
     opacity: 1;
     pointer-events: auto;
 }
