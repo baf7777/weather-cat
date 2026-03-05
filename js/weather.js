@@ -93,6 +93,21 @@ function renderWeather() {
     if (animSpeed === 0) els.propeller.style.animation = 'none';
     else els.propeller.style.animation = `spin ${animSpeed}s linear infinite`;
 
+    // 6. ПИТОМЕЦ: Реакция кота на климат
+    els.body.classList.remove('cold-mode', 'freeze-mode', 'squint-mode');
+
+    // Малица при -30 и ниже
+    if (temp <= -30) els.body.classList.add('cold-mode');
+    
+    // Глубокое погружение при -45 и ниже
+    if (temp <= -45) els.body.classList.add('freeze-mode');
+
+    // Зажмуривание при осадках (снег, дождь, шторм)
+    const isPrecipitation = [71, 73, 75, 77, 85, 86, 51, 53, 55, 61, 63, 65, 80, 81, 82, 95, 96, 99].includes(code);
+    if (isPrecipitation || els.body.classList.contains('storm')) {
+        els.body.classList.add('squint-mode');
+    }
+
     if (temp < 0 && els.box.classList.contains('box-open')) {
         if (!catBreathTimer) {
             startCatBreathLoop();
@@ -104,7 +119,6 @@ function renderWeather() {
     // Обновляем состояние сияния (зависит от дня/ночи и шторма)
     if (typeof renderAurora === 'function') {
         renderAurora();
-    }
     }
 
     if (window.updateWindSound) {
