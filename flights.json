@@ -5,7 +5,7 @@
     "to": "Новосибирск",
     "scheduledTime": "08:35",
     "estimatedTime": "08:35",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -32,15 +32,6 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 131",
-    "from": "Салехард",
-    "to": "Москва / Шереметьево",
-    "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -103,25 +94,25 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:50",
-    "estimatedTime": "07:50",
-    "status": "По расписанию",
+    "estimatedTime": "07:51",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
     "number": "ЛА 10",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "scheduledTime": "08:40",
+    "estimatedTime": "09:04",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
     "number": "ЛА 438",
     "from": "Уфа",
     "to": "Салехард",
-    "scheduledTime": "11:20",
-    "estimatedTime": "11:20",
+    "scheduledTime": "11:00",
+    "estimatedTime": "11:00",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -194,7 +185,7 @@
     "to": "Новосибирск",
     "scheduledTime": "08:35",
     "estimatedTime": "08:35",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -221,15 +212,6 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 131",
-    "from": "Салехард",
-    "to": "Москва / Шереметьево",
-    "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -292,25 +274,25 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:50",
-    "estimatedTime": "07:50",
-    "status": "По расписанию",
+    "estimatedTime": "07:51",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
     "number": "ЛА 10",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "scheduledTime": "08:40",
+    "estimatedTime": "09:04",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
     "number": "ЛА 438",
     "from": "Уфа",
     "to": "Салехард",
-    "scheduledTime": "11:20",
-    "estimatedTime": "11:20",
+    "scheduledTime": "11:00",
+    "estimatedTime": "11:00",
     "status": "По расписанию",
     "type": "arrival"
   },
