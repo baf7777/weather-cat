@@ -1,0 +1,33 @@
+name: Update Aurora Data
+
+on:
+  schedule:
+    # Запуск каждые 30 минут
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Run aurora scraper
+        run: node scripts/scrape_aurora.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add aurora.json
+          git commit -m "Update aurora Kp [skip ci]" || exit 0
+          git push
