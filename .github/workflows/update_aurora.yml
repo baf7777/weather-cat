@@ -2,8 +2,8 @@ name: Update Aurora Data
 
 on:
   schedule:
-    # Запуск каждые 30 минут
-    - cron: '*/30 * * * *'
+    # Запуск каждые 6 часов
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -31,3 +31,5 @@ jobs:
           git add aurora.json
           git commit -m "Update aurora Kp [skip ci]" || exit 0
           git push
+
+
