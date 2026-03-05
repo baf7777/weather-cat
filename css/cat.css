@@ -351,9 +351,9 @@ body.freeze-mode .cat-head {
 }
 
 .sign-board {
-    position: absolute; top: 11rem; left: 50%;
+    position: absolute; top: 9rem; left: 50%;
     transform: translateX(-50%) rotate(0deg);
-    width: 14rem; height: 11rem;
+    width: 14rem; height: 10.5rem;
     background: #2a9d8f; border: 0.3rem solid #fff;
     border-radius: 0.8rem; color: #fff;
     display: flex; flex-direction: column; align-items: center; justify-content: center;
@@ -362,10 +362,10 @@ body.freeze-mode .cat-head {
 
     animation: signSway 4s ease-in-out infinite;
 }
-.sign-temp { font-size: 3.8rem; font-weight: 800; line-height: 1; text-shadow: 2px 2px 0 rgba(0,0,0,0.1); margin: 0.5rem 0; }
-.sign-city { font-size: 1rem; text-transform: uppercase; opacity: 0.9; letter-spacing: 1px; }
-.sign-feel { font-size: 1rem; opacity: 0.8; font-style: italic; }
-.sign-aurora { font-size: 1.1rem; font-weight: bold; margin-top: 0.4rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.3); }
+.sign-temp { font-size: 3.4rem; font-weight: 800; line-height: 1; text-shadow: 2px 2px 0 rgba(0,0,0,0.1); margin: 0.3rem 0; }
+.sign-city { font-size: 0.9rem; text-transform: uppercase; opacity: 0.9; letter-spacing: 1px; }
+.sign-feel { font-size: 0.95rem; opacity: 0.8; font-style: italic; }
+.sign-aurora { font-size: 1rem; font-weight: bold; margin-top: 0.3rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.3); }
 /* --- МЫШЬ (Meteorologist) --- */
 .mouse-wrapper {
     position: fixed;
