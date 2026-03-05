@@ -15,6 +15,7 @@ const els = {
     pupils: document.querySelectorAll('.pupil'),
     stars: document.getElementById('stars-container'),
     catBreath: document.getElementById('cat-breath'),
+    auroraDisplay: document.getElementById('aurora-display'),
     sun: document.getElementById('sun-body'),
     moon: document.getElementById('moon-body')
 };
@@ -25,7 +26,7 @@ let catBreathTimer = null;
 
 function triggerCatBreath() {
     if (!els.catBreath) return;
-    if (!els.box.classList.contains('box-open')) return;
+    if (!els.box || !els.box.classList.contains('box-open')) return;
     if (weatherState.temp >= 0) return;
 
     els.catBreath.classList.remove('show');
@@ -50,35 +51,23 @@ function stopCatBreathLoop() {
     }
 }
 
+function toggleBox() {
+    if (!els.box) return;
+    els.box.classList.toggle('box-open');
+    if (els.box.classList.contains('box-open')) {
+        if (weatherState.temp < 0) startCatBreathLoop();
+    } else {
+        stopCatBreathLoop();
+    }
+}
+
 // Инициализация приложения
 async function init() {
-    // Initialize Telegram WebApp
-    if (window.Telegram && window.Telegram.WebApp) {
-        const tg = window.Telegram.WebApp;
-        tg.expand();
-        tg.ready();
-        
-        // Apply theme params if needed (optional)
-        // document.documentElement.style.setProperty('--tg-theme-bg-color', tg.themeParams.bg_color);
+    // 1. Привязываем клики СРАЗУ, чтобы они работали даже если API тормозит
+    if (els.box) {
+        els.box.addEventListener('click', toggleBox);
     }
 
-    createStars();
-    if (typeof window.PlaneSystem !== 'undefined') {
-        window.PlaneSystem.init();
-    } else {
-        console.error("PlaneSystem not found!");
-    }
-    
-    // Инициализация вертолета
-    if (window.HeliSystem) {
-        window.HeliSystem.init();
-    }
-
-    if (typeof loadWeatherCSV === 'function') {
-        await loadWeatherCSV();
-    }
-    await fetchWeather();
-    
     // Клик по чуму - олень убегает
     const chum = document.querySelector('.chum-bg img');
     if (chum) {
@@ -90,20 +79,49 @@ async function init() {
         });
     }
 
-    els.box.addEventListener('click', toggleBox);
-    trackMouse(); // Запуск слежения глаз
-    startCatBreathLoop(); // Запуск дыхания кота
-    
     if (typeof initCelestialClicks === 'function') {
         initCelestialClicks();
     }
+
+    // Initialize Telegram WebApp
+    if (window.Telegram && window.Telegram.WebApp) {
+        const tg = window.Telegram.WebApp;
+        tg.expand();
+        tg.ready();
+    }
+
+    // 2. Инициализируем визуальные системы
+    createStars();
+    if (typeof window.PlaneSystem !== 'undefined') {
+        window.PlaneSystem.init();
+    }
+    
+    if (window.HeliSystem) {
+        window.HeliSystem.init();
+    }
+
+    if (typeof initAurora === 'function') {
+        initAurora();
+    }
+
+    trackMouse(); 
     
     if (typeof setMouseToSpawnState === 'function') {
         setMouseToSpawnState();
+    }
+
+    // 3. Загружаем данные (может занять время)
+    try {
+        if (typeof loadWeatherCSV === 'function') {
+            await loadWeatherCSV();
+        }
+        await fetchWeather();
+        startCatBreathLoop(); // Запуск дыхания кота (проверится внутри)
+    } catch (e) {
+        console.error("Initialization error:", e);
     }
 }
 
 // Запуск приложения
 init();
 setInterval(fetchWeather, CONFIG.updateInterval);
-

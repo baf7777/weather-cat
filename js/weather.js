@@ -100,7 +100,13 @@ function renderWeather() {
     } else if (catBreathTimer) {
         stopCatBreathLoop();
     }
-    
+
+    // Обновляем состояние сияния (зависит от дня/ночи и шторма)
+    if (typeof renderAurora === 'function') {
+        renderAurora();
+    }
+    }
+
     if (window.updateWindSound) {
         window.updateWindSound(wind);
     }

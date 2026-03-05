@@ -3,6 +3,7 @@ const CONFIG = {
     lat: 66.8333,
     lon: 70.8333, // Яр-Сале
     updateInterval: 600000, // 10 минут
+    auroraUpdateInterval: 1800000, // 30 минут
     // Тестовый режим для проверки (включить true и менять параметры)
     testMode: false,
     testData: {
@@ -10,7 +11,8 @@ const CONFIG = {
         apparent_temp: -41,
         wind: 20, // км/ч
         code: 71,
-        is_day: 1
+        is_day: 1,
+        kp: 4.5 // Баллы сияния
     },
     // Настройки сцены тундры (сохранено из редактора)
     tundra: {
