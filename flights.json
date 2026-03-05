@@ -112,8 +112,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:00",
-    "estimatedTime": "11:17",
-    "status": "Ожидается",
+    "estimatedTime": "11:18",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -292,8 +292,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:00",
-    "estimatedTime": "11:17",
-    "status": "Ожидается",
+    "estimatedTime": "11:18",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
