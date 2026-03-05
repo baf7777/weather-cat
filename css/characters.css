@@ -1,0 +1,261 @@
+/* --- ОЛЕНИ (DEER) --- */
+.deer {
+    position: absolute;
+    bottom: 8rem; /* На линии тундры */
+    left: -10rem;
+    width: 80px;
+    height: 80px;
+    z-index: 8; /* Между тундрой и котиком */
+    image-rendering: pixelated; /* Сохраняем четкость пиксель-арта */
+    pointer-events: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+    transform-origin: bottom center;
+}
+
+.deer.idle {
+    background: url('../assets/deer_idle.webp') no-repeat left center;
+    background-size: 640px 80px;
+    animation: deer-idle 3s steps(8) infinite;
+}
+
+.deer.walk {
+    background: url('../assets/deer_walk.webp') no-repeat left center;
+    background-size: 640px 80px;
+    animation: deer-walk 1s steps(8) infinite;
+}
+
+@keyframes deer-idle { from { background-position: 0; } to { background-position: -640px; } }
+@keyframes deer-walk { from { background-position: 0; } to { background-position: -640px; } }
+
+/* Отражение если идет в обратную сторону */
+.deer.flip {
+    transform: scaleX(-1);
+}
+
+/* --- ЛАЙКА (DOG) --- */
+.dog {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 5; /* Перед оленями */
+    image-rendering: pixelated;
+    pointer-events: auto;
+    cursor: pointer;
+    transform-origin: bottom center;
+}
+
+.dog.walk {
+    background: url('../assets/dog_walk.webp') no-repeat left center;
+    background-size: 320px 40px;
+    animation: dog-walk 0.6s steps(8) infinite; /* Синхронно с 8 кадрами */
+}
+
+.dog.bark {
+    background: url('../assets/dog_bark.webp') no-repeat left center;
+    background-size: 320px 40px;
+    animation: dog-bark 0.5s steps(8) infinite;
+}
+
+.dog.sit {
+    background: url('../assets/dog_sit.webp') no-repeat left center;
+    background-size: 320px 40px;
+    animation: dog-sit 1s steps(7) forwards; /* 7 шагов чтобы замереть на 8-м */
+}
+
+@keyframes dog-walk { from { background-position: 0; } to { background-position: -320px; } }
+@keyframes dog-bark { from { background-position: 0; } to { background-position: -320px; } }
+@keyframes dog-sit { from { background-position: 0; } to { background-position: -280px; } }
+
+.dog.flip { transform: scaleX(-1); }
+
+/* --- НЕНЕЦ (NENETS) --- */
+.nenets {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 6; /* Перед собакой и оленями */
+    image-rendering: pixelated;
+    pointer-events: auto;
+    cursor: pointer;
+    transform-origin: bottom center;
+}
+
+.nenets.walk {
+    background: url('../assets/nenets_walk.webp') no-repeat left center;
+    background-size: 400px 50px;
+    animation: nenets-walk 1.2s steps(8) infinite; /* Медленнее ноги */
+}
+
+.nenets.smoke {
+    background: url('../assets/nenets_smoke.webp') no-repeat left center;
+    background-size: 400px 50px;
+    animation: nenets-smoke 2.5s steps(7) forwards;
+}
+
+@keyframes nenets-walk { from { background-position: 0; } to { background-position: -400px; } }
+@keyframes nenets-smoke { from { background-position: 0; } to { background-position: -350px; } }
+
+.nenets.flip { transform: scaleX(-1); }
+
+/* Дымок от сигареты/трубки */
+.nenets-smoke-particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    filter: blur(1px);
+    animation: nenetsSmokeRise 2s ease-out forwards;
+    pointer-events: none;
+    z-index: 7;
+}
+
+@keyframes nenetsSmokeRise {
+    0% { transform: translate(0, 0) scale(1); opacity: 0; }
+    20% { opacity: 0.5; }
+    100% { transform: translate(var(--dx), -30px) scale(3); opacity: 0; }
+}
+
+/* --- ЧУМ И ОСТРОВ --- */
+.chum-bg {
+    position: absolute;
+    bottom: 32%; /* Подняли выше */
+    left: 12%; 
+    width: 20vmin; /* Сделали больше */
+    min-width: 100px;
+    height: 20vmin; /* ЗАДАЛИ ВЫСОТУ, ЧТОБЫ РАБОТАЛ BOTTOM % */
+    z-index: 3;
+    pointer-events: none;
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.1));
+}
+
+@media (max-width: 600px) {
+    .chum-bg {
+        bottom: 40%; /* На мобилках еще выше, чтобы не перекрывался коробкой */
+        left: 5%;
+        width: 35vmin; /* Делаем сам контейнер шире, чтобы остров был заметнее, но персонажи оставались в пропорции */
+        transform: scale(0.7); /* Уменьшаем весь остров с чумом целиком */
+        transform-origin: bottom left;
+    }
+}
+
+/* ФИКС ДЛЯ ГОРИЗОНТАЛЬНОГО РЕЖИМА (LANDSCAPE) */
+@media (max-height: 450px) and (orientation: landscape) {
+    .chum-bg {
+        bottom: 45% !important; /* Поднимаем тундру выше */
+        width: 20vh; /* Масштабируем от высоты экрана */
+        left: 2%;
+    }
+}
+
+.chum-bg img:not(.narty-img):not(.buran-img):not(.tundra-base) {
+    width: 100%;
+    height: auto;
+    display: none; /* Скрываем старый img, так как теперь чум будет фоном для анимации */
+}
+
+/* Анимированный чум (Sprite sheet) */
+.chum-animated {
+    position: absolute;
+    width: 256px; /* Ширина одного кадра */
+    height: 256px; /* Высота одного кадра */
+    bottom: 22%;
+    left: 50%;
+    transform: translateX(-50%) scale(0.6); /* Уменьшаем чум до 60% от оригинала */
+    transform-origin: bottom center; /* Масштабируем от основания, чтобы он не "взлетел" */
+    background: url('../assets/chum.webp') no-repeat left center;
+    background-size: 2048px 256px; /* 8 кадров по 256px = 2048px */
+    animation: chum-idle 1.5s steps(8) infinite;
+    z-index: 3;
+    pointer-events: none;
+}
+
+@keyframes chum-idle { 
+    from { background-position: 0; } 
+    to { background-position: -2048px; } 
+}
+
+.tundra-base {
+    position: absolute;
+    bottom: -30%; /* Сдвигаем вниз, чтобы чум визуально стоял на ней */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250%; /* Широкая подставка для чума, буранов и нарт */
+    height: auto;
+    z-index: 0; /* На заднем плане, под всем остальным в блоке */
+    pointer-events: none;
+}
+
+.buran-img {
+    position: absolute;
+    width: 45%; /* Чуть меньше половины ширины чума */
+    height: auto;
+    z-index: 1; /* ЗА ЧУМОМ */
+    filter: drop-shadow(0 2px 5px rgba(0,0,0,0.2));
+}
+
+.buran-img.b1 {
+    left: 83.1%;
+    bottom: 19.4%;
+    width: 30%;
+    transform: rotate(4deg) scaleX(1);
+}
+
+.buran-img.b2 {
+    left: -8.2%;
+    bottom: 23.5%;
+    width: 28%;
+    transform: rotate(6deg) scaleX(1);
+}
+
+.narty-img {
+    position: absolute;
+    left: -52.5%;
+    bottom: 21.5%;
+    width: 45%;
+    transform: rotate(0deg) scaleX(1);
+    height: auto;
+    z-index: 2;
+    filter: drop-shadow(0 3px 8px rgba(0,0,0,0.2));
+    pointer-events: auto;
+}
+
+/* ДЫМ ИЗ ЧУМА */
+.chum-smoke {
+    position: absolute;
+    top: -5px; /* На верхушке чума */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    z-index: 10; /* ПОВЕРХ ЧУМА */
+}
+
+.smoke-particle {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.8), rgba(180, 180, 180, 0.2));
+    border-radius: 50%;
+    filter: blur(2px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    animation: smokeRise var(--duration, 4s) ease-out forwards;
+    pointer-events: none;
+}
+
+@keyframes smokeRise {
+    0% {
+        transform: translate(-50%, 0) scale(0.5) rotate(0deg);
+        opacity: 0;
+    }
+    15% {
+        opacity: 0.7;
+    }
+    100% {
+        transform: translate(calc(-50% + var(--drift-x)), -120px) scale(5) rotate(var(--rotation));
+        opacity: 0;
+    }
+}

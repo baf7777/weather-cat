@@ -1,0 +1,208 @@
+@media (max-width: 40rem) {
+    .loader { font-size: 1.4rem; padding: 1rem 2rem; }
+}
+.loader.show { opacity: 1; }
+
+/* --- ¦Ý¦Þ¦Ò¦ë¦Ù ¦Ó¦Þ¦Ô (CHRISTMAS ADD-ONS) --- */
+
+/* --- ¦Ý¦Þ¦Ò¦ë¦Ù ¦Ó¦Þ¦Ô (CHRISTMAS ADD-ONS) --- */
+
+/* 1. ¦Ó¦¬TÀ¦¬TÏ¦-¦+¦- (¦Ý¦-¦-¦-TÏ ¦¬¦¬ 1.html) */
+.b-page_newyear {
+    position: absolute; 
+    top: 0; left: 0;
+    width: 100%;
+    pointer-events: none; 
+    z-index: 100;
+     /* ¦ã¦-¦¦¦¬¦¬TÇ¦¬¦-¦-¦¦¦- ¦-¦-TÁTÈTÂ¦-¦- ¦-¦- 25% */
+     /* ¦Ü¦-TÁTÈTÂ¦-¦-¦¬TÀTÃ¦¦¦- ¦-TÂ ¦-¦¦TÀTÅ¦- TÆ¦¦¦-TÂTÀ¦- */
+}
+
+/* Media queries for garland scale */
+@media (max-width: 76.8rem) { /* Tablets and smaller */
+    .b-page_newyear {
+        
+        width: 111.11%; /* 100 / 0.9 */
+        
+    }
+}
+
+@media (max-width: 48rem) { /* Mobile phones */
+    .b-page_newyear {
+        
+        width: 142.85%; /* 100 / 0.7 */
+        
+    }
+}
+
+
+.b-head-decor {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 11.5rem;
+    width: 100%;
+    overflow: hidden;
+    background: url(../assets/garland/b-head-decor_newyear.webp) repeat-x 0 0;
+    z-index: 10;
+}
+
+.b-head-decor__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 11.5rem;
+    display: block;
+    width: 37.3rem;
+}
+
+/* ¦â¦¦¦-TÌ ¦¬¦-¦+ ¦¦¦¬TÀ¦¬TÏ¦-¦+¦-¦¦ */
+.b-head-decor::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -11.5rem;
+    left: 0;
+    z-index: 3;
+    height: 11.5rem;
+    width: 100%;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.75);
+}
+
+.b-head-decor__inner_n2 { left: 37.3rem; }
+.b-head-decor__inner_n3 { left: 74.6rem; }
+.b-head-decor__inner_n4 { left: 111.9rem; }
+.b-head-decor__inner_n5 { left: 149.2rem; }
+.b-head-decor__inner_n6 { left: 186.5rem; }
+.b-head-decor__inner_n7 { left: 223.8rem; }
+
+.b-ball { 
+    position: absolute; 
+    pointer-events: auto; /* ¦è¦-TÀ¦¬¦¦¦¬ ¦+¦-¦¬¦¦¦-TË TÀ¦¦¦-¦¦¦¬TÀ¦-¦-¦-TÂTÌ ¦-¦- ¦-TËTÈTÌ */
+    cursor: pointer;
+}
+.b-ball_n1 { top: 0; left: 0.3rem; width: 5.9rem; height: 8.3rem; }
+.b-ball_n2 { top: -1.9rem; left: 5.1rem; width: 5.5rem; height: 7rem; }
+.b-ball_n3 { top: 0.9rem; left: 8.8rem; width: 4.9rem; height: 6.7rem; }
+.b-ball_n4 { top: 0; left: 13.3rem; width: 5.7rem; height: 10.2rem; }
+.b-ball_n5 { top: 0; left: 16.6rem; width: 4.9rem; height: 5.7rem; }
+.b-ball_n6 { top: 0.6rem; left: 20rem; width: 5.4rem; height: 7rem; }
+.b-ball_n7 { top: 0; left: 24rem; width: 5.6rem; height: 6.7rem; }
+.b-ball_n8 { top: 0; left: 28.3rem; width: 5.4rem; height: 5.3rem; }
+.b-ball_n9 { top: 1rem; left: 32.1rem; width: 4.9rem; height: 6.6rem; }
+
+.b-ball_n1 .b-ball__i { background: url(../assets/garland/b-ball_n1.webp) no-repeat; }
+.b-ball_n2 .b-ball__i { background: url(../assets/garland/b-ball_n2.webp) no-repeat; }
+.b-ball_n3 .b-ball__i { background: url(../assets/garland/b-ball_n3.webp) no-repeat; }
+.b-ball_n4 .b-ball__i { background: url(../assets/garland/b-ball_n4.webp) no-repeat; }
+.b-ball_n5 .b-ball__i { background: url(../assets/garland/b-ball_n5.webp) no-repeat; }
+.b-ball_n6 .b-ball__i { background: url(../assets/garland/b-ball_n6.webp) no-repeat; }
+.b-ball_n7 .b-ball__i { background: url(../assets/garland/b-ball_n7.webp) no-repeat; }
+.b-ball_n8 .b-ball__i { background: url(../assets/garland/b-ball_n8.webp) no-repeat; }
+.b-ball_n9 .b-ball__i { background: url(../assets/garland/b-ball_n9.webp) no-repeat; }
+
+.b-ball_i1 .b-ball__i { background: url(../assets/garland/b-ball_i1.webp) no-repeat; }
+.b-ball_i2 .b-ball__i { background: url(../assets/garland/b-ball_i2.webp) no-repeat; }
+.b-ball_i3 .b-ball__i { background: url(../assets/garland/b-ball_i3.webp) no-repeat; }
+.b-ball_i4 .b-ball__i { background: url(../assets/garland/b-ball_i4.webp) no-repeat; }
+.b-ball_i5 .b-ball__i { background: url(../assets/garland/b-ball_i5.webp) no-repeat; }
+.b-ball_i6 .b-ball__i { background: url(../assets/garland/b-ball_i6.webp) no-repeat; }
+
+.b-ball_i1 { top: 0; left: 0; width: 2.5rem; height: 7.1rem; }
+.b-ball_i2 { top: 0; left: 2.5rem; width: 6.1rem; height: 2.7rem; }
+.b-ball_i3 { top: 0; left: 17.6rem; width: 2.9rem; height: 3.1rem; }
+.b-ball_i4 { top: 0; left: 20.5rem; width: 5rem; height: 5.1rem; }
+.b-ball_i5 { top: 0; left: 28.9rem; width: 7.8rem; height: 2.8rem; }
+.b-ball_i6 { top: 0; left: 36.7rem; width: 0.6rem; height: 6.9rem; }
+
+.b-ball__i {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    transition: all .3s ease-in-out;
+    pointer-events: none;
+}
+
+.b-ball_bounce .b-ball__right {
+    position: absolute;
+    top: 0; right: 0; left: 50%; bottom: 0;
+    z-index: 9;
+}
+
+.b-ball_bounce:hover .b-ball__right { display: none; }
+.b-ball_bounce .b-ball__right:hover { left: 0; display: block !important; }
+.b-ball_bounce.bounce>.b-ball__i { transform: rotate(-9deg); }
+.b-ball_bounce .b-ball__right.bounce+.b-ball__i { transform: rotate(9deg); }
+.b-ball_bounce.bounce1>.b-ball__i { transform: rotate(6deg); }
+.b-ball_bounce .b-ball__right.bounce1+.b-ball__i { transform: rotate(-6deg); }
+.b-ball_bounce.bounce2>.b-ball__i { transform: rotate(-3deg); }
+.b-ball_bounce .b-ball__right.bounce2+.b-ball__i { transform: rotate(3deg); }
+.b-ball_bounce.bounce3>.b-ball__i { transform: rotate(1.5deg); }
+.b-ball_bounce .b-ball__right.bounce3+.b-ball__i { transform: rotate(-1.5deg); }
+
+
+/* 2. ¦è¦-¦¬¦¦¦- ¦á¦-¦-TÂTË ¦+¦¬TÏ ¦Ú¦-TÂ¦- (¦Ú¦-TÀTÂ¦¬¦-¦¦¦-) */
+.santa-hat-img {
+    position: absolute;
+    top: -12rem; /* ¦ß¦-¦¬¦¬TÆ¦¬¦-¦-¦¬TÀ¦-¦-¦-¦-¦¬¦¦ */
+    left: 20%;
+    transform: translateX(-40%) rotate(-10deg); /* ¦æ¦¦¦-TÂTÀ¦¬TÀ¦-¦-¦-¦-¦¬¦¦ ¦¬ ¦-¦-¦¦¦¬¦-¦- */
+    width: 20rem; /* ¦è¦¬TÀ¦¬¦-¦- TÈ¦-¦¬¦¦¦¬ */
+    height: auto; /* ¦á¦-TÅTÀ¦-¦-TÏ¦¦¦- ¦¬TÀ¦-¦¬¦-TÀTÆ¦¬¦¬ */
+    z-index: 35; /* ¦ß¦-¦-¦¦TÀTÅ TÃTÈ¦¦¦¦ ¦¬ ¦¦¦-¦¬¦-¦-TË */
+    pointer-events: none;
+}
+
+/* 3. ¦Û¦¦¦-TÂ¦- ¦-¦- ¦¦¦-TÀ¦-¦-¦¦TÃ (¦Ú¦-TÀTÂ¦¬¦-¦¦¦-) */
+.ribbon-img {
+    position: absolute;
+    top: 0; /* ¦Ñ¦-¦-TÂ TÇTÃTÂTÌ ¦-TËTÈ¦¦ ¦¦TÀ¦-TÏ */
+    left: -15%;
+    transform: translateX(50%);
+    width: 6rem; /* ¦ä¦¬¦¦TÁ¦¬TÀ¦-¦-¦-¦-¦-¦-TÏ TÈ¦¬TÀ¦¬¦-¦-, TÇTÂ¦-¦-TË ¦-¦¦ ¦-TË¦¬¦- ¦-¦¦TÀ¦-¦-¦-¦-¦¦ */
+    height: auto;
+    max-height: 100%; /* ¦çTÂ¦-¦-TË ¦-¦¦ TÃTÅ¦-¦+¦¬¦¬¦- TÁ¦¬¦¬TÈ¦¦¦-¦- ¦+¦-¦¬¦¦¦¦¦- ¦-¦-¦¬¦¬ */
+    z-index: 35;
+    pointer-events: none;
+    filter: drop-shadow(0 2px 0.5rem rgba(0,0,0,0.3)); /* ¦â¦¦¦-TÌ ¦+¦¬TÏ ¦-¦-TÊ¦¦¦-¦- */
+}
+
+/* ¦ßTÀ¦-¦-¦¦¦- ¦¬¦¦¦¦¦-¦¬¦- TÇTÂ¦-¦-TË ¦-¦- ¦-TË¦¬ ¦Ý¦Ð¦Ô ¦¬¦¦¦-TÂ¦-¦¦ */
+.box-label {
+    z-index: 40 !important; /* ¦Ò¦-¦¦¦-¦-: ¦¬¦-¦-¦¦TÀTÅ ¦¬¦¦¦-TÂTË */
+}
+.box-sub {
+    z-index: 40 !important;
+}
+
+/* 4. ¦Ô¦-¦¬¦-¦¬¦-¦¬TÂ¦¦¦¬TÌ¦-TË¦¦ ¦¬¦-¦+¦-TÀ¦¦¦¬ */
+.gift-box {
+    position: absolute;
+    bottom: 1.5rem; 
+    width: 20rem; /* ¦Þ¦¬TÂ¦¬¦-¦-¦¬TÌ¦-TË¦¦ TÀ¦-¦¬¦-¦¦TÀ ¦+¦¬TÏ ¦ß¦Ú ¦¬ ¦-¦-¦-¦¬¦¬¦-¦¦ */
+    height: auto;
+    z-index: 15; 
+    pointer-events: auto;
+    cursor: pointer;
+    filter: drop-shadow(0 0.5rem 1rem rgba(0,0,0,0.3));
+    transition: all 0.3s ease;
+}
+
+.left-gift {
+    left: -12rem; 
+    right: auto;
+    transform: rotate(-5deg);
+}
+
+.right-gift {
+    right: -10rem; 
+    left: auto;
+    transform: rotate(5deg);
+}
+
+.gift-box:hover {
+    transform: translateY(-5px) scale(1.05);
+}
+

@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Yar-Sale Station V3.0 Ultimate</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/environment.css">
+    <link rel="stylesheet" href="css/cat.css">
+    <link rel="stylesheet" href="css/characters.css">
+    <link rel="stylesheet" href="css/ui.css">
+    <link rel="stylesheet" href="css/decor.css">
     <link rel="stylesheet" href="css/heli.css">
 </head>
 <body>
@@ -14,6 +19,11 @@
 
 
     <div class="stars" id="stars-container"></div>
+    <div class="aurora-container">
+        <div class="aurora-ray ray1"></div>
+        <div class="aurora-ray ray2"></div>
+        <div class="aurora-ray ray3"></div>
+    </div>
     <canvas id="planes-layer"></canvas>
     <div class="celestial-body sun" id="sun-body"></div>
     <div class="celestial-body moon" id="moon-body"></div>
@@ -35,7 +45,7 @@
     </div>
 
     <div class="chum-bg">
-        <img src="assets/A_smal.png" class="tundra-base" alt="Tundra Clearing">
+        <img src="assets/A_smal.webp" class="tundra-base" alt="Tundra Clearing">
         <div class="chum-animated" id="chum"></div>
         <div class="nenets" id="nenets"></div>
         <div class="chum-smoke" id="chum-smoke"></div>

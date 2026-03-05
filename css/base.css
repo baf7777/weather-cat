@@ -1,0 +1,92 @@
+/* --- НАСТРОЙКИ И ПЕРЕМЕННЫЕ --- */
+
+/* --- SCALING CONFIG --- */
+html {
+    /* 
+       Base: 10px = 1rem.
+       We use clamp to ensure font-size stays within reasonable limits.
+       Minimum 8px, preferred 1.5vmin, maximum 12px for desktop.
+    */
+    font-size: 2.5vmin; 
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: clamp(10px, 1.2vmin, 14px);
+    }
+    .stage {
+        transform: scale(1.2); /* Увеличиваем кота и коробку на 20% на ПК */
+        transform-origin: bottom center;
+    }
+}
+
+@media (min-aspect-ratio: 16/9) {
+    html {
+        font-size: clamp(10px, 1.4vh, 16px);
+    }
+}
+
+:root {
+    --box-color: #d4a373;
+    --box-shadow: #a97142;
+    --bg-day: linear-gradient(180deg, #4facfe 0%, #00f2fe 100%);
+    --bg-night: linear-gradient(180deg, #0c1c2e 0%, #1c3b57 100%);
+    --bg-storm: linear-gradient(180deg, #232526 0%, #414345 100%);
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #1c3b57; /* Fallback background color to avoid white flash */
+    overflow: hidden;
+}
+
+body {
+    margin: 0; padding: 0;
+    position: fixed; /* Forces full viewport coverage, preventing scroll bars */
+    top: 0; left: 0; right: 0; bottom: 0;
+    height: 100%; /* With fixed position, this fills the screen */
+    width: 100%;
+    overflow: hidden;
+    display: flex; justify-content: center; align-items: flex-end;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg-day);
+    transition: background 2s ease;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body.night { background: var(--bg-night); }
+body.storm { background: var(--bg-storm); }
+
+.loader {
+    position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%);
+    color: #fff; font-weight: bold; background: rgba(0,0,0,0.6);
+    padding: 1.2rem 2.4rem; border-radius: 3rem; 
+    pointer-events: none; opacity: 0; transition: opacity 0.3s;
+    z-index: 100; text-align: center;
+    backdrop-filter: blur(0.5rem);
+    font-size: 1.6rem;
+}
+/* Smaller loader text on small screens */
+@media (max-width: 40rem) {
+    .loader { font-size: 1.4rem; padding: 1rem 2rem; }
+}
+.loader.show { opacity: 1; }
+
+/* Визуальная помощь в режиме редактора */
+body.editor-drag-mode .chum-bg {
+    outline: 2px dashed rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.05);
+}
+body.editor-drag-mode .chum-animated, 
+body.editor-drag-mode .nenets, 
+body.editor-drag-mode .dog, 
+body.editor-drag-mode .deer {
+    outline: 1px solid rgba(255, 255, 0, 0.5);
+}

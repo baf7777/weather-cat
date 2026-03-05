@@ -1,0 +1,438 @@
+/* --- СЦЕНА (МАСШТАБИРУЕМАЯ) --- */
+.stage-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    pointer-events: none; /* Чтобы не блокировало клики по фону/острову */
+}
+
+.stage {
+    position: relative; width: 30rem; height: 28rem;
+    z-index: 10; display: flex; justify-content: center;
+    perspective: 80rem;
+    pointer-events: none;
+    transition: transform 0.3s ease-out; /* Smooth scaling */
+}
+
+/* Элементы внутри сцены должны ловить клики */
+.box-wrapper, .cat-container {
+    pointer-events: auto !important;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 60rem) { .stage {  } }
+@media (max-width: 40rem) { .stage {  } }
+/* Landscape mode handling */
+@media (max-height: 55rem) { .stage {  } }
+@media (max-height: 40rem) { .stage {  } }
+
+.floor-shadow {
+    position: absolute; bottom: 2rem; width: 26rem; height: 3rem;
+    background: rgba(0,0,0,0.2); border-radius: 50%;
+    filter: blur(0.8rem); z-index: 5;
+    transition: width 0.3s;
+}
+
+/* --- КОРОБКА --- */
+.box-wrapper {
+    position: absolute; bottom: 4rem; width: 22rem; height: 16rem;
+    z-index: 20; transform-style: preserve-3d;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.box-front {
+    position: absolute; width: 100%; height: 100%;
+    background: var(--box-color);
+    border-radius: 0 0 0.8rem 0.8rem;
+    border: 0.4rem solid var(--box-shadow);
+    box-shadow: inset 0 0 3rem rgba(0,0,0,0.1);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    z-index: 30;
+    overflow: visible; /* ИСПРАВЛЕНО: чтобы бант не обрезался */
+    box-sizing: border-box;
+}
+/* Текстура картона */
+.box-front::before {
+    content: ''; position: absolute; width: 100%; height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.05' fill-rule='evenodd'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/svg%3E");
+    border-radius: 0 0 0.4rem 0.4rem; /* Чтобы текстура не вылезала */
+    overflow: hidden;
+}
+
+/* Эффект инея */
+.frost-overlay {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: radial-gradient(circle at 50% 100%, transparent 40%, rgba(255,255,255,0.4) 90%);
+    opacity: 0; pointer-events: none; transition: opacity 1s;
+    border-radius: 0 0 0.4rem 0.4rem; /* Чтобы иней не вылезал */
+    overflow: hidden;
+}
+.box-wrapper.frozen-box .frost-overlay { opacity: 1; }
+
+.box-label {
+    position: relative;
+    background: #fff5e6; padding: 0.8rem 1.6rem;
+    border: 2px solid #8b5e3c; border-radius: 0.4rem;
+    font-weight: 900; color: #8b5e3c; text-transform: uppercase;
+    font-size: 1.6rem; letter-spacing: 1px;
+    transform: rotate(-2deg);
+    box-shadow: 2px 2px 0.5rem rgba(0,0,0,0.1);
+    z-index: 40 !important; /* Поверх ленты */
+}
+.box-sub { 
+    position: relative; 
+    font-size: 1.2rem; /* Чуть крупнее */
+    color: #fff; /* Белый текст */
+    margin-top: 0.6rem; 
+    font-weight: 800; 
+    z-index: 40 !important; 
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5); /* Темная тень для читаемости */
+}
+
+.lid {
+    position: absolute; top: -8rem; width: 11rem; height: 8rem;
+    background: #c69260; 
+    border-top: 0.3rem solid var(--box-shadow);
+    border-bottom: none;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 25;
+    backface-visibility: hidden;
+    box-sizing: border-box; /* Учитываем границы в ширине */
+}
+.lid.left { 
+    left: 0; 
+    transform-origin: bottom left; 
+    border-radius: 0.8rem 0 0 0; 
+    border-left: 0.3rem solid var(--box-shadow);
+    border-right: 1px solid var(--box-shadow); /* Четкий шов */
+}
+.lid.right { 
+    right: 0; 
+    transform-origin: bottom right; 
+    border-radius: 0 0.8rem 0 0; 
+    border-right: 0.3rem solid var(--box-shadow);
+    border-left: 1px solid var(--box-shadow); /* Четкий шов */
+}
+
+.box-open .lid.left { transform: rotate(-130deg); }
+.box-open .lid.right { transform: rotate(130deg); }
+
+/* --- КОТ (JASP V2) --- */
+.cat-container {
+    position: absolute; bottom: 0; left: 50%;
+    transform: translateX(-50%); width: 16rem; height: 25rem;
+    z-index: 15; pointer-events: none;
+    transition: bottom 0.5s cubic-bezier(0.5, 1.5, 0.5, 1);
+    bottom: -0.5rem;
+}
+.box-open ~ .cat-container { bottom: 15rem; }
+
+.cat-head {
+    position: absolute; top: 3rem; left: 1.5rem; width: 13rem; height: 11rem;
+    background: #505050; border-radius: 45% 45% 40% 40%;
+    z-index: 20; box-shadow: inset -0.5rem -0.5rem 2rem rgba(0,0,0,0.3);
+}
+.ear {
+    position: absolute; top: -2.5rem; width: 3.5rem; height: 5rem;
+    background: #505050; border-radius: 1rem 2rem 0 0; z-index: 10;
+}
+.ear::after {
+    content: ''; position: absolute; bottom: 0.5rem; left: 0.5rem;
+    width: 2.5rem; height: 3.5rem; background: #ffb7b2;
+    border-radius: 1rem 2rem 0 0; opacity: 0.8;
+}
+.ear.l { left: 0.5rem; transform: rotate(-15deg); }
+.ear.r { right: 0.5rem; transform: rotate(15deg); }
+
+.face-mask {
+    position: absolute; bottom: 0; left: 10%; width: 80%; height: 50%;
+    background: #fff; border-radius: 35% 35% 45% 45%;
+    overflow: hidden; z-index: 21;
+}
+.nose {
+    position: absolute; top: 1.5rem; left: 50%; transform: translateX(-50%);
+    width: 1.4rem; height: 1rem; background: #ffb7b2; border-radius: 40%;
+}
+.mouth-line {
+    position: absolute; top: 2.5rem; left: 50%; transform: translateX(-50%);
+    width: 2px; height: 1rem; background: #333;
+}
+.mouth-curve {
+    position: absolute; top: 3rem; width: 3rem; height: 1.5rem;
+    border-bottom: 2px solid #333; border-radius: 50%;
+}
+.mc-l { left: 50%; transform: translateX(-100%); border-right: 1px solid transparent; }
+.mc-r { left: 50%; border-left: 1px solid transparent; }
+
+/* Пар изо рта кота */
+.breath-steam {
+    position: absolute;
+    top: 3.5rem; /* Позиция чуть ниже рта */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2.5rem;
+    height: 4rem;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 23;
+}
+
+.breath-steam.show {
+    opacity: 1;
+    animation: breathSteam 2.5s ease-out forwards;
+}
+
+.breath-steam::before,
+.breath-steam::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 1rem;
+    height: 3rem;
+    background: radial-gradient(ellipse at bottom, rgba(255, 255, 255, 0.9) 0%, rgba(240, 248, 255, 0.6) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    filter: blur(0.4rem);
+    opacity: 0;
+}
+
+.breath-steam.show::before {
+    left: 0.3rem;
+    animation: steamRise1 2.5s ease-out forwards;
+}
+
+.breath-steam.show::after {
+    right: 0.3rem;
+    animation: steamRise2 2.5s ease-out forwards;
+}
+
+@keyframes breathSteam {
+    0% { 
+        opacity: 0; 
+        transform: translateX(-50%) translateY(0) scale(0.7); 
+    }
+    15% { 
+        opacity: 1; 
+        transform: translateX(-50%) translateY(-0.3rem) scale(1); 
+    }
+    70% { 
+        opacity: 0.9; 
+        transform: translateX(-50%) translateY(-2.5rem) scale(1.3); 
+    }
+    100% { 
+        opacity: 0; 
+        transform: translateX(-50%) translateY(-4.5rem) scale(1.6); 
+    }
+}
+
+@keyframes steamRise1 {
+    0% { 
+        transform: translateY(0) translateX(0) scaleY(0.8);
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.9;
+    }
+    50% { 
+        transform: translateY(-1.8rem) translateX(-0.3rem) scaleY(1.4);
+        opacity: 0.7;
+    }
+    100% { 
+        transform: translateY(-4rem) translateX(-0.6rem) scaleY(2);
+        opacity: 0;
+    }
+}
+
+@keyframes steamRise2 {
+    0% { 
+        transform: translateY(0) translateX(0) scaleY(0.8);
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.9;
+    }
+    50% { 
+        transform: translateY(-1.8rem) translateX(0.3rem) scaleY(1.4);
+        opacity: 0.7;
+    }
+    100% { 
+        transform: translateY(-4rem) translateX(-0.6rem) scaleY(2);
+        opacity: 0;
+    }
+}
+
+.eye {
+    position: absolute; top: 4.5rem; width: 2.8rem; height: 3.2rem;
+    background: #FFF; border-radius: 50%; overflow: hidden;
+    z-index: 22; border: 1px solid #333;
+    animation: blink 4s infinite;
+}
+@keyframes blink { 0%, 48%, 52%, 100% { height: 3.2rem; top: 4.5rem; } 50% { height: 2px; top: 6rem; } }
+
+.eye.l { left: 3rem; }
+.eye.r { right: 3rem; }
+
+.pupil {
+    position: absolute; top: 50%; left: 50%;
+    width: 1.2rem; height: 1.8rem; background: #000; border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+.pupil::after {
+    content: ''; position: absolute; top: 0.3rem; left: 0.3rem;
+    width: 0.4rem; height: 0.4rem; background: #FFF; border-radius: 50%;
+}
+
+.paws {
+    position: absolute; top: 12rem; width: 100%; display: flex; justify-content: space-between; padding: 0 2rem; box-sizing: border-box; z-index: 35;
+}
+.paw {
+    width: 3rem; height: 3rem; background: #FFF;
+    border-radius: 50%; box-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.2);
+}
+
+.sign-board {
+    position: absolute; top: 11rem; left: 50%;
+    transform: translateX(-50%) rotate(0deg);
+    width: 14rem; height: 9.5rem;
+    background: #2a9d8f; border: 0.3rem solid #fff;
+    border-radius: 0.8rem; color: #fff;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.2);
+    z-index: 40;
+    
+    animation: signSway 4s ease-in-out infinite;
+}
+.sign-temp { font-size: 3.8rem; font-weight: 800; line-height: 1; text-shadow: 2px 2px 0 rgba(0,0,0,0.1); margin: 0.5rem 0; }
+.sign-city { font-size: 1rem; text-transform: uppercase; opacity: 0.9; letter-spacing: 1px; }
+.sign-feel { font-size: 1rem; opacity: 0.8; font-style: italic; }
+
+/* --- МЫШЬ (Meteorologist) --- */
+.mouse-wrapper {
+    position: fixed;
+    bottom: 1.2rem; right: -8rem;
+    width: 6rem; height: 6rem;
+    z-index: 50;
+    will-change: transform, right, bottom;
+}
+
+/* Тень под мышью для реалистичности */
+.mouse-wrapper::before {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3rem;
+    height: 0.8rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    filter: blur(0.4rem);
+    z-index: -1;
+}
+.mouse-body {
+    position: absolute; bottom: 0; left: 1rem;
+    width: 4rem; height: 2.5rem;
+    background: #a0a0a0; border-radius: 2rem 2rem 0 0;
+    transition: background 0.3s;
+}
+.mouse-ear {
+    position: absolute; bottom: 2rem;
+    width: 1.5rem; height: 1.5rem; background: #a0a0a0; border-radius: 50%;
+}
+.mouse-ear.l { left: 1.5rem; }
+.mouse-ear.r { left: 3.5rem; }
+.mouse-nose {
+    position: absolute; bottom: 0.8rem; left: 4.8rem; /* Нос справа - мышь смотрит вправо изначально */
+    width: 0.6rem; height: 0.6rem; background: pink; border-radius: 50%;
+}
+.mouse-eye {
+    position: absolute; bottom: 1.5rem; left: 3.8rem; /* Глаз справа */
+    width: 0.4rem; height: 0.4rem; background: #000; border-radius: 50%;
+}
+
+/* Пропеллер убран - мышь теперь бегает, а не летает */
+.wind-stick {
+    display: none; /* Скрываем палку с пропеллером */
+}
+.propeller {
+    display: none; /* Скрываем пропеллер */
+}
+
+/* Zzz анимация для спящей мыши */
+.zzz {
+    position: absolute; top: -3rem; left: 1rem;
+    font-size: 1.6rem; font-weight: bold; color: #fff;
+    opacity: 0;
+    pointer-events: none;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.mouse-wrapper.sleeping .zzz {
+    animation: zzzAnim 2s infinite;
+}
+
+.mouse-wrapper.sleeping .mouse-eye {
+    height: 2px; top: 2.2rem; /* Закрытый глаз */
+    border-radius: 0;
+}
+
+@keyframes zzzAnim {
+    0% { transform: translate(0, 0) scale(0.8); opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { transform: translate(1rem, -2rem) scale(1.2); opacity: 0; }
+}
+
+.mouse-sign {
+    position: absolute; bottom: 5.5rem; left: 50%;
+    background: #e63946; color: white;
+    padding: 0.5rem 1rem; border-radius: 0.6rem;
+    font-size: 1rem; font-weight: bold;
+    white-space: nowrap; text-transform: uppercase; text-align: center;
+    box-shadow: 2px 2px 0.5rem rgba(0,0,0,0.3);
+    border: 2px solid white;
+    opacity: 0; transition: opacity 0.3s;
+    z-index: 60; /* Поверх мыши */
+    pointer-events: none; /* Не мешает взаимодействию */
+    
+    /* Трансформация контролируется через JavaScript для компенсации отражения мыши */
+    transform: translateX(-50%) scaleX(1);
+}
+.mouse-sign::after {
+    content: ''; position: absolute; bottom: -0.5rem; left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 0.8rem; height: 0.8rem; background: inherit;
+    border-bottom: 2px solid white; border-right: 2px solid white;
+}
+
+/* Анимации полета мыши */
+.mouse-wrapper.active .mouse-sign { opacity: 1; }
+
+@keyframes flyLoop {
+    0% { right: -6rem; bottom: 4rem; transform: rotate(-15deg); }
+    10% { right: 20%; bottom: 15rem; transform: rotate(0deg); }
+    25% { right: 50%; bottom: 30rem; transform: rotate(20deg); }
+    40% { right: 80%; bottom: 20rem; transform: rotate(10deg); }
+    55% { right: 50%; bottom: 10rem; transform: rotate(-10deg); }
+    70% { right: 20%; bottom: 25rem; transform: rotate(15deg); }
+    85% { right: -2rem; bottom: 10rem; transform: rotate(0deg); }
+    100% { right: -6rem; bottom: 4rem; transform: rotate(-15deg); }
+}
+
+.mouse-wrapper.blown { 
+    animation: blownAway 3s forwards ease-in !important; 
+    pointer-events: none;
+}
+@keyframes blownAway {
+    0% { transform: rotate(0deg); opacity: 1; }
+    50% { transform: rotate(540deg); opacity: 0.8; }
+    100% { right: 200vw; bottom: 80vh; transform: rotate(1080deg); opacity: 0; }
+}
+
+.mouse-wrapper.frozen .mouse-body { background: #b0c4de; }
+.mouse-wrapper.frozen .mouse-ear { background: #b0c4de; }

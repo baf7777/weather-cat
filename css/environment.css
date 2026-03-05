@@ -1,0 +1,202 @@
+/* --- НЕБО И ФОН --- */
+.stars {
+    position: absolute; top: 0; left: 0; width: 100%; height: 60%;
+    z-index: 0; opacity: 0; transition: opacity 2s; pointer-events: none;
+}
+body.night .stars { opacity: 1; }
+
+.star {
+    position: absolute; background: white; border-radius: 50%;
+    animation: twinkle 3s infinite ease-in-out;
+}
+@keyframes twinkle { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+
+/* --- СЕВЕРНОЕ СИЯНИЕ --- */
+.aurora-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    z-index: 1; /* Поднимаем выше звезд */
+    opacity: 0;
+    transition: opacity 3s ease;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+body.night .aurora-container {
+    opacity: 0.85; /* Делаем ярче */
+}
+
+/* Скрываем сияние при шторме/плохой погоде */
+body.storm .aurora-container {
+    opacity: 0;
+}
+
+.aurora-ray {
+    position: absolute;
+    bottom: -20%;
+    width: 150%;
+    height: 150%;
+    transform-origin: bottom center;
+    filter: blur(2rem); /* Уменьшаем размытие, чтобы лучи были виднее */
+    pointer-events: none;
+}
+
+.ray1 {
+    left: -20%;
+    background: radial-gradient(ellipse at bottom, rgba(0, 255, 153, 0.8) 0%, rgba(0, 204, 255, 0.5) 40%, transparent 70%);
+    animation: auroraDance1 15s infinite ease-in-out alternate;
+}
+
+.ray2 {
+    left: -10%;
+    background: radial-gradient(ellipse at bottom, rgba(50, 255, 100, 0.7) 0%, rgba(150, 50, 255, 0.4) 50%, transparent 80%);
+    animation: auroraDance2 20s infinite ease-in-out alternate-reverse;
+}
+
+.ray3 {
+    left: 0%;
+    background: linear-gradient(0deg, rgba(0, 255, 200, 0.6) 0%, rgba(0, 150, 255, 0.3) 60%, transparent 100%);
+    animation: auroraDance3 18s infinite linear alternate;
+    border-radius: 50% 50% 0 0;
+}
+
+@keyframes auroraDance1 {
+    0% { transform: scale(1) skewX(-15deg) translateY(0); opacity: 0.5; }
+    50% { transform: scale(1.1) skewX(5deg) translateY(-2rem); opacity: 0.8; }
+    100% { transform: scale(1.05) skewX(15deg) translateY(1rem); opacity: 0.6; }
+}
+
+@keyframes auroraDance2 {
+    0% { transform: scale(1.2) skewX(20deg) translateX(5rem); opacity: 0.4; }
+    50% { transform: scale(1) skewX(-5deg) translateX(-2rem); opacity: 0.7; }
+    100% { transform: scale(1.1) skewX(-20deg) translateX(-5rem); opacity: 0.5; }
+}
+
+@keyframes auroraDance3 {
+    0% { transform: scaleY(1) translateX(-5rem); opacity: 0.3; }
+    100% { transform: scaleY(1.3) translateX(5rem); opacity: 0.6; }
+}
+
+.celestial-body {
+    position: absolute; top: 5rem; right: 5rem;
+    width: 8rem; height: 8rem; border-radius: 50%;
+    transition: transform 1.5s cubic-bezier(0.68, -0.55, 0.27, 1.55), opacity 1s;
+    z-index: 1;
+}
+/* Mobile adjustment for celestial bodies */
+@media (max-width: 60rem), (max-height: 50rem) {
+    .celestial-body { width: 6rem; height: 6rem; top: 2rem; right: 2rem; }
+}
+
+.sun { 
+    background: radial-gradient(circle at 30% 30%, #ffd700, #fdb813); 
+    box-shadow: 0 0 6rem #ff8800; 
+    transform: translateY(0); 
+}
+.moon { 
+    background: radial-gradient(circle at 30% 30%, #f6f1d5, #e0dcb8); 
+    box-shadow: 0 0 2rem #f6f1d5, inset -1rem -1rem 0 rgba(0,0,0,0.1); 
+    transform: translateY(-20rem); opacity: 0; 
+}
+
+body.night .sun { transform: translateY(30rem); opacity: 0; }
+body.night .moon { transform: translateY(0); opacity: 1; }
+
+.clouds { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2; transition: opacity 1s; }
+body.night .clouds { opacity: 0.3; }
+
+.cloud {
+    position: absolute; background: #fff; border-radius: 5rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
+    animation: floatCloud linear infinite; opacity: 0.9;
+}
+.cloud::after, .cloud::before {
+    content: ''; position: absolute; background: inherit; border-radius: 50%;
+}
+.c1 { width: 12rem; height: 4rem; top: 10%; left: -15rem; animation-duration: 35s; }
+.c1::after { width: 5rem; height: 5rem; top: -2.5rem; left: 2rem; }
+.c1::before { width: 4rem; height: 4rem; top: -1.5rem; left: 6rem; }
+
+.c2 { width: 10rem; height: 3.5rem; top: 25%; left: -15rem; animation-duration: 50s; animation-delay: -15s; opacity: 0.7;  }
+.c2::after { width: 4rem; height: 4rem; top: -2rem; left: 1.5rem; }
+
+@keyframes floatCloud { 0% { transform: translateX(-15rem); } 100% { transform: translateX(calc(100vw + 15rem)); } }
+
+/* --- ЗАСНЕЖЕННАЯ ТУНДРА (ГОРЫ/ХОЛМЫ) --- */
+.tundra-landscape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35%; /* Снизил общую высоту тундры */
+    z-index: 2; /* Поверх неба (0-1), под чумом (3) */
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.hill {
+    position: absolute;
+    border-radius: 50% 50% 0 0;
+    transition: background-color 2s ease;
+}
+
+/* Дальний холм */
+.hill-back {
+    width: 160%;
+    height: 60%;
+    left: -30%;
+    bottom: -10%;
+    background: #e6f2ff; /* Светло-голубоватый снег вдалеке */
+    opacity: 0.9;
+    border-radius: 60% 40% 0 0; /* Делаем форму менее симметричной */
+}
+
+/* Средний холм */
+.hill-mid {
+    width: 140%;
+    height: 45%;
+    left: -10%;
+    bottom: -5%;
+    background: #f0f8ff;
+    border-radius: 40% 60% 0 0; /* Асимметрия в другую сторону */
+}
+
+/* Ближний холм (земля) */
+.hill-front {
+    width: 120%;
+    height: 30%;
+    left: -10%;
+    bottom: 0;
+    background: #ffffff; /* Чистый белый снег вблизи */
+    border-radius: 50% 50% 0 0;
+    /* Убираем внутреннюю тень, чтобы не было "грязного" края */
+}
+
+/* Затемнение холмов ночью */
+body.night .hill-back { background: #1c2b3d; }
+body.night .hill-mid { background: #23354a; }
+body.night .hill-front { background: #2a3f58; }
+
+/* Затемнение холмов в шторм */
+body.storm .hill-back { background: #3a4045; }
+body.storm .hill-mid { background: #454d54; }
+body.storm .hill-front { background: #505962; }
+
+/* --- ОСАДКИ --- */
+.precip-container { position: absolute; width: 100%; height: 100%; z-index: 90; pointer-events: none; }
+
+.snowflake {
+    position: absolute; top: -1rem; background: white; border-radius: 50%;
+    animation: fall linear infinite;
+}
+@keyframes fall { to { transform: translate(var(--wind-x, 0), 110vh); } }
+
+.rain {
+    position: absolute; width: 100%; height: 100%; display: none;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.4));
+    background-size: 2px 3rem; animation: rainAnim 0.3s linear infinite;
+}
+@keyframes rainAnim { 0% { background-position: 0 0; } 100% { background-position: 0 3rem; } }
