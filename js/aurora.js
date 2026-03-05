@@ -27,21 +27,23 @@ function renderAurora() {
 
     // Обновляем текст на картонке
     if (els.auroraDisplay) {
-        if (kp >= 1) {
-            els.auroraDisplay.style.display = 'block';
-            let icon = '✨';
-            if (kp >= 5) icon = '🔥';
-            else if (kp >= 3) icon = '🌌';
-            
-            els.auroraDisplay.innerHTML = `${icon} Сияние: ${kp} Kp`;
-            
-            // Цвет текста в зависимости от активности
-            if (kp >= 5) els.auroraDisplay.style.color = '#ff4d4d'; // Красный (шторм)
-            else if (kp >= 3) els.auroraDisplay.style.color = '#ffff00'; // Желтый (активно)
-            else els.auroraDisplay.style.color = '#99ff99'; // Светло-зеленый (норма)
-        } else {
-            els.auroraDisplay.style.display = 'none';
+        els.auroraDisplay.style.display = 'block';
+        let icon = '✨';
+        let color = '#99ff99'; // Светло-зеленый (норма)
+        
+        if (kp >= 5) {
+            icon = '🔥';
+            color = '#ff4d4d'; // Красный (шторм)
+        } else if (kp >= 3) {
+            icon = '🌌';
+            color = '#ffff00'; // Желтый (активно)
+        } else if (kp < 1) {
+            icon = '💤';
+            color = '#a0a0a0'; // Серый (штиль)
         }
+        
+        els.auroraDisplay.innerHTML = `${icon} Сияние: ${kp} Kp`;
+        els.auroraDisplay.style.color = color;
     }
 
     // Условия для показа на небе: Ночь, Нет шторма, Kp > 1.5

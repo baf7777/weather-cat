@@ -188,7 +188,7 @@ body.squint-mode .eyelid {
 
 /* Глубокое погружение при экстремальном холоде */
 body.freeze-mode .box-open ~ .cat-container {
-    bottom: 11rem; /* Кот сидит ниже на 4rem */
+    bottom: 13rem; /* Поднял с 11rem до 13rem, чтобы табличка не пряталась совсем */
 }
 body.freeze-mode .cat-head {
     transform: scale(0.95);
