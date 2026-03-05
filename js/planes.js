@@ -165,8 +165,12 @@ window.PlaneSystem = {
         `;
         document.body.appendChild(board);
 
-        // Логика
-        const toggle = () => board.classList.toggle('active');
+        // Логика: закрываем другую открытую карточку перед переключением
+        const toggle = () => {
+            const otherBoard = document.querySelector('.schedule-board.active');
+            if (otherBoard && otherBoard !== board) otherBoard.classList.remove('active');
+            board.classList.toggle('active');
+        };
         btn.addEventListener('click', toggle);
         board.querySelector('.board-close').addEventListener('click', () => board.classList.remove('active'));
     },
@@ -421,3 +425,4 @@ window.PlaneSystem = {
         requestAnimationFrame(this.loop.bind(this));
     }
 };
+
