@@ -211,8 +211,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "13:20",
-    "estimatedTime": "14:05",
-    "status": "Ожидается",
+    "estimatedTime": "14:08",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "13:50",
-    "status": "Ожидается",
+    "estimatedTime": "13:59",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Салемал",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "13:50",
-    "status": "Ожидается",
+    "estimatedTime": "13:59",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Панаевск",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "13:50",
-    "status": "Ожидается",
+    "estimatedTime": "13:59",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -256,16 +256,16 @@
     "from": "Кутопьеган",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "13:50",
-    "status": "Ожидается",
+    "estimatedTime": "13:59",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
     "number": "ЛА 22",
     "from": "Новый Уренгой",
     "to": "Салехард",
-    "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
+    "scheduledTime": "15:50",
+    "estimatedTime": "15:50",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -274,16 +274,16 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:25",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
     "number": "ЛА 956",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
+    "scheduledTime": "16:50",
+    "estimatedTime": "16:50",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -508,8 +508,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "13:20",
-    "estimatedTime": "14:05",
-    "status": "Ожидается",
+    "estimatedTime": "14:08",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -526,8 +526,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "13:50",
-    "status": "Ожидается",
+    "estimatedTime": "13:59",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -535,8 +535,8 @@
     "from": "Салемал",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "13:50",
-    "status": "Ожидается",
+    "estimatedTime": "13:59",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -544,8 +544,8 @@
     "from": "Панаевск",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "13:50",
-    "status": "Ожидается",
+    "estimatedTime": "13:59",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -553,16 +553,16 @@
     "from": "Кутопьеган",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "13:50",
-    "status": "Ожидается",
+    "estimatedTime": "13:59",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
     "number": "ЛА 22",
     "from": "Новый Уренгой",
     "to": "Салехард",
-    "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
+    "scheduledTime": "15:50",
+    "estimatedTime": "15:50",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -571,16 +571,16 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:25",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
     "number": "ЛА 956",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
+    "scheduledTime": "16:50",
+    "estimatedTime": "16:50",
     "status": "По расписанию",
     "type": "arrival"
   },
