@@ -85,8 +85,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:27",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -94,8 +94,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:43",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -139,8 +139,8 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:27",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:27",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:43",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -292,8 +292,8 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:27",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
