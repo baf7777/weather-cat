@@ -103,8 +103,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:35",
-    "estimatedTime": "12:35",
-    "status": "По расписанию",
+    "estimatedTime": "13:40",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -112,8 +112,8 @@
     "from": "Салемал",
     "to": "Салехард",
     "scheduledTime": "12:35",
-    "estimatedTime": "12:35",
-    "status": "По расписанию",
+    "estimatedTime": "13:40",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -121,8 +121,8 @@
     "from": "Панаевск",
     "to": "Салехард",
     "scheduledTime": "12:35",
-    "estimatedTime": "12:35",
-    "status": "По расписанию",
+    "estimatedTime": "13:40",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -130,8 +130,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "13:30",
-    "estimatedTime": "13:28",
-    "status": "Ожидается",
+    "estimatedTime": "13:26",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -256,8 +256,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:35",
-    "estimatedTime": "12:35",
-    "status": "По расписанию",
+    "estimatedTime": "13:40",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Салемал",
     "to": "Салехард",
     "scheduledTime": "12:35",
-    "estimatedTime": "12:35",
-    "status": "По расписанию",
+    "estimatedTime": "13:40",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Панаевск",
     "to": "Салехард",
     "scheduledTime": "12:35",
-    "estimatedTime": "12:35",
-    "status": "По расписанию",
+    "estimatedTime": "13:40",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -283,8 +283,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "13:30",
-    "estimatedTime": "13:28",
-    "status": "Ожидается",
+    "estimatedTime": "13:26",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
