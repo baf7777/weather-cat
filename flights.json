@@ -130,8 +130,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "estimatedTime": "18:24",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -230,7 +230,7 @@
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "18:20",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -239,7 +239,7 @@
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "18:20",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -248,7 +248,7 @@
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "18:20",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "18:09",
-    "status": "Ожидается",
+    "estimatedTime": "18:12",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -409,8 +409,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "estimatedTime": "18:24",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -509,7 +509,7 @@
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "18:20",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -518,7 +518,7 @@
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "18:20",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -527,7 +527,7 @@
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "18:20",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -553,8 +553,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "18:09",
-    "status": "Ожидается",
+    "estimatedTime": "18:12",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
