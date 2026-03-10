@@ -84,8 +84,8 @@
     "number": "ЛА 10",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
+    "scheduledTime": "08:40",
+    "estimatedTime": "08:40",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -246,8 +246,8 @@
     "number": "ЛА 10",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
+    "scheduledTime": "08:40",
+    "estimatedTime": "08:40",
     "status": "По расписанию",
     "type": "arrival"
   },
