@@ -121,8 +121,8 @@
     "from": "Лопхари",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:16",
-    "status": "Ожидается",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -130,8 +130,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:16",
-    "status": "Ожидается",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -283,8 +283,8 @@
     "from": "Лопхари",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:16",
-    "status": "Ожидается",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -292,8 +292,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:16",
-    "status": "Ожидается",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
