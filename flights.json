@@ -76,7 +76,7 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:20",
-    "estimatedTime": "14:00",
+    "estimatedTime": "15:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -139,7 +139,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:30",
-    "estimatedTime": "15:42",
+    "estimatedTime": "15:37",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -175,7 +175,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:27",
+    "estimatedTime": "16:37",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -256,7 +256,7 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:20",
-    "estimatedTime": "14:00",
+    "estimatedTime": "15:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -319,7 +319,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:30",
-    "estimatedTime": "15:42",
+    "estimatedTime": "15:37",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -355,7 +355,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:27",
+    "estimatedTime": "16:37",
     "status": "Ожидается",
     "type": "arrival"
   }
