@@ -92,7 +92,7 @@
   {
     "number": "ЯЛ 30",
     "from": "Салехард",
-    "to": "",
+    "to": "Яр-Сале",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
     "status": "Вылетел",
@@ -370,8 +370,8 @@
   },
   {
     "number": "ЯЛ 30",
-    "from": "",
-    "to": "Салехард",
+    "from": "Салехард",
+    "to": "Яр-Сале",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
     "status": "Вылетел",
