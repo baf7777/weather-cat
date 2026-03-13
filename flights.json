@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Новый Уренгой",
     "scheduledTime": "13:00",
-    "estimatedTime": "13:00",
-    "status": "По расписанию",
+    "estimatedTime": "13:04",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "13:20",
-    "estimatedTime": "13:20",
-    "status": "По расписанию",
+    "estimatedTime": "13:19",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "13:50",
-    "estimatedTime": "13:50",
-    "status": "По расписанию",
+    "estimatedTime": "14:00",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -256,8 +256,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:27",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -382,8 +382,8 @@
     "from": "Салехард",
     "to": "Новый Уренгой",
     "scheduledTime": "13:00",
-    "estimatedTime": "13:00",
-    "status": "По расписанию",
+    "estimatedTime": "13:04",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -508,8 +508,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "13:20",
-    "estimatedTime": "13:20",
-    "status": "По расписанию",
+    "estimatedTime": "13:19",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -517,8 +517,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "13:50",
-    "estimatedTime": "13:50",
-    "status": "По расписанию",
+    "estimatedTime": "14:00",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -535,8 +535,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:27",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
