@@ -95,7 +95,7 @@
     "to": "Сочи",
     "scheduledTime": "13:50",
     "estimatedTime": "13:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -292,8 +292,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:25",
-    "estimatedTime": "17:25",
-    "status": "По расписанию",
+    "estimatedTime": "17:04",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -392,7 +392,7 @@
     "to": "Сочи",
     "scheduledTime": "13:50",
     "estimatedTime": "13:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -589,8 +589,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:25",
-    "estimatedTime": "17:25",
-    "status": "По расписанию",
+    "estimatedTime": "17:04",
+    "status": "Ожидается",
     "type": "arrival"
   }
 ]
