@@ -95,7 +95,7 @@
     "to": "Сочи",
     "scheduledTime": "13:50",
     "estimatedTime": "13:50",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -247,7 +247,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:03",
+    "estimatedTime": "15:10",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -256,7 +256,7 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:03",
+    "estimatedTime": "15:10",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -265,7 +265,7 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:22",
+    "estimatedTime": "16:31",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -275,7 +275,7 @@
     "to": "Салехард",
     "scheduledTime": "16:30",
     "estimatedTime": "16:04",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -392,7 +392,7 @@
     "to": "Сочи",
     "scheduledTime": "13:50",
     "estimatedTime": "13:50",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -544,7 +544,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:03",
+    "estimatedTime": "15:10",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -553,7 +553,7 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "15:03",
+    "estimatedTime": "15:10",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -562,7 +562,7 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:22",
+    "estimatedTime": "16:31",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -572,7 +572,7 @@
     "to": "Салехард",
     "scheduledTime": "16:30",
     "estimatedTime": "16:04",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
