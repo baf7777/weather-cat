@@ -176,7 +176,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "13:40",
     "estimatedTime": "13:40",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -279,33 +279,6 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 51",
-    "from": "Яр-Сале",
-    "to": "Салехард",
-    "scheduledTime": "12:35",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 51",
-    "from": "Салемал",
-    "to": "Салехард",
-    "scheduledTime": "12:35",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 51",
-    "from": "Панаевск",
-    "to": "Салехард",
-    "scheduledTime": "12:35",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
-    "type": "departure"
-  },
-  {
     "number": "ЯЛ 29",
     "from": "Сеяха",
     "to": "Салехард",
@@ -346,8 +319,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:07",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -355,8 +328,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:07",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -364,8 +337,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:07",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -626,7 +599,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "13:40",
     "estimatedTime": "13:40",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -729,33 +702,6 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 51",
-    "from": "Яр-Сале",
-    "to": "Салехард",
-    "scheduledTime": "12:35",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 51",
-    "from": "Салемал",
-    "to": "Салехард",
-    "scheduledTime": "12:35",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 51",
-    "from": "Панаевск",
-    "to": "Салехард",
-    "scheduledTime": "12:35",
-    "estimatedTime": "13:05",
-    "status": "Ожидается",
-    "type": "arrival"
-  },
-  {
     "number": "ЯЛ 29",
     "from": "Сеяха",
     "to": "Салехард",
@@ -796,8 +742,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:07",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -805,8 +751,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:07",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -814,8 +760,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:05",
-    "status": "По расписанию",
+    "estimatedTime": "13:07",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
