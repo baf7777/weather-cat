@@ -85,17 +85,8 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:20",
-    "estimatedTime": "12:20",
-    "status": "Задерживается",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 9",
-    "from": "Салехард",
-    "to": "Тюмень",
-    "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "estimatedTime": "12:48",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -130,8 +121,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:31",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -139,8 +130,8 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:31",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -149,7 +140,7 @@
     "to": "Салехард",
     "scheduledTime": "15:30",
     "estimatedTime": "16:50",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -283,17 +274,8 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:20",
-    "estimatedTime": "12:20",
-    "status": "Задерживается",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 9",
-    "from": "Салехард",
-    "to": "Тюмень",
-    "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "estimatedTime": "12:48",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -328,8 +310,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:31",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -337,8 +319,8 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:31",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -347,7 +329,7 @@
     "to": "Салехард",
     "scheduledTime": "15:30",
     "estimatedTime": "16:50",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
