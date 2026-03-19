@@ -90,6 +90,15 @@
     "type": "departure"
   },
   {
+    "number": "ЛА 9",
+    "from": "Салехард",
+    "to": "Тюмень",
+    "scheduledTime": "17:40",
+    "estimatedTime": "17:40",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
     "number": "S7 5375",
     "from": "Новосибирск",
     "to": "Салехард",
@@ -175,8 +184,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:17",
-    "status": "Ожидается",
+    "estimatedTime": "17:00",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -279,6 +288,15 @@
     "type": "arrival"
   },
   {
+    "number": "ЛА 9",
+    "from": "Салехард",
+    "to": "Тюмень",
+    "scheduledTime": "17:40",
+    "estimatedTime": "17:40",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
     "number": "S7 5375",
     "from": "Новосибирск",
     "to": "Салехард",
@@ -364,8 +382,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:17",
-    "status": "Ожидается",
+    "estimatedTime": "17:00",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
