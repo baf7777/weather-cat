@@ -5,7 +5,7 @@
     "to": "Новосибирск",
     "scheduledTime": "08:35",
     "estimatedTime": "08:35",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -32,6 +32,24 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЛА 9717",
+    "from": "Салехард",
+    "to": "Ямбург",
+    "scheduledTime": "09:30",
+    "estimatedTime": "09:30",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЛА 131",
+    "from": "Салехард",
+    "to": "Москва / Шереметьево",
+    "scheduledTime": "09:50",
+    "estimatedTime": "09:50",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -94,8 +112,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:40",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -103,8 +121,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:00",
-    "estimatedTime": "11:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:15",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -130,8 +148,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:30",
-    "estimatedTime": "15:30",
-    "status": "По расписанию",
+    "estimatedTime": "15:40",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -167,6 +185,15 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:40",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЛА 9718",
+    "from": "Салехард",
+    "to": "Ямбург",
+    "scheduledTime": "17:40",
+    "estimatedTime": "17:40",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -176,7 +203,7 @@
     "to": "Новосибирск",
     "scheduledTime": "08:35",
     "estimatedTime": "08:35",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -203,6 +230,24 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 9717",
+    "from": "Ямбург",
+    "to": "Салехард",
+    "scheduledTime": "09:30",
+    "estimatedTime": "09:30",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 131",
+    "from": "Салехард",
+    "to": "Москва / Шереметьево",
+    "scheduledTime": "09:50",
+    "estimatedTime": "09:50",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -265,8 +310,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:40",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -274,8 +319,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:00",
-    "estimatedTime": "11:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:15",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -301,8 +346,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:30",
-    "estimatedTime": "15:30",
-    "status": "По расписанию",
+    "estimatedTime": "15:40",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -338,6 +383,15 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:40",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 9718",
+    "from": "Ямбург",
+    "to": "Салехард",
+    "scheduledTime": "17:40",
+    "estimatedTime": "17:40",
     "status": "По расписанию",
     "type": "arrival"
   }
