@@ -122,7 +122,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
     "estimatedTime": "16:50",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -131,7 +131,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:04",
-    "status": "Ожидается",
+    "estimatedTime": "16:08",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -301,8 +301,8 @@
     "from": "Салехард",
     "to": "Москва / Внуково",
     "scheduledTime": "18:00",
-    "estimatedTime": "18:02",
-    "status": "Ожидается",
+    "estimatedTime": "18:32",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -446,7 +446,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
     "estimatedTime": "16:50",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -455,7 +455,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -589,8 +589,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:04",
-    "status": "Ожидается",
+    "estimatedTime": "16:08",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -625,8 +625,8 @@
     "from": "Москва / Внуково",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "18:02",
-    "status": "Ожидается",
+    "estimatedTime": "18:32",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
