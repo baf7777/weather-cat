@@ -5,7 +5,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
     "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -157,8 +157,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "estimatedTime": "08:00",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -166,8 +166,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:30",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -306,12 +306,21 @@
     "type": "departure"
   },
   {
+    "number": "GZP 9605",
+    "from": "Салехард",
+    "to": "Москва / Внуково",
+    "scheduledTime": "22:16",
+    "estimatedTime": "22:16",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
     "number": "ЛА 231",
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
     "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -463,8 +472,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "estimatedTime": "08:00",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -472,8 +481,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:30",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -608,6 +617,15 @@
     "to": "Салехард",
     "scheduledTime": "21:39",
     "estimatedTime": "21:39",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "GZP 9605",
+    "from": "Москва / Внуково",
+    "to": "Салехард",
+    "scheduledTime": "22:16",
+    "estimatedTime": "22:16",
     "status": "По расписанию",
     "type": "arrival"
   }
