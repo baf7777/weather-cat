@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "Регистрация",
+    "estimatedTime": "09:24",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "estimatedTime": "09:27",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -95,7 +95,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -104,7 +104,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -158,7 +158,7 @@
     "to": "Салехард",
     "scheduledTime": "08:05",
     "estimatedTime": "08:00",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -166,8 +166,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:30",
-    "status": "Ожидается",
+    "estimatedTime": "08:27",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
+    "estimatedTime": "15:47",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:03",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -293,6 +293,15 @@
     "to": "Салехард",
     "scheduledTime": "17:25",
     "estimatedTime": "17:25",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "WZ 1111",
+    "from": "Салехард",
+    "to": "Москва / Внуково",
+    "scheduledTime": "18:00",
+    "estimatedTime": "18:00",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -319,8 +328,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "Регистрация",
+    "estimatedTime": "09:24",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -328,8 +337,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "estimatedTime": "09:27",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -410,7 +419,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -419,7 +428,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -473,7 +482,7 @@
     "to": "Салехард",
     "scheduledTime": "08:05",
     "estimatedTime": "08:00",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -481,8 +490,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:30",
-    "status": "Ожидается",
+    "estimatedTime": "08:27",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -580,8 +589,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
+    "estimatedTime": "15:47",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -589,8 +598,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:03",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -608,6 +617,15 @@
     "to": "Салехард",
     "scheduledTime": "17:25",
     "estimatedTime": "17:25",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "WZ 1111",
+    "from": "Москва / Внуково",
+    "to": "Салехард",
+    "scheduledTime": "18:00",
+    "estimatedTime": "18:00",
     "status": "По расписанию",
     "type": "arrival"
   },
