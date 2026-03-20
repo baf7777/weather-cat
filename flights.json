@@ -139,8 +139,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Идет посадка",
+    "estimatedTime": "18:32",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -149,7 +149,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "18:50",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -301,8 +301,8 @@
     "from": "Салехард",
     "to": "Москва / Внуково",
     "scheduledTime": "18:00",
-    "estimatedTime": "18:59",
-    "status": "Задерживается",
+    "estimatedTime": "18:57",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -463,8 +463,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Идет посадка",
+    "estimatedTime": "18:32",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -473,7 +473,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "18:50",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -625,8 +625,8 @@
     "from": "Москва / Внуково",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "18:59",
-    "status": "Задерживается",
+    "estimatedTime": "18:57",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
