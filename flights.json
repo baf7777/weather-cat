@@ -67,8 +67,8 @@
     "from": "Салехард",
     "to": "Москва / Внуково",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "17:12",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Москва / Внуково",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "17:12",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
