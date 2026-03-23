@@ -112,8 +112,8 @@
     "from": "Салехард",
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "Регистрация",
+    "estimatedTime": "15:03",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -391,8 +391,8 @@
     "from": "Салехард",
     "to": "Ноябрьск",
     "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "Регистрация",
+    "estimatedTime": "15:03",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
