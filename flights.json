@@ -121,8 +121,8 @@
     "from": "Салехард",
     "to": "Екатеринбург",
     "scheduledTime": "13:40",
-    "estimatedTime": "13:40",
-    "status": "Идет посадка",
+    "estimatedTime": "13:49",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:22",
-    "status": "Ожидается",
+    "estimatedTime": "12:23",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:22",
-    "status": "Ожидается",
+    "estimatedTime": "12:23",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -256,8 +256,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:22",
-    "status": "Ожидается",
+    "estimatedTime": "12:23",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -472,8 +472,8 @@
     "from": "Салехард",
     "to": "Екатеринбург",
     "scheduledTime": "13:40",
-    "estimatedTime": "13:40",
-    "status": "Идет посадка",
+    "estimatedTime": "13:49",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -589,8 +589,8 @@
     "from": "Горки",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:22",
-    "status": "Ожидается",
+    "estimatedTime": "12:23",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -598,8 +598,8 @@
     "from": "Питляр",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:22",
-    "status": "Ожидается",
+    "estimatedTime": "12:23",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -607,8 +607,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:05",
-    "estimatedTime": "13:22",
-    "status": "Ожидается",
+    "estimatedTime": "12:23",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
