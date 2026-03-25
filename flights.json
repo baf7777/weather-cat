@@ -130,8 +130,8 @@
     "from": "Салехард",
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:00",
-    "estimatedTime": "22:05",
-    "status": "Идет посадка",
+    "estimatedTime": "22:20",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -139,8 +139,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "16:00",
-    "estimatedTime": "22:05",
-    "status": "Идет посадка",
+    "estimatedTime": "22:20",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "21:30",
-    "status": "Задерживается",
+    "estimatedTime": "21:34",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "21:30",
-    "status": "Задерживается",
+    "estimatedTime": "21:34",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -454,8 +454,8 @@
     "from": "Салехард",
     "to": "Ханты-Мансийск",
     "scheduledTime": "16:00",
-    "estimatedTime": "22:05",
-    "status": "Идет посадка",
+    "estimatedTime": "22:20",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -463,8 +463,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "16:00",
-    "estimatedTime": "22:05",
-    "status": "Идет посадка",
+    "estimatedTime": "22:20",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -589,8 +589,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "21:30",
-    "status": "Задерживается",
+    "estimatedTime": "21:34",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -598,8 +598,8 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "15:15",
-    "estimatedTime": "21:30",
-    "status": "Задерживается",
+    "estimatedTime": "21:34",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
