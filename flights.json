@@ -166,8 +166,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "16:20",
-    "estimatedTime": "20:25",
-    "status": "Ожидается",
+    "estimatedTime": "20:27",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -175,8 +175,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "16:20",
-    "estimatedTime": "20:25",
-    "status": "Ожидается",
+    "estimatedTime": "20:27",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "16:20",
-    "estimatedTime": "20:25",
-    "status": "Ожидается",
+    "estimatedTime": "20:27",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -193,8 +193,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "19:59",
-    "status": "Задерживается",
+    "estimatedTime": "20:00",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -364,8 +364,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "16:20",
-    "estimatedTime": "20:25",
-    "status": "Ожидается",
+    "estimatedTime": "20:27",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -373,8 +373,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "16:20",
-    "estimatedTime": "20:25",
-    "status": "Ожидается",
+    "estimatedTime": "20:27",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -382,8 +382,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "16:20",
-    "estimatedTime": "20:25",
-    "status": "Ожидается",
+    "estimatedTime": "20:27",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -391,8 +391,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "19:59",
-    "status": "Задерживается",
+    "estimatedTime": "20:00",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
