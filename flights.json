@@ -13,7 +13,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -22,7 +22,7 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -31,7 +31,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -40,8 +40,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "estimatedTime": "09:55",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Омск",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:50",
-    "status": "Задерживается",
+    "estimatedTime": "10:58",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -58,8 +58,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:32",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -67,8 +67,8 @@
     "from": "Салехард",
     "to": "Овгорт",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:32",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -77,7 +77,16 @@
     "to": "Уфа",
     "scheduledTime": "12:20",
     "estimatedTime": "12:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
+    "type": "departure"
+  },
+  {
+    "number": "ЛЛМ 9831",
+    "from": "Салехард",
+    "to": "Москва / Домодедово",
+    "scheduledTime": "13:00",
+    "estimatedTime": "13:00",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -202,7 +211,7 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -211,7 +220,7 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -220,7 +229,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
-    "estimatedTime": "11:00",
+    "estimatedTime": "12:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -229,8 +238,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "estimatedTime": "09:55",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -238,8 +247,8 @@
     "from": "Салехард",
     "to": "Омск",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:50",
-    "status": "Задерживается",
+    "estimatedTime": "10:58",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -247,8 +256,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:32",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -256,8 +265,8 @@
     "from": "Салехард",
     "to": "Овгорт",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:32",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -266,7 +275,16 @@
     "to": "Уфа",
     "scheduledTime": "12:20",
     "estimatedTime": "12:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛЛМ 9831",
+    "from": "Салехард",
+    "to": "Москва / Домодедово",
+    "scheduledTime": "13:00",
+    "estimatedTime": "13:00",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
