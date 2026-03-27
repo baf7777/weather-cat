@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "Регистрация",
+    "estimatedTime": "09:21",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "estimatedTime": "09:35",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -59,7 +59,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -68,7 +68,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -83,7 +83,7 @@
   {
     "number": "ЛА 122",
     "from": "Салехард",
-    "to": "Екатеринбург",
+    "to": "",
     "scheduledTime": "16:50",
     "estimatedTime": "16:50",
     "status": "По расписанию",
@@ -121,8 +121,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:00",
-    "status": "Ожидается",
+    "estimatedTime": "08:02",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -131,7 +131,7 @@
     "to": "Салехард",
     "scheduledTime": "08:50",
     "estimatedTime": "08:40",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "Регистрация",
+    "estimatedTime": "09:21",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "estimatedTime": "09:35",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -284,7 +284,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -293,7 +293,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -307,8 +307,8 @@
   },
   {
     "number": "ЛА 122",
-    "from": "Салехард",
-    "to": "Екатеринбург",
+    "from": "",
+    "to": "Салехард",
     "scheduledTime": "16:50",
     "estimatedTime": "16:50",
     "status": "По расписанию",
@@ -346,8 +346,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:00",
-    "status": "Ожидается",
+    "estimatedTime": "08:02",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -356,7 +356,7 @@
     "to": "Салехард",
     "scheduledTime": "08:50",
     "estimatedTime": "08:40",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
