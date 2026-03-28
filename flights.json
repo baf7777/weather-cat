@@ -68,7 +68,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "18:50",
     "estimatedTime": "18:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -149,7 +149,7 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:28",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -221,7 +221,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "18:50",
     "estimatedTime": "18:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -302,7 +302,7 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "16:28",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
