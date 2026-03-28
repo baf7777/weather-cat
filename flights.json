@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "10:50",
-    "estimatedTime": "10:50",
-    "status": "Посадка завершена",
+    "estimatedTime": "10:55",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "10:50",
-    "estimatedTime": "10:50",
-    "status": "Посадка завершена",
+    "estimatedTime": "10:55",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
