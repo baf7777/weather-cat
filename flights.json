@@ -157,8 +157,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:47",
-    "status": "Ожидается",
+    "estimatedTime": "12:51",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -166,8 +166,8 @@
     "from": "Восяхово",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "12:45",
-    "status": "По расписанию",
+    "estimatedTime": "12:41",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -175,8 +175,8 @@
     "from": "Шурышкары",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "12:45",
-    "status": "По расписанию",
+    "estimatedTime": "12:41",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "12:45",
-    "status": "По расписанию",
+    "estimatedTime": "12:41",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -237,8 +237,8 @@
     "number": "ЛА 956",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
+    "scheduledTime": "16:40",
+    "estimatedTime": "16:40",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -248,7 +248,7 @@
     "to": "Салехард",
     "scheduledTime": "17:25",
     "estimatedTime": "17:25",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -427,8 +427,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:47",
-    "status": "Ожидается",
+    "estimatedTime": "12:51",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -436,8 +436,8 @@
     "from": "Восяхово",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "12:45",
-    "status": "По расписанию",
+    "estimatedTime": "12:41",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -445,8 +445,8 @@
     "from": "Шурышкары",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "12:45",
-    "status": "По расписанию",
+    "estimatedTime": "12:41",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -454,8 +454,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "12:45",
-    "estimatedTime": "12:45",
-    "status": "По расписанию",
+    "estimatedTime": "12:41",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -507,8 +507,8 @@
     "number": "ЛА 956",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
+    "scheduledTime": "16:40",
+    "estimatedTime": "16:40",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -518,7 +518,7 @@
     "to": "Салехард",
     "scheduledTime": "17:25",
     "estimatedTime": "17:25",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
