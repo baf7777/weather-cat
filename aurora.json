@@ -1,19 +1,19 @@
 {
-  "kp": 0,
+  "kp": 2,
   "level": "Quiet",
-  "time": "2026-03-29T18:48:00",
-  "updatedAt": "2026-03-29T18:51:18.797Z",
+  "time": "2026-03-30T02:51:00",
+  "updatedAt": "2026-03-30T02:53:51.617Z",
   "location": {
     "name": "Yar-Sale",
     "lat": 66.860618,
     "lon": 70.844018
   },
   "local": {
-    "probability": 10,
+    "probability": 1,
     "source": "NOAA Ovation",
     "status": "ok",
-    "observationTime": "2026-03-29T18:42:00Z",
-    "forecastTime": "2026-03-29T19:47:00Z",
+    "observationTime": "2026-03-30T02:46:00Z",
+    "forecastTime": "2026-03-30T03:46:00Z",
     "nearestPoint": {
       "lat": 67,
       "lon": 71,
