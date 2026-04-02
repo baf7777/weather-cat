@@ -68,7 +68,7 @@
     "to": "Уфа",
     "scheduledTime": "12:25",
     "estimatedTime": "13:25",
-    "status": "Регистрация",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -103,7 +103,7 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "13:20",
+    "estimatedTime": "14:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -239,7 +239,7 @@
     "to": "Уфа",
     "scheduledTime": "12:25",
     "estimatedTime": "13:25",
-    "status": "Регистрация",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -274,7 +274,7 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "13:20",
+    "estimatedTime": "14:00",
     "status": "Задерживается",
     "type": "arrival"
   },
