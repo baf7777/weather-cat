@@ -76,8 +76,8 @@
     "from": "Салехард",
     "to": "Когалым",
     "scheduledTime": "13:30",
-    "estimatedTime": "14:00",
-    "status": "Ожидается",
+    "estimatedTime": "14:14",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -148,7 +148,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:31",
+    "estimatedTime": "15:54",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -184,8 +184,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:29",
-    "status": "Ожидается",
+    "estimatedTime": "17:03",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Когалым",
     "to": "Салехард",
     "scheduledTime": "13:30",
-    "estimatedTime": "14:00",
-    "status": "Ожидается",
+    "estimatedTime": "14:14",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -337,7 +337,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:31",
+    "estimatedTime": "15:54",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -373,8 +373,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:29",
-    "status": "Ожидается",
+    "estimatedTime": "17:03",
+    "status": "Задерживается",
     "type": "arrival"
   }
 ]
