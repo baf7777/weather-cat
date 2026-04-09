@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "Регистр. завершена",
+    "estimatedTime": "09:10",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "Регистр. завершена",
+    "estimatedTime": "09:10",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -22,8 +22,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "Регистр. завершена",
+    "estimatedTime": "09:10",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -31,8 +31,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "Регистрация",
+    "estimatedTime": "09:59",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -68,15 +68,15 @@
     "to": "Уфа",
     "scheduledTime": "12:25",
     "estimatedTime": "12:25",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
     "number": "LUK 9696",
     "from": "Салехард",
     "to": "Когалым",
-    "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
+    "scheduledTime": "13:30",
+    "estimatedTime": "13:30",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -94,8 +94,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:49",
-    "status": "Ожидается",
+    "estimatedTime": "08:48",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -104,7 +104,7 @@
     "to": "Салехард",
     "scheduledTime": "10:00",
     "estimatedTime": "09:44",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -112,8 +112,8 @@
     "from": "Салехард",
     "to": "Когалым",
     "scheduledTime": "10:17",
-    "estimatedTime": "10:17",
-    "status": "По расписанию",
+    "estimatedTime": "10:05",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -121,7 +121,7 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "10:57",
+    "estimatedTime": "11:10",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -193,8 +193,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "Регистр. завершена",
+    "estimatedTime": "09:10",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "Регистр. завершена",
+    "estimatedTime": "09:10",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -211,8 +211,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "Регистр. завершена",
+    "estimatedTime": "09:10",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -220,8 +220,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "Регистрация",
+    "estimatedTime": "09:59",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -257,15 +257,15 @@
     "to": "Уфа",
     "scheduledTime": "12:25",
     "estimatedTime": "12:25",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
     "number": "LUK 9696",
     "from": "Когалым",
     "to": "Салехард",
-    "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
+    "scheduledTime": "13:30",
+    "estimatedTime": "13:30",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -283,8 +283,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:49",
-    "status": "Ожидается",
+    "estimatedTime": "08:48",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -293,7 +293,7 @@
     "to": "Салехард",
     "scheduledTime": "10:00",
     "estimatedTime": "09:44",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -301,8 +301,8 @@
     "from": "Когалым",
     "to": "Салехард",
     "scheduledTime": "10:17",
-    "estimatedTime": "10:17",
-    "status": "По расписанию",
+    "estimatedTime": "10:05",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -310,7 +310,7 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "10:57",
+    "estimatedTime": "11:10",
     "status": "Ожидается",
     "type": "arrival"
   },
