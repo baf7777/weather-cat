@@ -77,7 +77,7 @@
     "to": "Минеральные Воды",
     "scheduledTime": "14:50",
     "estimatedTime": "14:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -169,5 +169,176 @@
     "estimatedTime": "17:00",
     "status": "По расписанию",
     "type": "departure"
+  },
+  {
+    "number": "ЛА 131",
+    "from": "Салехард",
+    "to": "Москва / Шереметьево",
+    "scheduledTime": "09:15",
+    "estimatedTime": "09:27",
+    "status": "Вылетел",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 50",
+    "from": "Салехард",
+    "to": "Салемал",
+    "scheduledTime": "09:30",
+    "estimatedTime": "13:00",
+    "status": "Задерживается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 50",
+    "from": "Салехард",
+    "to": "Яр-Сале",
+    "scheduledTime": "09:30",
+    "estimatedTime": "13:00",
+    "status": "Задерживается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 50",
+    "from": "Салехард",
+    "to": "Панаевск",
+    "scheduledTime": "09:30",
+    "estimatedTime": "13:00",
+    "status": "Задерживается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 60Д",
+    "from": "Салехард",
+    "to": "Овгорт",
+    "scheduledTime": "09:50",
+    "estimatedTime": "10:19",
+    "status": "Вылетел",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 60Д",
+    "from": "Салехард",
+    "to": "Мужи",
+    "scheduledTime": "09:50",
+    "estimatedTime": "10:19",
+    "status": "Вылетел",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 9",
+    "from": "Салехард",
+    "to": "Тюмень",
+    "scheduledTime": "10:20",
+    "estimatedTime": "10:26",
+    "status": "Вылетел",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 843",
+    "from": "Салехард",
+    "to": "Казань",
+    "scheduledTime": "10:50",
+    "estimatedTime": "10:55",
+    "status": "Вылетел",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 477",
+    "from": "Салехард",
+    "to": "Минеральные Воды",
+    "scheduledTime": "14:50",
+    "estimatedTime": "14:50",
+    "status": "Регистрация",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 31",
+    "from": "Салехард",
+    "to": "Москва / Домодедово",
+    "scheduledTime": "17:40",
+    "estimatedTime": "17:40",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 32",
+    "from": "Москва / Домодедово",
+    "to": "Салехард",
+    "scheduledTime": "08:05",
+    "estimatedTime": "08:19",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 10",
+    "from": "Тюмень",
+    "to": "Салехард",
+    "scheduledTime": "08:50",
+    "estimatedTime": "09:14",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 121",
+    "from": "Екатеринбург",
+    "to": "Салехард",
+    "scheduledTime": "10:00",
+    "estimatedTime": "09:56",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 51",
+    "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "12:35",
+    "estimatedTime": "15:00",
+    "status": "Ожидается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 51",
+    "from": "Салемал",
+    "to": "Салехард",
+    "scheduledTime": "12:35",
+    "estimatedTime": "15:00",
+    "status": "Ожидается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 51",
+    "from": "Панаевск",
+    "to": "Салехард",
+    "scheduledTime": "12:35",
+    "estimatedTime": "15:00",
+    "status": "Ожидается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 478",
+    "from": "Минеральные Воды",
+    "to": "Салехард",
+    "scheduledTime": "13:30",
+    "estimatedTime": "13:20",
+    "status": "Ожидается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 132",
+    "from": "Москва / Шереметьево",
+    "to": "Салехард",
+    "scheduledTime": "16:30",
+    "estimatedTime": "16:30",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 844",
+    "from": "Казань",
+    "to": "Салехард",
+    "scheduledTime": "17:00",
+    "estimatedTime": "17:00",
+    "status": "По расписанию",
+    "type": "arrival"
   }
 ]
