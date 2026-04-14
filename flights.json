@@ -5,16 +5,7 @@
     "to": "Новосибирск",
     "scheduledTime": "08:35",
     "estimatedTime": "08:35",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 28",
-    "from": "Салехард",
-    "to": "Сеяха",
-    "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -23,7 +14,7 @@
     "to": "Панаевск",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -32,7 +23,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -41,7 +32,7 @@
     "to": "Салемал",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -50,7 +41,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:50",
     "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -59,7 +50,7 @@
     "to": "Омск",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -94,8 +85,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:50",
-    "estimatedTime": "07:50",
-    "status": "По расписанию",
+    "estimatedTime": "07:51",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -103,8 +94,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:38",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -185,16 +176,7 @@
     "to": "Новосибирск",
     "scheduledTime": "08:35",
     "estimatedTime": "08:35",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 28",
-    "from": "Салехард",
-    "to": "Сеяха",
-    "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -203,7 +185,7 @@
     "to": "Панаевск",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -212,7 +194,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -221,7 +203,7 @@
     "to": "Салемал",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -230,7 +212,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:50",
     "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -239,7 +221,7 @@
     "to": "Омск",
     "scheduledTime": "10:20",
     "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -274,8 +256,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:50",
-    "estimatedTime": "07:50",
-    "status": "По расписанию",
+    "estimatedTime": "07:51",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -283,8 +265,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:38",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
