@@ -1,14 +1,5 @@
 [
   {
-    "number": "ЛА 131",
-    "from": "Салехард",
-    "to": "Москва / Шереметьево",
-    "scheduledTime": "09:15",
-    "estimatedTime": "09:26",
-    "status": "Вылетел",
-    "type": "departure"
-  },
-  {
     "number": "ЯЛ 56",
     "from": "Салехард",
     "to": "Новый Порт",
@@ -36,84 +27,84 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 62",
+    "number": "ЯЛ 68",
     "from": "Салехард",
-    "to": "Мужи",
-    "scheduledTime": "10:20",
-    "estimatedTime": "10:24",
-    "status": "Вылетел",
+    "to": "Яр-Сале",
+    "scheduledTime": "09:00",
+    "estimatedTime": "09:00",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
-    "number": "ЯЛ 62",
+    "number": "ЯЛ 68",
     "from": "Салехард",
-    "to": "Горки",
-    "scheduledTime": "10:20",
-    "estimatedTime": "10:24",
-    "status": "Вылетел",
+    "to": "Мыс Каменный",
+    "scheduledTime": "09:00",
+    "estimatedTime": "09:00",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
-    "number": "ЯЛ 62",
+    "number": "ЯЛ 68",
     "from": "Салехард",
-    "to": "Питляр",
-    "scheduledTime": "10:20",
-    "estimatedTime": "10:24",
-    "status": "Вылетел",
+    "to": "Сеяха",
+    "scheduledTime": "09:00",
+    "estimatedTime": "09:00",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЛА 231",
+    "from": "Салехард",
+    "to": "Москва / Шереметьево",
+    "scheduledTime": "09:15",
+    "estimatedTime": "09:15",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
     "number": "ЛА 909",
     "from": "Салехард",
     "to": "Тюмень",
+    "scheduledTime": "10:10",
+    "estimatedTime": "10:10",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 60",
+    "from": "Салехард",
+    "to": "Мужи",
     "scheduledTime": "10:30",
     "estimatedTime": "10:30",
-    "status": "Вылетел",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
-    "number": "ЛА 17",
+    "number": "ЯЛ 60",
     "from": "Салехард",
-    "to": "Ноябрьск",
-    "scheduledTime": "13:00",
-    "estimatedTime": "13:01",
-    "status": "Вылетел",
+    "to": "Овгорт",
+    "scheduledTime": "10:30",
+    "estimatedTime": "10:30",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
-    "number": "РГ 298",
+    "number": "ЛА 417",
     "from": "Салехард",
-    "to": "Ханты-Мансийск",
-    "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
-    "status": "Вылетел",
+    "to": "Омск",
+    "scheduledTime": "10:50",
+    "estimatedTime": "10:50",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
-    "number": "РГ 298",
+    "number": "ЛА 437",
     "from": "Салехард",
-    "to": "Санкт-Петербург",
-    "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
-    "status": "Вылетел",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 122",
-    "from": "Салехард",
-    "to": "Екатеринбург",
-    "scheduledTime": "17:00",
-    "estimatedTime": "17:26",
-    "status": "Вылетел",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 122",
-    "from": "Салехард",
-    "to": "Екатеринбург",
-    "scheduledTime": "17:00",
-    "estimatedTime": "17:26",
-    "status": "Вылетел",
+    "to": "Уфа",
+    "scheduledTime": "12:25",
+    "estimatedTime": "12:25",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -121,71 +112,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:46",
-    "status": "Вылетел",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 955",
-    "from": "Салехард",
-    "to": "Тюмень",
-    "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Вылетел",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 855",
-    "from": "Салехард",
-    "to": "Санкт-Петербург",
-    "scheduledTime": "18:50",
-    "estimatedTime": "19:08",
-    "status": "Вылетел",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 32",
-    "from": "Москва / Домодедово",
-    "to": "Салехард",
-    "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "Рейс прибыл",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 910",
-    "from": "Тюмень",
-    "to": "Салехард",
-    "scheduledTime": "08:50",
-    "estimatedTime": "08:44",
-    "status": "Рейс прибыл",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 63",
-    "from": "Горки",
-    "to": "Салехард",
-    "scheduledTime": "13:05",
-    "estimatedTime": "12:31",
-    "status": "Рейс прибыл",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 63",
-    "from": "Питляр",
-    "to": "Салехард",
-    "scheduledTime": "13:05",
-    "estimatedTime": "12:31",
-    "status": "Рейс прибыл",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 63",
-    "from": "Мужи",
-    "to": "Салехард",
-    "scheduledTime": "13:05",
-    "estimatedTime": "12:31",
-    "status": "Рейс прибыл",
+    "estimatedTime": "17:40",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -216,174 +144,210 @@
     "type": "departure"
   },
   {
-    "number": "РГ 297",
-    "from": "Санкт-Петербург",
+    "number": "ЛА 32",
+    "from": "Москва / Домодедово",
     "to": "Салехард",
-    "scheduledTime": "14:50",
-    "estimatedTime": "14:44",
-    "status": "Рейс прибыл",
+    "scheduledTime": "08:05",
+    "estimatedTime": "08:05",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
-    "number": "РГ 297",
-    "from": "Ханты-Мансийск",
-    "to": "Салехард",
-    "scheduledTime": "14:50",
-    "estimatedTime": "14:44",
-    "status": "Рейс прибыл",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 18",
-    "from": "Ноябрьск",
-    "to": "Салехард",
-    "scheduledTime": "16:00",
-    "estimatedTime": "16:21",
-    "status": "Рейс прибыл",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 132",
-    "from": "Москва / Шереметьево",
-    "to": "Салехард",
-    "scheduledTime": "16:30",
-    "estimatedTime": "16:27",
-    "status": "Рейс прибыл",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 956",
+    "number": "ЛА 10",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "17:00",
-    "estimatedTime": "16:45",
-    "status": "Рейс прибыл",
+    "scheduledTime": "08:50",
+    "estimatedTime": "08:50",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
-    "number": "ЛА 856",
-    "from": "Санкт-Петербург",
-    "to": "Салехард",
-    "scheduledTime": "17:25",
-    "estimatedTime": "17:23",
-    "status": "Рейс прибыл",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 131",
-    "from": "Салехард",
-    "to": "Москва / Шереметьево",
-    "scheduledTime": "09:15",
-    "estimatedTime": "09:26",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 56",
-    "from": "Салехард",
-    "to": "Новый Порт",
-    "scheduledTime": "09:20",
-    "estimatedTime": "15:00",
-    "status": "Задерживается",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 56",
-    "from": "Салехард",
-    "to": "Мыс Каменный",
-    "scheduledTime": "09:20",
-    "estimatedTime": "15:00",
-    "status": "Задерживается",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 56",
-    "from": "Салехард",
-    "to": "Яр-Сале",
-    "scheduledTime": "09:20",
-    "estimatedTime": "15:00",
-    "status": "Задерживается",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 62",
-    "from": "Салехард",
-    "to": "Мужи",
-    "scheduledTime": "10:20",
-    "estimatedTime": "10:24",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 62",
-    "from": "Салехард",
-    "to": "Горки",
-    "scheduledTime": "10:20",
-    "estimatedTime": "10:24",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 62",
-    "from": "Салехард",
-    "to": "Питляр",
-    "scheduledTime": "10:20",
-    "estimatedTime": "10:24",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 909",
-    "from": "Салехард",
-    "to": "Тюмень",
-    "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 17",
-    "from": "Салехард",
-    "to": "Ноябрьск",
-    "scheduledTime": "13:00",
-    "estimatedTime": "13:01",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "РГ 298",
-    "from": "Салехард",
-    "to": "Ханты-Мансийск",
-    "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "РГ 298",
-    "from": "Салехард",
-    "to": "Санкт-Петербург",
-    "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 122",
+    "number": "ЛА 121",
     "from": "Екатеринбург",
     "to": "Салехард",
-    "scheduledTime": "17:00",
-    "estimatedTime": "17:26",
-    "status": "Вылетел",
+    "scheduledTime": "10:00",
+    "estimatedTime": "10:00",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЛА 438",
+    "from": "Уфа",
+    "to": "Салехард",
+    "scheduledTime": "11:25",
+    "estimatedTime": "11:25",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 61",
+    "from": "Мужи",
+    "to": "Салехард",
+    "scheduledTime": "13:25",
+    "estimatedTime": "13:25",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 61",
+    "from": "Овгорт",
+    "to": "Салехард",
+    "scheduledTime": "13:25",
+    "estimatedTime": "13:25",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЛА 418",
+    "from": "Омск",
+    "to": "Салехард",
+    "scheduledTime": "15:50",
+    "estimatedTime": "15:50",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 69",
+    "from": "Мыс Каменный",
+    "to": "Салехард",
+    "scheduledTime": "16:20",
+    "estimatedTime": "16:20",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 69",
+    "from": "Сеяха",
+    "to": "Салехард",
+    "scheduledTime": "16:20",
+    "estimatedTime": "16:20",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 69",
+    "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "16:20",
+    "estimatedTime": "16:20",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЛА 232",
+    "from": "Москва / Шереметьево",
+    "to": "Салехард",
+    "scheduledTime": "16:30",
+    "estimatedTime": "16:30",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 56",
+    "from": "Салехард",
+    "to": "Новый Порт",
+    "scheduledTime": "09:20",
+    "estimatedTime": "15:00",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
-    "number": "ЛА 122",
+    "number": "ЯЛ 56",
     "from": "Салехард",
-    "to": "Екатеринбург",
-    "scheduledTime": "17:00",
-    "estimatedTime": "17:26",
-    "status": "Вылетел",
+    "to": "Мыс Каменный",
+    "scheduledTime": "09:20",
+    "estimatedTime": "15:00",
+    "status": "Задерживается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 56",
+    "from": "Салехард",
+    "to": "Яр-Сале",
+    "scheduledTime": "09:20",
+    "estimatedTime": "15:00",
+    "status": "Задерживается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 68",
+    "from": "Салехард",
+    "to": "Яр-Сале",
+    "scheduledTime": "09:00",
+    "estimatedTime": "09:00",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 68",
+    "from": "Салехард",
+    "to": "Мыс Каменный",
+    "scheduledTime": "09:00",
+    "estimatedTime": "09:00",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 68",
+    "from": "Салехард",
+    "to": "Сеяха",
+    "scheduledTime": "09:00",
+    "estimatedTime": "09:00",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 231",
+    "from": "Салехард",
+    "to": "Москва / Шереметьево",
+    "scheduledTime": "09:15",
+    "estimatedTime": "09:15",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 909",
+    "from": "Салехард",
+    "to": "Тюмень",
+    "scheduledTime": "10:10",
+    "estimatedTime": "10:10",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 60",
+    "from": "Салехард",
+    "to": "Мужи",
+    "scheduledTime": "10:30",
+    "estimatedTime": "10:30",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 60",
+    "from": "Салехард",
+    "to": "Овгорт",
+    "scheduledTime": "10:30",
+    "estimatedTime": "10:30",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 417",
+    "from": "Салехард",
+    "to": "Омск",
+    "scheduledTime": "10:50",
+    "estimatedTime": "10:50",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 437",
+    "from": "Салехард",
+    "to": "Уфа",
+    "scheduledTime": "12:25",
+    "estimatedTime": "12:25",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -391,71 +355,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:46",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 955",
-    "from": "Салехард",
-    "to": "Тюмень",
-    "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 855",
-    "from": "Салехард",
-    "to": "Санкт-Петербург",
-    "scheduledTime": "18:50",
-    "estimatedTime": "19:08",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 32",
-    "from": "Москва / Домодедово",
-    "to": "Салехард",
-    "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "Рейс прибыл",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 910",
-    "from": "Тюмень",
-    "to": "Салехард",
-    "scheduledTime": "08:50",
-    "estimatedTime": "08:44",
-    "status": "Рейс прибыл",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 63",
-    "from": "Горки",
-    "to": "Салехард",
-    "scheduledTime": "13:05",
-    "estimatedTime": "12:31",
-    "status": "Рейс прибыл",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 63",
-    "from": "Питляр",
-    "to": "Салехард",
-    "scheduledTime": "13:05",
-    "estimatedTime": "12:31",
-    "status": "Рейс прибыл",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 63",
-    "from": "Мужи",
-    "to": "Салехард",
-    "scheduledTime": "13:05",
-    "estimatedTime": "12:31",
-    "status": "Рейс прибыл",
+    "estimatedTime": "17:40",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -486,57 +387,102 @@
     "type": "arrival"
   },
   {
-    "number": "РГ 297",
-    "from": "Санкт-Петербург",
+    "number": "ЛА 32",
+    "from": "Москва / Домодедово",
     "to": "Салехард",
-    "scheduledTime": "14:50",
-    "estimatedTime": "14:44",
-    "status": "Рейс прибыл",
+    "scheduledTime": "08:05",
+    "estimatedTime": "08:05",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
-    "number": "РГ 297",
-    "from": "Ханты-Мансийск",
+    "number": "ЛА 10",
+    "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "14:50",
-    "estimatedTime": "14:44",
-    "status": "Рейс прибыл",
+    "scheduledTime": "08:50",
+    "estimatedTime": "08:50",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
-    "number": "ЛА 18",
-    "from": "Ноябрьск",
+    "number": "ЛА 121",
+    "from": "Екатеринбург",
     "to": "Салехард",
-    "scheduledTime": "16:00",
-    "estimatedTime": "16:21",
-    "status": "Рейс прибыл",
+    "scheduledTime": "10:00",
+    "estimatedTime": "10:00",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
-    "number": "ЛА 132",
+    "number": "ЛА 438",
+    "from": "Уфа",
+    "to": "Салехард",
+    "scheduledTime": "11:25",
+    "estimatedTime": "11:25",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 61",
+    "from": "Мужи",
+    "to": "Салехард",
+    "scheduledTime": "13:25",
+    "estimatedTime": "13:25",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 61",
+    "from": "Овгорт",
+    "to": "Салехард",
+    "scheduledTime": "13:25",
+    "estimatedTime": "13:25",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 418",
+    "from": "Омск",
+    "to": "Салехард",
+    "scheduledTime": "15:50",
+    "estimatedTime": "15:50",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 69",
+    "from": "Мыс Каменный",
+    "to": "Салехард",
+    "scheduledTime": "16:20",
+    "estimatedTime": "16:20",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 69",
+    "from": "Сеяха",
+    "to": "Салехард",
+    "scheduledTime": "16:20",
+    "estimatedTime": "16:20",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 69",
+    "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "16:20",
+    "estimatedTime": "16:20",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 232",
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:27",
-    "status": "Рейс прибыл",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 956",
-    "from": "Тюмень",
-    "to": "Салехард",
-    "scheduledTime": "17:00",
-    "estimatedTime": "16:45",
-    "status": "Рейс прибыл",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 856",
-    "from": "Санкт-Петербург",
-    "to": "Салехард",
-    "scheduledTime": "17:25",
-    "estimatedTime": "17:23",
-    "status": "Рейс прибыл",
+    "estimatedTime": "16:30",
+    "status": "По расписанию",
     "type": "arrival"
   }
 ]
