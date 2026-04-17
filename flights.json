@@ -72,12 +72,21 @@
     "type": "departure"
   },
   {
+    "number": "ЯЛ 9803",
+    "from": "Салехард",
+    "to": "Салехард",
+    "scheduledTime": "10:10",
+    "estimatedTime": "10:35",
+    "status": "Вылетел",
+    "type": "departure"
+  },
+  {
     "number": "ЯЛ 62",
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:38",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -85,8 +94,8 @@
     "from": "Салехард",
     "to": "Питляр",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:38",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -94,8 +103,8 @@
     "from": "Салехард",
     "to": "Горки",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:38",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -103,17 +112,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "UTA 6315",
-    "from": "Салехард",
-    "to": "Бованенково(поселок)",
-    "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:31",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -121,8 +121,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -131,7 +131,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -180,15 +180,6 @@
     "type": "departure"
   },
   {
-    "number": "UTA 6315",
-    "from": "Салехард",
-    "to": "Москва / Внуково",
-    "scheduledTime": "08:05",
-    "estimatedTime": "09:29",
-    "status": "Рейс прибыл",
-    "type": "departure"
-  },
-  {
     "number": "ЛА 10",
     "from": "Тюмень",
     "to": "Салехард",
@@ -202,8 +193,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "12:30",
-    "status": "По расписанию",
+    "estimatedTime": "12:45",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -211,8 +202,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:38",
-    "status": "Ожидается",
+    "estimatedTime": "12:40",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -310,8 +301,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "15:58",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -328,8 +319,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:25",
-    "estimatedTime": "17:25",
-    "status": "По расписанию",
+    "estimatedTime": "17:11",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -405,12 +396,21 @@
     "type": "arrival"
   },
   {
+    "number": "ЯЛ 9803",
+    "from": "Салехард",
+    "to": "Салехард",
+    "scheduledTime": "10:10",
+    "estimatedTime": "10:35",
+    "status": "Вылетел",
+    "type": "arrival"
+  },
+  {
     "number": "ЯЛ 62",
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:38",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -418,8 +418,8 @@
     "from": "Салехард",
     "to": "Питляр",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:38",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -427,8 +427,8 @@
     "from": "Салехард",
     "to": "Горки",
     "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "estimatedTime": "10:38",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -436,17 +436,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "UTA 6315",
-    "from": "Бованенково(поселок)",
-    "to": "Салехард",
-    "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:31",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -454,8 +445,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:43",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -464,7 +455,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -513,15 +504,6 @@
     "type": "arrival"
   },
   {
-    "number": "UTA 6315",
-    "from": "Москва / Внуково",
-    "to": "Салехард",
-    "scheduledTime": "08:05",
-    "estimatedTime": "09:29",
-    "status": "Рейс прибыл",
-    "type": "arrival"
-  },
-  {
     "number": "ЛА 10",
     "from": "Тюмень",
     "to": "Салехард",
@@ -535,8 +517,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "12:30",
-    "status": "По расписанию",
+    "estimatedTime": "12:45",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -544,8 +526,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:38",
-    "status": "Ожидается",
+    "estimatedTime": "12:40",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -643,8 +625,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "15:58",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -661,8 +643,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:25",
-    "estimatedTime": "17:25",
-    "status": "По расписанию",
+    "estimatedTime": "17:11",
+    "status": "Ожидается",
     "type": "arrival"
   }
 ]
