@@ -74,7 +74,7 @@
   {
     "number": "ЯЛ 9803",
     "from": "Салехард",
-    "to": "Салехард",
+    "to": "Мыс Каменный",
     "scheduledTime": "10:10",
     "estimatedTime": "10:35",
     "status": "Вылетел",
@@ -140,7 +140,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "17:00",
     "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "13:20",
-    "estimatedTime": "13:52",
-    "status": "Задерживается",
+    "estimatedTime": "13:55",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "13:50",
-    "estimatedTime": "14:00",
-    "status": "Ожидается",
+    "estimatedTime": "13:58",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -256,8 +256,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "14:18",
-    "status": "Ожидается",
+    "estimatedTime": "14:19",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Салемал",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "14:18",
-    "status": "Ожидается",
+    "estimatedTime": "14:19",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Панаевск",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "14:18",
-    "status": "Ожидается",
+    "estimatedTime": "14:19",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -283,8 +283,17 @@
     "from": "Кутопьеган",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "14:18",
-    "status": "Ожидается",
+    "estimatedTime": "14:19",
+    "status": "Рейс прибыл",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 9803",
+    "from": "Мыс Каменный",
+    "to": "Салехард",
+    "scheduledTime": "14:50",
+    "estimatedTime": "14:53",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -319,8 +328,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:25",
-    "estimatedTime": "17:11",
-    "status": "Ожидается",
+    "estimatedTime": "17:28",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -398,7 +407,7 @@
   {
     "number": "ЯЛ 9803",
     "from": "Салехард",
-    "to": "Салехард",
+    "to": "Мыс Каменный",
     "scheduledTime": "10:10",
     "estimatedTime": "10:35",
     "status": "Вылетел",
@@ -464,7 +473,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "17:00",
     "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -562,8 +571,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "13:20",
-    "estimatedTime": "13:52",
-    "status": "Задерживается",
+    "estimatedTime": "13:55",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -571,8 +580,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "13:50",
-    "estimatedTime": "14:00",
-    "status": "Ожидается",
+    "estimatedTime": "13:58",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -580,8 +589,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "14:18",
-    "status": "Ожидается",
+    "estimatedTime": "14:19",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -589,8 +598,8 @@
     "from": "Салемал",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "14:18",
-    "status": "Ожидается",
+    "estimatedTime": "14:19",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -598,8 +607,8 @@
     "from": "Панаевск",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "14:18",
-    "status": "Ожидается",
+    "estimatedTime": "14:19",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -607,8 +616,17 @@
     "from": "Кутопьеган",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "14:18",
-    "status": "Ожидается",
+    "estimatedTime": "14:19",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 9803",
+    "from": "Мыс Каменный",
+    "to": "Салехард",
+    "scheduledTime": "14:50",
+    "estimatedTime": "14:53",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -643,8 +661,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:25",
-    "estimatedTime": "17:11",
-    "status": "Ожидается",
+    "estimatedTime": "17:28",
+    "status": "Задерживается",
     "type": "arrival"
   }
 ]
