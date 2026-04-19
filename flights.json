@@ -5,7 +5,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
     "estimatedTime": "09:15",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -14,7 +14,7 @@
     "to": "Новосибирск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -149,7 +149,7 @@
     "to": "Салехард",
     "scheduledTime": "08:05",
     "estimatedTime": "08:00",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -157,17 +157,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:44",
-    "status": "Ожидается",
-    "type": "departure"
-  },
-  {
-    "number": "ЛА 486",
-    "from": "Сочи",
-    "to": "Салехард",
-    "scheduledTime": "12:40",
-    "estimatedTime": "12:40",
-    "status": "По расписанию",
+    "estimatedTime": "08:35",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -194,6 +185,15 @@
     "to": "Салехард",
     "scheduledTime": "12:45",
     "estimatedTime": "12:45",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЛЛМ 486",
+    "from": "Сочи",
+    "to": "Салехард",
+    "scheduledTime": "12:50",
+    "estimatedTime": "12:50",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -284,7 +284,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
     "estimatedTime": "09:15",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -293,7 +293,7 @@
     "to": "Новосибирск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -428,7 +428,7 @@
     "to": "Салехард",
     "scheduledTime": "08:05",
     "estimatedTime": "08:00",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -436,17 +436,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:44",
-    "status": "Ожидается",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 486",
-    "from": "Сочи",
-    "to": "Салехард",
-    "scheduledTime": "12:40",
-    "estimatedTime": "12:40",
-    "status": "По расписанию",
+    "estimatedTime": "08:35",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -473,6 +464,15 @@
     "to": "Салехард",
     "scheduledTime": "12:45",
     "estimatedTime": "12:45",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛЛМ 486",
+    "from": "Сочи",
+    "to": "Салехард",
+    "scheduledTime": "12:50",
+    "estimatedTime": "12:50",
     "status": "По расписанию",
     "type": "arrival"
   },
