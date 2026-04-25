@@ -58,8 +58,8 @@
     "from": "Салехард",
     "to": "Минеральные Воды",
     "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "Идет посадка",
+    "estimatedTime": "14:58",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -94,8 +94,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "10:00",
-    "estimatedTime": "15:01",
-    "status": "Задерживается",
+    "estimatedTime": "15:02",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -211,8 +211,8 @@
     "from": "Салехард",
     "to": "Минеральные Воды",
     "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "Идет посадка",
+    "estimatedTime": "14:58",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "10:00",
-    "estimatedTime": "15:01",
-    "status": "Задерживается",
+    "estimatedTime": "15:02",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
