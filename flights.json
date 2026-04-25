@@ -189,15 +189,6 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 53",
-    "from": "Мужи",
-    "to": "Салехард",
-    "scheduledTime": "12:45",
-    "estimatedTime": "12:45",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
     "number": "ЯЛ 75",
     "from": "Азовы",
     "to": "Салехард",
@@ -470,15 +461,6 @@
   {
     "number": "ЯЛ 53",
     "from": "Шурышкары",
-    "to": "Салехард",
-    "scheduledTime": "12:45",
-    "estimatedTime": "12:45",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 53",
-    "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "12:45",
     "estimatedTime": "12:45",
