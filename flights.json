@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "Регистрация",
+    "estimatedTime": "09:16",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -14,7 +14,7 @@
     "to": "Салемал",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -23,7 +23,7 @@
     "to": "Панаевск",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -32,7 +32,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "10:50",
-    "estimatedTime": "10:50",
-    "status": "По расписанию",
+    "estimatedTime": "13:00",
+    "status": "Регистр. завершена",
     "type": "departure"
   },
   {
@@ -76,8 +76,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "estimatedTime": "08:00",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -85,8 +85,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:36",
-    "status": "Ожидается",
+    "estimatedTime": "08:35",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -94,7 +94,7 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:04",
+    "estimatedTime": "11:59",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -129,8 +129,8 @@
     "number": "ЛА 478",
     "from": "Минеральные Воды",
     "to": "Салехард",
-    "scheduledTime": "13:30",
-    "estimatedTime": "12:50",
+    "scheduledTime": "13:00",
+    "estimatedTime": "13:02",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -157,8 +157,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "Регистрация",
+    "estimatedTime": "09:16",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -167,7 +167,7 @@
     "to": "Салемал",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -176,7 +176,7 @@
     "to": "Панаевск",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -185,7 +185,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "09:30",
     "estimatedTime": "09:30",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "10:50",
-    "estimatedTime": "10:50",
-    "status": "По расписанию",
+    "estimatedTime": "13:00",
+    "status": "Регистр. завершена",
     "type": "arrival"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "estimatedTime": "08:00",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:36",
-    "status": "Ожидается",
+    "estimatedTime": "08:35",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -247,7 +247,7 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:04",
+    "estimatedTime": "11:59",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -282,8 +282,8 @@
     "number": "ЛА 478",
     "from": "Минеральные Воды",
     "to": "Салехард",
-    "scheduledTime": "13:30",
-    "estimatedTime": "12:50",
+    "scheduledTime": "13:00",
+    "estimatedTime": "13:02",
     "status": "Ожидается",
     "type": "arrival"
   },
