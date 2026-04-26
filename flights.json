@@ -22,8 +22,8 @@
     "from": "Салехард",
     "to": "Горки",
     "scheduledTime": "10:20",
-    "estimatedTime": "12:00",
-    "status": "Задерживается",
+    "estimatedTime": "13:30",
+    "status": "Регистр. завершена",
     "type": "departure"
   },
   {
@@ -31,8 +31,8 @@
     "from": "Салехард",
     "to": "Азовы",
     "scheduledTime": "10:20",
-    "estimatedTime": "12:00",
-    "status": "Задерживается",
+    "estimatedTime": "13:30",
+    "status": "Регистр. завершена",
     "type": "departure"
   },
   {
@@ -40,8 +40,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:20",
-    "estimatedTime": "12:00",
-    "status": "Задерживается",
+    "estimatedTime": "13:30",
+    "status": "Регистр. завершена",
     "type": "departure"
   },
   {
@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
-    "estimatedTime": "12:00",
-    "status": "Ожидается",
+    "estimatedTime": "13:00",
+    "status": "Регистр. завершена",
     "type": "departure"
   },
   {
@@ -58,8 +58,8 @@
     "from": "Салехард",
     "to": "Восяхово",
     "scheduledTime": "10:30",
-    "estimatedTime": "12:00",
-    "status": "Ожидается",
+    "estimatedTime": "13:00",
+    "status": "Регистр. завершена",
     "type": "departure"
   },
   {
@@ -67,8 +67,8 @@
     "from": "Салехард",
     "to": "Шурышкары",
     "scheduledTime": "10:30",
-    "estimatedTime": "12:00",
-    "status": "Ожидается",
+    "estimatedTime": "13:00",
+    "status": "Регистр. завершена",
     "type": "departure"
   },
   {
@@ -86,7 +86,7 @@
     "to": "Сочи",
     "scheduledTime": "13:50",
     "estimatedTime": "14:50",
-    "status": "Задерживается",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -148,8 +148,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "12:07",
-    "status": "Задерживается",
+    "estimatedTime": "12:05",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -157,8 +157,8 @@
     "from": "Салехард",
     "to": "Надым",
     "scheduledTime": "09:50",
-    "estimatedTime": "11:37",
-    "status": "Задерживается",
+    "estimatedTime": "11:34",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -166,8 +166,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "11:37",
-    "status": "Задерживается",
+    "estimatedTime": "11:34",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "17:10",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -283,8 +283,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:25",
-    "estimatedTime": "17:25",
-    "status": "По расписанию",
+    "estimatedTime": "17:15",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -319,8 +319,8 @@
     "from": "Салехард",
     "to": "Горки",
     "scheduledTime": "10:20",
-    "estimatedTime": "12:00",
-    "status": "Задерживается",
+    "estimatedTime": "13:30",
+    "status": "Регистр. завершена",
     "type": "arrival"
   },
   {
@@ -328,8 +328,8 @@
     "from": "Салехард",
     "to": "Азовы",
     "scheduledTime": "10:20",
-    "estimatedTime": "12:00",
-    "status": "Задерживается",
+    "estimatedTime": "13:30",
+    "status": "Регистр. завершена",
     "type": "arrival"
   },
   {
@@ -337,8 +337,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:20",
-    "estimatedTime": "12:00",
-    "status": "Задерживается",
+    "estimatedTime": "13:30",
+    "status": "Регистр. завершена",
     "type": "arrival"
   },
   {
@@ -346,8 +346,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
-    "estimatedTime": "12:00",
-    "status": "Ожидается",
+    "estimatedTime": "13:00",
+    "status": "Регистр. завершена",
     "type": "arrival"
   },
   {
@@ -355,8 +355,8 @@
     "from": "Салехард",
     "to": "Восяхово",
     "scheduledTime": "10:30",
-    "estimatedTime": "12:00",
-    "status": "Ожидается",
+    "estimatedTime": "13:00",
+    "status": "Регистр. завершена",
     "type": "arrival"
   },
   {
@@ -364,8 +364,8 @@
     "from": "Салехард",
     "to": "Шурышкары",
     "scheduledTime": "10:30",
-    "estimatedTime": "12:00",
-    "status": "Ожидается",
+    "estimatedTime": "13:00",
+    "status": "Регистр. завершена",
     "type": "arrival"
   },
   {
@@ -383,7 +383,7 @@
     "to": "Сочи",
     "scheduledTime": "13:50",
     "estimatedTime": "14:50",
-    "status": "Задерживается",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -445,8 +445,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "12:07",
-    "status": "Задерживается",
+    "estimatedTime": "12:05",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -454,8 +454,8 @@
     "from": "Надым",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "11:37",
-    "status": "Задерживается",
+    "estimatedTime": "11:34",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -463,8 +463,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "09:50",
-    "estimatedTime": "11:37",
-    "status": "Задерживается",
+    "estimatedTime": "11:34",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -571,8 +571,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "17:10",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -580,8 +580,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:25",
-    "estimatedTime": "17:25",
-    "status": "По расписанию",
+    "estimatedTime": "17:15",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
