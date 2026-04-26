@@ -113,7 +113,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
     "estimatedTime": "18:30",
-    "status": "Задерживается",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -131,7 +131,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -185,7 +185,7 @@
     "to": "Салехард",
     "scheduledTime": "12:45",
     "estimatedTime": "12:45",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -194,7 +194,7 @@
     "to": "Салехард",
     "scheduledTime": "12:45",
     "estimatedTime": "12:45",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -203,7 +203,7 @@
     "to": "Салехард",
     "scheduledTime": "12:45",
     "estimatedTime": "12:45",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -212,7 +212,7 @@
     "to": "Салехард",
     "scheduledTime": "13:45",
     "estimatedTime": "13:45",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -221,7 +221,7 @@
     "to": "Салехард",
     "scheduledTime": "13:45",
     "estimatedTime": "13:45",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -230,7 +230,7 @@
     "to": "Салехард",
     "scheduledTime": "13:45",
     "estimatedTime": "13:45",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -401,7 +401,7 @@
     "to": "Екатеринбург",
     "scheduledTime": "16:50",
     "estimatedTime": "18:30",
-    "status": "Задерживается",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -419,7 +419,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -473,7 +473,7 @@
     "to": "Салехард",
     "scheduledTime": "12:45",
     "estimatedTime": "12:45",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -482,7 +482,7 @@
     "to": "Салехард",
     "scheduledTime": "12:45",
     "estimatedTime": "12:45",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -491,7 +491,7 @@
     "to": "Салехард",
     "scheduledTime": "12:45",
     "estimatedTime": "12:45",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -500,7 +500,7 @@
     "to": "Салехард",
     "scheduledTime": "13:45",
     "estimatedTime": "13:45",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -509,7 +509,7 @@
     "to": "Салехард",
     "scheduledTime": "13:45",
     "estimatedTime": "13:45",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -518,7 +518,7 @@
     "to": "Салехард",
     "scheduledTime": "13:45",
     "estimatedTime": "13:45",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
