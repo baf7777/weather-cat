@@ -11,15 +11,6 @@
   {
     "number": "ЯЛ 68",
     "from": "Салехард",
-    "to": "Яр-Сале",
-    "scheduledTime": "09:00",
-    "estimatedTime": "09:40",
-    "status": "Задерживается",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 68",
-    "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
     "estimatedTime": "09:40",
@@ -166,8 +157,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "Задерживается",
+    "estimatedTime": "19:20",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -344,15 +335,6 @@
   {
     "number": "ЯЛ 68",
     "from": "Салехард",
-    "to": "Яр-Сале",
-    "scheduledTime": "09:00",
-    "estimatedTime": "09:40",
-    "status": "Задерживается",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 68",
-    "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
     "estimatedTime": "09:40",
@@ -499,8 +481,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "Задерживается",
+    "estimatedTime": "19:20",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
