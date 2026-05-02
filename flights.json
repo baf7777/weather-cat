@@ -112,7 +112,7 @@
     "from": "Салехард",
     "to": "Бованенково(поселок)",
     "scheduledTime": "12:30",
-    "estimatedTime": "08:00",
+    "estimatedTime": "09:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -391,7 +391,7 @@
     "from": "Бованенково(поселок)",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "08:00",
+    "estimatedTime": "09:00",
     "status": "Задерживается",
     "type": "arrival"
   },
