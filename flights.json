@@ -113,7 +113,7 @@
     "to": "Мужи",
     "scheduledTime": "14:10",
     "estimatedTime": "14:10",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -131,7 +131,7 @@
     "to": "Сочи",
     "scheduledTime": "16:30",
     "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "12:40",
-    "status": "Ожидается",
+    "estimatedTime": "12:41",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -193,8 +193,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:11",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:11",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -211,35 +211,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "14:00",
-    "estimatedTime": "13:50",
-    "status": "Ожидается",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 57",
-    "from": "Мыс Каменный",
-    "to": "Салехард",
-    "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 57",
-    "from": "Новый Порт",
-    "to": "Салехард",
-    "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 57",
-    "from": "Яр-Сале",
-    "to": "Салехард",
-    "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
+    "estimatedTime": "13:53",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -249,6 +222,33 @@
     "scheduledTime": "15:20",
     "estimatedTime": "15:00",
     "status": "Ожидается",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 57",
+    "from": "Мыс Каменный",
+    "to": "Салехард",
+    "scheduledTime": "15:25",
+    "estimatedTime": "15:25",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 57",
+    "from": "Новый Порт",
+    "to": "Салехард",
+    "scheduledTime": "15:25",
+    "estimatedTime": "15:25",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 57",
+    "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "15:25",
+    "estimatedTime": "15:25",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -428,7 +428,7 @@
     "to": "Мужи",
     "scheduledTime": "14:10",
     "estimatedTime": "14:10",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -446,7 +446,7 @@
     "to": "Сочи",
     "scheduledTime": "16:30",
     "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -499,8 +499,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "12:40",
-    "status": "Ожидается",
+    "estimatedTime": "12:41",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -508,8 +508,8 @@
     "from": "Мужи",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:11",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -517,8 +517,8 @@
     "from": "Овгорт",
     "to": "Салехард",
     "scheduledTime": "13:25",
-    "estimatedTime": "13:25",
-    "status": "По расписанию",
+    "estimatedTime": "13:11",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -526,35 +526,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "14:00",
-    "estimatedTime": "13:50",
-    "status": "Ожидается",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 57",
-    "from": "Мыс Каменный",
-    "to": "Салехард",
-    "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 57",
-    "from": "Новый Порт",
-    "to": "Салехард",
-    "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 57",
-    "from": "Яр-Сале",
-    "to": "Салехард",
-    "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
+    "estimatedTime": "13:53",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -564,6 +537,33 @@
     "scheduledTime": "15:20",
     "estimatedTime": "15:00",
     "status": "Ожидается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 57",
+    "from": "Мыс Каменный",
+    "to": "Салехард",
+    "scheduledTime": "15:25",
+    "estimatedTime": "15:25",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 57",
+    "from": "Новый Порт",
+    "to": "Салехард",
+    "scheduledTime": "15:25",
+    "estimatedTime": "15:25",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 57",
+    "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "15:25",
+    "estimatedTime": "15:25",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
