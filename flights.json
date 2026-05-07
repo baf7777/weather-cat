@@ -32,7 +32,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
     "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -121,8 +121,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "estimatedTime": "08:01",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -130,8 +130,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:30",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -139,8 +139,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:37",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -148,8 +148,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "11:25",
-    "status": "По расписанию",
+    "estimatedTime": "10:57",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -180,12 +180,21 @@
     "type": "departure"
   },
   {
+    "number": "ЛА 478",
+    "from": "Минеральные Воды",
+    "to": "Салехард",
+    "scheduledTime": "14:02",
+    "estimatedTime": "14:02",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
     "number": "ЛА 418",
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:50",
-    "status": "По расписанию",
+    "estimatedTime": "15:30",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -266,7 +275,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
     "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -355,8 +364,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "estimatedTime": "08:01",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -364,8 +373,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:30",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -373,8 +382,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:37",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -382,8 +391,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "11:25",
-    "status": "По расписанию",
+    "estimatedTime": "10:57",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -414,12 +423,21 @@
     "type": "arrival"
   },
   {
+    "number": "ЛА 478",
+    "from": "Минеральные Воды",
+    "to": "Салехард",
+    "scheduledTime": "14:02",
+    "estimatedTime": "14:02",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
     "number": "ЛА 418",
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:50",
-    "status": "По расписанию",
+    "estimatedTime": "15:30",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
