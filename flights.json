@@ -94,8 +94,8 @@
     "from": "Салехард",
     "to": "Ханты-Мансийск",
     "scheduledTime": "13:45",
-    "estimatedTime": "23:10",
-    "status": "Задерживается",
+    "estimatedTime": "23:25",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "13:45",
-    "estimatedTime": "23:10",
-    "status": "Задерживается",
+    "estimatedTime": "23:25",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -211,7 +211,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "13:00",
-    "estimatedTime": "22:26",
+    "estimatedTime": "22:44",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -220,7 +220,7 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "13:00",
-    "estimatedTime": "22:26",
+    "estimatedTime": "22:44",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -391,8 +391,8 @@
     "from": "Салехард",
     "to": "Ханты-Мансийск",
     "scheduledTime": "13:45",
-    "estimatedTime": "23:10",
-    "status": "Задерживается",
+    "estimatedTime": "23:25",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -400,8 +400,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "13:45",
-    "estimatedTime": "23:10",
-    "status": "Задерживается",
+    "estimatedTime": "23:25",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -508,7 +508,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "13:00",
-    "estimatedTime": "22:26",
+    "estimatedTime": "22:44",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -517,7 +517,7 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "13:00",
-    "estimatedTime": "22:26",
+    "estimatedTime": "22:44",
     "status": "Задерживается",
     "type": "arrival"
   },
