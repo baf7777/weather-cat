@@ -4,7 +4,7 @@
     "from": "Салехард",
     "to": "Ноябрьск",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:00",
+    "estimatedTime": "08:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -149,7 +149,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "Посадка завершена",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -158,7 +158,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -220,8 +220,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "14:00",
-    "estimatedTime": "18:52",
-    "status": "Задерживается",
+    "estimatedTime": "19:34",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -328,7 +328,7 @@
     "from": "Салехард",
     "to": "Ноябрьск",
     "scheduledTime": "09:30",
-    "estimatedTime": "09:00",
+    "estimatedTime": "08:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -473,7 +473,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "Посадка завершена",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -482,7 +482,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -544,8 +544,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "14:00",
-    "estimatedTime": "18:52",
-    "status": "Задерживается",
+    "estimatedTime": "19:34",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
