@@ -328,8 +328,8 @@
     "from": "Салехард",
     "to": "Лабытнанги",
     "scheduledTime": "18:45",
-    "estimatedTime": "18:45",
-    "status": "По расписанию",
+    "estimatedTime": "18:27",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -661,8 +661,8 @@
     "from": "Лабытнанги",
     "to": "Салехард",
     "scheduledTime": "18:45",
-    "estimatedTime": "18:45",
-    "status": "По расписанию",
+    "estimatedTime": "18:27",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
