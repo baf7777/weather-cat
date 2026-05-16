@@ -130,8 +130,8 @@
     "from": "Салехард",
     "to": "Лабытнанги",
     "scheduledTime": "14:45",
-    "estimatedTime": "14:45",
-    "status": "По расписанию",
+    "estimatedTime": "14:38",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -274,8 +274,17 @@
     "from": "Салехард",
     "to": "Белоярск",
     "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
+    "estimatedTime": "14:34",
+    "status": "Рейс прибыл",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 31Д",
+    "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "15:34",
+    "estimatedTime": "15:34",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -283,8 +292,8 @@
     "from": "Салехард",
     "to": "Лабытнанги",
     "scheduledTime": "15:45",
-    "estimatedTime": "15:45",
-    "status": "По расписанию",
+    "estimatedTime": "15:23",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -297,21 +306,12 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 31Д",
-    "from": "Яр-Сале",
-    "to": "Салехард",
-    "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
     "number": "ЛА 844",
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "17:40",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -463,8 +463,8 @@
     "from": "Лабытнанги",
     "to": "Салехард",
     "scheduledTime": "14:45",
-    "estimatedTime": "14:45",
-    "status": "По расписанию",
+    "estimatedTime": "14:38",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -607,8 +607,17 @@
     "from": "Белоярск",
     "to": "Салехард",
     "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
+    "estimatedTime": "14:34",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 31Д",
+    "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "15:34",
+    "estimatedTime": "15:34",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -616,8 +625,8 @@
     "from": "Лабытнанги",
     "to": "Салехард",
     "scheduledTime": "15:45",
-    "estimatedTime": "15:45",
-    "status": "По расписанию",
+    "estimatedTime": "15:23",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -630,21 +639,12 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 31Д",
-    "from": "Яр-Сале",
-    "to": "Салехард",
-    "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
     "number": "ЛА 844",
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "17:40",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
