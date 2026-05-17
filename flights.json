@@ -202,8 +202,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "estimatedTime": "18:24",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -212,7 +212,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "18:50",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -382,8 +382,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "19:12",
-    "status": "Задерживается",
+    "estimatedTime": "18:55",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -418,8 +418,8 @@
     "from": "Салехард",
     "to": "Лабытнанги",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "estimatedTime": "18:25",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -625,8 +625,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "estimatedTime": "18:24",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -635,7 +635,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "18:50",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -805,8 +805,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "19:12",
-    "status": "Задерживается",
+    "estimatedTime": "18:55",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -841,8 +841,8 @@
     "from": "Лабытнанги",
     "to": "Салехард",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "estimatedTime": "18:25",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
