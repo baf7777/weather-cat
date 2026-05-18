@@ -5,7 +5,7 @@
     "to": "Лабытнанги",
     "scheduledTime": "07:00",
     "estimatedTime": "07:00",
-    "status": "Идет посадка",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Лабытнанги",
     "scheduledTime": "08:30",
-    "estimatedTime": "08:30",
-    "status": "По расписанию",
+    "estimatedTime": "08:27",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -22,8 +22,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -31,8 +31,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -40,8 +40,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "estimatedTime": "09:17",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -58,8 +58,8 @@
     "from": "Салехард",
     "to": "Новый Порт",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "estimatedTime": "09:38",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -67,8 +67,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "estimatedTime": "09:38",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -76,8 +76,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "estimatedTime": "09:38",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -86,7 +86,7 @@
     "to": "Лабытнанги",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -94,8 +94,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:10",
-    "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "estimatedTime": "10:12",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Овгорт",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:42",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -112,8 +112,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:42",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -140,7 +140,7 @@
     "to": "Лабытнанги",
     "scheduledTime": "11:30",
     "estimatedTime": "11:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Салехард",
     "to": "Лабытнанги",
     "scheduledTime": "07:45",
-    "estimatedTime": "07:45",
-    "status": "По расписанию",
+    "estimatedTime": "07:46",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:00",
-    "status": "Ожидается",
+    "estimatedTime": "08:01",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -248,7 +248,7 @@
     "to": "Салехард",
     "scheduledTime": "08:50",
     "estimatedTime": "08:40",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -256,8 +256,8 @@
     "from": "Салехард",
     "to": "Лабытнанги",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "estimatedTime": "09:07",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "10:00",
-    "estimatedTime": "09:45",
-    "status": "Ожидается",
+    "estimatedTime": "09:52",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Салехард",
     "to": "Лабытнанги",
     "scheduledTime": "10:45",
-    "estimatedTime": "10:45",
-    "status": "По расписанию",
+    "estimatedTime": "10:44",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -364,8 +364,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:20",
-    "status": "По расписанию",
+    "estimatedTime": "15:25",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -418,8 +418,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "15:58",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -464,7 +464,7 @@
     "to": "Салехард",
     "scheduledTime": "07:00",
     "estimatedTime": "07:00",
-    "status": "Идет посадка",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -472,8 +472,8 @@
     "from": "Лабытнанги",
     "to": "Салехард",
     "scheduledTime": "08:30",
-    "estimatedTime": "08:30",
-    "status": "По расписанию",
+    "estimatedTime": "08:27",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -481,8 +481,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -490,8 +490,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -499,8 +499,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:00",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -508,8 +508,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "estimatedTime": "09:17",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -517,8 +517,8 @@
     "from": "Салехард",
     "to": "Новый Порт",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "estimatedTime": "09:38",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -526,8 +526,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "estimatedTime": "09:38",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -535,8 +535,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
-    "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "estimatedTime": "09:38",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -545,7 +545,7 @@
     "to": "Салехард",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -553,8 +553,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:10",
-    "estimatedTime": "10:10",
-    "status": "По расписанию",
+    "estimatedTime": "10:12",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -562,8 +562,8 @@
     "from": "Салехард",
     "to": "Овгорт",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:42",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -571,8 +571,8 @@
     "from": "Салехард",
     "to": "Мужи",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
+    "estimatedTime": "10:42",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -599,7 +599,7 @@
     "to": "Салехард",
     "scheduledTime": "11:30",
     "estimatedTime": "11:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -688,8 +688,8 @@
     "from": "Лабытнанги",
     "to": "Салехард",
     "scheduledTime": "07:45",
-    "estimatedTime": "07:45",
-    "status": "По расписанию",
+    "estimatedTime": "07:46",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -697,8 +697,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:00",
-    "status": "Ожидается",
+    "estimatedTime": "08:01",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -707,7 +707,7 @@
     "to": "Салехард",
     "scheduledTime": "08:50",
     "estimatedTime": "08:40",
-    "status": "Ожидается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -715,8 +715,8 @@
     "from": "Лабытнанги",
     "to": "Салехард",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "estimatedTime": "09:07",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -724,8 +724,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "10:00",
-    "estimatedTime": "09:45",
-    "status": "Ожидается",
+    "estimatedTime": "09:52",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -733,8 +733,8 @@
     "from": "Лабытнанги",
     "to": "Салехард",
     "scheduledTime": "10:45",
-    "estimatedTime": "10:45",
-    "status": "По расписанию",
+    "estimatedTime": "10:44",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -823,8 +823,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:20",
-    "status": "По расписанию",
+    "estimatedTime": "15:25",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -877,8 +877,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "15:58",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
