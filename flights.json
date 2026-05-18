@@ -5,7 +5,7 @@
     "to": "Лабытнанги",
     "scheduledTime": "07:00",
     "estimatedTime": "07:00",
-    "status": "По расписанию",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "estimatedTime": "08:00",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:40",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:45",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -464,7 +464,7 @@
     "to": "Салехард",
     "scheduledTime": "07:00",
     "estimatedTime": "07:00",
-    "status": "По расписанию",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -697,8 +697,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "estimatedTime": "08:00",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -706,8 +706,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:40",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -724,8 +724,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:45",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
