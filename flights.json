@@ -229,8 +229,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Задерживается",
+    "estimatedTime": "18:03",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Салехард",
     "to": "Лабытнанги",
     "scheduledTime": "17:45",
-    "estimatedTime": "17:45",
-    "status": "По расписанию",
+    "estimatedTime": "17:37",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -481,8 +481,8 @@
     "from": "Салехард",
     "to": "Лабытнанги",
     "scheduledTime": "18:45",
-    "estimatedTime": "18:45",
-    "status": "По расписанию",
+    "estimatedTime": "17:58",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -715,8 +715,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Задерживается",
+    "estimatedTime": "18:03",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -724,8 +724,8 @@
     "from": "Лабытнанги",
     "to": "Салехард",
     "scheduledTime": "17:45",
-    "estimatedTime": "17:45",
-    "status": "По расписанию",
+    "estimatedTime": "17:37",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -967,8 +967,8 @@
     "from": "Лабытнанги",
     "to": "Салехард",
     "scheduledTime": "18:45",
-    "estimatedTime": "18:45",
-    "status": "По расписанию",
+    "estimatedTime": "17:58",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
