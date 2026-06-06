@@ -130,8 +130,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "13:12",
-    "status": "Ожидается",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -175,8 +175,8 @@
     "from": "Салехард",
     "to": "Белоярский",
     "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "estimatedTime": "14:52",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
+    "estimatedTime": "15:52",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -193,7 +193,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:13",
+    "estimatedTime": "16:21",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -202,7 +202,7 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "16:57",
+    "estimatedTime": "17:15",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -337,8 +337,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "13:12",
-    "status": "Ожидается",
+    "estimatedTime": "13:17",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -382,8 +382,8 @@
     "from": "Белоярский",
     "to": "Салехард",
     "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "estimatedTime": "14:52",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -391,8 +391,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
+    "estimatedTime": "15:52",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -400,7 +400,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:13",
+    "estimatedTime": "16:21",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -409,7 +409,7 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "16:57",
+    "estimatedTime": "17:15",
     "status": "Ожидается",
     "type": "arrival"
   }
