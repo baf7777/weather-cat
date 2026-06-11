@@ -5,7 +5,7 @@
     "to": "Новосибирск",
     "scheduledTime": "08:35",
     "estimatedTime": "08:35",
-    "status": "По расписанию",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -14,7 +14,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -23,7 +23,7 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -32,7 +32,7 @@
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
@@ -41,16 +41,16 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
     "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "status": "Посадка завершена",
     "type": "departure"
   },
   {
     "number": "ЛА 417",
     "from": "Салехард",
     "to": "Омск",
-    "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "scheduledTime": "10:00",
+    "estimatedTime": "10:00",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:50",
-    "estimatedTime": "07:50",
-    "status": "По расписанию",
+    "estimatedTime": "07:51",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -112,8 +112,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "estimatedTime": "08:20",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -121,8 +121,17 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:35",
+    "status": "Ожидается",
+    "type": "departure"
+  },
+  {
+    "number": "ТАРП RLA7787",
+    "from": "Салехард",
+    "to": "Москва / Внуково",
+    "scheduledTime": "09:10",
+    "estimatedTime": "09:54",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -130,7 +139,16 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "11:25",
+    "estimatedTime": "11:05",
+    "status": "Ожидается",
+    "type": "departure"
+  },
+  {
+    "number": "ЛА 478",
+    "from": "Минеральные Воды",
+    "to": "Салехард",
+    "scheduledTime": "14:10",
+    "estimatedTime": "14:10",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -139,8 +157,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "15:25",
-    "status": "По расписанию",
+    "estimatedTime": "15:20",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -194,7 +212,7 @@
     "to": "Новосибирск",
     "scheduledTime": "08:35",
     "estimatedTime": "08:35",
-    "status": "По расписанию",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -203,7 +221,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -212,7 +230,7 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -221,7 +239,7 @@
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
@@ -230,16 +248,16 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
     "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "status": "Посадка завершена",
     "type": "arrival"
   },
   {
     "number": "ЛА 417",
     "from": "Салехард",
     "to": "Омск",
-    "scheduledTime": "09:40",
-    "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "scheduledTime": "10:00",
+    "estimatedTime": "10:00",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -292,8 +310,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:50",
-    "estimatedTime": "07:50",
-    "status": "По расписанию",
+    "estimatedTime": "07:51",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -301,8 +319,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "estimatedTime": "08:20",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -310,8 +328,17 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:35",
+    "status": "Ожидается",
+    "type": "arrival"
+  },
+  {
+    "number": "ТАРП RLA7787",
+    "from": "Москва / Внуково",
+    "to": "Салехард",
+    "scheduledTime": "09:10",
+    "estimatedTime": "09:54",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -319,7 +346,16 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "11:25",
+    "estimatedTime": "11:05",
+    "status": "Ожидается",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 478",
+    "from": "Минеральные Воды",
+    "to": "Салехард",
+    "scheduledTime": "14:10",
+    "estimatedTime": "14:10",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -328,8 +364,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "15:25",
-    "status": "По расписанию",
+    "estimatedTime": "15:20",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
