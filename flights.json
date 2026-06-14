@@ -58,8 +58,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Задерживается",
+    "estimatedTime": "18:07",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -67,8 +67,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "estimatedTime": "18:22",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -76,8 +76,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "Регистрация",
+    "estimatedTime": "19:00",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -157,8 +157,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:40",
-    "estimatedTime": "18:23",
-    "status": "Задерживается",
+    "estimatedTime": "18:38",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -220,8 +220,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Задерживается",
+    "estimatedTime": "18:07",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "estimatedTime": "18:22",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "Регистрация",
+    "estimatedTime": "19:00",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -319,8 +319,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:40",
-    "estimatedTime": "18:23",
-    "status": "Задерживается",
+    "estimatedTime": "18:38",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
