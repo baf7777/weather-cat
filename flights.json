@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:31",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:31",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -22,8 +22,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:31",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -32,7 +32,7 @@
     "to": "Новый Порт",
     "scheduledTime": "09:20",
     "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -41,7 +41,7 @@
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
     "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -50,7 +50,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "09:20",
     "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -59,7 +59,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -68,16 +68,16 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
     "number": "ЛА 122",
     "from": "Салехард",
     "to": "Екатеринбург",
-    "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "scheduledTime": "10:30",
+    "estimatedTime": "10:30",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -85,17 +85,17 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "11:00",
-    "estimatedTime": "11:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:06",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
     "number": "ЛА 17",
     "from": "Салехард",
     "to": "Ноябрьск",
-    "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "scheduledTime": "13:30",
+    "estimatedTime": "13:30",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Сочи",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "18:45",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -130,8 +130,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "08:05",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -139,8 +139,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:35",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:20",
-    "status": "По расписанию",
+    "estimatedTime": "17:27",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:07",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:45",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "18:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:30",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -256,8 +256,8 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:31",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:31",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Салехард",
     "to": "Яр-Сале",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "estimatedTime": "09:31",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -284,7 +284,7 @@
     "to": "Новый Порт",
     "scheduledTime": "09:20",
     "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -293,7 +293,7 @@
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
     "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -302,7 +302,7 @@
     "to": "Яр-Сале",
     "scheduledTime": "09:20",
     "estimatedTime": "09:20",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -311,7 +311,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -320,16 +320,16 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
     "number": "ЛА 122",
     "from": "Салехард",
     "to": "Екатеринбург",
-    "scheduledTime": "10:20",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
+    "scheduledTime": "10:30",
+    "estimatedTime": "10:30",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -337,17 +337,17 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "11:00",
-    "estimatedTime": "11:00",
-    "status": "По расписанию",
+    "estimatedTime": "11:06",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
     "number": "ЛА 17",
     "from": "Салехард",
     "to": "Ноябрьск",
-    "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "scheduledTime": "13:30",
+    "estimatedTime": "13:30",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -355,8 +355,8 @@
     "from": "Салехард",
     "to": "Сочи",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "18:45",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -382,8 +382,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "08:05",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -391,8 +391,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:35",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -436,8 +436,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:20",
-    "status": "По расписанию",
+    "estimatedTime": "17:27",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -481,8 +481,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:07",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -490,8 +490,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:45",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -499,8 +499,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "18:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:30",
+    "status": "Ожидается",
     "type": "arrival"
   }
 ]
