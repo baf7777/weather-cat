@@ -90,7 +90,7 @@
     "type": "departure"
   },
   {
-    "number": "ЛА 955",
+    "number": "ЛА",
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
@@ -306,7 +306,7 @@
     "type": "arrival"
   },
   {
-    "number": "ЛА 955",
+    "number": "ЛА",
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
