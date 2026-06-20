@@ -95,7 +95,7 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "21:15",
-    "status": "Задерживается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -203,7 +203,7 @@
     "to": "Салехард",
     "scheduledTime": "16:40",
     "estimatedTime": "21:15",
-    "status": "Задерживается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
