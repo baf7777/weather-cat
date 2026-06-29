@@ -126,6 +126,15 @@
     "type": "departure"
   },
   {
+    "number": "ЯЛ 69",
+    "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "",
+    "estimatedTime": "17:02",
+    "status": "Рейс прибыл",
+    "type": "departure"
+  },
+  {
     "number": "ЛА 32",
     "from": "Москва / Домодедово",
     "to": "Салехард",
@@ -209,15 +218,6 @@
   {
     "number": "ЯЛ 69",
     "from": "Сеяха",
-    "to": "Салехард",
-    "scheduledTime": "16:20",
-    "estimatedTime": "17:02",
-    "status": "Рейс прибыл",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 69",
-    "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "17:02",
@@ -378,6 +378,15 @@
     "type": "arrival"
   },
   {
+    "number": "ЯЛ 69",
+    "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "",
+    "estimatedTime": "17:02",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
     "number": "ЛА 32",
     "from": "Москва / Домодедово",
     "to": "Салехард",
@@ -461,15 +470,6 @@
   {
     "number": "ЯЛ 69",
     "from": "Сеяха",
-    "to": "Салехард",
-    "scheduledTime": "16:20",
-    "estimatedTime": "17:02",
-    "status": "Рейс прибыл",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 69",
-    "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "16:20",
     "estimatedTime": "17:02",
