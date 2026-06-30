@@ -59,7 +59,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -67,7 +67,7 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "18:30",
-    "estimatedTime": "19:00",
+    "estimatedTime": "19:30",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -112,8 +112,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
+    "estimatedTime": "17:10",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -121,8 +121,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "15:31",
-    "status": "Ожидается",
+    "estimatedTime": "15:37",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -130,7 +130,7 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "17:10",
-    "estimatedTime": "18:06",
+    "estimatedTime": "18:43",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -194,7 +194,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -202,7 +202,7 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "18:30",
-    "estimatedTime": "19:00",
+    "estimatedTime": "19:30",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -247,8 +247,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
+    "estimatedTime": "17:10",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -256,8 +256,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "15:31",
-    "status": "Ожидается",
+    "estimatedTime": "15:37",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -265,7 +265,7 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "17:10",
-    "estimatedTime": "18:06",
+    "estimatedTime": "18:43",
     "status": "Задерживается",
     "type": "arrival"
   }
