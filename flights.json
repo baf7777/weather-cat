@@ -202,8 +202,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "15:40",
-    "estimatedTime": "22:22",
-    "status": "Задерживается",
+    "estimatedTime": "22:23",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -463,8 +463,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "15:40",
-    "estimatedTime": "22:22",
-    "status": "Задерживается",
+    "estimatedTime": "22:23",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
