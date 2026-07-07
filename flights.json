@@ -50,7 +50,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -67,8 +67,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "10:10",
-    "status": "Задерживается",
+    "estimatedTime": "10:14",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -102,8 +102,8 @@
     "number": "ЯЛ 35",
     "from": "Мыс Каменный",
     "to": "Салехард",
-    "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
+    "scheduledTime": "13:52",
+    "estimatedTime": "13:52",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -130,8 +130,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "18:30",
-    "estimatedTime": "18:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:41",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -185,7 +185,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "10:10",
-    "status": "Задерживается",
+    "estimatedTime": "10:14",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -237,8 +237,8 @@
     "number": "ЯЛ 35",
     "from": "Мыс Каменный",
     "to": "Салехард",
-    "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
+    "scheduledTime": "13:52",
+    "estimatedTime": "13:52",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -265,8 +265,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "18:30",
-    "estimatedTime": "18:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:41",
+    "status": "Ожидается",
     "type": "arrival"
   }
 ]
