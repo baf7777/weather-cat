@@ -76,8 +76,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
-    "status": "Регистрация",
+    "estimatedTime": "15:49",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -85,8 +85,8 @@
     "from": "Салехард",
     "to": "Ханты-Мансийск",
     "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
-    "status": "Регистрация",
+    "estimatedTime": "15:49",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -104,7 +104,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -113,7 +113,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -189,20 +189,11 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 29",
-    "from": "Сеяха",
-    "to": "Салехард",
-    "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
     "number": "ЛА 486",
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "20:50",
+    "estimatedTime": "21:50",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -211,8 +202,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "15:50",
-    "status": "Ожидается",
+    "estimatedTime": "15:44",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -220,8 +211,17 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:20",
+    "status": "Рейс прибыл",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 29",
+    "from": "Сеяха",
+    "to": "Салехард",
+    "scheduledTime": "16:30",
+    "estimatedTime": "16:12",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "estimatedTime": "17:51",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -328,8 +328,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
-    "status": "Регистрация",
+    "estimatedTime": "15:49",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -337,8 +337,8 @@
     "from": "Салехард",
     "to": "Ханты-Мансийск",
     "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
-    "status": "Регистрация",
+    "estimatedTime": "15:49",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -356,7 +356,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
     "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -365,7 +365,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -441,20 +441,11 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 29",
-    "from": "Сеяха",
-    "to": "Салехард",
-    "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
     "number": "ЛА 486",
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "20:50",
+    "estimatedTime": "21:50",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -463,8 +454,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "16:00",
-    "estimatedTime": "15:50",
-    "status": "Ожидается",
+    "estimatedTime": "15:44",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -472,8 +463,17 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:20",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 29",
+    "from": "Сеяха",
+    "to": "Салехард",
+    "scheduledTime": "16:30",
+    "estimatedTime": "16:12",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -499,8 +499,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "estimatedTime": "17:51",
+    "status": "Задерживается",
     "type": "arrival"
   }
 ]
