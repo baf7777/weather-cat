@@ -86,7 +86,7 @@
     "to": "Сочи",
     "scheduledTime": "15:50",
     "estimatedTime": "20:50",
-    "status": "Задерживается",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -94,8 +94,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Регистрация",
+    "estimatedTime": "17:57",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Регистрация",
+    "estimatedTime": "18:21",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -157,8 +157,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "14:30",
-    "estimatedTime": "20:28",
-    "status": "Задерживается",
+    "estimatedTime": "20:02",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -302,7 +302,7 @@
     "to": "Сочи",
     "scheduledTime": "15:50",
     "estimatedTime": "20:50",
-    "status": "Задерживается",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -310,8 +310,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Регистрация",
+    "estimatedTime": "17:57",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -319,8 +319,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Регистрация",
+    "estimatedTime": "18:21",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -373,8 +373,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "14:30",
-    "estimatedTime": "20:28",
-    "status": "Задерживается",
+    "estimatedTime": "20:02",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
