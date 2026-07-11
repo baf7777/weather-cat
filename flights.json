@@ -23,7 +23,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -32,7 +32,7 @@
     "to": "Уфа",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -68,7 +68,7 @@
     "to": "Салехард",
     "scheduledTime": "08:00",
     "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -76,8 +76,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:36",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -140,7 +140,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -149,7 +149,7 @@
     "to": "Уфа",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -185,7 +185,7 @@
     "to": "Салехард",
     "scheduledTime": "08:00",
     "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -193,8 +193,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:36",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
