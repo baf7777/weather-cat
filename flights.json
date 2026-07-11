@@ -85,8 +85,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "19:00",
-    "status": "Ожидается",
+    "estimatedTime": "19:06",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -112,8 +112,8 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "19:00",
-    "status": "Задерживается",
+    "estimatedTime": "18:58",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "19:00",
-    "status": "Ожидается",
+    "estimatedTime": "19:06",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "19:00",
-    "status": "Задерживается",
+    "estimatedTime": "18:58",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
