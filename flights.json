@@ -18,15 +18,6 @@
     "type": "departure"
   },
   {
-    "number": "ЛА 9",
-    "from": "Салехард",
-    "to": "Тюмень",
-    "scheduledTime": "10:00",
-    "estimatedTime": "10:32",
-    "status": "Вылетел",
-    "type": "departure"
-  },
-  {
     "number": "ЛА 437",
     "from": "Салехард",
     "to": "Уфа",
@@ -131,15 +122,6 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
     "estimatedTime": "09:16",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "ЛА 9",
-    "from": "Салехард",
-    "to": "Тюмень",
-    "scheduledTime": "10:00",
-    "estimatedTime": "10:32",
     "status": "Вылетел",
     "type": "arrival"
   },
