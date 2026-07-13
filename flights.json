@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Сочи",
     "scheduledTime": "16:30",
-    "estimatedTime": "18:00",
-    "status": "Задерживается",
+    "estimatedTime": "18:23",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -112,8 +112,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "18:10",
-    "status": "Задерживается",
+    "estimatedTime": "18:59",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -121,8 +121,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Регистрация",
+    "estimatedTime": "18:38",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "17:50",
-    "status": "Ожидается",
+    "estimatedTime": "17:43",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -355,8 +355,8 @@
     "from": "Салехард",
     "to": "Сочи",
     "scheduledTime": "16:30",
-    "estimatedTime": "18:00",
-    "status": "Задерживается",
+    "estimatedTime": "18:23",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -364,8 +364,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "18:10",
-    "status": "Задерживается",
+    "estimatedTime": "18:59",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -373,8 +373,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Регистрация",
+    "estimatedTime": "18:38",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -454,8 +454,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "17:50",
-    "status": "Ожидается",
+    "estimatedTime": "17:43",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
