@@ -74,7 +74,7 @@
   {
     "number": "GZP 9824",
     "from": "Салехард",
-    "to": "Надым",
+    "to": "п/п в ЯНАО",
     "scheduledTime": "15:00",
     "estimatedTime": "17:10",
     "status": "Вылетел",
@@ -253,7 +253,7 @@
   },
   {
     "number": "GZP 9824",
-    "from": "Надым",
+    "from": "п/п в ЯНАО",
     "to": "Салехард",
     "scheduledTime": "15:00",
     "estimatedTime": "17:10",
