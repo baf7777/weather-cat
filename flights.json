@@ -129,8 +129,8 @@
     "number": "ЯЛ 35",
     "from": "Яр-Сале",
     "to": "Салехард",
-    "scheduledTime": "13:20",
-    "estimatedTime": "13:20",
+    "scheduledTime": "14:25",
+    "estimatedTime": "14:25",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -138,8 +138,8 @@
     "number": "ЯЛ 35",
     "from": "Новый Порт",
     "to": "Салехард",
-    "scheduledTime": "13:20",
-    "estimatedTime": "13:20",
+    "scheduledTime": "14:25",
+    "estimatedTime": "14:25",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -148,8 +148,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "15:00",
-    "estimatedTime": "12:10",
-    "status": "Ожидается",
+    "estimatedTime": "12:11",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -166,7 +166,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "15:31",
+    "estimatedTime": "16:39",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -309,8 +309,8 @@
     "number": "ЯЛ 35",
     "from": "Яр-Сале",
     "to": "Салехард",
-    "scheduledTime": "13:20",
-    "estimatedTime": "13:20",
+    "scheduledTime": "14:25",
+    "estimatedTime": "14:25",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -318,8 +318,8 @@
     "number": "ЯЛ 35",
     "from": "Новый Порт",
     "to": "Салехард",
-    "scheduledTime": "13:20",
-    "estimatedTime": "13:20",
+    "scheduledTime": "14:25",
+    "estimatedTime": "14:25",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -328,8 +328,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "15:00",
-    "estimatedTime": "12:10",
-    "status": "Ожидается",
+    "estimatedTime": "12:11",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -346,7 +346,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "15:31",
+    "estimatedTime": "16:39",
     "status": "Ожидается",
     "type": "arrival"
   },
