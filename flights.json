@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Новосибирск",
     "scheduledTime": "08:35",
-    "estimatedTime": "08:35",
-    "status": "По расписанию",
+    "estimatedTime": "08:45",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -14,7 +14,7 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -38,10 +38,19 @@
   {
     "number": "ЯЛ 34",
     "from": "Салехард",
-    "to": "Мыс Каменный",
+    "to": "Яр-Сале",
     "scheduledTime": "09:50",
     "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 34",
+    "from": "Салехард",
+    "to": "Новый Порт",
+    "scheduledTime": "09:50",
+    "estimatedTime": "09:50",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -50,7 +59,7 @@
     "to": "Омск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -59,7 +68,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -85,8 +94,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "08:00",
-    "status": "Задерживается",
+    "estimatedTime": "08:16",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -94,8 +103,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:50",
-    "estimatedTime": "07:50",
-    "status": "По расписанию",
+    "estimatedTime": "07:46",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -103,8 +112,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "estimatedTime": "08:08",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -112,16 +121,25 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
+    "estimatedTime": "08:32",
+    "status": "Рейс прибыл",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 35",
+    "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "13:20",
+    "estimatedTime": "13:20",
     "status": "По расписанию",
     "type": "departure"
   },
   {
     "number": "ЯЛ 35",
-    "from": "Мыс Каменный",
+    "from": "Новый Порт",
     "to": "Салехард",
-    "scheduledTime": "14:00",
-    "estimatedTime": "14:00",
+    "scheduledTime": "13:20",
+    "estimatedTime": "13:20",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -148,8 +166,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "15:25",
-    "status": "По расписанию",
+    "estimatedTime": "15:31",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -166,8 +184,8 @@
     "from": "Салехард",
     "to": "Новосибирск",
     "scheduledTime": "08:35",
-    "estimatedTime": "08:35",
-    "status": "По расписанию",
+    "estimatedTime": "08:45",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -176,7 +194,7 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -200,10 +218,19 @@
   {
     "number": "ЯЛ 34",
     "from": "Салехард",
-    "to": "Мыс Каменный",
+    "to": "Яр-Сале",
     "scheduledTime": "09:50",
     "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 34",
+    "from": "Салехард",
+    "to": "Новый Порт",
+    "scheduledTime": "09:50",
+    "estimatedTime": "09:50",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -212,7 +239,7 @@
     "to": "Омск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -221,7 +248,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -247,8 +274,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "08:00",
-    "status": "Задерживается",
+    "estimatedTime": "08:16",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -256,8 +283,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:50",
-    "estimatedTime": "07:50",
-    "status": "По расписанию",
+    "estimatedTime": "07:46",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -265,8 +292,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "estimatedTime": "08:08",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -274,16 +301,25 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
+    "estimatedTime": "08:32",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 35",
+    "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "13:20",
+    "estimatedTime": "13:20",
     "status": "По расписанию",
     "type": "arrival"
   },
   {
     "number": "ЯЛ 35",
-    "from": "Мыс Каменный",
+    "from": "Новый Порт",
     "to": "Салехард",
-    "scheduledTime": "14:00",
-    "estimatedTime": "14:00",
+    "scheduledTime": "13:20",
+    "estimatedTime": "13:20",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -310,8 +346,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "15:25",
-    "status": "По расписанию",
+    "estimatedTime": "15:31",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
