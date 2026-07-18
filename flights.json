@@ -85,8 +85,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "17:20",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "18:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:30",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -193,8 +193,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "17:20",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -211,8 +211,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "18:00",
-    "estimatedTime": "18:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:30",
+    "status": "Ожидается",
     "type": "arrival"
   }
 ]
