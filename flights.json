@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:31",
-    "status": "Задерживается",
+    "estimatedTime": "09:33",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -23,7 +23,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -32,7 +32,7 @@
     "to": "Уфа",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -72,15 +72,6 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 29",
-    "from": "Сеяха",
-    "to": "Салехард",
-    "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
     "number": "ЛА 132",
     "from": "Москва / Шереметьево",
     "to": "Салехард",
@@ -104,6 +95,15 @@
     "to": "Салехард",
     "scheduledTime": "17:00",
     "estimatedTime": "17:00",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 29",
+    "from": "Сеяха",
+    "to": "Салехард",
+    "scheduledTime": "18:00",
+    "estimatedTime": "18:00",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -121,8 +121,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:31",
-    "status": "Задерживается",
+    "estimatedTime": "09:33",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -131,7 +131,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -140,7 +140,7 @@
     "to": "Уфа",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -180,15 +180,6 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 29",
-    "from": "Сеяха",
-    "to": "Салехард",
-    "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
     "number": "ЛА 132",
     "from": "Москва / Шереметьево",
     "to": "Салехард",
@@ -212,6 +203,15 @@
     "to": "Салехард",
     "scheduledTime": "17:00",
     "estimatedTime": "17:00",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 29",
+    "from": "Сеяха",
+    "to": "Салехард",
+    "scheduledTime": "18:00",
+    "estimatedTime": "18:00",
     "status": "По расписанию",
     "type": "arrival"
   }
