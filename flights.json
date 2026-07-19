@@ -1,14 +1,5 @@
 [
   {
-    "number": "ЛА 122",
-    "from": "Салехард",
-    "to": "Екатеринбург",
-    "scheduledTime": "",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
     "number": "ЯЛ 68",
     "from": "Салехард",
     "to": "Яр-Сале",
@@ -77,6 +68,15 @@
     "to": "Новый Уренгой",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЛА 122",
+    "from": "Салехард",
+    "to": "Екатеринбург",
+    "scheduledTime": "10:20",
+    "estimatedTime": "10:20",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -252,15 +252,6 @@
     "type": "departure"
   },
   {
-    "number": "ЛА 122",
-    "from": "Салехард",
-    "to": "Екатеринбург",
-    "scheduledTime": "",
-    "estimatedTime": "10:20",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
     "number": "ЯЛ 68",
     "from": "Салехард",
     "to": "Яр-Сале",
@@ -329,6 +320,15 @@
     "to": "Новый Уренгой",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 122",
+    "from": "Салехард",
+    "to": "Екатеринбург",
+    "scheduledTime": "10:20",
+    "estimatedTime": "10:20",
     "status": "По расписанию",
     "type": "arrival"
   },
