@@ -4,7 +4,16 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
+    "estimatedTime": "09:16",
+    "status": "Вылетел",
+    "type": "departure"
+  },
+  {
+    "number": "S7 2582",
+    "from": "Салехард",
+    "to": "Москва / Домодедово",
+    "scheduledTime": "09:40",
+    "estimatedTime": "09:40",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -23,7 +32,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -85,8 +94,17 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "08:05",
+    "status": "Рейс прибыл",
+    "type": "departure"
+  },
+  {
+    "number": "S7 2582",
+    "from": "Салехард",
+    "to": "Норильск",
+    "scheduledTime": "08:47",
+    "estimatedTime": "08:52",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -94,8 +112,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:31",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -166,7 +184,16 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
+    "estimatedTime": "09:16",
+    "status": "Вылетел",
+    "type": "arrival"
+  },
+  {
+    "number": "S7 2582",
+    "from": "Салехард",
+    "to": "Москва / Домодедово",
+    "scheduledTime": "09:40",
+    "estimatedTime": "09:40",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -185,7 +212,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -247,8 +274,17 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "08:05",
+    "status": "Рейс прибыл",
+    "type": "arrival"
+  },
+  {
+    "number": "S7 2582",
+    "from": "Норильск",
+    "to": "Салехард",
+    "scheduledTime": "08:47",
+    "estimatedTime": "08:52",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -256,8 +292,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:31",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
