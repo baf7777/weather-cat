@@ -93,9 +93,9 @@
     "number": "ЯЛ 35",
     "from": "Новый Порт",
     "to": "Салехард",
-    "scheduledTime": "12:00",
-    "estimatedTime": "12:00",
-    "status": "По расписанию",
+    "scheduledTime": "13:00",
+    "estimatedTime": "14:04",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -112,7 +112,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "15:30",
+    "estimatedTime": "17:00",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -121,7 +121,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "15:59",
+    "estimatedTime": "16:59",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -219,9 +219,9 @@
     "number": "ЯЛ 35",
     "from": "Новый Порт",
     "to": "Салехард",
-    "scheduledTime": "12:00",
-    "estimatedTime": "12:00",
-    "status": "По расписанию",
+    "scheduledTime": "13:00",
+    "estimatedTime": "14:04",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -238,7 +238,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "15:30",
+    "estimatedTime": "17:00",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -247,7 +247,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "15:59",
+    "estimatedTime": "16:59",
     "status": "Ожидается",
     "type": "arrival"
   }
