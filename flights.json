@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Омск",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:00",
-    "status": "Идет посадка",
+    "estimatedTime": "10:07",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -59,7 +59,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -67,8 +67,8 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:25",
-    "estimatedTime": "12:25",
-    "status": "По расписанию",
+    "estimatedTime": "15:30",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -130,7 +130,7 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "12:25",
+    "estimatedTime": "14:55",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -139,8 +139,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "14:30",
-    "estimatedTime": "14:30",
-    "status": "По расписанию",
+    "estimatedTime": "14:10",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Салехард",
     "to": "Омск",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:00",
-    "status": "Идет посадка",
+    "estimatedTime": "10:07",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -257,7 +257,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "Регистрация",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:25",
-    "estimatedTime": "12:25",
-    "status": "По расписанию",
+    "estimatedTime": "15:30",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -328,7 +328,7 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "12:25",
+    "estimatedTime": "14:55",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -337,8 +337,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "14:30",
-    "estimatedTime": "14:30",
-    "status": "По расписанию",
+    "estimatedTime": "14:10",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
