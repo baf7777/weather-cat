@@ -67,8 +67,8 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:25",
-    "estimatedTime": "15:30",
-    "status": "Задерживается",
+    "estimatedTime": "16:00",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -77,7 +77,7 @@
     "to": "Сочи",
     "scheduledTime": "15:50",
     "estimatedTime": "15:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -85,8 +85,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "estimatedTime": "18:10",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -130,7 +130,7 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "14:55",
+    "estimatedTime": "15:25",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -139,8 +139,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "14:30",
-    "estimatedTime": "14:10",
-    "status": "Ожидается",
+    "estimatedTime": "14:27",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -148,8 +148,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "15:25",
-    "status": "По расписанию",
+    "estimatedTime": "15:45",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -184,8 +184,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "17:15",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:25",
-    "estimatedTime": "15:30",
-    "status": "Задерживается",
+    "estimatedTime": "16:00",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -275,7 +275,7 @@
     "to": "Сочи",
     "scheduledTime": "15:50",
     "estimatedTime": "15:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -283,8 +283,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "estimatedTime": "18:10",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -328,7 +328,7 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "14:55",
+    "estimatedTime": "15:25",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -337,8 +337,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "14:30",
-    "estimatedTime": "14:10",
-    "status": "Ожидается",
+    "estimatedTime": "14:27",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -346,8 +346,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "15:25",
-    "status": "По расписанию",
+    "estimatedTime": "15:45",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -382,8 +382,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "17:15",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
