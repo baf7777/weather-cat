@@ -49,8 +49,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "Посадка завершена",
+    "estimatedTime": "10:45",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -175,8 +175,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "Посадка завершена",
+    "estimatedTime": "10:45",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
