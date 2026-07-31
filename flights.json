@@ -85,8 +85,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "estimatedTime": "18:01",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -94,8 +94,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Регистрация",
+    "estimatedTime": "18:30",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "Регистрация",
+    "estimatedTime": "19:58",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -165,15 +165,6 @@
     "number": "ЯЛ 35",
     "from": "Новый Порт",
     "to": "Салехард",
-    "scheduledTime": "13:00",
-    "estimatedTime": "13:40",
-    "status": "Ожидается",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 35",
-    "from": "Новый Порт",
-    "to": "Салехард",
     "scheduledTime": "13:40",
     "estimatedTime": "13:38",
     "status": "Рейс прибыл",
@@ -193,7 +184,7 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:00",
-    "estimatedTime": "22:00",
+    "estimatedTime": "22:21",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -202,8 +193,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "15:40",
-    "estimatedTime": "18:05",
-    "status": "Задерживается",
+    "estimatedTime": "17:57",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -220,8 +211,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "18:05",
-    "status": "Задерживается",
+    "estimatedTime": "18:39",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -247,8 +238,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:50",
-    "status": "Ожидается",
+    "estimatedTime": "17:51",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -337,8 +328,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "estimatedTime": "18:01",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -346,8 +337,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Регистрация",
+    "estimatedTime": "18:30",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -355,8 +346,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "Регистрация",
+    "estimatedTime": "19:58",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -417,15 +408,6 @@
     "number": "ЯЛ 35",
     "from": "Новый Порт",
     "to": "Салехард",
-    "scheduledTime": "13:00",
-    "estimatedTime": "13:40",
-    "status": "Ожидается",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 35",
-    "from": "Новый Порт",
-    "to": "Салехард",
     "scheduledTime": "13:40",
     "estimatedTime": "13:38",
     "status": "Рейс прибыл",
@@ -445,7 +427,7 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:00",
-    "estimatedTime": "22:00",
+    "estimatedTime": "22:21",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -454,8 +436,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "15:40",
-    "estimatedTime": "18:05",
-    "status": "Задерживается",
+    "estimatedTime": "17:57",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -472,8 +454,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "18:05",
-    "status": "Задерживается",
+    "estimatedTime": "18:39",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -499,8 +481,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:50",
-    "status": "Ожидается",
+    "estimatedTime": "17:51",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
