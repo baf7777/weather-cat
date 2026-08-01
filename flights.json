@@ -31,8 +31,8 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "10:40",
-    "estimatedTime": "11:10",
-    "status": "Задерживается",
+    "estimatedTime": "12:56",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -40,8 +40,8 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "11:20",
-    "estimatedTime": "11:20",
-    "status": "По расписанию",
+    "estimatedTime": "12:35",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "18:10",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -139,8 +139,8 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "10:40",
-    "estimatedTime": "11:10",
-    "status": "Задерживается",
+    "estimatedTime": "12:56",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -148,8 +148,8 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "11:20",
-    "estimatedTime": "11:20",
-    "status": "По расписанию",
+    "estimatedTime": "12:35",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -211,8 +211,8 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "18:10",
+    "status": "Задерживается",
     "type": "arrival"
   }
 ]
