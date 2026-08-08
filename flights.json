@@ -75,9 +75,9 @@
     "number": "ЯЛ 29",
     "from": "Сеяха",
     "to": "Салехард",
-    "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
+    "scheduledTime": "14:25",
+    "estimatedTime": "14:31",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -85,8 +85,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "15:59",
-    "status": "Ожидается",
+    "estimatedTime": "16:35",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -94,7 +94,7 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "15:59",
+    "estimatedTime": "16:08",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -183,9 +183,9 @@
     "number": "ЯЛ 29",
     "from": "Сеяха",
     "to": "Салехард",
-    "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
+    "scheduledTime": "14:25",
+    "estimatedTime": "14:31",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -193,8 +193,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "15:59",
-    "status": "Ожидается",
+    "estimatedTime": "16:35",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -202,7 +202,7 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "15:59",
+    "estimatedTime": "16:08",
     "status": "Ожидается",
     "type": "arrival"
   },
