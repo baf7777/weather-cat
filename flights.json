@@ -32,7 +32,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "15:20",
     "estimatedTime": "15:20",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -41,7 +41,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "15:20",
     "estimatedTime": "15:20",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:25",
-    "status": "Ожидается",
+    "estimatedTime": "14:27",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -112,8 +112,8 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:25",
-    "status": "Ожидается",
+    "estimatedTime": "14:27",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -121,7 +121,7 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "18:30",
+    "estimatedTime": "18:38",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -194,7 +194,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "15:20",
     "estimatedTime": "15:20",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -203,7 +203,7 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "15:20",
     "estimatedTime": "15:20",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
@@ -265,8 +265,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:25",
-    "status": "Ожидается",
+    "estimatedTime": "14:27",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -274,8 +274,8 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:25",
-    "status": "Ожидается",
+    "estimatedTime": "14:27",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -283,7 +283,7 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "18:30",
+    "estimatedTime": "18:38",
     "status": "Задерживается",
     "type": "arrival"
   },
