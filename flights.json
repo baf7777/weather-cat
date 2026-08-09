@@ -29,18 +29,18 @@
   {
     "number": "РГ 298",
     "from": "Салехард",
-    "to": "Ханты-Мансийск",
-    "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
+    "to": "Санкт-Петербург",
+    "scheduledTime": "15:20",
+    "estimatedTime": "15:20",
     "status": "По расписанию",
     "type": "departure"
   },
   {
     "number": "РГ 298",
     "from": "Салехард",
-    "to": "Санкт-Петербург",
-    "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
+    "to": "Ханты-Мансийск",
+    "scheduledTime": "15:20",
+    "estimatedTime": "15:20",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -49,7 +49,7 @@
     "from": "Салехард",
     "to": "Сочи",
     "scheduledTime": "16:30",
-    "estimatedTime": "18:50",
+    "estimatedTime": "19:20",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -102,18 +102,18 @@
     "number": "РГ 297",
     "from": "Санкт-Петербург",
     "to": "Салехард",
-    "scheduledTime": "14:50",
-    "estimatedTime": "14:34",
-    "status": "Ожидается",
+    "scheduledTime": "14:20",
+    "estimatedTime": "14:20",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
     "number": "РГ 297",
     "from": "Ханты-Мансийск",
     "to": "Салехард",
-    "scheduledTime": "14:50",
-    "estimatedTime": "14:34",
-    "status": "Ожидается",
+    "scheduledTime": "14:20",
+    "estimatedTime": "14:20",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -191,18 +191,18 @@
   {
     "number": "РГ 298",
     "from": "Салехард",
-    "to": "Ханты-Мансийск",
-    "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
+    "to": "Санкт-Петербург",
+    "scheduledTime": "15:20",
+    "estimatedTime": "15:20",
     "status": "По расписанию",
     "type": "arrival"
   },
   {
     "number": "РГ 298",
     "from": "Салехард",
-    "to": "Санкт-Петербург",
-    "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
+    "to": "Ханты-Мансийск",
+    "scheduledTime": "15:20",
+    "estimatedTime": "15:20",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -211,7 +211,7 @@
     "from": "Салехард",
     "to": "Сочи",
     "scheduledTime": "16:30",
-    "estimatedTime": "18:50",
+    "estimatedTime": "19:20",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -264,18 +264,18 @@
     "number": "РГ 297",
     "from": "Санкт-Петербург",
     "to": "Салехард",
-    "scheduledTime": "14:50",
-    "estimatedTime": "14:34",
-    "status": "Ожидается",
+    "scheduledTime": "14:20",
+    "estimatedTime": "14:20",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
     "number": "РГ 297",
     "from": "Ханты-Мансийск",
     "to": "Салехард",
-    "scheduledTime": "14:50",
-    "estimatedTime": "14:34",
-    "status": "Ожидается",
+    "scheduledTime": "14:20",
+    "estimatedTime": "14:20",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
