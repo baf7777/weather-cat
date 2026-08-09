@@ -50,7 +50,7 @@
     "to": "Сочи",
     "scheduledTime": "16:30",
     "estimatedTime": "19:20",
-    "status": "Регистрация",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -68,7 +68,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -76,8 +76,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "Регистрация",
+    "estimatedTime": "19:00",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -121,8 +121,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "18:40",
-    "status": "Задерживается",
+    "estimatedTime": "18:42",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -212,7 +212,7 @@
     "to": "Сочи",
     "scheduledTime": "16:30",
     "estimatedTime": "19:20",
-    "status": "Регистрация",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -230,7 +230,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "Регистрация",
+    "estimatedTime": "19:00",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -283,8 +283,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "18:40",
-    "status": "Задерживается",
+    "estimatedTime": "18:42",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
