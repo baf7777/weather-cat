@@ -27,6 +27,15 @@
     "type": "departure"
   },
   {
+    "number": "ЛА 131",
+    "from": "Салехард",
+    "to": "Москва / Шереметьево",
+    "scheduledTime": "09:15",
+    "estimatedTime": "09:15",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
     "number": "ЯЛ 56",
     "from": "Салехард",
     "to": "Мыс Каменный",
@@ -266,6 +275,15 @@
     "to": "Мыс Каменный",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЛА 131",
+    "from": "Салехард",
+    "to": "Москва / Шереметьево",
+    "scheduledTime": "09:15",
+    "estimatedTime": "09:15",
     "status": "По расписанию",
     "type": "arrival"
   },
