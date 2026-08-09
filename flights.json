@@ -49,7 +49,7 @@
     "from": "Салехард",
     "to": "Сочи",
     "scheduledTime": "16:30",
-    "estimatedTime": "19:20",
+    "estimatedTime": "19:50",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -76,8 +76,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "19:00",
-    "status": "Задерживается",
+    "estimatedTime": "19:23",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -211,7 +211,7 @@
     "from": "Салехард",
     "to": "Сочи",
     "scheduledTime": "16:30",
-    "estimatedTime": "19:20",
+    "estimatedTime": "19:50",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -238,8 +238,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "19:00",
-    "status": "Задерживается",
+    "estimatedTime": "19:23",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
