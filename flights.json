@@ -74,7 +74,7 @@
   {
     "number": "ЛА 122",
     "from": "Салехард",
-    "to": "Екатеринбург",
+    "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:29",
     "status": "Вылетел",
@@ -95,7 +95,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -148,8 +148,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "12:23",
-    "status": "Ожидается",
+    "estimatedTime": "12:25",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -238,7 +238,7 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:20",
+    "estimatedTime": "17:15",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -247,8 +247,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:33",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -326,7 +326,7 @@
   {
     "number": "ЛА 122",
     "from": "Салехард",
-    "to": "Екатеринбург",
+    "to": "Тюмень",
     "scheduledTime": "10:20",
     "estimatedTime": "10:29",
     "status": "Вылетел",
@@ -347,7 +347,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -400,8 +400,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "12:23",
-    "status": "Ожидается",
+    "estimatedTime": "12:25",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -490,7 +490,7 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:20",
+    "estimatedTime": "17:15",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -499,8 +499,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "16:33",
+    "status": "Ожидается",
     "type": "arrival"
   }
 ]
