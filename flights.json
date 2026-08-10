@@ -95,7 +95,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -104,7 +104,7 @@
     "to": "Сочи",
     "scheduledTime": "16:30",
     "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -157,8 +157,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
+    "estimatedTime": "15:37",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -166,8 +166,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
+    "estimatedTime": "15:37",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -175,8 +175,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
+    "estimatedTime": "15:37",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -229,7 +229,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:07",
+    "estimatedTime": "16:35",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -239,7 +239,7 @@
     "to": "Салехард",
     "scheduledTime": "16:30",
     "estimatedTime": "17:15",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -347,7 +347,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -356,7 +356,7 @@
     "to": "Сочи",
     "scheduledTime": "16:30",
     "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -409,8 +409,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
+    "estimatedTime": "15:37",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -418,8 +418,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
+    "estimatedTime": "15:37",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -427,8 +427,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
-    "status": "По расписанию",
+    "estimatedTime": "15:37",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -481,7 +481,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:07",
+    "estimatedTime": "16:35",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -491,7 +491,7 @@
     "to": "Салехард",
     "scheduledTime": "16:30",
     "estimatedTime": "17:15",
-    "status": "Ожидается",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
