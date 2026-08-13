@@ -49,7 +49,7 @@
     "from": "Салехард",
     "to": "Омск",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:00",
+    "estimatedTime": "11:50",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -58,8 +58,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "Идет посадка",
+    "estimatedTime": "10:58",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -67,7 +67,7 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:25",
-    "estimatedTime": "14:10",
+    "estimatedTime": "15:10",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -130,7 +130,7 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "12:55",
+    "estimatedTime": "13:55",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -247,7 +247,7 @@
     "from": "Салехард",
     "to": "Омск",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:00",
+    "estimatedTime": "11:50",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -256,8 +256,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "Идет посадка",
+    "estimatedTime": "10:58",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -265,7 +265,7 @@
     "from": "Салехард",
     "to": "Уфа",
     "scheduledTime": "12:25",
-    "estimatedTime": "14:10",
+    "estimatedTime": "15:10",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -328,7 +328,7 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "11:25",
-    "estimatedTime": "12:55",
+    "estimatedTime": "13:55",
     "status": "Задерживается",
     "type": "arrival"
   },
