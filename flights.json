@@ -59,7 +59,7 @@
     "to": "Омск",
     "scheduledTime": "18:10",
     "estimatedTime": "18:10",
-    "status": "Идет посадка",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -176,7 +176,7 @@
     "to": "Омск",
     "scheduledTime": "18:10",
     "estimatedTime": "18:10",
-    "status": "Идет посадка",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
