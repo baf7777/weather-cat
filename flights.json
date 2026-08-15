@@ -59,7 +59,7 @@
     "to": "Омск",
     "scheduledTime": "18:10",
     "estimatedTime": "18:10",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "15:58",
-    "status": "Ожидается",
+    "estimatedTime": "15:55",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -176,7 +176,7 @@
     "to": "Омск",
     "scheduledTime": "18:10",
     "estimatedTime": "18:10",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -220,8 +220,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "15:58",
-    "status": "Ожидается",
+    "estimatedTime": "15:55",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
