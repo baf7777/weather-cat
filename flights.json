@@ -122,7 +122,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "Регистр. завершена",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -211,7 +211,7 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "16:55",
+    "estimatedTime": "17:37",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -428,7 +428,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "Регистр. завершена",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -517,7 +517,7 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "16:55",
+    "estimatedTime": "17:37",
     "status": "Задерживается",
     "type": "arrival"
   },
