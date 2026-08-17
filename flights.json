@@ -183,8 +183,8 @@
     "number": "ЯЛ 57",
     "from": "Мыс Каменный",
     "to": "Салехард",
-    "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "scheduledTime": "15:00",
+    "estimatedTime": "15:00",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -192,8 +192,8 @@
     "number": "ЯЛ 57",
     "from": "Новый Порт",
     "to": "Салехард",
-    "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "scheduledTime": "15:00",
+    "estimatedTime": "15:00",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -201,8 +201,8 @@
     "number": "ЯЛ 57",
     "from": "Яр-Сале",
     "to": "Салехард",
-    "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "scheduledTime": "15:00",
+    "estimatedTime": "15:00",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -220,8 +220,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "15:40",
-    "estimatedTime": "15:34",
-    "status": "Ожидается",
+    "estimatedTime": "15:45",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "16:10",
-    "estimatedTime": "16:10",
-    "status": "По расписанию",
+    "estimatedTime": "15:05",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "16:10",
-    "estimatedTime": "16:10",
-    "status": "По расписанию",
+    "estimatedTime": "15:05",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -247,8 +247,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "16:10",
-    "estimatedTime": "16:10",
-    "status": "По расписанию",
+    "estimatedTime": "15:05",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -283,7 +283,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:08",
+    "estimatedTime": "16:19",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -489,8 +489,8 @@
     "number": "ЯЛ 57",
     "from": "Мыс Каменный",
     "to": "Салехард",
-    "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "scheduledTime": "15:00",
+    "estimatedTime": "15:00",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -498,8 +498,8 @@
     "number": "ЯЛ 57",
     "from": "Новый Порт",
     "to": "Салехард",
-    "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "scheduledTime": "15:00",
+    "estimatedTime": "15:00",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -507,8 +507,8 @@
     "number": "ЯЛ 57",
     "from": "Яр-Сале",
     "to": "Салехард",
-    "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "scheduledTime": "15:00",
+    "estimatedTime": "15:00",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -526,8 +526,8 @@
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "15:40",
-    "estimatedTime": "15:34",
-    "status": "Ожидается",
+    "estimatedTime": "15:45",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -535,8 +535,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "16:10",
-    "estimatedTime": "16:10",
-    "status": "По расписанию",
+    "estimatedTime": "15:05",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -544,8 +544,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "16:10",
-    "estimatedTime": "16:10",
-    "status": "По расписанию",
+    "estimatedTime": "15:05",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -553,8 +553,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "16:10",
-    "estimatedTime": "16:10",
-    "status": "По расписанию",
+    "estimatedTime": "15:05",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -589,7 +589,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:08",
+    "estimatedTime": "16:19",
     "status": "Ожидается",
     "type": "arrival"
   },
