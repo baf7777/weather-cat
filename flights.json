@@ -5,7 +5,7 @@
     "to": "Новосибирск",
     "scheduledTime": "08:35",
     "estimatedTime": "08:35",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -14,7 +14,7 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -41,7 +41,7 @@
     "to": "Омск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -67,8 +67,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:50",
-    "estimatedTime": "08:07",
-    "status": "Ожидается",
+    "estimatedTime": "08:06",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -76,8 +76,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "10:16",
-    "status": "Ожидается",
+    "estimatedTime": "11:26",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -131,7 +131,7 @@
     "to": "Новосибирск",
     "scheduledTime": "08:35",
     "estimatedTime": "08:35",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -140,7 +140,7 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -167,7 +167,7 @@
     "to": "Омск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -193,8 +193,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "07:50",
-    "estimatedTime": "08:07",
-    "status": "Ожидается",
+    "estimatedTime": "08:06",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "10:16",
-    "status": "Ожидается",
+    "estimatedTime": "11:26",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
