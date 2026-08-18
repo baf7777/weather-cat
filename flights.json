@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:30",
-    "status": "Задерживается",
+    "estimatedTime": "09:48",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -41,7 +41,7 @@
     "to": "Омск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -76,7 +76,7 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "12:26",
+    "estimatedTime": "13:11",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -139,8 +139,8 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:30",
-    "status": "Задерживается",
+    "estimatedTime": "09:48",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -167,7 +167,7 @@
     "to": "Омск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -202,7 +202,7 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:05",
-    "estimatedTime": "12:26",
+    "estimatedTime": "13:11",
     "status": "Задерживается",
     "type": "arrival"
   },
