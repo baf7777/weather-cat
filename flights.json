@@ -22,8 +22,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:27",
-    "status": "Задерживается",
+    "estimatedTime": "10:01",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -31,8 +31,8 @@
     "from": "Салехард",
     "to": "Новый Порт",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "estimatedTime": "10:04",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -41,7 +41,7 @@
     "to": "Омск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -50,7 +50,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -148,8 +148,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:27",
-    "status": "Задерживается",
+    "estimatedTime": "10:01",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -157,8 +157,8 @@
     "from": "Салехард",
     "to": "Новый Порт",
     "scheduledTime": "09:50",
-    "estimatedTime": "09:50",
-    "status": "По расписанию",
+    "estimatedTime": "10:04",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -167,7 +167,7 @@
     "to": "Омск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -176,7 +176,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
