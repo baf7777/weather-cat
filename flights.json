@@ -103,8 +103,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Задерживается",
+    "estimatedTime": "17:54",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -112,8 +112,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Идет посадка",
+    "estimatedTime": "18:22",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -122,7 +122,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "18:50",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -355,8 +355,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "Задерживается",
+    "estimatedTime": "17:54",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -364,8 +364,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Идет посадка",
+    "estimatedTime": "18:22",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -374,7 +374,7 @@
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
     "estimatedTime": "18:50",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
