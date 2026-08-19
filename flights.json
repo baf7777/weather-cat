@@ -95,7 +95,7 @@
     "to": "Минеральные Воды",
     "scheduledTime": "16:30",
     "estimatedTime": "16:30",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -113,7 +113,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -347,7 +347,7 @@
     "to": "Минеральные Воды",
     "scheduledTime": "16:30",
     "estimatedTime": "16:30",
-    "status": "Идет посадка",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -365,7 +365,7 @@
     "to": "Тюмень",
     "scheduledTime": "18:20",
     "estimatedTime": "18:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
