@@ -104,7 +104,7 @@
     "to": "Сочи",
     "scheduledTime": "15:50",
     "estimatedTime": "15:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -166,8 +166,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "14:30",
-    "estimatedTime": "14:19",
-    "status": "Ожидается",
+    "estimatedTime": "14:20",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -202,7 +202,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "16:03",
+    "estimatedTime": "16:33",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -356,7 +356,7 @@
     "to": "Сочи",
     "scheduledTime": "15:50",
     "estimatedTime": "15:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -418,8 +418,8 @@
     "from": "Минеральные Воды",
     "to": "Салехард",
     "scheduledTime": "14:30",
-    "estimatedTime": "14:19",
-    "status": "Ожидается",
+    "estimatedTime": "14:20",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -454,7 +454,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "15:25",
-    "estimatedTime": "16:03",
+    "estimatedTime": "16:33",
     "status": "Задерживается",
     "type": "arrival"
   },
