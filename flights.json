@@ -22,7 +22,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
-    "estimatedTime": "12:00",
+    "estimatedTime": "13:00",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -130,8 +130,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "12:21",
-    "status": "Ожидается",
+    "estimatedTime": "12:42",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -202,8 +202,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:39",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -238,7 +238,7 @@
     "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
-    "estimatedTime": "12:00",
+    "estimatedTime": "13:00",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -346,8 +346,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "12:30",
-    "estimatedTime": "12:21",
-    "status": "Ожидается",
+    "estimatedTime": "12:42",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -418,8 +418,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:39",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
