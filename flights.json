@@ -23,7 +23,7 @@
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
     "estimatedTime": "13:00",
-    "status": "Задерживается",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -68,7 +68,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "Регистрация",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -131,7 +131,7 @@
     "to": "Салехард",
     "scheduledTime": "12:30",
     "estimatedTime": "12:42",
-    "status": "Задерживается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -139,8 +139,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "13:20",
-    "estimatedTime": "13:20",
-    "status": "По расписанию",
+    "estimatedTime": "13:45",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -166,8 +166,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
+    "estimatedTime": "14:38",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -239,7 +239,7 @@
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
     "estimatedTime": "13:00",
-    "status": "Задерживается",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -284,7 +284,7 @@
     "to": "Ноябрьск",
     "scheduledTime": "13:30",
     "estimatedTime": "13:30",
-    "status": "Регистрация",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -347,7 +347,7 @@
     "to": "Салехард",
     "scheduledTime": "12:30",
     "estimatedTime": "12:42",
-    "status": "Задерживается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -355,8 +355,8 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "13:20",
-    "estimatedTime": "13:20",
-    "status": "По расписанию",
+    "estimatedTime": "13:45",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -382,8 +382,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
+    "estimatedTime": "14:38",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
