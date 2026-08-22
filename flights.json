@@ -40,8 +40,8 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "11:20",
-    "estimatedTime": "14:00",
-    "status": "Задерживается",
+    "estimatedTime": "14:40",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -94,8 +94,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
+    "estimatedTime": "19:00",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -103,8 +103,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "15:27",
-    "estimatedTime": "15:27",
-    "status": "По расписанию",
+    "estimatedTime": "15:35",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -112,7 +112,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:06",
+    "estimatedTime": "16:42",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -121,8 +121,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:25",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -175,8 +175,8 @@
     "from": "Салехард",
     "to": "Казань",
     "scheduledTime": "11:20",
-    "estimatedTime": "14:00",
-    "status": "Задерживается",
+    "estimatedTime": "14:40",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -229,8 +229,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "15:10",
-    "estimatedTime": "15:10",
-    "status": "По расписанию",
+    "estimatedTime": "19:00",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -238,8 +238,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "15:27",
-    "estimatedTime": "15:27",
-    "status": "По расписанию",
+    "estimatedTime": "15:35",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -247,7 +247,7 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:06",
+    "estimatedTime": "16:42",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -256,8 +256,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:25",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
