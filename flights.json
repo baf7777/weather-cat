@@ -68,7 +68,7 @@
     "to": "Омск",
     "scheduledTime": "18:10",
     "estimatedTime": "18:10",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -203,7 +203,7 @@
     "to": "Омск",
     "scheduledTime": "18:10",
     "estimatedTime": "18:10",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
