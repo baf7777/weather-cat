@@ -14,7 +14,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
     "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -131,7 +131,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
     "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
