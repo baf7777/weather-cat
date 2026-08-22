@@ -50,7 +50,7 @@
     "to": "Тюмень",
     "scheduledTime": "17:00",
     "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -185,7 +185,7 @@
     "to": "Тюмень",
     "scheduledTime": "17:00",
     "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
