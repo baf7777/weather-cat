@@ -32,7 +32,7 @@
     "to": "Уфа",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -41,7 +41,7 @@
     "to": "Казань",
     "scheduledTime": "11:20",
     "estimatedTime": "11:20",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -149,7 +149,7 @@
     "to": "Уфа",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -158,7 +158,7 @@
     "to": "Казань",
     "scheduledTime": "11:20",
     "estimatedTime": "11:20",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
