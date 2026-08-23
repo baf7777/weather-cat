@@ -50,7 +50,7 @@
     "to": "Сочи",
     "scheduledTime": "16:30",
     "estimatedTime": "20:50",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "departure"
   },
   {
@@ -221,7 +221,7 @@
     "to": "Сочи",
     "scheduledTime": "16:30",
     "estimatedTime": "20:50",
-    "status": "Регистрация",
+    "status": "Идет посадка",
     "type": "arrival"
   },
   {
