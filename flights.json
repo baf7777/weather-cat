@@ -86,7 +86,7 @@
     "to": "Салехард",
     "scheduledTime": "08:00",
     "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -103,7 +103,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:15",
+    "estimatedTime": "10:18",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -257,7 +257,7 @@
     "to": "Салехард",
     "scheduledTime": "08:00",
     "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -274,7 +274,7 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:15",
+    "estimatedTime": "10:18",
     "status": "Ожидается",
     "type": "arrival"
   },
