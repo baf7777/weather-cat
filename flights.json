@@ -31,8 +31,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "15:40",
-    "estimatedTime": "15:30",
-    "status": "Идет посадка",
+    "estimatedTime": "15:31",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -40,8 +40,8 @@
     "from": "Салехард",
     "to": "Ханты-Мансийск",
     "scheduledTime": "15:40",
-    "estimatedTime": "15:30",
-    "status": "Идет посадка",
+    "estimatedTime": "15:31",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -49,7 +49,7 @@
     "from": "Салехард",
     "to": "Сочи",
     "scheduledTime": "16:30",
-    "estimatedTime": "20:20",
+    "estimatedTime": "20:50",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -59,7 +59,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:20",
     "estimatedTime": "17:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -68,7 +68,7 @@
     "to": "Тюмень",
     "scheduledTime": "17:50",
     "estimatedTime": "17:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -166,7 +166,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:16",
+    "estimatedTime": "17:42",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -202,8 +202,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "15:40",
-    "estimatedTime": "15:30",
-    "status": "Идет посадка",
+    "estimatedTime": "15:31",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -211,8 +211,8 @@
     "from": "Салехард",
     "to": "Ханты-Мансийск",
     "scheduledTime": "15:40",
-    "estimatedTime": "15:30",
-    "status": "Идет посадка",
+    "estimatedTime": "15:31",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -220,7 +220,7 @@
     "from": "Салехард",
     "to": "Сочи",
     "scheduledTime": "16:30",
-    "estimatedTime": "20:20",
+    "estimatedTime": "20:50",
     "status": "Задерживается",
     "type": "arrival"
   },
@@ -230,7 +230,7 @@
     "to": "Москва / Домодедово",
     "scheduledTime": "17:20",
     "estimatedTime": "17:20",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -239,7 +239,7 @@
     "to": "Тюмень",
     "scheduledTime": "17:50",
     "estimatedTime": "17:50",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -337,7 +337,7 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:16",
+    "estimatedTime": "17:42",
     "status": "Ожидается",
     "type": "arrival"
   }
