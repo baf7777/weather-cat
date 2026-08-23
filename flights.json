@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:42",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -23,7 +23,7 @@
     "to": "Новосибирск",
     "scheduledTime": "11:30",
     "estimatedTime": "11:30",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -130,7 +130,7 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:18",
+    "estimatedTime": "17:43",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -184,8 +184,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "10:42",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -194,7 +194,7 @@
     "to": "Новосибирск",
     "scheduledTime": "11:30",
     "estimatedTime": "11:30",
-    "status": "Регистрация",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
@@ -301,7 +301,7 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:18",
+    "estimatedTime": "17:43",
     "status": "Ожидается",
     "type": "arrival"
   },
