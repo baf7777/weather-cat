@@ -238,7 +238,7 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "21:55",
+    "estimatedTime": "22:24",
     "status": "Задерживается",
     "type": "departure"
   },
@@ -490,7 +490,7 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "21:55",
+    "estimatedTime": "22:24",
     "status": "Задерживается",
     "type": "arrival"
   },
