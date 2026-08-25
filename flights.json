@@ -148,7 +148,7 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "estimatedTime": "15:37",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -157,7 +157,7 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "estimatedTime": "15:37",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -166,7 +166,7 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "estimatedTime": "15:37",
     "status": "Ожидается",
     "type": "departure"
   },
@@ -273,9 +273,9 @@
     "number": "ЛА 956",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "17:00",
+    "scheduledTime": "16:37",
     "estimatedTime": "16:37",
-    "status": "Ожидается",
+    "status": "По расписанию",
     "type": "departure"
   },
   {
@@ -454,7 +454,7 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "estimatedTime": "15:37",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -463,7 +463,7 @@
     "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "estimatedTime": "15:37",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -472,7 +472,7 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "14:20",
-    "estimatedTime": "14:20",
+    "estimatedTime": "15:37",
     "status": "Ожидается",
     "type": "arrival"
   },
@@ -579,9 +579,9 @@
     "number": "ЛА 956",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "17:00",
+    "scheduledTime": "16:37",
     "estimatedTime": "16:37",
-    "status": "Ожидается",
+    "status": "По расписанию",
     "type": "arrival"
   },
   {
