@@ -4,7 +4,16 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
+    "estimatedTime": "09:15",
+    "status": "Вылетел",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 34Д",
+    "from": "Салехард",
+    "to": "Новый Порт",
+    "scheduledTime": "09:10",
+    "estimatedTime": "09:10",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -32,7 +41,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -41,7 +50,7 @@
     "to": "Уфа",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -94,22 +103,31 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "08:08",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
     "number": "ЛА 10",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "scheduledTime": "08:30",
+    "estimatedTime": "08:35",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
     "number": "ЯЛ 35Д",
     "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "12:20",
+    "estimatedTime": "12:20",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 35Д",
+    "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "12:20",
     "estimatedTime": "12:20",
@@ -148,8 +166,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:05",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -157,8 +175,8 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "17:01",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -175,7 +193,16 @@
     "from": "Салехард",
     "to": "Сеяха",
     "scheduledTime": "09:00",
-    "estimatedTime": "09:00",
+    "estimatedTime": "09:15",
+    "status": "Вылетел",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 34Д",
+    "from": "Салехард",
+    "to": "Новый Порт",
+    "scheduledTime": "09:10",
+    "estimatedTime": "09:10",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -203,7 +230,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -212,7 +239,7 @@
     "to": "Уфа",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -265,22 +292,31 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "08:08",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
     "number": "ЛА 10",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "scheduledTime": "08:30",
+    "estimatedTime": "08:35",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
     "number": "ЯЛ 35Д",
     "from": "Яр-Сале",
+    "to": "Салехард",
+    "scheduledTime": "12:20",
+    "estimatedTime": "12:20",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 35Д",
+    "from": "Новый Порт",
     "to": "Салехард",
     "scheduledTime": "12:20",
     "estimatedTime": "12:20",
@@ -319,8 +355,8 @@
     "from": "Уфа",
     "to": "Салехард",
     "scheduledTime": "16:40",
-    "estimatedTime": "16:40",
-    "status": "По расписанию",
+    "estimatedTime": "16:05",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -328,8 +364,8 @@
     "from": "Казань",
     "to": "Салехард",
     "scheduledTime": "17:00",
-    "estimatedTime": "17:00",
-    "status": "По расписанию",
+    "estimatedTime": "17:01",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
