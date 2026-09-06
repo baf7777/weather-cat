@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "estimatedTime": "09:18",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -14,7 +14,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -86,7 +86,7 @@
     "to": "Салехард",
     "scheduledTime": "08:00",
     "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -94,8 +94,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:31",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -103,17 +103,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "РГ 297",
-    "from": "Санкт-Петербург",
-    "to": "Салехард",
-    "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
+    "estimatedTime": "10:32",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -121,8 +112,8 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
+    "estimatedTime": "14:30",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -130,8 +121,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:20",
-    "status": "По расписанию",
+    "estimatedTime": "15:28",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -157,8 +148,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "17:10",
-    "estimatedTime": "17:10",
-    "status": "По расписанию",
+    "estimatedTime": "17:13",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -175,8 +166,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "estimatedTime": "09:18",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -185,7 +176,7 @@
     "to": "Тюмень",
     "scheduledTime": "10:40",
     "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -257,7 +248,7 @@
     "to": "Салехард",
     "scheduledTime": "08:00",
     "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -265,8 +256,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "08:31",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -274,17 +265,8 @@
     "from": "Омск",
     "to": "Салехард",
     "scheduledTime": "10:30",
-    "estimatedTime": "10:30",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "РГ 297",
-    "from": "Санкт-Петербург",
-    "to": "Салехард",
-    "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
+    "estimatedTime": "10:32",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -292,8 +274,8 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
+    "estimatedTime": "14:30",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -301,8 +283,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:20",
-    "status": "По расписанию",
+    "estimatedTime": "15:28",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -328,8 +310,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "17:10",
-    "estimatedTime": "17:10",
-    "status": "По расписанию",
+    "estimatedTime": "17:13",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
