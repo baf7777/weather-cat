@@ -47,15 +47,6 @@
   {
     "number": "ЯЛ 56",
     "from": "Салехард",
-    "to": "Салехард",
-    "scheduledTime": "09:20",
-    "estimatedTime": "09:46",
-    "status": "Вылетел",
-    "type": "departure"
-  },
-  {
-    "number": "ЯЛ 56",
-    "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
     "estimatedTime": "09:46",
@@ -103,8 +94,8 @@
     "from": "Салехард",
     "to": "Сочи",
     "scheduledTime": "16:30",
-    "estimatedTime": "17:50",
-    "status": "Задерживается",
+    "estimatedTime": "17:48",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -112,8 +103,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "estimatedTime": "17:42",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -121,8 +112,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Идет посадка",
+    "estimatedTime": "19:42",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -149,7 +140,7 @@
     "to": "Салехард",
     "scheduledTime": "10:20",
     "estimatedTime": "18:02",
-    "status": "Задерживается",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -238,8 +229,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "17:30",
-    "estimatedTime": "18:25",
-    "status": "Задерживается",
+    "estimatedTime": "18:26",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -247,8 +238,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "17:30",
-    "estimatedTime": "18:25",
-    "status": "Задерживается",
+    "estimatedTime": "18:26",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -256,8 +247,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "17:30",
-    "estimatedTime": "18:25",
-    "status": "Задерживается",
+    "estimatedTime": "18:26",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -308,15 +299,6 @@
   {
     "number": "ЯЛ 56",
     "from": "Салехард",
-    "to": "Салехард",
-    "scheduledTime": "09:20",
-    "estimatedTime": "09:46",
-    "status": "Вылетел",
-    "type": "arrival"
-  },
-  {
-    "number": "ЯЛ 56",
-    "from": "Салехард",
     "to": "Мыс Каменный",
     "scheduledTime": "09:20",
     "estimatedTime": "09:46",
@@ -364,8 +346,8 @@
     "from": "Салехард",
     "to": "Сочи",
     "scheduledTime": "16:30",
-    "estimatedTime": "17:50",
-    "status": "Задерживается",
+    "estimatedTime": "17:48",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -373,8 +355,8 @@
     "from": "Салехард",
     "to": "Москва / Домодедово",
     "scheduledTime": "17:40",
-    "estimatedTime": "17:40",
-    "status": "По расписанию",
+    "estimatedTime": "17:42",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -382,8 +364,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "18:20",
-    "estimatedTime": "18:20",
-    "status": "Идет посадка",
+    "estimatedTime": "19:42",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -410,7 +392,7 @@
     "to": "Салехард",
     "scheduledTime": "10:20",
     "estimatedTime": "18:02",
-    "status": "Задерживается",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -499,8 +481,8 @@
     "from": "Мыс Каменный",
     "to": "Салехард",
     "scheduledTime": "17:30",
-    "estimatedTime": "18:25",
-    "status": "Задерживается",
+    "estimatedTime": "18:26",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -508,8 +490,8 @@
     "from": "Сеяха",
     "to": "Салехард",
     "scheduledTime": "17:30",
-    "estimatedTime": "18:25",
-    "status": "Задерживается",
+    "estimatedTime": "18:26",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -517,8 +499,8 @@
     "from": "Яр-Сале",
     "to": "Салехард",
     "scheduledTime": "17:30",
-    "estimatedTime": "18:25",
-    "status": "Задерживается",
+    "estimatedTime": "18:26",
+    "status": "Рейс прибыл",
     "type": "arrival"
   }
 ]
