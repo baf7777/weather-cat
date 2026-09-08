@@ -5,7 +5,7 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -14,7 +14,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
     "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -41,7 +41,7 @@
     "to": "Омск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -120,18 +120,18 @@
     "number": "ЛА 32",
     "from": "Москва / Домодедово",
     "to": "Салехард",
-    "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "scheduledTime": "08:00",
+    "estimatedTime": "08:02",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
     "number": "ЛА 10",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "scheduledTime": "08:40",
+    "estimatedTime": "08:36",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -185,7 +185,7 @@
     "to": "Сеяха",
     "scheduledTime": "09:00",
     "estimatedTime": "09:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -194,7 +194,7 @@
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
     "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -221,7 +221,7 @@
     "to": "Омск",
     "scheduledTime": "10:00",
     "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -300,18 +300,18 @@
     "number": "ЛА 32",
     "from": "Москва / Домодедово",
     "to": "Салехард",
-    "scheduledTime": "08:05",
-    "estimatedTime": "08:05",
-    "status": "По расписанию",
+    "scheduledTime": "08:00",
+    "estimatedTime": "08:02",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
     "number": "ЛА 10",
     "from": "Тюмень",
     "to": "Салехард",
-    "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "scheduledTime": "08:40",
+    "estimatedTime": "08:36",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
