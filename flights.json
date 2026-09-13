@@ -3,9 +3,9 @@
     "number": "ЛА 231",
     "from": "Салехард",
     "to": "Москва / Шереметьево",
-    "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "scheduledTime": "09:30",
+    "estimatedTime": "11:05",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -13,8 +13,8 @@
     "from": "Салехард",
     "to": "Новосибирск",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "estimatedTime": "10:17",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -22,8 +22,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "11:10",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -41,24 +41,6 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "15:40",
     "estimatedTime": "15:40",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "ГЗП 9822",
-    "from": "Салехард",
-    "to": "Надым",
-    "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "ГЗП 9822",
-    "from": "Салехард",
-    "to": "п/п в ЯНАО",
-    "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -103,8 +85,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "10:23",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -112,8 +94,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "09:24",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -121,8 +103,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
+    "estimatedTime": "14:30",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -130,17 +112,8 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "ГЗП 9822",
-    "from": "Салехард",
-    "to": "Советский",
-    "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "estimatedTime": "14:30",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -148,8 +121,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:20",
-    "status": "По расписанию",
+    "estimatedTime": "15:44",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -157,8 +130,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:50",
-    "status": "По расписанию",
+    "estimatedTime": "15:26",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -192,9 +165,9 @@
     "number": "ЛА 231",
     "from": "Салехард",
     "to": "Москва / Шереметьево",
-    "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "scheduledTime": "09:30",
+    "estimatedTime": "11:05",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -202,8 +175,8 @@
     "from": "Салехард",
     "to": "Новосибирск",
     "scheduledTime": "10:00",
-    "estimatedTime": "10:00",
-    "status": "По расписанию",
+    "estimatedTime": "10:17",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -211,8 +184,8 @@
     "from": "Салехард",
     "to": "Тюмень",
     "scheduledTime": "10:40",
-    "estimatedTime": "10:40",
-    "status": "По расписанию",
+    "estimatedTime": "11:10",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -230,24 +203,6 @@
     "to": "Ханты-Мансийск",
     "scheduledTime": "15:40",
     "estimatedTime": "15:40",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ГЗП 9822",
-    "from": "Надым",
-    "to": "Салехард",
-    "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ГЗП 9822",
-    "from": "п/п в ЯНАО",
-    "to": "Салехард",
-    "scheduledTime": "16:00",
-    "estimatedTime": "16:00",
     "status": "По расписанию",
     "type": "arrival"
   },
@@ -292,8 +247,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "10:23",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -301,8 +256,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:50",
-    "estimatedTime": "08:50",
-    "status": "По расписанию",
+    "estimatedTime": "09:24",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
@@ -310,8 +265,8 @@
     "from": "Санкт-Петербург",
     "to": "Салехард",
     "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
+    "estimatedTime": "14:30",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -319,17 +274,8 @@
     "from": "Ханты-Мансийск",
     "to": "Салехард",
     "scheduledTime": "14:50",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "ГЗП 9822",
-    "from": "Советский",
-    "to": "Салехард",
-    "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
+    "estimatedTime": "14:30",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -337,8 +283,8 @@
     "from": "Сочи",
     "to": "Салехард",
     "scheduledTime": "15:20",
-    "estimatedTime": "15:20",
-    "status": "По расписанию",
+    "estimatedTime": "15:44",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -346,8 +292,8 @@
     "from": "Новосибирск",
     "to": "Салехард",
     "scheduledTime": "15:50",
-    "estimatedTime": "15:50",
-    "status": "По расписанию",
+    "estimatedTime": "15:26",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
