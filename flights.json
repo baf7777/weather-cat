@@ -94,8 +94,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "По расписанию",
+    "estimatedTime": "19:00",
+    "status": "Вылетел",
     "type": "departure"
   },
   {
@@ -175,8 +175,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "18:39",
-    "status": "Задерживается",
+    "estimatedTime": "18:38",
+    "status": "Рейс прибыл",
     "type": "departure"
   },
   {
@@ -292,8 +292,8 @@
     "from": "Салехард",
     "to": "Санкт-Петербург",
     "scheduledTime": "18:50",
-    "estimatedTime": "18:50",
-    "status": "По расписанию",
+    "estimatedTime": "19:00",
+    "status": "Вылетел",
     "type": "arrival"
   },
   {
@@ -373,8 +373,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "18:39",
-    "status": "Задерживается",
+    "estimatedTime": "18:38",
+    "status": "Рейс прибыл",
     "type": "arrival"
   },
   {
