@@ -4,8 +4,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "estimatedTime": "11:50",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -23,7 +23,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "departure"
   },
   {
@@ -99,24 +99,6 @@
     "type": "departure"
   },
   {
-    "number": "РГ 298",
-    "from": "Салехард",
-    "to": "Ханты-Мансийск",
-    "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "РГ 298",
-    "from": "Салехард",
-    "to": "Санкт-Петербург",
-    "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
     "number": "ЛА 31",
     "from": "Салехард",
     "to": "Москва / Домодедово",
@@ -175,8 +157,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "10:55",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -184,8 +166,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "08:40",
-    "status": "По расписанию",
+    "estimatedTime": "08:39",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -202,8 +184,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:40",
-    "status": "По расписанию",
+    "estimatedTime": "12:28",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -252,30 +234,12 @@
     "type": "departure"
   },
   {
-    "number": "РГ 297",
-    "from": "Санкт-Петербург",
-    "to": "Салехард",
-    "scheduledTime": "14:15",
-    "estimatedTime": "14:15",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
-    "number": "РГ 297",
-    "from": "Ханты-Мансийск",
-    "to": "Салехард",
-    "scheduledTime": "14:15",
-    "estimatedTime": "14:15",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
     "number": "ЛА 121",
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
-    "status": "По расписанию",
+    "estimatedTime": "15:21",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -283,8 +247,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "18:17",
+    "status": "Задерживается",
     "type": "departure"
   },
   {
@@ -292,8 +256,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:20",
+    "status": "Ожидается",
     "type": "departure"
   },
   {
@@ -319,8 +283,8 @@
     "from": "Салехард",
     "to": "Москва / Шереметьево",
     "scheduledTime": "09:15",
-    "estimatedTime": "09:15",
-    "status": "По расписанию",
+    "estimatedTime": "11:50",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -338,7 +302,7 @@
     "to": "Новый Уренгой",
     "scheduledTime": "09:40",
     "estimatedTime": "09:40",
-    "status": "По расписанию",
+    "status": "Регистрация",
     "type": "arrival"
   },
   {
@@ -414,24 +378,6 @@
     "type": "arrival"
   },
   {
-    "number": "РГ 298",
-    "from": "Салехард",
-    "to": "Ханты-Мансийск",
-    "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "РГ 298",
-    "from": "Салехард",
-    "to": "Санкт-Петербург",
-    "scheduledTime": "15:00",
-    "estimatedTime": "15:00",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
     "number": "ЛА 31",
     "from": "Салехард",
     "to": "Москва / Домодедово",
@@ -490,8 +436,8 @@
     "from": "Москва / Домодедово",
     "to": "Салехард",
     "scheduledTime": "08:00",
-    "estimatedTime": "08:00",
-    "status": "По расписанию",
+    "estimatedTime": "10:55",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -499,8 +445,8 @@
     "from": "Тюмень",
     "to": "Салехард",
     "scheduledTime": "08:40",
-    "estimatedTime": "08:40",
-    "status": "По расписанию",
+    "estimatedTime": "08:39",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -517,8 +463,8 @@
     "from": "Новый Уренгой",
     "to": "Салехард",
     "scheduledTime": "12:40",
-    "estimatedTime": "12:40",
-    "status": "По расписанию",
+    "estimatedTime": "12:28",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -567,30 +513,12 @@
     "type": "arrival"
   },
   {
-    "number": "РГ 297",
-    "from": "Санкт-Петербург",
-    "to": "Салехард",
-    "scheduledTime": "14:15",
-    "estimatedTime": "14:15",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
-    "number": "РГ 297",
-    "from": "Ханты-Мансийск",
-    "to": "Салехард",
-    "scheduledTime": "14:15",
-    "estimatedTime": "14:15",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
     "number": "ЛА 121",
     "from": "Екатеринбург",
     "to": "Салехард",
     "scheduledTime": "15:40",
-    "estimatedTime": "15:40",
-    "status": "По расписанию",
+    "estimatedTime": "15:21",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
@@ -598,8 +526,8 @@
     "from": "Москва / Шереметьево",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "18:17",
+    "status": "Задерживается",
     "type": "arrival"
   },
   {
@@ -607,8 +535,8 @@
     "from": "Ноябрьск",
     "to": "Салехард",
     "scheduledTime": "16:30",
-    "estimatedTime": "16:30",
-    "status": "По расписанию",
+    "estimatedTime": "16:20",
+    "status": "Ожидается",
     "type": "arrival"
   },
   {
