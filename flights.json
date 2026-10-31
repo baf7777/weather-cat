@@ -225,15 +225,6 @@
     "type": "departure"
   },
   {
-    "number": "ЯЛ 55",
-    "from": "Салехард",
-    "to": "Белоярск",
-    "scheduledTime": "",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
-    "type": "departure"
-  },
-  {
     "number": "ЯЛ 69",
     "from": "Мыс Каменный",
     "to": "Салехард",
@@ -383,6 +374,15 @@
     "to": "Салехард",
     "scheduledTime": "14:05",
     "estimatedTime": "14:05",
+    "status": "По расписанию",
+    "type": "departure"
+  },
+  {
+    "number": "ЯЛ 55",
+    "from": "Салехард",
+    "to": "Белоярск",
+    "scheduledTime": "14:50",
+    "estimatedTime": "14:50",
     "status": "По расписанию",
     "type": "departure"
   },
@@ -711,15 +711,6 @@
     "type": "arrival"
   },
   {
-    "number": "ЯЛ 55",
-    "from": "Белоярск",
-    "to": "Салехард",
-    "scheduledTime": "",
-    "estimatedTime": "14:50",
-    "status": "По расписанию",
-    "type": "arrival"
-  },
-  {
     "number": "ЯЛ 69",
     "from": "Мыс Каменный",
     "to": "Салехард",
@@ -869,6 +860,15 @@
     "to": "Салехард",
     "scheduledTime": "14:05",
     "estimatedTime": "14:05",
+    "status": "По расписанию",
+    "type": "arrival"
+  },
+  {
+    "number": "ЯЛ 55",
+    "from": "Белоярск",
+    "to": "Салехард",
+    "scheduledTime": "14:50",
+    "estimatedTime": "14:50",
     "status": "По расписанию",
     "type": "arrival"
   },
